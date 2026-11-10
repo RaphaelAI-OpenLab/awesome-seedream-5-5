@@ -13,6 +13,13 @@
 [打开原始媒体](https://pbs.twimg.com/media/HWrahiWbUAAe4ma.jpg?name=orig)
 
 
+## 原帖视频的短动图预览
+
+![钟表匠、森林地表与汽水质感 — animated preview](../../assets/animations/social05-kevin-watchmaker-forest.gif)
+
+这是原帖视频生成的低分辨率短动图预览，并非模型原生输出 GIF；完整视频请打开原始媒体。
+
+
 ## 同一原帖的更多图片
 
 **配图 2**
@@ -26,6 +33,12 @@
 ![钟表匠、森林地表与汽水质感 - 3](../../assets/previews/social05-kevin-watchmaker-forest-04.jpg)
 
 [原媒体](https://pbs.twimg.com/media/HWra8BKa4AA9spQ.jpg?name=orig)
+
+**配图 4**
+
+![钟表匠、森林地表与汽水质感 - 4](../../assets/previews/social05-kevin-watchmaker-forest-video-01.jpg)
+
+[原媒体](https://video.twimg.com/amplify_video/2119747057913311232/vid/avc1/720x960/pvYxTQmjCe3zpFv3.mp4?tag=29)
 
 ## 提示词
 

@@ -1,9 +1,9 @@
 {
   "date": "2026-11-10",
-  "post_count": 9,
+  "post_count": 13,
   "image_source_count": 24,
-  "video_source_count": 0,
-  "animated_previews": 0,
+  "video_source_count": 6,
+  "animated_previews": 6,
   "copyright": "Third-party rights reserved. Preview files are derived small excerpts; original media linked.",
   "source_audit": [
     {
@@ -164,8 +164,8 @@
     {
       "id": "social05-kevin-watchmaker-forest",
       "images": 3,
-      "video_sources": 0,
-      "animation_preview": false,
+      "video_sources": 1,
+      "animation_preview": true,
       "source_url": "https://x.com/kevinchin35/status/2119747692427628777"
     },
     {
@@ -185,8 +185,8 @@
     {
       "id": "social05-larklee-turkey-mixed-workflow",
       "images": 1,
-      "video_sources": 0,
-      "animation_preview": false,
+      "video_sources": 1,
+      "animation_preview": true,
       "source_url": "https://x.com/larklee5/status/2119985661939974450"
     },
     {
@@ -202,9 +202,87 @@
       "video_sources": 0,
       "animation_preview": false,
       "source_url": "https://x.com/DDJCXX/status/2119783562115494336"
+    },
+    {
+      "id": "social05-xiaohu-thirty-round-gif",
+      "images": 0,
+      "video_sources": 1,
+      "animation_preview": true,
+      "source_url": "https://x.com/xiaohu/status/2119774478788141417"
+    },
+    {
+      "id": "social05-sjonkerr-street-weather-edit",
+      "images": 0,
+      "video_sources": 1,
+      "animation_preview": true,
+      "source_url": "https://x.com/Sjonkerr/status/2119904922703438173"
+    },
+    {
+      "id": "social05-opener-morphic-character",
+      "images": 0,
+      "video_sources": 1,
+      "animation_preview": true,
+      "source_url": "https://x.com/opener_ai/status/2119942433412931907"
+    },
+    {
+      "id": "social05-vortex-fifteen-round-compare",
+      "images": 0,
+      "video_sources": 1,
+      "animation_preview": true,
+      "source_url": "https://x.com/VORTEX_Promos/status/2119928374235701452"
     }
   ],
   "failures": [
+    {
+      "id": "social05-dotey-avatar-travel-edits",
+      "reason": "post lookup or processing failed: No media attached"
+    }
+  ],
+  "recovered_video_sources": [
+    {
+      "id": "social05-kevin-watchmaker-forest",
+      "video_url": "https://video.twimg.com/amplify_video/2119747057913311232/vid/avc1/720x960/pvYxTQmjCe3zpFv3.mp4?tag=29",
+      "frame": "assets/previews/social05-kevin-watchmaker-forest-video-01.jpg",
+      "gif": "assets/animations/social05-kevin-watchmaker-forest.gif",
+      "bytes": 562001
+    },
+    {
+      "id": "social05-xiaohu-thirty-round-gif",
+      "video_url": "https://video.twimg.com/tweet_video/HWrwXJeboAEJIj6.mp4",
+      "frame": "assets/previews/social05-xiaohu-thirty-round-gif-video-01.jpg",
+      "gif": "assets/animations/social05-xiaohu-thirty-round-gif.gif",
+      "bytes": 962466
+    },
+    {
+      "id": "social05-larklee-turkey-mixed-workflow",
+      "video_url": "https://video.twimg.com/amplify_video/2119985333773467649/vid/avc1/640x360/V5D8nQ4ReuF8tmHR.mp4?tag=14",
+      "frame": "assets/previews/social05-larklee-turkey-mixed-workflow-video-01.jpg",
+      "gif": "assets/animations/social05-larklee-turkey-mixed-workflow.gif",
+      "bytes": 1005585
+    },
+    {
+      "id": "social05-sjonkerr-street-weather-edit",
+      "video_url": "https://video.twimg.com/amplify_video/2119904818047156225/vid/avc1/640x360/9n5peMn0pxuwJUXs.mp4?tag=14",
+      "frame": "assets/previews/social05-sjonkerr-street-weather-edit-video-01.jpg",
+      "gif": "assets/animations/social05-sjonkerr-street-weather-edit.gif",
+      "bytes": 648802
+    },
+    {
+      "id": "social05-opener-morphic-character",
+      "video_url": "https://video.twimg.com/amplify_video/2119942423392755712/vid/avc1/576x720/E7FU7KGqyOxzlhLd.mp4?tag=29",
+      "frame": "assets/previews/social05-opener-morphic-character-video-01.jpg",
+      "gif": "assets/animations/social05-opener-morphic-character.gif",
+      "bytes": 446799
+    },
+    {
+      "id": "social05-vortex-fifteen-round-compare",
+      "video_url": "https://video.twimg.com/amplify_video/2119928182216269824/vid/avc1/640x360/GLpseXYO3PuhFN6p.mp4?tag=29",
+      "frame": "assets/previews/social05-vortex-fifteen-round-compare-video-01.jpg",
+      "gif": "assets/animations/social05-vortex-fifteen-round-compare.gif",
+      "bytes": 417612
+    }
+  ],
+  "initial_run_failures": [
     {
       "id": "social05-kevin-watchmaker-forest",
       "media_index": 3,

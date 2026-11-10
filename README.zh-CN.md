@@ -10,7 +10,7 @@
 
 由 Raphael 整理的图片与编辑案例库。官方展示、作者自报结果与本仓库编写的练习提示词分别标记。
 
-**68 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
+**72 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
 
 案例未由本仓库独立复现。仓库只保存缩放后的单帧预览，完整图片、GIF 与视频链接至原始地址；第三方媒体及其预览的版权归原权利人。
 
@@ -27,7 +27,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | 项目 | 数量 |
 | --- | ---: |
 | 官方来源案例 | 20 |
-| 作者自报案例 | 48 |
+| 作者自报案例 | 52 |
 | 仓库内完整原始提示词 | 14 |
 | 独立复现案例 | 0 |
 | 来源核对日期 | 2026-11-10 |
@@ -39,7 +39,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 | 分类 | 案例数 |
 | --- | ---: |
-| [多轮与局部编辑](#multi-turn-editing) | 6 |
+| [多轮与局部编辑](#multi-turn-editing) | 10 |
 | [透明素材](#rgba-assets) | 10 |
 | [人像](#portraits) | 3 |
 | [摄影与纪实](#photography) | 24 |
@@ -93,6 +93,38 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · DDJCXX · [原始来源](https://x.com/DDJCXX/status/2119766551436116358) · [详情与提示词状态](cases/social05-ddjcxx-desk-edit/README.zh-CN.md)
 
 > 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。
+
+#### [多轮编辑人物与小字 GIF](cases/social05-xiaohu-thirty-round-gif/README.zh-CN.md)
+
+<a href="cases/social05-xiaohu-thirty-round-gif/README.zh-CN.md"><img src="assets/previews/social05-xiaohu-thirty-round-gif-video-01.jpg" alt="多轮编辑人物与小字 GIF" width="420" loading="lazy" /></a>
+
+作者自报 · xiaohu · [原始来源](https://x.com/xiaohu/status/2119774478788141417) · [详情与提示词状态](cases/social05-xiaohu-thirty-round-gif/README.zh-CN.md)
+
+> 直接从 X 作者原帖视频抽帧，短GIF为预览而非模型原生 GIF。完整视频见原媒体链接。
+
+#### [街景六次天气场景连续编辑](cases/social05-sjonkerr-street-weather-edit/README.zh-CN.md)
+
+<a href="cases/social05-sjonkerr-street-weather-edit/README.zh-CN.md"><img src="assets/previews/social05-sjonkerr-street-weather-edit-video-01.jpg" alt="街景六次天气场景连续编辑" width="420" loading="lazy" /></a>
+
+作者自报 · Sjonkerr · [原始来源](https://x.com/Sjonkerr/status/2119904922703438173) · [详情与提示词状态](cases/social05-sjonkerr-street-weather-edit/README.zh-CN.md)
+
+> 直接从 X 作者原帖视频抽帧，短GIF为预览而非模型原生 GIF。完整视频见原媒体链接。
+
+#### [Morphic 中的角色表情多轮编辑](cases/social05-opener-morphic-character/README.zh-CN.md)
+
+<a href="cases/social05-opener-morphic-character/README.zh-CN.md"><img src="assets/previews/social05-opener-morphic-character-video-01.jpg" alt="Morphic 中的角色表情多轮编辑" width="420" loading="lazy" /></a>
+
+作者自报 · opener_ai · [原始来源](https://x.com/opener_ai/status/2119942433412931907) · [详情与提示词状态](cases/social05-opener-morphic-character/README.zh-CN.md)
+
+> 直接从 X 作者原帖视频抽帧，短GIF为预览而非模型原生 GIF。完整视频见原媒体链接。
+
+#### [五模型15轮连续修图对比](cases/social05-vortex-fifteen-round-compare/README.zh-CN.md)
+
+<a href="cases/social05-vortex-fifteen-round-compare/README.zh-CN.md"><img src="assets/previews/social05-vortex-fifteen-round-compare-video-01.jpg" alt="五模型15轮连续修图对比" width="420" loading="lazy" /></a>
+
+作者自报 · VORTEX_Promos · [原始来源](https://x.com/VORTEX_Promos/status/2119928374235701452) · [详情与提示词状态](cases/social05-vortex-fifteen-round-compare/README.zh-CN.md)
+
+> 直接从 X 作者原帖视频抽帧，短GIF为预览而非模型原生 GIF。完整视频见原媒体链接。 这是跨模型比较/混合工作流，不应全部视为 Seedream 5.5 单模型输出。
 
 <a id="rgba-assets"></a>
 ### 透明素材

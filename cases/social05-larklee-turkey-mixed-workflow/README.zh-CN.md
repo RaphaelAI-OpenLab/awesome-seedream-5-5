@@ -12,6 +12,22 @@
 
 [打开原始媒体](https://pbs.twimg.com/media/HWuzdL6aAAA1G0V.jpg?name=orig)
 
+
+## 原帖视频的短动图预览
+
+![蜡笔火鸡变成真实火鸡混合模型短片 — animated preview](../../assets/animations/social05-larklee-turkey-mixed-workflow.gif)
+
+这是原帖视频生成的低分辨率短动图预览，并非模型原生输出 GIF；完整视频请打开原始媒体。
+
+
+## 同一原帖的更多图片
+
+**配图 2**
+
+![蜡笔火鸡变成真实火鸡混合模型短片 - 2](../../assets/previews/social05-larklee-turkey-mixed-workflow-video-01.jpg)
+
+[原媒体](https://video.twimg.com/amplify_video/2119985333773467649/vid/avc1/640x360/V5D8nQ4ReuF8tmHR.mp4?tag=14)
+
 ## 提示词
 
 该来源没有公开本案例的完整输入提示词；本仓库不补写为原始提示词。

@@ -13,6 +13,13 @@ This is a reduced representative-frame preview, not a complete animation or an e
 [Open original media](https://pbs.twimg.com/media/HWrahiWbUAAe4ma.jpg?name=orig)
 
 
+## Animated excerpt from X video
+
+![Watchmaker, forest floor and fizzy water — animated preview](../../assets/animations/social05-kevin-watchmaker-forest.gif)
+
+Low-resolution excerpt of the source post video, not a native Seedream GIF. Open original media for the full video.
+
+
 ## More photos from the original post
 
 **Image 2**
@@ -26,6 +33,12 @@ This is a reduced representative-frame preview, not a complete animation or an e
 ![Watchmaker, forest floor and fizzy water - 3](../../assets/previews/social05-kevin-watchmaker-forest-04.jpg)
 
 [Source media](https://pbs.twimg.com/media/HWra8BKa4AA9spQ.jpg?name=orig)
+
+**Image 4**
+
+![Watchmaker, forest floor and fizzy water - 4](../../assets/previews/social05-kevin-watchmaker-forest-video-01.jpg)
+
+[Source media](https://video.twimg.com/amplify_video/2119747057913311232/vid/avc1/720x960/pvYxTQmjCe3zpFv3.mp4?tag=29)
 
 ## Prompt
 

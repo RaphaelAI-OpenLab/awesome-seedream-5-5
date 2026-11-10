@@ -471,6 +471,15 @@
       "height": 640
     },
     {
+      "preview": "assets/previews/social05-kevin-watchmaker-forest-video-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 40938,
+      "sha256": "6e2212e0b28f3958e6d4ea6be126765c5a0ef57d05770f5ae384ee03ce14389a",
+      "codec_name": "mjpeg",
+      "width": 480,
+      "height": 640
+    },
+    {
       "preview": "assets/previews/social05-larklee-turkey-mixed-workflow-02.jpg",
       "status": "decoded-preview",
       "bytes": 37905,
@@ -478,6 +487,24 @@
       "codec_name": "mjpeg",
       "width": 640,
       "height": 360
+    },
+    {
+      "preview": "assets/previews/social05-larklee-turkey-mixed-workflow-video-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 29293,
+      "sha256": "ed448b136d3d832253926372d52acbd75e1ad356690d12e3694b23d93db87a21",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/social05-opener-morphic-character-video-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 35875,
+      "sha256": "57acc4c7517266393a5b1b865d442fbdcf4617e8f378955bb47e279025ee0464",
+      "codec_name": "mjpeg",
+      "width": 512,
+      "height": 640
     },
     {
       "preview": "assets/previews/social05-ozansihay-four-comparisons-01.jpg",
@@ -516,6 +543,15 @@
       "height": 300
     },
     {
+      "preview": "assets/previews/social05-sjonkerr-street-weather-edit-video-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 31092,
+      "sha256": "90d6289760e234b9e93ab47cb6211deda455a42945cf90ab880b975eb1ffc1af",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
       "preview": "assets/previews/social05-tqmiracle-city-poster-01.jpg",
       "status": "decoded-preview",
       "bytes": 77697,
@@ -550,6 +586,24 @@
       "codec_name": "mjpeg",
       "width": 640,
       "height": 360
+    },
+    {
+      "preview": "assets/previews/social05-vortex-fifteen-round-compare-video-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 62415,
+      "sha256": "ea4ad841e06d91bb2bda76947b1127ef927aa725f41a69903c5e4c7138dd3ae0",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/social05-xiaohu-thirty-round-gif-video-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 31195,
+      "sha256": "28e3e17fef49e1375379769cf0e43b0169f9c0fb707079f2dc2df47e76d7063f",
+      "codec_name": "mjpeg",
+      "width": 480,
+      "height": 640
     },
     {
       "preview": "assets/previews/social05-yuzi-eye-detail-01.jpg",

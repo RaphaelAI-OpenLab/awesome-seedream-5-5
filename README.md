@@ -10,7 +10,7 @@
 
 A visual reference collection by Raphael. Official demos, creator-reported outputs and original practice recipes are labeled separately.
 
-**68 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
+**72 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
 
 Cases have not been independently reproduced here. Only reduced single-frame previews are bundled; full images, GIFs and videos are linked at their origins. Third-party media and previews retain their owners’ rights.
 
@@ -27,7 +27,7 @@ Seedream 5.5 was announced on **2026-11-09**. See the [official model page](http
 | Item | Count |
 | --- | ---: |
 | Official-source cases | 20 |
-| Creator-reported cases | 48 |
+| Creator-reported cases | 52 |
 | Complete original source prompts included | 14 |
 | Independently reproduced cases | 0 |
 | Sources checked | 2026-11-10 |
@@ -39,7 +39,7 @@ Edit rounds are grouped as one case. Duplicate social videos do not increase the
 
 | Category | Cases |
 | --- | ---: |
-| [Multi-turn & targeted editing](#multi-turn-editing) | 6 |
+| [Multi-turn & targeted editing](#multi-turn-editing) | 10 |
 | [Transparent assets](#rgba-assets) | 10 |
 | [Portraits](#portraits) | 3 |
 | [Photography & documentary](#photography) | 24 |
@@ -93,6 +93,38 @@ Creator-reported · dongxi_nlp · [Source](https://x.com/dongxi_nlp/status/21200
 Creator-reported · DDJCXX · [Source](https://x.com/DDJCXX/status/2119766551436116358) · [Details & prompt status](cases/social05-ddjcxx-desk-edit/README.md)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result.
+
+#### [Thirty-round character and text edit GIF](cases/social05-xiaohu-thirty-round-gif/README.md)
+
+<a href="cases/social05-xiaohu-thirty-round-gif/README.md"><img src="assets/previews/social05-xiaohu-thirty-round-gif-video-01.jpg" alt="Thirty-round character and text edit GIF" width="420" loading="lazy" /></a>
+
+Creator-reported · xiaohu · [Source](https://x.com/xiaohu/status/2119774478788141417) · [Details & prompt status](cases/social05-xiaohu-thirty-round-gif/README.md)
+
+> Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video.
+
+#### [Six-step street weather edit to video](cases/social05-sjonkerr-street-weather-edit/README.md)
+
+<a href="cases/social05-sjonkerr-street-weather-edit/README.md"><img src="assets/previews/social05-sjonkerr-street-weather-edit-video-01.jpg" alt="Six-step street weather edit to video" width="420" loading="lazy" /></a>
+
+Creator-reported · Sjonkerr · [Source](https://x.com/Sjonkerr/status/2119904922703438173) · [Details & prompt status](cases/social05-sjonkerr-street-weather-edit/README.md)
+
+> Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video.
+
+#### [Morphic character expression editing](cases/social05-opener-morphic-character/README.md)
+
+<a href="cases/social05-opener-morphic-character/README.md"><img src="assets/previews/social05-opener-morphic-character-video-01.jpg" alt="Morphic character expression editing" width="420" loading="lazy" /></a>
+
+Creator-reported · opener_ai · [Source](https://x.com/opener_ai/status/2119942433412931907) · [Details & prompt status](cases/social05-opener-morphic-character/README.md)
+
+> Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video.
+
+#### [Five-model 15-round image-edit comparison](cases/social05-vortex-fifteen-round-compare/README.md)
+
+<a href="cases/social05-vortex-fifteen-round-compare/README.md"><img src="assets/previews/social05-vortex-fifteen-round-compare-video-01.jpg" alt="Five-model 15-round image-edit comparison" width="420" loading="lazy" /></a>
+
+Creator-reported · VORTEX_Promos · [Source](https://x.com/VORTEX_Promos/status/2119928374235701452) · [Details & prompt status](cases/social05-vortex-fifteen-round-compare/README.md)
+
+> Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video. This comparison or mixed workflow contains outputs by other models.
 
 <a id="rgba-assets"></a>
 ### Transparent assets

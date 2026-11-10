@@ -12,6 +12,22 @@ This is a reduced representative-frame preview, not a complete animation or an e
 
 [Open original media](https://pbs.twimg.com/media/HWuzdL6aAAA1G0V.jpg?name=orig)
 
+
+## Animated excerpt from X video
+
+![Crayon turkey mixed-model production — animated preview](../../assets/animations/social05-larklee-turkey-mixed-workflow.gif)
+
+Low-resolution excerpt of the source post video, not a native Seedream GIF. Open original media for the full video.
+
+
+## More photos from the original post
+
+**Image 2**
+
+![Crayon turkey mixed-model production - 2](../../assets/previews/social05-larklee-turkey-mixed-workflow-video-01.jpg)
+
+[Source media](https://video.twimg.com/amplify_video/2119985333773467649/vid/avc1/640x360/V5D8nQ4ReuF8tmHR.mp4?tag=14)
+
 ## Prompt
 
 The source does not publish a complete input prompt for this example. No reconstructed text is labeled as the original prompt.
