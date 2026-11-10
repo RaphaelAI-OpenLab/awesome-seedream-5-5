@@ -1,0 +1,11 @@
+{
+  "name": "Awesome Seedream 5.5",
+  "repository": "RaphaelAI-OpenLab/awesome-seedream-5-5",
+  "model": "Seedream 5.5",
+  "release_date": "2026-11-09",
+  "brand": "Raphael",
+  "brand_url": "https://raphael.app/?utm_source=github&utm_medium=repository&utm_campaign=seedream_5_5",
+  "brand_model_support_verified": false,
+  "official_url": "https://seed.bytedance.com/en/seedream5_5",
+  "languages": ["en", "zh-CN"]
+}

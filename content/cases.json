@@ -1,0 +1,856 @@
+[
+  {
+    "id": "official-interior-editing",
+    "title": {
+      "zh-CN": "室内连续编辑",
+      "en": "Room editing"
+    },
+    "category": "interiors",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e01c-82a14c50.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-interior-editing.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-portrait-editing",
+    "title": {
+      "zh-CN": "人像连续编辑",
+      "en": "Portrait editing"
+    },
+    "category": "multi-turn-editing",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e02c-81f62174.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-portrait-editing.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-snake-interface",
+    "title": {
+      "zh-CN": "贪吃蛇界面",
+      "en": "Snake interface"
+    },
+    "category": "infographics",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e07c-c0792c79.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-snake-interface.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-still-life-editing",
+    "title": {
+      "zh-CN": "静物连续编辑",
+      "en": "Still-life editing"
+    },
+    "category": "multi-turn-editing",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e04c-11c52018.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-still-life-editing.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-beauty-editing",
+    "title": {
+      "zh-CN": "妆发连续编辑",
+      "en": "Beauty editing"
+    },
+    "category": "portraits",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e05c-3b26ab45.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-beauty-editing.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-ink-painting-editing",
+    "title": {
+      "zh-CN": "国画连续编辑",
+      "en": "Ink-painting editing"
+    },
+    "category": "multi-turn-editing",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e06c-1d0fd793.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-ink-painting-editing.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-watch-interface",
+    "title": {
+      "zh-CN": "手表界面",
+      "en": "Watch interface"
+    },
+    "category": "infographics",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e03c-b830455e.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-watch-interface.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-running-character",
+    "title": {
+      "zh-CN": "奔跑角色",
+      "en": "Running character"
+    },
+    "category": "characters",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r01ec-2be1667f.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-running-character.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-flamingo-layer",
+    "title": {
+      "zh-CN": "火烈鸟图层",
+      "en": "Flamingo layer"
+    },
+    "category": "rgba-assets",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r03zc-34532bd0.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-flamingo-layer.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-sticker-sheets",
+    "title": {
+      "zh-CN": "贴纸组合",
+      "en": "Sticker sheets"
+    },
+    "category": "characters",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r02ec-00fd7b38.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-sticker-sheets.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-yarn-lettering",
+    "title": {
+      "zh-CN": "透明艺术字与材质",
+      "en": "Transparent material lettering"
+    },
+    "category": "typography",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r04ec-2ad2e736.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-yarn-lettering.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-plush-characters",
+    "title": {
+      "zh-CN": "毛绒角色",
+      "en": "Plush characters"
+    },
+    "category": "characters",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r05ec-59e483f2.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-plush-characters.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-owl-macro",
+    "title": {
+      "zh-CN": "雪鸮微距",
+      "en": "Owl macro"
+    },
+    "category": "rgba-assets",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r06ec-441ef1a2.gif",
+        "type": "gif",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-owl-macro.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-bar-cat",
+    "title": {
+      "zh-CN": "酒吧白猫",
+      "en": "Bar cat"
+    },
+    "category": "photography",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-006-22d1692c-l.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-bar-cat.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-purple-yellow-street",
+    "title": {
+      "zh-CN": "紫黄街景",
+      "en": "Purple-yellow street"
+    },
+    "category": "photography",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-008-cfc4e0dc-l.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-purple-yellow-street.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-windy-street",
+    "title": {
+      "zh-CN": "风中街拍",
+      "en": "Windy street"
+    },
+    "category": "photography",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-009-a2c2dca4-l.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-windy-street.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-bistro",
+    "title": {
+      "zh-CN": "小酒馆",
+      "en": "Bistro"
+    },
+    "category": "photography",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-010-ac6278fc-l.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-bistro.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-rain-reflections",
+    "title": {
+      "zh-CN": "雨后倒影",
+      "en": "Rain reflections"
+    },
+    "category": "photography",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/seedream5_5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-model-page",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://seed.bytedance.com/en/seedream5_5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-011-08da0ec9-l.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-rain-reflections.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-shakespeare-newspaper",
+    "title": {
+      "zh-CN": "莎士比亚报刊",
+      "en": "Shakespeare newspaper"
+    },
+    "category": "typography",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-launch-blog",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mw8m2wk9.png",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-shakespeare-newspaper.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "official-butterfly-infographic",
+    "title": {
+      "zh-CN": "蝴蝶信息图",
+      "en": "Butterfly infographic"
+    },
+    "category": "infographics",
+    "author": "ByteDance Seed",
+    "source_url": "https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+    "source_type": "official",
+    "model": "Seedream 5.5",
+    "model_evidence": "official-launch-blog",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mw8m2ymh.png",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/official-butterfly-infographic.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "quantslant-polish-menu",
+    "title": {
+      "zh-CN": "波兰语菜单",
+      "en": "Polish menu"
+    },
+    "category": "typography",
+    "author": "Piotr Olszewski / QUANTSLANT",
+    "source_url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-caption-version-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+      "text": null
+    },
+    "caveat": null,
+    "media": [
+      {
+        "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-napis-4-menu.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/quantslant-polish-menu.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "quantslant-polish-pangram",
+    "title": {
+      "zh-CN": "波兰语全字母句",
+      "en": "Polish pangram"
+    },
+    "category": "typography",
+    "author": "Piotr Olszewski / QUANTSLANT",
+    "source_url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-caption-version-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+      "text": null
+    },
+    "caveat": null,
+    "media": [
+      {
+        "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-napis-5-tablica.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/quantslant-polish-pangram.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "quantslant-freckled-portrait",
+    "title": {
+      "zh-CN": "雀斑人像",
+      "en": "Freckled portrait"
+    },
+    "category": "portraits",
+    "author": "Piotr Olszewski / QUANTSLANT",
+    "source_url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-caption-version-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+      "text": null
+    },
+    "caveat": null,
+    "media": [
+      {
+        "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-portret-2-piegi.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/quantslant-freckled-portrait.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "quantslant-raincoat-character",
+    "title": {
+      "zh-CN": "雨衣角色",
+      "en": "Raincoat character"
+    },
+    "category": "rgba-assets",
+    "author": "Piotr Olszewski / QUANTSLANT",
+    "source_url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-caption-version-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "作者报告伞面呈乳白色，半透明材质表现存在局限。",
+      "en": "The author reports a milky umbrella; partial transparency remains a limitation."
+    },
+    "media": [
+      {
+        "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-alfa-3-postac.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/quantslant-raincoat-character.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "quantslant-note-edit",
+    "title": {
+      "zh-CN": "纸条局部编辑",
+      "en": "Paper-note edit"
+    },
+    "category": "multi-turn-editing",
+    "author": "Piotr Olszewski / QUANTSLANT",
+    "source_url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-caption-version-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+      "text": "Add a small white paper note on the table with handwritten Polish text “Do zobaczenia jutro!”. Keep everything else unchanged."
+    },
+    "caveat": null,
+    "media": [
+      {
+        "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-edycja-6-kartka.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/quantslant-note-edit.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "quantslant-coffee-infographic",
+    "title": {
+      "zh-CN": "咖啡信息图",
+      "en": "Coffee infographic"
+    },
+    "category": "infographics",
+    "author": "Piotr Olszewski / QUANTSLANT",
+    "source_url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-caption-version-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+      "text": null
+    },
+    "caveat": null,
+    "media": [
+      {
+        "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-styl-4-infografika.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/quantslant-coffee-infographic.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "quantslant-newspaper-errors",
+    "title": {
+      "zh-CN": "报纸文字错误样本",
+      "en": "Newspaper text-error sample"
+    },
+    "category": "typography",
+    "author": "Piotr Olszewski / QUANTSLANT",
+    "source_url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-caption-version-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "作者报告存在文字错误；保留为局限样本。",
+      "en": "The author reports text errors; retained as a limitation example."
+    },
+    "media": [
+      {
+        "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-napis-8-gazeta.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/quantslant-newspaper-errors.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  },
+  {
+    "id": "quantslant-railway-station",
+    "title": {
+      "zh-CN": "黄昏火车站",
+      "en": "Railway station at dusk"
+    },
+    "category": "photography",
+    "author": "Piotr Olszewski / QUANTSLANT",
+    "source_url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-caption-version-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://quantslant.com/seedream-5-5-features-pricing-benchmarks/",
+      "text": null
+    },
+    "caveat": null,
+    "media": [
+      {
+        "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-pl-3-pkp.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/quantslant-railway-station.jpg",
+        "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,316 @@
+{
+  "checked_at": "2026-11-10T09:43:23.208801+00:00",
+  "method": "首轮原始媒体检查；失败与已解决项见 docs/SOURCES.md。",
+  "items": [
+    {
+      "id": "official-bar-cat",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-006-22d1692c-l.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 4262582,
+      "sha256": "6510a81c5a80b8bb826f81a6da06736162be350b22a227220fb6ad50a490901a",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 2512,
+      "height": 1664
+    },
+    {
+      "id": "official-beauty-editing",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e05c-3b26ab45.gif",
+      "status": "downloaded-and-decoded",
+      "bytes": 8173967,
+      "sha256": "0644d3831ea8cc9820cc856fa170a70cb2b4217d3a37d6d2bd58f87d5bcec481",
+      "content_type": "image/gif",
+      "codec_name": "gif",
+      "width": 565,
+      "height": 853
+    },
+    {
+      "id": "official-bistro",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-010-ac6278fc-l.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 3684954,
+      "sha256": "9d6f0a048a25ce50e97fb758150f0d784b70730aabd894e72d3a4ec0e5ed507f",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 2720,
+      "height": 1536
+    },
+    {
+      "id": "official-butterfly-infographic",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mw8m2ymh.png",
+      "status": "downloaded-and-decoded",
+      "bytes": 6299773,
+      "sha256": "499802efdc650d71241f1ada361b2a42dc1b3d7a3230acaa6c8fc16b02d5872d",
+      "content_type": "image/png",
+      "codec_name": "png",
+      "width": 2736,
+      "height": 1536
+    },
+    {
+      "id": "official-father-baby",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-007-ecfa3c9a-l.webp",
+      "status": "failed",
+      "error": "原始源文件解码失败"
+    },
+    {
+      "id": "official-flamingo-layer",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r03zc-34532bd0.gif",
+      "status": "downloaded-and-decoded",
+      "bytes": 24312224,
+      "sha256": "8aadbf5cbc90720a879e15b7f27ec03113c2045bdf08fc7d3f0f915c78f48dca",
+      "content_type": "image/gif",
+      "codec_name": "gif",
+      "width": 476,
+      "height": 720
+    },
+    {
+      "id": "official-ink-painting-editing",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e06c-1d0fd793.gif",
+      "status": "downloaded-and-decoded",
+      "bytes": 25137864,
+      "sha256": "1d0fd793fc0c7283a820f403a454556a37d72e5193d46eb043c79c36ad152c25",
+      "content_type": "image/gif",
+      "codec_name": "gif",
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "id": "official-interior-editing",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e01c-82a14c50.gif",
+      "status": "downloaded-and-decoded",
+      "bytes": 24886041,
+      "sha256": "82a14c506ede86b0eff5f9c0521c345313b4b4afb9f8a5b51ff942f2c8f38da2",
+      "content_type": "image/gif",
+      "codec_name": "gif",
+      "width": 720,
+      "height": 963
+    },
+    {
+      "id": "official-owl-macro",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r06ec-441ef1a2.gif",
+      "status": "failed",
+      "error": "原始 GIF 超过 100 MiB 下载检查上限"
+    },
+    {
+      "id": "official-plush-characters",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r05ec-59e483f2.gif",
+      "status": "failed",
+      "error": "原始 GIF 超过 100 MiB 下载检查上限"
+    },
+    {
+      "id": "official-portrait-editing",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e02c-81f62174.gif",
+      "status": "downloaded-and-decoded",
+      "bytes": 44456129,
+      "sha256": "81f6217499c79c7a87efbb16cbc9b8f94379f9e542d883dcc1e845b746fbaf89",
+      "content_type": "image/gif",
+      "codec_name": "gif",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "id": "official-purple-yellow-street",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-008-cfc4e0dc-l.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 1367256,
+      "sha256": "f153ce7af298fbabcd8fc0449e33b4d5691eb681e3e6a4d6b39663572594ea4a",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 960,
+      "height": 1280
+    },
+    {
+      "id": "official-rain-reflections",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-011-08da0ec9-l.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 4479728,
+      "sha256": "89eed0b6d49ad5bad205540bdb0f9afef5b443791fbb10f83e2ffc0ab7cee4cf",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 1776,
+      "height": 2368
+    },
+    {
+      "id": "official-running-character",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r01ec-2be1667f.gif",
+      "status": "downloaded-and-decoded",
+      "bytes": 14230779,
+      "sha256": "2be1667f99429d8a9b9e9225064223fe155ae382ee8555cff1b9fd07d7cf9525",
+      "content_type": "image/gif",
+      "codec_name": "gif",
+      "width": 475,
+      "height": 719
+    },
+    {
+      "id": "official-shakespeare-newspaper",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4mw8m2wk9.png",
+      "status": "downloaded-and-decoded",
+      "bytes": 7716531,
+      "sha256": "8ec856eaeb8fe4f10f89efe42d9492dbce848f2f371c85869089a90a4907ef45",
+      "content_type": "image/png",
+      "codec_name": "png",
+      "width": 2512,
+      "height": 1664
+    },
+    {
+      "id": "official-snake-interface",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e07c-c0792c79.gif",
+      "status": "downloaded-and-decoded",
+      "bytes": 19613143,
+      "sha256": "c0792c799221b796c8f3c444dbd5dcb4275ac54a621544d5865892852e96fb8b",
+      "content_type": "image/gif",
+      "codec_name": "gif",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "official-sticker-sheets",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r02ec-00fd7b38.gif",
+      "status": "downloaded-and-decoded",
+      "bytes": 40891516,
+      "sha256": "00fd7b3899991e40c5eb90fbfe0bf404eb069c316e27d8dd5605c018abd865bb",
+      "content_type": "image/gif",
+      "codec_name": "gif",
+      "width": 476,
+      "height": 856
+    },
+    {
+      "id": "official-still-life-editing",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e04c-11c52018.gif",
+      "status": "downloaded-and-decoded",
+      "bytes": 17598578,
+      "sha256": "11c520183ee08a153c193b38805898fc1409d38de539fbfd75bed2d6787fff3c",
+      "content_type": "image/gif",
+      "codec_name": "gif",
+      "width": 480,
+      "height": 764
+    },
+    {
+      "id": "official-watch-interface",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-e03c-b830455e.gif",
+      "status": "downloaded-and-decoded",
+      "bytes": 1550596,
+      "sha256": "b830455e80ab72d3b23ce4b916b00528ce1c2425e8059d47180d606257cededb",
+      "content_type": "image/gif",
+      "codec_name": "gif",
+      "width": 720,
+      "height": 480
+    },
+    {
+      "id": "official-windy-street",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-009-a2c2dca4-l.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 3922090,
+      "sha256": "3c56ab1690644976a1e5ce3e53e953a9c53741e33a343e87958da1fecad56f21",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 2720,
+      "height": 1536
+    },
+    {
+      "id": "official-yarn-lettering",
+      "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/bdeh7uhpsuht/sd55-r04ec-2ad2e736.gif",
+      "status": "failed",
+      "error": "原始 GIF 超过 100 MiB 下载检查上限"
+    },
+    {
+      "id": "quantslant-coffee-infographic",
+      "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-styl-4-infografika.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 125672,
+      "sha256": "743102d3d66f7c94d106bb811f9e66e9743c9ef5e4ce97c6e59c8f8b909239f8",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "id": "quantslant-freckled-portrait",
+      "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-portret-2-piegi.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 112568,
+      "sha256": "dfdcba2d797d33ca7caa09b35d61f7f8f09f56672c79f3d9099f4ae7ea2d8e64",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 1279,
+      "height": 1600
+    },
+    {
+      "id": "quantslant-newspaper-errors",
+      "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-napis-8-gazeta.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 200618,
+      "sha256": "ff1031e0efa66a13da851c2e377331d6b1f3229c6d46b1490859e92d126bc602",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "id": "quantslant-note-edit",
+      "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-edycja-6-kartka.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 99244,
+      "sha256": "d106d23013e43943c824d6d24648b68de753e4d345ca85b246905fc22b703af0",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 1271,
+      "height": 1600
+    },
+    {
+      "id": "quantslant-polish-menu",
+      "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-napis-4-menu.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 196780,
+      "sha256": "e6f2268c2556c7f9166381c0a116ff15e690385c1764ae30e31fc57f64399611",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "id": "quantslant-polish-pangram",
+      "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-napis-5-tablica.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 62196,
+      "sha256": "619abd910bb05ee678bbb3d4db0a5ced162c86f2754923edf35439fe2397595d",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "id": "quantslant-raincoat-character",
+      "url": "https://quantslant.com/wp-content/uploads/2026/11/sd55/sd55-alfa-3-postac.webp",
+      "status": "downloaded-and-decoded",
+      "bytes": 110486,
+      "sha256": "94b4c028dae3aa1dcd3cd6833a808e38411c550e51ade31493039bd9721e76dd",
+      "content_type": "image/webp",
+      "codec_name": "webp",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "id": "social-2119717948470546446",
+      "url": "https://video.twimg.com/amplify_video/2119716100359548928/vid/avc1/1920x1080/yijLvq8WlsqxbemL.mp4",
+      "status": "downloaded-and-decoded",
+      "bytes": 22519581,
+      "sha256": "c0aad5c3f4ba82c3015ba955b1fab665802fdb15effb7396b8e803da108e8ed5",
+      "content_type": "video/mp4",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "social-2119751497282125949",
+      "url": "https://pbs.twimg.com/media/HWredl_bAAAkfEk.jpg",
+      "status": "downloaded-and-decoded",
+      "bytes": 212027,
+      "sha256": "3f4cfeadd5054323e3799e10f6706a0157b6d435776c25f4dbf29b9f3a2f6368",
+      "content_type": "image/jpeg",
+      "codec_name": "mjpeg",
+      "width": 900,
+      "height": 1200
+    }
+  ]
+}

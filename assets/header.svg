@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Raphael — Awesome Seedream 5.5</title>
+  <desc id="desc">棕金色文字封面，仅为仓库品牌图，不是模型生成案例。</desc>
+  <rect width="1600" height="480" fill="#251d17"/>
+  <path d="M85 78H1515M85 401H1515" stroke="#b49a70" stroke-width="2"/>
+  <text x="88" y="140" font-family="Georgia,serif" font-size="38" fill="#d2bb92">Raphael</text>
+  <text x="85" y="280" font-family="Arial,sans-serif" font-size="112" font-weight="700" fill="#f7eedb">Seedream 5.5</text>
+  <text x="92" y="350" font-family="Arial,sans-serif" font-size="28" letter-spacing="5" fill="#d2bb92">VISUAL EXAMPLES · PROMPTS · ORIGINAL SOURCES</text>
+</svg>
