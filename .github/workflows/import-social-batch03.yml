@@ -1,0 +1,28 @@
+name: Import seedream social images (temporary)
+on:
+  push:
+    branches:
+      - research/seedream55-social-prompt-images-b03
+permissions:
+  contents: write
+jobs:
+  download:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'Pillow>=11,<12'
+      - run: python scripts/import_social_batch03.py
+      - run: python scripts/build.py --check && python scripts/validate.py
+      - name: Commit results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/cases.json docs/media-check.json docs/SOURCES.md docs/social-image-batch03-audit.json scripts/build.py README.md README.zh-CN.md cases/ assets/previews/
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: archive Seedream 5.5 social image previews and prompts [skip ci]"
+            git push origin HEAD:$GITHUB_REF_NAME
+          fi
