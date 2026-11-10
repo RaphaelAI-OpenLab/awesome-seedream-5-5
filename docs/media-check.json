@@ -1,0 +1,276 @@
+{
+  "checked_at": "2026-11-10T10:00:50.896722+00:00",
+  "method": "本地缩放 JPEG 预览：SHA-256、ffprobe、ffmpeg 解码；不代表原始 GIF 完整解码、模型复现或人工视觉验收。",
+  "items": [
+    {
+      "preview": "assets/previews/official-bar-cat.jpg",
+      "status": "decoded-preview",
+      "bytes": 38209,
+      "sha256": "1b845b062cdd91d773303a44d5c6fbf2422ee5186fb8f8bc22ea27f4b92e12d3",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 424
+    },
+    {
+      "preview": "assets/previews/official-beauty-editing.jpg",
+      "status": "decoded-preview",
+      "bytes": 45446,
+      "sha256": "4079498f74c6c9685550416d3008b9c1174043d7708e0964add11efab98ef352",
+      "codec_name": "mjpeg",
+      "width": 424,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/official-bistro.jpg",
+      "status": "decoded-preview",
+      "bytes": 46688,
+      "sha256": "7f297bac30e843450133f402732473e6fd33eb043760a033351636866b734fb1",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 362
+    },
+    {
+      "preview": "assets/previews/official-butterfly-infographic.jpg",
+      "status": "decoded-preview",
+      "bytes": 51441,
+      "sha256": "54ed9672c114e0dd5eac33fc7a1006c31148871f6ba1225eae78abdee59f4f8b",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/official-flamingo-layer.jpg",
+      "status": "decoded-preview",
+      "bytes": 33385,
+      "sha256": "7e2944884c491aad38cd8d3be83f98c7b305ff331b27142ccb996dc2a2a4485f",
+      "codec_name": "mjpeg",
+      "width": 424,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/official-ink-painting-editing.jpg",
+      "status": "decoded-preview",
+      "bytes": 39526,
+      "sha256": "a1e3631db405393b5e43808813563b05d2019a3fa6d0a65925b72237f737dbdc",
+      "codec_name": "mjpeg",
+      "width": 360,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/official-interior-editing.jpg",
+      "status": "decoded-preview",
+      "bytes": 65391,
+      "sha256": "a29e9a4c3e2d9aa11a37b0741c83dc798aa8d766beb22830b854307fc646e3e3",
+      "codec_name": "mjpeg",
+      "width": 478,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/official-owl-macro.jpg",
+      "status": "decoded-preview",
+      "bytes": 18899,
+      "sha256": "c9bfe5f0e848c7986cdbcb2da76d71f4f35452a52d1e1a3b3753ad6d0075b3fd",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/official-plush-characters.jpg",
+      "status": "decoded-preview",
+      "bytes": 51344,
+      "sha256": "be3c4774ef05c1da6694e125e55d9dce0868c1a253f57e53949e6d4a06a492cc",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/official-portrait-editing.jpg",
+      "status": "decoded-preview",
+      "bytes": 65814,
+      "sha256": "6b15d22ccdfc09ad45cd6f65e147f8eb1d144c9135889f4a4c5615b21d7868f6",
+      "codec_name": "mjpeg",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/official-purple-yellow-street.jpg",
+      "status": "decoded-preview",
+      "bytes": 50186,
+      "sha256": "98e4f0aee213968baa183c67c896eff2f112b609bf12f987c825e85ac487ba53",
+      "codec_name": "mjpeg",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/official-rain-reflections.jpg",
+      "status": "decoded-preview",
+      "bytes": 74874,
+      "sha256": "4e14ed69dea02c6e1e8f4be6a8e989e3b35375d71ace6487937c4d35f891c3ca",
+      "codec_name": "mjpeg",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/official-running-character.jpg",
+      "status": "decoded-preview",
+      "bytes": 50459,
+      "sha256": "d93ee06d0e4ba05013c836a30a2b1ee4d74ed505b199c2eeff44a1c1433b0bbd",
+      "codec_name": "mjpeg",
+      "width": 422,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/official-shakespeare-newspaper.jpg",
+      "status": "decoded-preview",
+      "bytes": 99704,
+      "sha256": "f65843f26c81e907db0d65486f073c74ec393bfa8dd0f5488dcc41fc5891a507",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 424
+    },
+    {
+      "preview": "assets/previews/official-snake-interface.jpg",
+      "status": "decoded-preview",
+      "bytes": 40768,
+      "sha256": "25b98e200eba8dad532709cc379bccb8cfcaeb940148022acdae5eb96842b18e",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/official-sticker-sheets.jpg",
+      "status": "decoded-preview",
+      "bytes": 72307,
+      "sha256": "b8a39ff450f13da57ea3dfd9a95d936aee5a2d92510c65af5d80fadc5abac605",
+      "codec_name": "mjpeg",
+      "width": 356,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/official-still-life-editing.jpg",
+      "status": "decoded-preview",
+      "bytes": 25913,
+      "sha256": "53c81ccac72d928e6c62533998664fe435d572a32cb3531d11161f82c594b8aa",
+      "codec_name": "mjpeg",
+      "width": 402,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/official-watch-interface.jpg",
+      "status": "decoded-preview",
+      "bytes": 17765,
+      "sha256": "1010a99e5e0b7cf74545c521c184ec24941e10ec6372b4dbcab4a165ddbd25bb",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 426
+    },
+    {
+      "preview": "assets/previews/official-windy-street.jpg",
+      "status": "decoded-preview",
+      "bytes": 53533,
+      "sha256": "9338198e407e38139cf5aa483e9c17929e48160e3e720e85f1b2afdd6605cc82",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 362
+    },
+    {
+      "preview": "assets/previews/official-yarn-lettering.jpg",
+      "status": "decoded-preview",
+      "bytes": 31982,
+      "sha256": "927b4ea81f020fcbb5c235f4dc47287cee5efbad75d239d926d1359d54dfaa53",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/quantslant-coffee-infographic.jpg",
+      "status": "decoded-preview",
+      "bytes": 50071,
+      "sha256": "4f38deffa09e39a74b31e9a553cc66495b5b3e15f5655ace4b3f89a5cfb9cedf",
+      "codec_name": "mjpeg",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/quantslant-freckled-portrait.jpg",
+      "status": "decoded-preview",
+      "bytes": 38292,
+      "sha256": "2d6314946580857ef42726a4081c7a16090373e2c2a2fc59f8bd8a2e7cbdcf56",
+      "codec_name": "mjpeg",
+      "width": 512,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/quantslant-newspaper-errors.jpg",
+      "status": "decoded-preview",
+      "bytes": 69433,
+      "sha256": "acbc2b7686984a87cefcb182998da659ab75e14bd41ed6b62e118b62d089e354",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "preview": "assets/previews/quantslant-note-edit.jpg",
+      "status": "decoded-preview",
+      "bytes": 36271,
+      "sha256": "e3f03a7b3aafb8ace15a47f2d1003ce7cb4417684cf8c6469d5f40f356e12074",
+      "codec_name": "mjpeg",
+      "width": 508,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/quantslant-polish-menu.jpg",
+      "status": "decoded-preview",
+      "bytes": 61240,
+      "sha256": "0c5818651f76961897bf0f2f4c56241995c73c3292933f92aaee80fa587df9cf",
+      "codec_name": "mjpeg",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/quantslant-polish-pangram.jpg",
+      "status": "decoded-preview",
+      "bytes": 25570,
+      "sha256": "4ee1d007a5a1cc2da4de9328db0acd806daf1256a41d7cb0257d1ee451bab933",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/quantslant-railway-station.jpg",
+      "status": "decoded-preview",
+      "bytes": 40315,
+      "sha256": "d0d5c7701348ddfb7d7269b31452caaedd2e426fd93db4a843c6d18defc040a1",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 426
+    },
+    {
+      "preview": "assets/previews/quantslant-raincoat-character.jpg",
+      "status": "decoded-preview",
+      "bytes": 40695,
+      "sha256": "7e1c78fd78aae5f5425de7c8846a05ee18fbe5d3e4bb05cf89f9403a0a8bb97e",
+      "codec_name": "mjpeg",
+      "width": 426,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/social-2119717948470546446.jpg",
+      "status": "decoded-preview",
+      "bytes": 35087,
+      "sha256": "8a644634fef3cb07b5ee6737dc766922aad99cccf2a3136737987b0d4a952cd1",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/social-2119751497282125949.jpg",
+      "status": "decoded-preview",
+      "bytes": 65027,
+      "sha256": "c358257cb06786e9a87d96c032865fb5b9f0f710485cbc3e5911c404fa120334",
+      "codec_name": "mjpeg",
+      "width": 480,
+      "height": 640
+    }
+  ]
+}

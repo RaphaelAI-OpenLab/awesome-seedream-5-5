@@ -1,0 +1,17 @@
+name: 报告来源或版权问题
+description: 更正模型、失效链接、归因或权利问题
+title: "[问题] "
+body:
+  - type: input
+    id: case
+    attributes:
+      label: 案例 ID 或链接
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: 问题与证据
+      description: 请提供原始来源和希望更正或移除的内容
+    validations:
+      required: true

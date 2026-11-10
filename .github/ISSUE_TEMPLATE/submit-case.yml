@@ -1,0 +1,32 @@
+name: 投稿 Seedream 5.5 案例
+description: 提供来源、版本证据与提示词状态
+title: "[案例] "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: 原始来源地址
+      description: 作者原帖或一手页面，不能只给聚合站
+    validations:
+      required: true
+  - type: textarea
+    id: model
+    attributes:
+      label: Seedream 5.5 版本证据
+      description: 写明原作者在哪里确认模型版本
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: 提示词状态
+      description: 区分原始指令、展示说明或自行编写的配方；注明是否复现
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: 媒体地址与权利说明
+      description: 原图或视频地址；如请求本地归档，请附明确许可
+    validations:
+      required: true

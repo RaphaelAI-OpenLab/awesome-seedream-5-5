@@ -1,0 +1,74 @@
+[
+  {
+    "id": "targeted-edit",
+    "title": {"zh-CN": "单一区域编辑", "en": "One-region edit"},
+    "prompt": {
+      "zh-CN": "使用上传的照片，只把左侧陶瓷杯的把手改为深蓝色。杯身、桌面、背景、阴影与取景保持原样。不要增加文字或新物体。输出与输入相同的画幅。",
+      "en": "Use the uploaded photograph. Recolor only the handle of the ceramic cup on the left to navy blue. Preserve the cup body, tabletop, background, shadows and framing. Add no text or objects. Keep the input aspect ratio."
+    },
+    "checks": ["对齐输入与输出，检查目标区域是否改变。", "检查目标区域以外是否出现新物体或颜色漂移。", "保存原始输入、指令、模型版本与输出文件。"]
+  },
+  {
+    "id": "edit-chain",
+    "title": {"zh-CN": "三轮连续编辑", "en": "Three-round edit chain"},
+    "prompt": {
+      "zh-CN": "每轮以上一轮输出作为输入，一次只提交一条指令。第一轮：把自行车车架改为墨绿色，其他内容保持。第二轮：只给车篮添加一束雏菊。第三轮：只在车把加一个铜色车铃。保留人物、背景、相机位置与光照。",
+      "en": "Submit one instruction per round, using the preceding output as the next input. Round 1: recolor the bicycle frame forest green; preserve everything else. Round 2: add only a bunch of daisies to the basket. Round 3: add only a brass bell to the handlebar. Preserve the people, background, camera position and lighting."
+    },
+    "checks": ["分别保存每一轮，不能只保留末轮。", "比较每轮未编辑区域，记录新增漂移。", "确认前两轮的编辑在第三轮仍然存在。"]
+  },
+  {
+    "id": "transparent-asset",
+    "title": {"zh-CN": "独立透明素材", "en": "Isolated transparent asset"},
+    "prompt": {
+      "zh-CN": "生成一个手工木雕橡果，正面三分之四视角，表面有细小木纹和边缘磨损。画面只包含一个橡果，不要文字、场景、地面或投影。若当前服务支持，输出含真实 Alpha 通道的透明背景 PNG。",
+      "en": "Create one hand-carved wooden acorn in a three-quarter view, with fine grain and worn edges. Include only the acorn: no text, scenery, floor or cast shadow. If the service supports it, export a PNG with a real transparent alpha channel."
+    },
+    "checks": ["下载文件并检查真实 Alpha 通道，不能凭棋盘格判断。", "分别叠在黑白背景上检查边缘。", "确认没有连带地面、投影或意外文字。"]
+  },
+  {
+    "id": "material-transparency",
+    "title": {"zh-CN": "半透明材质测试", "en": "Partial-transparency test"},
+    "prompt": {
+      "zh-CN": "生成一个浅琥珀色玻璃茶壶，细壶嘴、圆把手，壶身能够透出背景。独立物体，无桌面、无文字、无环境。若服务支持，请保留壶身的部分透明度，导出带 Alpha 通道的 PNG。不要用乳白填充模拟透明。",
+      "en": "Create an isolated pale amber glass teapot with a narrow spout and round handle. The background must show through its body. No tabletop, lettering or environment. If supported, preserve partial transparency in the body and export an alpha-channel PNG. Do not simulate transparency with a milky fill."
+    },
+    "checks": ["检查 Alpha 是否存在介于完全透明与完全不透明之间的值。", "叠在彩色方格上，检查背景是否能透过壶身。", "检查壶把与壶嘴内部的空洞是否清晰。"]
+  },
+  {
+    "id": "documentary-photo",
+    "title": {"zh-CN": "自然纪实摄影", "en": "Documentary photograph"},
+    "prompt": {
+      "zh-CN": "清晨的自行车维修店，一位中年修理师弯腰检查车轮。窗外冷光与工作灯暖光交汇。手指上有少量机油，围裙褶皱自然，工作台有使用痕迹。腰部高度拍摄，构图略不对称，肤色真实，不过度磨皮，不添加招牌文字。",
+      "en": "An early-morning bicycle workshop. A middle-aged mechanic bends over a wheel. Cool window light meets a warm task lamp. A trace of grease on the fingers, natural apron folds and a worn workbench. Photograph from waist height with slightly asymmetric framing. Natural skin tones, no beauty smoothing, no invented sign text."
+    },
+    "checks": ["放大检查皮肤、手指、轮辐与工具形状。", "检查光源方向和阴影是否一致。", "确认没有生成未要求的招牌或水印。"]
+  },
+  {
+    "id": "copy-locked-poster",
+    "title": {"zh-CN": "固定文案海报", "en": "Copy-locked poster"},
+    "prompt": {
+      "zh-CN": "设计一张竖版社区修车活动海报，米白背景，墨绿文字，中间一幅简洁的自行车线描。只使用以下文字，每行恰好一次：标题“修好再出发”；副标题“周末自行车保养”；日期“2026年11月21日”；时间“10:00–12:00”；地点“社区工坊”。保持文字层级和足够边距，不增加电话、品牌或二维码。",
+      "en": "Design a portrait poster for a community bicycle workshop: cream background, dark green type and a simple bicycle line drawing. Use only these exact strings, each once: “修好再出发”; “周末自行车保养”; “2026年11月21日”; “10:00–12:00”; “社区工坊”. Preserve the Chinese copy exactly. Give the title clear hierarchy and keep generous margins. Add no phone number, brand or QR code."
+    },
+    "checks": ["逐字核对中文、数字、标点与时间。", "检查文字是否重复、遗漏或被裁切。", "用最终展示尺寸检查可读性。"]
+  },
+  {
+    "id": "character-sheet",
+    "title": {"zh-CN": "角色一致性设定", "en": "Character consistency sheet"},
+    "prompt": {
+      "zh-CN": "以参考图中的橙色纸艺狐狸为唯一角色，制作四张分开的设定图：正面、左侧面、背面和坐姿。保持耳朵形状、白色胸毛、尾尖颜色、纸张折痕与身体比例一致。每张一个角色，无文字，无新增配饰；若服务支持则使用透明背景。",
+      "en": "Use the orange papercraft fox in the reference as the only character. Make four separate views: front, left profile, back and seated. Preserve ear shape, white chest, tail-tip color, paper folds and body proportions. One character per image, no lettering or new accessories. Use transparent backgrounds if the service supports them."
+    },
+    "checks": ["并排检查四张图的特征与比例。", "检查每张是否只出现一个角色。", "确认透明输出实际受服务支持。"]
+  },
+  {
+    "id": "instruction-infographic",
+    "title": {"zh-CN": "步骤信息图", "en": "Instruction infographic"},
+    "prompt": {
+      "zh-CN": "制作一张中文盆栽养护信息图，白底，绿色线性图标，四个等宽步骤。标题严格为“薄荷养护”；四步文字严格为“1. 检查土壤”“2. 适量浇水”“3. 保持通风”“4. 观察叶片”。每个步骤配一个相应图标，不增加科学数据、剂量、承诺或额外说明。",
+      "en": "Create a Chinese mint-care infographic on white, using green outline icons and four equal-width steps. Exact title: “薄荷养护”. Exact step labels: “1. 检查土壤”; “2. 适量浇水”; “3. 保持通风”; “4. 观察叶片”. Match one icon to each step. Add no scientific figures, dosages, guarantees or extra explanatory copy."
+    },
+    "checks": ["核对四步顺序和全部汉字。", "检查图标与步骤是否一一对应。", "确认没有编造附加数据或说明。"]
+  }
+]

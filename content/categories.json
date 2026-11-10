@@ -1,0 +1,58 @@
+[
+  {
+    "id": "multi-turn-editing",
+    "label": {
+      "zh-CN": "多轮与局部编辑",
+      "en": "Multi-turn & targeted editing"
+    }
+  },
+  {
+    "id": "rgba-assets",
+    "label": {
+      "zh-CN": "透明素材",
+      "en": "Transparent assets"
+    }
+  },
+  {
+    "id": "portraits",
+    "label": {
+      "zh-CN": "人像",
+      "en": "Portraits"
+    }
+  },
+  {
+    "id": "photography",
+    "label": {
+      "zh-CN": "摄影与纪实",
+      "en": "Photography & documentary"
+    }
+  },
+  {
+    "id": "interiors",
+    "label": {
+      "zh-CN": "室内与空间",
+      "en": "Interiors & space"
+    }
+  },
+  {
+    "id": "typography",
+    "label": {
+      "zh-CN": "文字与排版",
+      "en": "Text & typography"
+    }
+  },
+  {
+    "id": "infographics",
+    "label": {
+      "zh-CN": "信息图与界面",
+      "en": "Infographics & interfaces"
+    }
+  },
+  {
+    "id": "characters",
+    "label": {
+      "zh-CN": "角色与贴纸",
+      "en": "Characters & stickers"
+    }
+  }
+]
