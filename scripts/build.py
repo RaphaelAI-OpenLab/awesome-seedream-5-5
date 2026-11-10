@@ -115,6 +115,7 @@ def render(lang):
                   f'[![{s["author"]}]({s["preview"]})]({s["url"]})', '',
                   f'[{choose("原始帖子", "Original post")}]({s["url"]}) · [{choose("原始媒体", "Original media")}]({s["media_url"]})', '']
     lines += [choose('[补充社媒研究（含待核实线索）](docs/SOCIAL-CASES-2026-11-10.md)', '[Additional social research (including pending leads)](docs/SOCIAL-CASES-2026-11-10.md)'), '']
+    lines += [choose('[新增 5 个创作者社媒案例（原始媒体待补）](docs/SOCIAL-SHOWCASE-2026-11-10-BATCH2.md)', '[New creator showcase: five social examples (source media pending)](docs/SOCIAL-SHOWCASE-2026-11-10-BATCH2.md)'), '']
     lines += ['## ' + choose('本地维护', 'Local maintenance'), '',
               '```bash', 'python3 scripts/build.py', 'python3 scripts/validate.py', 'python3 scripts/search.py RGBA', '```', '',
               choose('可选：`python3 scripts/check_media.py` 检查本地预览，需安装 ffmpeg；`python3 scripts/refresh_previews.py` 联网刷新缩放代表帧预览，不打包原始媒体。',

@@ -282,6 +282,8 @@ Account, model version and media URLs were checked through X public oEmbed and s
 
 [Additional social research (including pending leads)](docs/SOCIAL-CASES-2026-11-10.md)
 
+[New creator showcase: five social examples (source media pending)](docs/SOCIAL-SHOWCASE-2026-11-10-BATCH2.md)
+
 ## Local maintenance
 
 ```bash
