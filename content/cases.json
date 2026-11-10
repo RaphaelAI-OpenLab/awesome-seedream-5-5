@@ -3102,5 +3102,219 @@
       "Change the curtains",
       "Change the lighting"
     ]
+  },
+  {
+    "id": "social07-alisa-watch-sequence",
+    "title": {
+      "zh-CN": "手表100轮每轮加1秒的连续编辑",
+      "en": "Watch display +1 second through 100 edits"
+    },
+    "category": "multi-turn-editing",
+    "author": "alisaqqt",
+    "source_url": "https://x.com/alisaqqt/status/2119805701300408634",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "public-author-X-post-and-media",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/alisaqqt/status/2119805701300408634",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。 包含跨模型对照/其他生成工具，不能将所有媒体归类为 Seedream 单独生成。",
+      "en": "Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced. Multi-model or external workflow: not every frame is Seedream-only."
+    },
+    "media": [
+      {
+        "url": "https://video.twimg.com/amplify_video/2119805613941358592/vid/avc1/684x360/LQIyX6GGH8em51qO.mp4?tag=29",
+        "type": "video",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social07-alisa-watch-sequence-01.jpg",
+        "preview_transform": "original-X-media-thumbnail-to-JPEG",
+        "origin_media_id": "2119805613941358592"
+      }
+    ],
+    "animation_preview": "assets/animations/social07-alisa-watch-sequence.gif"
+  },
+  {
+    "id": "social07-dheepan-blazer-stage",
+    "title": {
+      "zh-CN": "人物外套、布景与照明局部编辑",
+      "en": "Blazer, background and lighting edits"
+    },
+    "category": "multi-turn-editing",
+    "author": "Dheepanratnam",
+    "source_url": "https://x.com/Dheepanratnam/status/2120102574569451995",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "public-author-X-post-and-media",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/Dheepanratnam/status/2120102574569451995",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。",
+      "en": "Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced."
+    },
+    "media": [
+      {
+        "url": "https://video.twimg.com/amplify_video/2120102017532104704/vid/avc1/640x360/-fKSiQqO7ey-myfy.mp4?tag=29",
+        "type": "video",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social07-dheepan-blazer-stage-01.jpg",
+        "preview_transform": "original-X-media-thumbnail-to-JPEG",
+        "origin_media_id": "2120102017532104704"
+      }
+    ],
+    "animation_preview": "assets/animations/social07-dheepan-blazer-stage.gif"
+  },
+  {
+    "id": "social07-aiwithsaif-menu-sequence",
+    "title": {
+      "zh-CN": "餐厅菜品逐次加入桌面的编辑",
+      "en": "Restaurant food added across local edits"
+    },
+    "category": "multi-turn-editing",
+    "author": "AiwithSaif7",
+    "source_url": "https://x.com/AiwithSaif7/status/2119807382452908472",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "public-author-X-post-and-media",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/AiwithSaif7/status/2119807382452908472",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。",
+      "en": "Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced."
+    },
+    "media": [
+      {
+        "url": "https://video.twimg.com/amplify_video/2119807361602990080/vid/avc1/416x672/e7vAaU2og09lxzpz.mp4?tag=29",
+        "type": "video",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social07-aiwithsaif-menu-sequence-01.jpg",
+        "preview_transform": "original-X-media-thumbnail-to-JPEG",
+        "origin_media_id": "2119807361602990080"
+      }
+    ],
+    "animation_preview": "assets/animations/social07-aiwithsaif-menu-sequence.gif"
+  },
+  {
+    "id": "social07-kakiponzu-photoreal-finisher",
+    "title": {
+      "zh-CN": "人物写实精修、换红裙与夜间重照明",
+      "en": "Photoreal portrait finisher and two edits"
+    },
+    "category": "portraits",
+    "author": "KakiponzuX",
+    "source_url": "https://x.com/KakiponzuX/status/2119801752656531616",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "public-author-X-post-and-media",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/KakiponzuX/status/2119801752656531616",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。 包含跨模型对照/其他生成工具，不能将所有媒体归类为 Seedream 单独生成。",
+      "en": "Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced. Multi-model or external workflow: not every frame is Seedream-only."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWsMdXybQAApYl8.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social07-kakiponzu-photoreal-finisher-01.jpg",
+        "preview_transform": "original-X-media-thumbnail-to-JPEG",
+        "origin_media_id": "2119801748349206528"
+      }
+    ]
+  },
+  {
+    "id": "social07-lyra-release-test",
+    "title": {
+      "zh-CN": "Seedream 5.5 发布当天写实图片测试",
+      "en": "Seedream 5.5 release-day creator image test"
+    },
+    "category": "photography",
+    "author": "lyraxana",
+    "source_url": "https://x.com/lyraxana/status/2119716289581334969",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "public-author-X-post-and-media",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/lyraxana/status/2119716289581334969",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。",
+      "en": "Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWq-Wi0XEAAxurH.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social07-lyra-release-test-01.jpg",
+        "preview_transform": "original-X-media-thumbnail-to-JPEG",
+        "origin_media_id": "2119715869144059904"
+      }
+    ]
+  },
+  {
+    "id": "social07-dotey-review-video",
+    "title": {
+      "zh-CN": "Seedream 5.5 编辑能力视频观察",
+      "en": "Seedream 5.5 editing demo and creator review"
+    },
+    "category": "multi-turn-editing",
+    "author": "dotey",
+    "source_url": "https://x.com/dotey/status/2119823986603299193",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "public-author-X-post-and-media",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/dotey/status/2119823986603299193",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。 包含跨模型对照/其他生成工具，不能将所有媒体归类为 Seedream 单独生成。",
+      "en": "Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced. Multi-model or external workflow: not every frame is Seedream-only."
+    },
+    "media": [
+      {
+        "url": "https://video.twimg.com/amplify_video/2119823876456583168/vid/avc1/640x360/gmsHWCCdIQpQ7d1V.mp4?tag=29",
+        "type": "video",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social07-dotey-review-video-01.jpg",
+        "preview_transform": "original-X-media-thumbnail-to-JPEG",
+        "origin_media_id": "2119823876456583168"
+      }
+    ],
+    "animation_preview": "assets/animations/social07-dotey-review-video.gif"
   }
 ]

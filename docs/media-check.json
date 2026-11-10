@@ -714,6 +714,60 @@
       "height": 359
     },
     {
+      "preview": "assets/previews/social07-aiwithsaif-menu-sequence-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 15801,
+      "sha256": "bcae79ed8b1db287ebf7fe8db4ece30de46ae15141dac02ef82a8c4201a351e1",
+      "codec_name": "mjpeg",
+      "width": 396,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/social07-alisa-watch-sequence-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 46965,
+      "sha256": "03915b8b17dd1b9505af3137024b5fed2aa3094e474dc42418cc3a5ec63aaa9d",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 337
+    },
+    {
+      "preview": "assets/previews/social07-dheepan-blazer-stage-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 16692,
+      "sha256": "2ae1f0144cfd57d65de38dd3299a15ccec0efd767d1b90eeef1498929914a9ca",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/social07-dotey-review-video-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 18132,
+      "sha256": "a04a9e157cb6b7159e96462551e2dc51b2c21264a9ae40f24a06edf3cb2db1bb",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/social07-kakiponzu-photoreal-finisher-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 58408,
+      "sha256": "7e3c32d7a111c4e2bc50c66b53d1ca5c79327f4334811c834b030272bb37d80a",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 459
+    },
+    {
+      "preview": "assets/previews/social07-lyra-release-test-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 29264,
+      "sha256": "38c4c665295163c9f741243e4705d190bffb56229095ce1818e3ce93d65b5f73",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 377
+    },
+    {
       "preview": "assets/previews/socialx-blue-hour-fisherman-01.jpg",
       "status": "decoded-preview",
       "bytes": 34088,

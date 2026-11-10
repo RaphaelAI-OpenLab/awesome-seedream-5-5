@@ -10,7 +10,7 @@
 
 A visual reference collection by Raphael. Official demos, creator-reported outputs and original practice recipes are labeled separately.
 
-**77 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
+**83 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
 
 Cases have not been independently reproduced here. Only reduced single-frame previews are bundled; full images, GIFs and videos are linked at their origins. Third-party media and previews retain their owners’ rights.
 
@@ -27,7 +27,7 @@ Seedream 5.5 was announced on **2026-11-09**. See the [official model page](http
 | Item | Count |
 | --- | ---: |
 | Official-source cases | 20 |
-| Creator-reported cases | 57 |
+| Creator-reported cases | 63 |
 | Complete original source prompts included | 14 |
 | Independently reproduced cases | 0 |
 | Sources checked | 2026-11-10 |
@@ -39,10 +39,10 @@ Edit rounds are grouped as one case. Duplicate social videos do not increase the
 
 | Category | Cases |
 | --- | ---: |
-| [Multi-turn & targeted editing](#multi-turn-editing) | 11 |
+| [Multi-turn & targeted editing](#multi-turn-editing) | 15 |
 | [Transparent assets](#rgba-assets) | 10 |
-| [Portraits](#portraits) | 5 |
-| [Photography & documentary](#photography) | 24 |
+| [Portraits](#portraits) | 6 |
+| [Photography & documentary](#photography) | 25 |
 | [Interiors & space](#interiors) | 1 |
 | [Text & typography](#typography) | 12 |
 | [Infographics & interfaces](#infographics) | 4 |
@@ -133,6 +133,38 @@ Creator-reported · VORTEX_Promos · [Source](https://x.com/VORTEX_Promos/status
 Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119803435461599638) · [Details & prompt status](cases/social06-dheepan-three-local-edits/README.md)
 
 > The first image is the base, followed by separate flower, curtain and lighting edits. The author explicitly describes separate edits, not a three-round chain. Published workflow wording: “Change the flowers / Change the curtains / Change the lighting”. These are action summaries, not a verified complete execution prompt.
+
+#### [Watch display +1 second through 100 edits](cases/social07-alisa-watch-sequence/README.md)
+
+<a href="cases/social07-alisa-watch-sequence/README.md"><img src="assets/animations/social07-alisa-watch-sequence.gif" alt="Watch display +1 second through 100 edits" width="420" loading="lazy" /></a>
+
+Creator-reported · alisaqqt · [Source](https://x.com/alisaqqt/status/2119805701300408634) · [Details & prompt status](cases/social07-alisa-watch-sequence/README.md)
+
+> Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced. Multi-model or external workflow: not every frame is Seedream-only.
+
+#### [Blazer, background and lighting edits](cases/social07-dheepan-blazer-stage/README.md)
+
+<a href="cases/social07-dheepan-blazer-stage/README.md"><img src="assets/animations/social07-dheepan-blazer-stage.gif" alt="Blazer, background and lighting edits" width="420" loading="lazy" /></a>
+
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2120102574569451995) · [Details & prompt status](cases/social07-dheepan-blazer-stage/README.md)
+
+> Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced.
+
+#### [Restaurant food added across local edits](cases/social07-aiwithsaif-menu-sequence/README.md)
+
+<a href="cases/social07-aiwithsaif-menu-sequence/README.md"><img src="assets/animations/social07-aiwithsaif-menu-sequence.gif" alt="Restaurant food added across local edits" width="420" loading="lazy" /></a>
+
+Creator-reported · AiwithSaif7 · [Source](https://x.com/AiwithSaif7/status/2119807382452908472) · [Details & prompt status](cases/social07-aiwithsaif-menu-sequence/README.md)
+
+> Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced.
+
+#### [Seedream 5.5 editing demo and creator review](cases/social07-dotey-review-video/README.md)
+
+<a href="cases/social07-dotey-review-video/README.md"><img src="assets/animations/social07-dotey-review-video.gif" alt="Seedream 5.5 editing demo and creator review" width="420" loading="lazy" /></a>
+
+Creator-reported · dotey · [Source](https://x.com/dotey/status/2119823986603299193) · [Details & prompt status](cases/social07-dotey-review-video/README.md)
+
+> Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced. Multi-model or external workflow: not every frame is Seedream-only.
 
 <a id="rgba-assets"></a>
 ### Transparent assets
@@ -251,6 +283,14 @@ Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/21197
 Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119799171397906607) · [Details & prompt status](cases/social06-kakiponzu-style-tail-control/README.md)
 
 > The creator reports removing only a painterly style suffix: left includes it and right omits it. This is a same-model style control, not a model ranking. The complete base prompt was not retrieved.
+
+#### [Photoreal portrait finisher and two edits](cases/social07-kakiponzu-photoreal-finisher/README.md)
+
+<a href="cases/social07-kakiponzu-photoreal-finisher/README.md"><img src="assets/previews/social07-kakiponzu-photoreal-finisher-01.jpg" alt="Photoreal portrait finisher and two edits" width="420" loading="lazy" /></a>
+
+Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119801752656531616) · [Details & prompt status](cases/social07-kakiponzu-photoreal-finisher/README.md)
+
+> Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced. Multi-model or external workflow: not every frame is Seedream-only.
 
 <a id="photography"></a>
 ### Photography & documentary
@@ -434,6 +474,14 @@ Creator-reported · kevinchin35 · [Source](https://x.com/kevinchin35/status/211
 Creator-reported · ozansihay · [Source](https://x.com/ozansihay/status/2119803963738357803) · [Details & prompt status](cases/social05-ozansihay-four-comparisons/README.md)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. A curator catalog provides image provenance; refer to the author's original post.
+
+#### [Seedream 5.5 release-day creator image test](cases/social07-lyra-release-test/README.md)
+
+<a href="cases/social07-lyra-release-test/README.md"><img src="assets/previews/social07-lyra-release-test-01.jpg" alt="Seedream 5.5 release-day creator image test" width="420" loading="lazy" /></a>
+
+Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/2119716289581334969) · [Details & prompt status](cases/social07-lyra-release-test/README.md)
+
+> Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced.
 
 <a id="interiors"></a>
 ### Interiors & space

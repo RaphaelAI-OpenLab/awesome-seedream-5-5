@@ -10,7 +10,7 @@
 
 由 Raphael 整理的图片与编辑案例库。官方展示、作者自报结果与本仓库编写的练习提示词分别标记。
 
-**77 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
+**83 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
 
 案例未由本仓库独立复现。仓库只保存缩放后的单帧预览，完整图片、GIF 与视频链接至原始地址；第三方媒体及其预览的版权归原权利人。
 
@@ -27,7 +27,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | 项目 | 数量 |
 | --- | ---: |
 | 官方来源案例 | 20 |
-| 作者自报案例 | 57 |
+| 作者自报案例 | 63 |
 | 仓库内完整原始提示词 | 14 |
 | 独立复现案例 | 0 |
 | 来源核对日期 | 2026-11-10 |
@@ -39,10 +39,10 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 | 分类 | 案例数 |
 | --- | ---: |
-| [多轮与局部编辑](#multi-turn-editing) | 11 |
+| [多轮与局部编辑](#multi-turn-editing) | 15 |
 | [透明素材](#rgba-assets) | 10 |
-| [人像](#portraits) | 5 |
-| [摄影与纪实](#photography) | 24 |
+| [人像](#portraits) | 6 |
+| [摄影与纪实](#photography) | 25 |
 | [室内与空间](#interiors) | 1 |
 | [文字与排版](#typography) | 12 |
 | [信息图与界面](#infographics) | 4 |
@@ -133,6 +133,38 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119803435461599638) · [详情与提示词状态](cases/social06-dheepan-three-local-edits/README.zh-CN.md)
 
 > 第一张为基础图，其后三张分别修改花卉、窗帘和光线。原作者写明是三项独立编辑，不能据此称为串联三轮实验。原帖公开的步骤原文为 “Change the flowers / Change the curtains / Change the lighting”；这是操作摘要，不是已核实的完整执行提示词。
+
+#### [手表100轮每轮加1秒的连续编辑](cases/social07-alisa-watch-sequence/README.zh-CN.md)
+
+<a href="cases/social07-alisa-watch-sequence/README.zh-CN.md"><img src="assets/animations/social07-alisa-watch-sequence.gif" alt="手表100轮每轮加1秒的连续编辑" width="420" loading="lazy" /></a>
+
+作者自报 · alisaqqt · [原始来源](https://x.com/alisaqqt/status/2119805701300408634) · [详情与提示词状态](cases/social07-alisa-watch-sequence/README.zh-CN.md)
+
+> 图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。 包含跨模型对照/其他生成工具，不能将所有媒体归类为 Seedream 单独生成。
+
+#### [人物外套、布景与照明局部编辑](cases/social07-dheepan-blazer-stage/README.zh-CN.md)
+
+<a href="cases/social07-dheepan-blazer-stage/README.zh-CN.md"><img src="assets/animations/social07-dheepan-blazer-stage.gif" alt="人物外套、布景与照明局部编辑" width="420" loading="lazy" /></a>
+
+作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2120102574569451995) · [详情与提示词状态](cases/social07-dheepan-blazer-stage/README.zh-CN.md)
+
+> 图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。
+
+#### [餐厅菜品逐次加入桌面的编辑](cases/social07-aiwithsaif-menu-sequence/README.zh-CN.md)
+
+<a href="cases/social07-aiwithsaif-menu-sequence/README.zh-CN.md"><img src="assets/animations/social07-aiwithsaif-menu-sequence.gif" alt="餐厅菜品逐次加入桌面的编辑" width="420" loading="lazy" /></a>
+
+作者自报 · AiwithSaif7 · [原始来源](https://x.com/AiwithSaif7/status/2119807382452908472) · [详情与提示词状态](cases/social07-aiwithsaif-menu-sequence/README.zh-CN.md)
+
+> 图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。
+
+#### [Seedream 5.5 编辑能力视频观察](cases/social07-dotey-review-video/README.zh-CN.md)
+
+<a href="cases/social07-dotey-review-video/README.zh-CN.md"><img src="assets/animations/social07-dotey-review-video.gif" alt="Seedream 5.5 编辑能力视频观察" width="420" loading="lazy" /></a>
+
+作者自报 · dotey · [原始来源](https://x.com/dotey/status/2119823986603299193) · [详情与提示词状态](cases/social07-dotey-review-video/README.zh-CN.md)
+
+> 图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。 包含跨模型对照/其他生成工具，不能将所有媒体归类为 Seedream 单独生成。
 
 <a id="rgba-assets"></a>
 ### 透明素材
@@ -251,6 +283,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · KakiponzuX · [原始来源](https://x.com/KakiponzuX/status/2119799171397906607) · [详情与提示词状态](cases/social06-kakiponzu-style-tail-control/README.zh-CN.md)
 
 > 作者称其控制变量为移除绘画风格后缀，拼图左侧保留后缀、右侧移除后缀。这是同一模型的风格控制实验，不是两个模型的排名；完整基础提示词未核得。
+
+#### [人物写实精修、换红裙与夜间重照明](cases/social07-kakiponzu-photoreal-finisher/README.zh-CN.md)
+
+<a href="cases/social07-kakiponzu-photoreal-finisher/README.zh-CN.md"><img src="assets/previews/social07-kakiponzu-photoreal-finisher-01.jpg" alt="人物写实精修、换红裙与夜间重照明" width="420" loading="lazy" /></a>
+
+作者自报 · KakiponzuX · [原始来源](https://x.com/KakiponzuX/status/2119801752656531616) · [详情与提示词状态](cases/social07-kakiponzu-photoreal-finisher/README.zh-CN.md)
+
+> 图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。 包含跨模型对照/其他生成工具，不能将所有媒体归类为 Seedream 单独生成。
 
 <a id="photography"></a>
 ### 摄影与纪实
@@ -434,6 +474,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · ozansihay · [原始来源](https://x.com/ozansihay/status/2119803963738357803) · [详情与提示词状态](cases/social05-ozansihay-four-comparisons/README.zh-CN.md)
 
 > 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。 社媒整理站提供了图片对应关系；请以原帖为准。
+
+#### [Seedream 5.5 发布当天写实图片测试](cases/social07-lyra-release-test/README.zh-CN.md)
+
+<a href="cases/social07-lyra-release-test/README.zh-CN.md"><img src="assets/previews/social07-lyra-release-test-01.jpg" alt="Seedream 5.5 发布当天写实图片测试" width="420" loading="lazy" /></a>
+
+作者自报 · lyraxana · [原始来源](https://x.com/lyraxana/status/2119716289581334969) · [详情与提示词状态](cases/social07-lyra-release-test/README.zh-CN.md)
+
+> 图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。
 
 <a id="interiors"></a>
 ### 室内与空间
