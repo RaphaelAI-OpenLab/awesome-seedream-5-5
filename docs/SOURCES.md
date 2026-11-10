@@ -66,3 +66,7 @@ https://cdn.syndication.twimg.com/tweet-result?id=2119717948470546446&lang=en&to
 ## 第六批：已核对原帖配图的新案例（2026-11-10）
 
 新增 5 个源帖案例、10 张本地预览；参见 [批次说明](SOCIAL-BATCH06.md) 和 [媒体校验记录](social-source-batch06-audit.json)。包括风格控制、三模型奇幻人物对比、游戏式街景与三项独立局部编辑。完整原始 Prompt 本批没有新增；一份作者公开的三步操作摘要与完整 Prompt 分开记录。
+
+## 第七批 X 社媒原帖图片和视频（2026-11-11）
+
+从原始作者 X 帖子公开媒体直接提取图片/视频 CDN 地址，下载压缩 JPEG 预览和视频短动图；作者、来源、媒体 ID、缺失 Prompt 状态、失败条目见 docs/social-source-batch07-audit.json。多模型案例不表示全部画面由 Seedream 5.5 生成。未独立复现，第三方媒体权利保留。

@@ -1,0 +1,128 @@
+{
+  "checked_at": "2026-11-11",
+  "added": [
+    {
+      "id": "social07-alisa-watch-sequence",
+      "post": "https://x.com/alisaqqt/status/2119805701300408634",
+      "creator": "alisaqqt",
+      "media_count": 1,
+      "animated": true,
+      "text_excerpt": "Okay, Seedream 5.5's consistency is crazy!!!\n100 chained edits. Just +1 second on the watch each time. I didn't expect the gap to be this big.😂",
+      "prompt_status": "not-published",
+      "media": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2119805613941358592/vid/avc1/684x360/LQIyX6GGH8em51qO.mp4?tag=29",
+          "type": "video",
+          "rights": "rights-reserved",
+          "delivery": "local-preview-with-source-link",
+          "preview": "assets/previews/social07-alisa-watch-sequence-01.jpg",
+          "preview_transform": "original-X-media-thumbnail-to-JPEG",
+          "origin_media_id": "2119805613941358592"
+        }
+      ]
+    },
+    {
+      "id": "social07-dheepan-blazer-stage",
+      "post": "https://x.com/Dheepanratnam/status/2120102574569451995",
+      "creator": "Dheepanratnam",
+      "media_count": 1,
+      "animated": true,
+      "text_excerpt": "One image. Pulled apart into layers. \nBlazer swapped, set changed, \nlight rebuilt, and her face never moves.\n\nEvery frame here is Seedream 5.5 🤯\nUnlimited on AZ8 right now with any Pro, Ultra, Max or Extreme plan.\n\nCreate. Edit. Repeat.\nLink in the comments ⤵👇",
+      "prompt_status": "not-published",
+      "media": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2120102017532104704/vid/avc1/640x360/-fKSiQqO7ey-myfy.mp4?tag=29",
+          "type": "video",
+          "rights": "rights-reserved",
+          "delivery": "local-preview-with-source-link",
+          "preview": "assets/previews/social07-dheepan-blazer-stage-01.jpg",
+          "preview_transform": "original-X-media-thumbnail-to-JPEG",
+          "origin_media_id": "2120102017532104704"
+        }
+      ]
+    },
+    {
+      "id": "social07-aiwithsaif-menu-sequence",
+      "post": "https://x.com/AiwithSaif7/status/2119807382452908472",
+      "creator": "AiwithSaif7",
+      "media_count": 1,
+      "animated": true,
+      "text_excerpt": "24 cents for a dozen images in Seedream 5.5, which keeps edits local. look at this table filling up one edit at a time. restaurant menus with a new dish photo every week, same layout, same lighting",
+      "prompt_status": "not-published",
+      "media": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2119807361602990080/vid/avc1/416x672/e7vAaU2og09lxzpz.mp4?tag=29",
+          "type": "video",
+          "rights": "rights-reserved",
+          "delivery": "local-preview-with-source-link",
+          "preview": "assets/previews/social07-aiwithsaif-menu-sequence-01.jpg",
+          "preview_transform": "original-X-media-thumbnail-to-JPEG",
+          "origin_media_id": "2119807361602990080"
+        }
+      ]
+    },
+    {
+      "id": "social07-kakiponzu-photoreal-finisher",
+      "post": "https://x.com/KakiponzuX/status/2119801752656531616",
+      "creator": "KakiponzuX",
+      "media_count": 1,
+      "animated": false,
+      "text_excerpt": "Our most-saved post was built on a $0.06 finisher. The new one costs $0.02 — and survives being edited twice more.\n\nSeedream 5.5's editor (via SpicyAPI) ran the finisher's standard job tonight, measured against 5.0:\n\n1. Same job, new hands.\nSame source photo, same finish instruction as our 5.0 tests. 5.5 finished it first try — face, pose, room and",
+      "prompt_status": "not-published",
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/HWsMdXybQAApYl8.jpg?name=orig",
+          "type": "image",
+          "rights": "rights-reserved",
+          "delivery": "local-preview-with-source-link",
+          "preview": "assets/previews/social07-kakiponzu-photoreal-finisher-01.jpg",
+          "preview_transform": "original-X-media-thumbnail-to-JPEG",
+          "origin_media_id": "2119801748349206528"
+        }
+      ]
+    },
+    {
+      "id": "social07-lyra-release-test",
+      "post": "https://x.com/lyraxana/status/2119716289581334969",
+      "creator": "lyraxana",
+      "media_count": 1,
+      "animated": false,
+      "text_excerpt": "Seedream 5.5 is out now! You can feel the GPT Image distillation sadly, but still a great model overall.",
+      "prompt_status": "not-published",
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/HWq-Wi0XEAAxurH.jpg?name=orig",
+          "type": "image",
+          "rights": "rights-reserved",
+          "delivery": "local-preview-with-source-link",
+          "preview": "assets/previews/social07-lyra-release-test-01.jpg",
+          "preview_transform": "original-X-media-thumbnail-to-JPEG",
+          "origin_media_id": "2119715869144059904"
+        }
+      ]
+    },
+    {
+      "id": "social07-dotey-review-video",
+      "post": "https://x.com/dotey/status/2119823986603299193",
+      "creator": "dotey",
+      "media_count": 1,
+      "animated": true,
+      "text_excerpt": "字节发布图像模型 Seedream 5.5：同一张图连改 100 轮不走样，能直接出透明底素材，即梦、豆包陆续上线\n\n字节跳动 Seed 团队 11 月 9 日发布 Seedream 5.5。用 AI 改图最烦的是改着改着别处也变了：换个戒指，脸和颜色跟着偏，几轮下来图越来越糊。\n\n新版没要求改的区域能做到像素级不变，官方演示里同一个人物连改 100 轮，细节还能对上。它还能直接生成背景透明的图，羽毛这类难抠的边缘都保留，拿来就能叠进海报和设计稿，省掉抠图。照片质感和小字也更准，严重文字错误率从上一代的 2.8% 降到 0.4%。\n\n字节拿它和 OpenAI 的 GPT Image 2.5 Sunburst、Google 的 Nano Banana 2.1 做了对比，文字错误率最低，凭文字生",
+      "prompt_status": "not-published",
+      "media": [
+        {
+          "url": "https://video.twimg.com/amplify_video/2119823876456583168/vid/avc1/640x360/gmsHWCCdIQpQ7d1V.mp4?tag=29",
+          "type": "video",
+          "rights": "rights-reserved",
+          "delivery": "local-preview-with-source-link",
+          "preview": "assets/previews/social07-dotey-review-video-01.jpg",
+          "preview_transform": "original-X-media-thumbnail-to-JPEG",
+          "origin_media_id": "2119823876456583168"
+        }
+      ]
+    }
+  ],
+  "failed": [],
+  "copyright": "Only reduced media previews; rights reserved by respective creators.",
+  "model_limit": "Mixed-model outputs labeled; model version self-attributed."
+}
