@@ -1,0 +1,73 @@
+{
+  "batch": 7,
+  "checked_at": "2026-11-11",
+  "selection": "New X original posts absent from prior 77 cases; do not include launch-only reposts or unverified prelaunch model claims.",
+  "cases": [
+    {
+      "id": "social07-alisa-watch-sequence",
+      "author": "alisaqqt",
+      "post": "https://x.com/alisaqqt/status/2119805701300408634",
+      "category": "multi-turn-editing",
+      "title": {
+        "zh-CN": "手表100轮每轮加1秒的连续编辑",
+        "en": "Watch display +1 second through 100 edits"
+      },
+      "comparison": true
+    },
+    {
+      "id": "social07-dheepan-blazer-stage",
+      "author": "Dheepanratnam",
+      "post": "https://x.com/Dheepanratnam/status/2120102574569451995",
+      "category": "multi-turn-editing",
+      "title": {
+        "zh-CN": "人物外套、布景与照明局部编辑",
+        "en": "Blazer, background and lighting edits"
+      },
+      "comparison": false
+    },
+    {
+      "id": "social07-aiwithsaif-menu-sequence",
+      "author": "AiwithSaif7",
+      "post": "https://x.com/AiwithSaif7/status/2119807382452908472",
+      "category": "multi-turn-editing",
+      "title": {
+        "zh-CN": "餐厅菜品逐次加入桌面的编辑",
+        "en": "Restaurant food added across local edits"
+      },
+      "comparison": false
+    },
+    {
+      "id": "social07-kakiponzu-photoreal-finisher",
+      "author": "KakiponzuX",
+      "post": "https://x.com/KakiponzuX/status/2119801752656531616",
+      "category": "portraits",
+      "title": {
+        "zh-CN": "人物写实精修、换红裙与夜间重照明",
+        "en": "Photoreal portrait finisher and two edits"
+      },
+      "comparison": true
+    },
+    {
+      "id": "social07-lyra-release-test",
+      "author": "lyraxana",
+      "post": "https://x.com/lyraxana/status/2119716289581334969",
+      "category": "photography",
+      "title": {
+        "zh-CN": "Seedream 5.5 发布当天写实图片测试",
+        "en": "Seedream 5.5 release-day creator image test"
+      },
+      "comparison": false
+    },
+    {
+      "id": "social07-dotey-review-video",
+      "author": "dotey",
+      "post": "https://x.com/dotey/status/2119823986603299193",
+      "category": "multi-turn-editing",
+      "title": {
+        "zh-CN": "Seedream 5.5 编辑能力视频观察",
+        "en": "Seedream 5.5 editing demo and creator review"
+      },
+      "comparison": true
+    }
+  ]
+}
