@@ -1,0 +1,131 @@
+{
+  "collection": "Seedream 5.5 social research leads",
+  "checked_at": "2026-11-10",
+  "count": 8,
+  "classification": "research-only; not independently verified cases",
+  "media_policy": "Links only. Third-party images, GIFs and original prompts are not included.",
+  "cases": [
+    {
+      "id": "dotey-host-and-travel-edit",
+      "title": "12 帧虚拟主播与游客照 10 轮连续编辑",
+      "author": "宝玉",
+      "handle": "dotey",
+      "category": "multi-turn-editing",
+      "post": "https://x.com/dotey/status/2119822405350600850",
+      "references": [
+        "https://radar.suversal.com/x/2119822405350600850"
+      ],
+      "evidence": "author-post-republished",
+      "workflow": "使用同一角色参考图进行表情、眨眼及嘴型编辑，形成 12 帧素材；另对游客照连续约 10 轮删除干扰并局部修图。",
+      "prompt": "partial-public-in-source-appendix",
+      "notes": "原作者展示并描述测试；并非本仓库复测。单帖含不同工作流，作为一个社媒研究条目。"
+    },
+    {
+      "id": "alchainhust-20-round-portrait",
+      "title": "20 轮人像编辑再回到原状态",
+      "author": "花叔",
+      "handle": "AlchainHust",
+      "category": "multi-turn-editing",
+      "post": "https://x.com/i/article/2119946484116488192",
+      "references": [
+        "https://maomaoailab.com/zh/news/"
+      ],
+      "evidence": "author-article-link-reported",
+      "workflow": "对固定人物连续修改约 20 轮，再尝试恢复早先外观，关注人物一致性。",
+      "prompt": "not-collected",
+      "notes": "轮数和效果来自原作者或文章转述；未拿到每轮输出及完整指令。"
+    },
+    {
+      "id": "alchainhust-dense-route-diagram",
+      "title": "700 余字航线信息图文字测试",
+      "author": "花叔",
+      "handle": "AlchainHust",
+      "category": "typography",
+      "post": "https://x.com/i/article/2119946484116488192",
+      "references": [
+        "https://maomaoailab.com/zh/news/"
+      ],
+      "evidence": "author-article-link-reported",
+      "workflow": "生成包含大量路线、标签和说明文字的航线信息图，并进行字形和排版检查。",
+      "prompt": "not-collected",
+      "notes": "700 余字和“没有错字”均为作者自报；本仓库没有逐字核验。"
+    },
+    {
+      "id": "xiaohu-30-round-consistency",
+      "title": "30 多轮人物与小字编辑一致性测试",
+      "author": "小互",
+      "handle": "xiaohu",
+      "category": "multi-turn-editing",
+      "post": "https://x.com/xiaohu/status/2119774478788141417",
+      "references": [
+        "https://teapaw.org/xiaohu/status/2119774478788141417"
+      ],
+      "evidence": "author-post-mirrored",
+      "workflow": "同一个人物与含小字画面进行超过 30 轮编辑，观察主体与文字位置漂移。",
+      "prompt": "not-collected",
+      "notes": "作者报告多轮编辑后稳定；完整图像序列和提示词尚未独立复核。"
+    },
+    {
+      "id": "ddjcxx-desk-five-rounds",
+      "title": "书桌五轮编辑，与 Seedream 5.0 Pro 对照",
+      "author": "硅基废话",
+      "handle": "DDJCXX",
+      "category": "multi-turn-editing",
+      "post": "https://x.com/DDJCXX/status/2119766551436116358",
+      "references": [
+        "https://teapaw.org/DDJCXX/status/2119766551436116358"
+      ],
+      "evidence": "author-post-mirrored",
+      "workflow": "书桌底图依次改红杯子、加眼镜、绿萝换仙人掌、加闹钟、书改蓝封面；与 5.0 Pro 对照。",
+      "prompt": "step-intentions-published-not-exact-prompts",
+      "notes": "作者自报墙、窗与屏幕仍较稳定；操作步骤不是完整原始 prompt，未复测。"
+    },
+    {
+      "id": "ddjcxx-transparent-materials",
+      "title": "透明底素材与白纱半透明对照",
+      "author": "硅基废话",
+      "handle": "DDJCXX",
+      "category": "rgba-assets",
+      "post": "https://x.com/DDJCXX/status/2119783562115494336",
+      "references": [
+        "https://teapaw.org/DDJCXX/status/2119783562115494336"
+      ],
+      "evidence": "author-post-mirrored",
+      "workflow": "比较直接生成透明背景与后期抠图，分别测试咖啡热气、自行车辐条和白色薄纱。",
+      "prompt": "not-collected",
+      "notes": "作者报告热气、辐条较好，白纱半透明失败；JPEG 预览不能验证真实 Alpha。"
+    },
+    {
+      "id": "minlibuilds-80-round-comparison",
+      "title": "同一人像 80 轮编辑，对比 GPT Image 2.5",
+      "author": "实践哥 Li",
+      "handle": "MinLiBuilds",
+      "category": "portraits",
+      "post": null,
+      "author_profile": "https://x.com/MinLiBuilds",
+      "references": [
+        "https://www.itvoice.in/one-product-shoot-two-weeks-of-posts-planning-a-social-calendar-around-seedream-5-5s-multi-round-editing"
+      ],
+      "evidence": "reposted-author-text-primary-post-id-pending",
+      "workflow": "同一人物逐轮更换发型、眼镜、服装与道具，对比长轮次人物与背景漂移。",
+      "prompt": "not-collected",
+      "notes": "只见作者帖文转引及二次来源；准确单帖、逐轮素材和原始提示词待确认。"
+    },
+    {
+      "id": "ufo2002616-100-round-watch",
+      "title": "手表时间 100 轮编辑对比",
+      "author": "UFO2002616",
+      "handle": "UFO2002616",
+      "category": "infographics",
+      "post": null,
+      "author_profile": "https://x.com/UFO2002616",
+      "references": [
+        "https://www.itvoice.in/one-product-shoot-two-weeks-of-posts-planning-a-social-calendar-around-seedream-5-5s-multi-round-editing"
+      ],
+      "evidence": "secondary-report-only-primary-post-pending",
+      "workflow": "同一手表场景，每轮将表盘时间增加 1 秒，观察 100 轮后的画面漂移。",
+      "prompt": "not-collected",
+      "notes": "当前只有二手描述；原帖待定位，且需与官方手表案例进行去重。"
+    }
+  ]
+}

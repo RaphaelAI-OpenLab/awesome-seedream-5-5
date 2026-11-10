@@ -280,6 +280,8 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 [原始帖子](https://x.com/dreamina_ai/status/2119751497282125949) · [原始媒体](https://pbs.twimg.com/media/HWredl_bAAAkfEk.jpg)
 
+[补充社媒研究（含待核实线索）](docs/SOCIAL-CASES-2026-11-10.md)
+
 ## 本地维护
 
 ```bash

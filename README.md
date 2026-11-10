@@ -280,6 +280,8 @@ Account, model version and media URLs were checked through X public oEmbed and s
 
 [Original post](https://x.com/dreamina_ai/status/2119751497282125949) · [Original media](https://pbs.twimg.com/media/HWredl_bAAAkfEk.jpg)
 
+[Additional social research (including pending leads)](docs/SOCIAL-CASES-2026-11-10.md)
+
 ## Local maintenance
 
 ```bash
