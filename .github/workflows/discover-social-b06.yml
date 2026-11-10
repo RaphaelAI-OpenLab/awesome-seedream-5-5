@@ -1,12 +1,12 @@
-name: Review new Seedream social images (temporary)
+name: Import reviewed Seedream social cases (temporary)
 on:
   push:
     branches: [research/seedream55-social-b06-20261110]
 permissions:
-  contents: read
+  contents: write
 jobs:
-  review:
-    if: github.actor != 'github-actions[bot]'
+  import:
+    if: github.actor != 'github-actions[bot]' && contains(github.event.head_commit.message, '[run-b06]')
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
@@ -15,53 +15,105 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m pip install 'Pillow>=11,<12'
-      - name: Download source-matched photos for visual review
+      - name: Verify reviewed media and publish case data
         shell: bash
         run: |
           python3 - <<'PY'
-          import hashlib, io, json, re, urllib.request
+          import hashlib,io,json,re,subprocess,time,urllib.request
           from pathlib import Path
-          from PIL import Image, ImageOps, ImageDraw
-          entries=[('KakiponzuX','2119772951889224178'),('KakiponzuX','2119799171397906607'),('KakiponzuX','2119801752656531616'),('lyraxana','2118884892427551046'),('lyraxana','2118896484934668512'),('lyraxana','2119716289581334969'),('Dheepanratnam','2119803435461599638')]
-          out=Path('/tmp/seedream-review');out.mkdir()
-          known={re.search(r'/status/(\d+)',c['source_url']).group(1) for c in json.loads(Path('content/cases.json').read_text()) if re.search(r'/status/(\d+)',c['source_url'])}
-          records=[];cells=[]
-          def get(url,cap=16000000):
-           request=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
-           with urllib.request.urlopen(request,timeout=30) as response:
-            content=response.read(cap+1)
-            if len(content)>cap:raise ValueError('response size limit')
-            return content
-          for group,(handle,tid) in enumerate(entries,1):
-           if tid in known:raise ValueError('Already catalogued '+tid)
-           tweet=json.loads(get('https://api.fxtwitter.com/'+handle+'/status/'+tid,2000000))['tweet']
-           if tweet['author']['screen_name'].lower()!=handle.lower():raise ValueError('author mismatch')
-           text=tweet.get('text','')
-           if not re.search(r'seedream[\s_.-]*5[\s_.-]*5',text,re.I):raise ValueError('no model evidence')
-           photos=(tweet.get('media') or {}).get('photos') or []
-           if not photos:raise ValueError('no photos '+tid)
-           record={'group':group,'handle':handle,'id':tid,'url':'https://x.com/'+handle+'/status/'+tid,'photos':[],'published_at':tweet.get('created_at')}
-           for index,photo in enumerate(photos,1):
-            url=photo['url']
-            if not url.startswith('https://pbs.twimg.com/media/'):raise ValueError('unsupported image host')
-            raw=get(url)
-            with Image.open(io.BytesIO(raw)) as source:
-             Image.MAX_IMAGE_PIXELS=48000000
-             image=ImageOps.exif_transpose(source).convert('RGB');image.thumbnail((640,640))
-             filename=f'{group:02d}-{index:02d}.jpg';image.save(out/filename,'JPEG',quality=82,optimize=True)
-             thumb=image.copy();thumb.thumbnail((280,240))
-             cell=Image.new('RGB',(300,280),'white');cell.paste(thumb,((300-thumb.width)//2,25+(240-thumb.height)//2))
-             ImageDraw.Draw(cell).text((8,8),f'{group}.{index} @{handle}',fill='black');cells.append(cell)
-            record['photos'].append({'file':filename,'id':str(photo.get('id')),'url':url,'alt':photo.get('altText'),'source_sha256':hashlib.sha256(raw).hexdigest()})
-           records.append(record)
-          sheet=Image.new('RGB',(900,280*((len(cells)+2)//3)),(220,220,220))
-          for i,cell in enumerate(cells):sheet.paste(cell,((i%3)*300,(i//3)*280))
-          sheet.save(out/'contact.jpg','JPEG',quality=80,optimize=True)
-          (out/'review.json').write_text(json.dumps(records,ensure_ascii=False,indent=2))
-          print('REVIEW',json.dumps({'posts':len(records),'photos':len(cells),'contact_bytes':(out/'contact.jpg').stat().st_size,'records':records},ensure_ascii=False))
+          from urllib.parse import urlsplit
+          from PIL import Image,ImageOps
+          ROOT=Path.cwd()
+          SPECS=[
+            {'id':'social06-kakiponzu-painterly-version-test','author':'KakiponzuX','post':'2119772951889224178','category':'portraits','zh':'角色画风：Seedream 5.0 Pro 与 5.5 对照','en':'Painterly character: 5.0 Pro versus 5.5','expected':[('2119772943638994945','1b9c46b1112778535e18bfdedbc863a8c7bec8f9320d6934e887bd9735b85f2c')],'note_zh':'拼图上排为 Seedream 5.0 Pro，下排为作者标注的 5.5；两排均含绘画风格后缀。作者报告每版本三次采样，本站未独立复测，也未取得完整输入。','note_en':'The collage labels the top row 5.0 Pro and the bottom row 5.5. Both use a painterly style suffix. The creator reports three draws per version; neither the complete input nor an independent reproduction is available here.'},
+            {'id':'social06-kakiponzu-style-tail-control','author':'KakiponzuX','post':'2119799171397906607','category':'portraits','zh':'仅移除风格后缀：插画与写实人物对照','en':'Removing the style suffix: illustration versus photoreal','expected':[('2119799164355653633','23e67fc295caee073ca950979442b2b9560c6abf9a173bfbfb526534ef1dc8aa')],'note_zh':'作者称其控制变量为移除绘画风格后缀，拼图左侧保留后缀、右侧移除后缀。这是同一模型的风格控制实验，不是两个模型的排名；完整基础提示词未核得。','note_en':'The creator reports removing only a painterly style suffix: left includes it and right omits it. This is a same-model style control, not a model ranking. The complete base prompt was not retrieved.'},
+            {'id':'social06-lyra-fantasy-three-models','author':'lyraxana','post':'2118884892427551046','category':'characters','zh':'奇幻人物与幼龙：三模型配图对比','en':'Fantasy character and small dragon: three-model comparison','expected':[('2118884884206817280','5eb2cc0c37ff068a06d0b9546d3d54b577187753f9a856e16c960970214fc550'),('2118884884198354944','500ed610477b74a96c42abdb7c6508611777d54e40d046a0b307d8b9f73879c4'),('2118884884248715265','c3442a1a7494f27eeeca96d721c6cbb0d550d7630a5c48a207e526e099723f0e')],'note_zh':'原帖 ALT 按顺序标为 Seedream 5.5、Nano Banana Pro、GPT Image 2.6 Sunburst；后两张不是 Seedream 输出。帖子发表于 2026-11-07，早于官方发布，版本仅按作者自报记录，后台模型与相同提示词条件未独立核实。','note_en':'Source ALT labels identify Seedream 5.5, Nano Banana Pro, then GPT Image 2.6 Sunburst. The latter two are not Seedream outputs. Posted on 2026-11-07 before the official release; attribution is creator-reported and neither backend identity nor prompt parity was independently verified.'},
+            {'id':'social06-lyra-game-street-sign','author':'lyraxana','post':'2118896484934668512','category':'characters','zh':'游戏式街景与远景标牌','en':'Game-style street scene and distant signage','expected':[('2118895958180143104','2c9f32653d9d47abf1e7eb45f615a58e9d1238eaef83cb015558cd02c35e4a52')],'note_zh':'作者将该图归因于 Seedream 5.5 并称其为 GTA 风格画面；它不是经证实的官方游戏截图。帖子发表于 2026-11-07，模型版本仅为作者自报。完整提示词未核得。','note_en':'The creator attributes this GTA-style image to Seedream 5.5; it is not a verified official game screenshot. The post dates to 2026-11-07 and model attribution is self-reported. A complete prompt was not retrieved.'},
+            {'id':'social06-dheepan-three-local-edits','author':'Dheepanratnam','post':'2119803435461599638','category':'multi-turn-editing','zh':'花卉、窗帘与光线：三项独立局部编辑','en':'Flowers, curtains and light: three separate local edits','expected':[('2119802689697538048','6968a3f17d85330d86ff6e855ed72d1d86d1bf6d21561d0fbe196013e16bc4dc'),('2119803155286245376','a9946f8919db2100bf51eeaaca5df1292fc1f32fdf9c960e1b2f3c1d777201b3'),('2119803189859962882','2578ba653e30271d7af8a3b36cdb212f302e5436aabd12064989b2af864c79e0'),('2119803207404711936','25a3076ea0184ace6f05e0d4a8f855a1b6b95e345e13c5a8a5ec6ed9cabfd8a0')],'note_zh':'第一张为基础图，其后三张分别修改花卉、窗帘和光线。原作者写明是三项独立编辑，不能据此称为串联三轮实验。原帖公开的步骤原文为 “Change the flowers / Change the curtains / Change the lighting”；这是操作摘要，不是已核实的完整执行提示词。','note_en':'The first image is the base, followed by separate flower, curtain and lighting edits. The author explicitly describes separate edits, not a three-round chain. Published workflow wording: “Change the flowers / Change the curtains / Change the lighting”. These are action summaries, not a verified complete execution prompt.','public_steps':['Change the flowers','Change the curtains','Change the lighting']}
+          ]
+          def retrieve(url,limit):
+            last=None
+            for attempt in range(3):
+              try:
+                request=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
+                with urllib.request.urlopen(request,timeout=30) as response:
+                  if urlsplit(response.geturl()).hostname not in ('api.fxtwitter.com','pbs.twimg.com'):raise ValueError('unexpected redirect')
+                  raw=response.read(limit+1)
+                if len(raw)>limit:raise ValueError('response too large')
+                return raw
+              except Exception as exc:
+                last=exc;time.sleep(attempt+1)
+            raise RuntimeError(str(last))
+          cases_path=ROOT/'content/cases.json';report_path=ROOT/'docs/media-check.json'
+          cases=json.loads(cases_path.read_text());report=json.loads(report_path.read_text())
+          initial_count=len(cases);initial_prompts=sum(c['prompt']['status']=='original' for c in cases)
+          known_posts={re.search(r'/status/(\d+)',c['source_url']).group(1) for c in cases if re.search(r'/status/(\d+)',c['source_url'])}
+          known_urls={m['url'].split('?')[0] for c in cases for m in c['media']}
+          known_ids={str(m.get('origin_media_id') or m.get('original_media_id') or '') for c in cases for m in c['media']}
+          checks={i['preview']:i for i in report['items']}
+          additions=[];staged=[]
+          Image.MAX_IMAGE_PIXELS=48000000
+          for spec in SPECS:
+            if spec['post'] in known_posts:raise ValueError('duplicate source post '+spec['post'])
+            source_url='https://x.com/'+spec['author']+'/status/'+spec['post']
+            tweet=json.loads(retrieve('https://api.fxtwitter.com/'+spec['author']+'/status/'+spec['post'],2000000))['tweet']
+            if tweet['author']['screen_name'].lower()!=spec['author'].lower():raise ValueError('author mismatch')
+            body=tweet.get('text','')
+            if not re.search(r'seedream[\s_.-]*5[\s_.-]*5',body,re.I):raise ValueError('model attribution missing')
+            photos={str(p['id']):p for p in (tweet.get('media') or {}).get('photos',[])}
+            media=[];evidence=[]
+            for number,(media_id,approved_sha) in enumerate(spec['expected'],1):
+              if media_id not in photos:raise ValueError('reviewed media no longer belongs to source post')
+              photo=photos[media_id];url=photo['url']
+              p=urlsplit(url)
+              if p.scheme!='https' or p.hostname!='pbs.twimg.com' or not p.path.startswith('/media/'):raise ValueError('invalid source host')
+              if url.split('?')[0] in known_urls or media_id in known_ids:raise ValueError('duplicate media')
+              raw=retrieve(url,16000000);actual_sha=hashlib.sha256(raw).hexdigest()
+              if actual_sha!=approved_sha:raise ValueError('source bytes changed since visual review')
+              with Image.open(io.BytesIO(raw)) as source:
+                if source.format not in ('JPEG','PNG','WEBP'):raise ValueError('invalid source type')
+                original_size=list(source.size)
+                image=ImageOps.exif_transpose(source).convert('RGB');image.thumbnail((640,640))
+                output=io.BytesIO();image.save(output,'JPEG',quality=82,optimize=True);jpg=output.getvalue()
+                width,height=image.size
+              with Image.open(io.BytesIO(jpg)) as verify:verify.verify()
+              if not 1024<len(jpg)<512*1024:raise ValueError('invalid preview size')
+              path='assets/previews/'+spec['id']+'-'+str(number).zfill(2)+'.jpg'
+              staged.append((ROOT/path,jpg))
+              checks[path]={'preview':path,'status':'decoded-preview','bytes':len(jpg),'sha256':hashlib.sha256(jpg).hexdigest(),'codec_name':'mjpeg','width':width,'height':height}
+              media.append({'url':url,'type':'image','rights':'rights-reserved','delivery':'local-preview-with-source-link','preview':path,'preview_transform':'reviewed-source-X-photo-resized-to-fit-640px-jpeg','origin_media_id':media_id,'origin_alt':photo.get('altText') or ''})
+              evidence.append({'media_id':media_id,'url':url,'source_sha256':actual_sha,'source_dimensions':original_size,'preview':path,'preview_sha256':checks[path]['sha256'],'bytes':len(jpg),'label':photo.get('altText')})
+              known_urls.add(url.split('?')[0]);known_ids.add(media_id)
+            entry={'id':spec['id'],'title':{'zh-CN':spec['zh'],'en':spec['en']},'category':spec['category'],'author':spec['author'],'source_url':source_url,'source_type':'creator-reported','model':'Seedream 5.5','model_evidence':'author-post-and-source-photo-IDs-verified; model-execution-not-independently-verified','checked_at':'2026-11-10','published_at':tweet.get('created_at'),'reproduced':False,'prompt':{'status':'source-linked','url':source_url,'text':None},'caveat':{'zh-CN':spec['note_zh'],'en':spec['note_en']},'media':media}
+            if spec.get('public_steps'):entry['published_workflow_steps']=spec['public_steps']
+            cases.append(entry);known_posts.add(spec['post'])
+            additions.append({'id':spec['id'],'title':entry['title'],'source_url':source_url,'author':spec['author'],'published_at':tweet.get('created_at'),'media':evidence,'complete_original_prompt_retrieved':False,'published_workflow_steps':spec.get('public_steps',[]),'visually_reviewed':True})
+          assert len(additions)==5 and len(staged)==10
+          for path,jpg in staged:path.write_bytes(jpg)
+          cases_path.write_text(json.dumps(cases,ensure_ascii=False,indent=2)+'\n')
+          report['items']=sorted(checks.values(),key=lambda i:i['preview'])
+          report_path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          audit={'batch':6,'checked_at':'2026-11-10','discovery':['https://agi-labo.com/radar?m=image','https://picyep.com/seedream-5-5','https://teapaw.org/KakiponzuX','https://teapaw.org/lyraxana','https://teapaw.org/Dheepanratnam'],'verification':'Original X author, version self-attribution, photo IDs, reviewed source-byte hashes, JPEG decode and local preview hashes checked. No independent model run.','visual_review_artifact_run':42829826917,'cases_added':5,'preview_files_added':10,'complete_prompts_added':0,'workflow_summaries_added':1,'before_cases':initial_count,'after_cases':len(cases),'before_complete_prompts':initial_prompts,'after_complete_prompts':sum(c['prompt']['status']=='original' for c in cases),'added':additions,'excluded':[{'url':'https://x.com/lyraxana/status/2119716289581334969','reason':'Benchmark chart, not a newly generated creator example'},{'url':'https://x.com/KakiponzuX/status/2119801752656531616','reason':'Omitted after editorial visual review; not needed for this public showcase'}],'media_rights':'Third-party rights retained; repository code license does not grant rights to creator media.'}
+          (ROOT/'docs/social-source-batch06-audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
+          doc=['# 第六批：社交媒体图片案例','', '**5 个新案例 · 10 张本地 JPEG 预览 · 完整原始 Prompt 新增 0 条**','', '本批按原帖计数，均保留作者、单帖地址、原媒体地址和图片校验值。先视觉检查，再按原媒体字节哈希确认下载副本。没有把未取得的完整提示词写成已公开全文。','', '| 案例 | 作者 | 配图数 |','| --- | --- | ---: |']
+          for a in additions:doc.append('| ['+a['title']['zh-CN']+'](../cases/'+a['id']+'/README.zh-CN.md) | @'+a['author']+' | '+str(len(a['media']))+' |')
+          doc+=['','## 阅读提示','','跨模型图按原帖的顺序、ALT 或拼图标签辨认；并非每一张都是 Seedream 输出。两条 11 月 7 日早期帖子仅按作者的版本自报记录，不作为模型正式上线证明。花卉、窗帘、光线案例是三项独立修改，不是同图串联三轮。','','作者公开的操作摘要：','', '```text','Change the flowers','Change the curtains','Change the lighting','```','','以上只是原帖中的三项操作说明，不是已核实的完整执行提示词。','','核验明细见 [JSON 记录](social-source-batch06-audit.json)。第三方媒体权利归原权利人；本仓库仅保存压缩预览与出处。','']
+          (ROOT/'docs/SOCIAL-BATCH06.md').write_text('\n'.join(doc))
+          sources=ROOT/'docs/SOURCES.md'
+          sources.write_text(sources.read_text().rstrip()+'\n\n## 第六批：已核对原帖配图的新案例（2026-11-10）\n\n新增 5 个源帖案例、10 张本地预览；参见 [批次说明](SOCIAL-BATCH06.md) 和 [媒体校验记录](social-source-batch06-audit.json)。包括风格控制、三模型奇幻人物对比、游戏式街景与三项独立局部编辑。完整原始 Prompt 本批没有新增；一份作者公开的三步操作摘要与完整 Prompt 分开记录。\n')
+          subprocess.run(['python3','scripts/build.py'],check=True)
+          subprocess.run(['python3','scripts/build.py','--check'],check=True)
+          subprocess.run(['python3','scripts/validate.py'],check=True)
+          print('IMPORT_RESULT',json.dumps({'cases_added':5,'photos_added':10,'total_cases':len(cases),'new_full_prompts':0,'workflow_summaries':1},ensure_ascii=False))
           PY
-      - uses: actions/upload-artifact@v4
-        with:
-          name: seedream-b06-visual-review
-          path: /tmp/seedream-review/
-          retention-days: 1
+      - name: Commit verified data and images
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/cases.json docs/media-check.json docs/SOURCES.md docs/SOCIAL-BATCH06.md docs/social-source-batch06-audit.json README.md README.zh-CN.md cases/ assets/previews/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: add five reviewed social cases with ten real image previews [skip ci]"
+            git push origin HEAD:$GITHUB_REF_NAME
+          fi
