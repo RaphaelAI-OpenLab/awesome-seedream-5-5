@@ -96,7 +96,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 #### [多轮编辑人物与小字 GIF](cases/social05-xiaohu-thirty-round-gif/README.zh-CN.md)
 
-<a href="cases/social05-xiaohu-thirty-round-gif/README.zh-CN.md"><img src="assets/previews/social05-xiaohu-thirty-round-gif-video-01.jpg" alt="多轮编辑人物与小字 GIF" width="420" loading="lazy" /></a>
+<a href="cases/social05-xiaohu-thirty-round-gif/README.zh-CN.md"><img src="assets/animations/social05-xiaohu-thirty-round-gif.gif" alt="多轮编辑人物与小字 GIF" width="420" loading="lazy" /></a>
 
 作者自报 · xiaohu · [原始来源](https://x.com/xiaohu/status/2119774478788141417) · [详情与提示词状态](cases/social05-xiaohu-thirty-round-gif/README.zh-CN.md)
 
@@ -104,7 +104,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 #### [街景六次天气场景连续编辑](cases/social05-sjonkerr-street-weather-edit/README.zh-CN.md)
 
-<a href="cases/social05-sjonkerr-street-weather-edit/README.zh-CN.md"><img src="assets/previews/social05-sjonkerr-street-weather-edit-video-01.jpg" alt="街景六次天气场景连续编辑" width="420" loading="lazy" /></a>
+<a href="cases/social05-sjonkerr-street-weather-edit/README.zh-CN.md"><img src="assets/animations/social05-sjonkerr-street-weather-edit.gif" alt="街景六次天气场景连续编辑" width="420" loading="lazy" /></a>
 
 作者自报 · Sjonkerr · [原始来源](https://x.com/Sjonkerr/status/2119904922703438173) · [详情与提示词状态](cases/social05-sjonkerr-street-weather-edit/README.zh-CN.md)
 
@@ -112,7 +112,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 #### [Morphic 中的角色表情多轮编辑](cases/social05-opener-morphic-character/README.zh-CN.md)
 
-<a href="cases/social05-opener-morphic-character/README.zh-CN.md"><img src="assets/previews/social05-opener-morphic-character-video-01.jpg" alt="Morphic 中的角色表情多轮编辑" width="420" loading="lazy" /></a>
+<a href="cases/social05-opener-morphic-character/README.zh-CN.md"><img src="assets/animations/social05-opener-morphic-character.gif" alt="Morphic 中的角色表情多轮编辑" width="420" loading="lazy" /></a>
 
 作者自报 · opener_ai · [原始来源](https://x.com/opener_ai/status/2119942433412931907) · [详情与提示词状态](cases/social05-opener-morphic-character/README.zh-CN.md)
 
@@ -120,7 +120,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 #### [五模型15轮连续修图对比](cases/social05-vortex-fifteen-round-compare/README.zh-CN.md)
 
-<a href="cases/social05-vortex-fifteen-round-compare/README.zh-CN.md"><img src="assets/previews/social05-vortex-fifteen-round-compare-video-01.jpg" alt="五模型15轮连续修图对比" width="420" loading="lazy" /></a>
+<a href="cases/social05-vortex-fifteen-round-compare/README.zh-CN.md"><img src="assets/animations/social05-vortex-fifteen-round-compare.gif" alt="五模型15轮连续修图对比" width="420" loading="lazy" /></a>
 
 作者自报 · VORTEX_Promos · [原始来源](https://x.com/VORTEX_Promos/status/2119928374235701452) · [详情与提示词状态](cases/social05-vortex-fifteen-round-compare/README.zh-CN.md)
 
@@ -397,7 +397,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 #### [钟表匠、森林地表与汽水质感](cases/social05-kevin-watchmaker-forest/README.zh-CN.md)
 
-<a href="cases/social05-kevin-watchmaker-forest/README.zh-CN.md"><img src="assets/previews/social05-kevin-watchmaker-forest-01.jpg" alt="钟表匠、森林地表与汽水质感" width="420" loading="lazy" /></a>
+<a href="cases/social05-kevin-watchmaker-forest/README.zh-CN.md"><img src="assets/animations/social05-kevin-watchmaker-forest.gif" alt="钟表匠、森林地表与汽水质感" width="420" loading="lazy" /></a>
 
 作者自报 · kevinchin35 · [原始来源](https://x.com/kevinchin35/status/2119747692427628777) · [详情与提示词状态](cases/social05-kevin-watchmaker-forest/README.zh-CN.md)
 
@@ -593,7 +593,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 #### [蜡笔火鸡变成真实火鸡混合模型短片](cases/social05-larklee-turkey-mixed-workflow/README.zh-CN.md)
 
-<a href="cases/social05-larklee-turkey-mixed-workflow/README.zh-CN.md"><img src="assets/previews/social05-larklee-turkey-mixed-workflow-02.jpg" alt="蜡笔火鸡变成真实火鸡混合模型短片" width="420" loading="lazy" /></a>
+<a href="cases/social05-larklee-turkey-mixed-workflow/README.zh-CN.md"><img src="assets/animations/social05-larklee-turkey-mixed-workflow.gif" alt="蜡笔火鸡变成真实火鸡混合模型短片" width="420" loading="lazy" /></a>
 
 作者自报 · larklee5 · [原始来源](https://x.com/larklee5/status/2119985661939974450) · [详情与提示词状态](cases/social05-larklee-turkey-mixed-workflow/README.zh-CN.md)
 

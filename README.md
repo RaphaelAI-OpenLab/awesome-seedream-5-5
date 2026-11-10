@@ -96,7 +96,7 @@ Creator-reported · DDJCXX · [Source](https://x.com/DDJCXX/status/2119766551436
 
 #### [Thirty-round character and text edit GIF](cases/social05-xiaohu-thirty-round-gif/README.md)
 
-<a href="cases/social05-xiaohu-thirty-round-gif/README.md"><img src="assets/previews/social05-xiaohu-thirty-round-gif-video-01.jpg" alt="Thirty-round character and text edit GIF" width="420" loading="lazy" /></a>
+<a href="cases/social05-xiaohu-thirty-round-gif/README.md"><img src="assets/animations/social05-xiaohu-thirty-round-gif.gif" alt="Thirty-round character and text edit GIF" width="420" loading="lazy" /></a>
 
 Creator-reported · xiaohu · [Source](https://x.com/xiaohu/status/2119774478788141417) · [Details & prompt status](cases/social05-xiaohu-thirty-round-gif/README.md)
 
@@ -104,7 +104,7 @@ Creator-reported · xiaohu · [Source](https://x.com/xiaohu/status/2119774478788
 
 #### [Six-step street weather edit to video](cases/social05-sjonkerr-street-weather-edit/README.md)
 
-<a href="cases/social05-sjonkerr-street-weather-edit/README.md"><img src="assets/previews/social05-sjonkerr-street-weather-edit-video-01.jpg" alt="Six-step street weather edit to video" width="420" loading="lazy" /></a>
+<a href="cases/social05-sjonkerr-street-weather-edit/README.md"><img src="assets/animations/social05-sjonkerr-street-weather-edit.gif" alt="Six-step street weather edit to video" width="420" loading="lazy" /></a>
 
 Creator-reported · Sjonkerr · [Source](https://x.com/Sjonkerr/status/2119904922703438173) · [Details & prompt status](cases/social05-sjonkerr-street-weather-edit/README.md)
 
@@ -112,7 +112,7 @@ Creator-reported · Sjonkerr · [Source](https://x.com/Sjonkerr/status/211990492
 
 #### [Morphic character expression editing](cases/social05-opener-morphic-character/README.md)
 
-<a href="cases/social05-opener-morphic-character/README.md"><img src="assets/previews/social05-opener-morphic-character-video-01.jpg" alt="Morphic character expression editing" width="420" loading="lazy" /></a>
+<a href="cases/social05-opener-morphic-character/README.md"><img src="assets/animations/social05-opener-morphic-character.gif" alt="Morphic character expression editing" width="420" loading="lazy" /></a>
 
 Creator-reported · opener_ai · [Source](https://x.com/opener_ai/status/2119942433412931907) · [Details & prompt status](cases/social05-opener-morphic-character/README.md)
 
@@ -120,7 +120,7 @@ Creator-reported · opener_ai · [Source](https://x.com/opener_ai/status/2119942
 
 #### [Five-model 15-round image-edit comparison](cases/social05-vortex-fifteen-round-compare/README.md)
 
-<a href="cases/social05-vortex-fifteen-round-compare/README.md"><img src="assets/previews/social05-vortex-fifteen-round-compare-video-01.jpg" alt="Five-model 15-round image-edit comparison" width="420" loading="lazy" /></a>
+<a href="cases/social05-vortex-fifteen-round-compare/README.md"><img src="assets/animations/social05-vortex-fifteen-round-compare.gif" alt="Five-model 15-round image-edit comparison" width="420" loading="lazy" /></a>
 
 Creator-reported · VORTEX_Promos · [Source](https://x.com/VORTEX_Promos/status/2119928374235701452) · [Details & prompt status](cases/social05-vortex-fifteen-round-compare/README.md)
 
@@ -397,7 +397,7 @@ Creator-reported · DrSadek_ · [Source](https://x.com/DrSadek_/status/211978831
 
 #### [Watchmaker, forest floor and fizzy water](cases/social05-kevin-watchmaker-forest/README.md)
 
-<a href="cases/social05-kevin-watchmaker-forest/README.md"><img src="assets/previews/social05-kevin-watchmaker-forest-01.jpg" alt="Watchmaker, forest floor and fizzy water" width="420" loading="lazy" /></a>
+<a href="cases/social05-kevin-watchmaker-forest/README.md"><img src="assets/animations/social05-kevin-watchmaker-forest.gif" alt="Watchmaker, forest floor and fizzy water" width="420" loading="lazy" /></a>
 
 Creator-reported · kevinchin35 · [Source](https://x.com/kevinchin35/status/2119747692427628777) · [Details & prompt status](cases/social05-kevin-watchmaker-forest/README.md)
 
@@ -593,7 +593,7 @@ Creator-reported · AI_Timemachine · [Source](https://x.com/AI_Timemachine/stat
 
 #### [Crayon turkey mixed-model production](cases/social05-larklee-turkey-mixed-workflow/README.md)
 
-<a href="cases/social05-larklee-turkey-mixed-workflow/README.md"><img src="assets/previews/social05-larklee-turkey-mixed-workflow-02.jpg" alt="Crayon turkey mixed-model production" width="420" loading="lazy" /></a>
+<a href="cases/social05-larklee-turkey-mixed-workflow/README.md"><img src="assets/animations/social05-larklee-turkey-mixed-workflow.gif" alt="Crayon turkey mixed-model production" width="420" loading="lazy" /></a>
 
 Creator-reported · larklee5 · [Source](https://x.com/larklee5/status/2119985661939974450) · [Details & prompt status](cases/social05-larklee-turkey-mixed-workflow/README.md)
 

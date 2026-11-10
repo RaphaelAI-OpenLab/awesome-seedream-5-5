@@ -68,7 +68,7 @@ def render(lang):
             name, media = c['title'][lang], c['media'][0]
             page = f'cases/{c["id"]}/{file_for(lang)}'
             status = choose('官方展示', 'Official demo') if c['source_type'] == 'official' else choose('作者自报', 'Creator-reported')
-            image = f'<a href="{page}"><img src="{media["preview"]}" alt="{html.escape(name, quote=True)}" width="420" loading="lazy" /></a>'
+            image = f'<a href="{page}"><img src="{c.get("animation_preview", media["preview"])}" alt="{html.escape(name, quote=True)}" width="420" loading="lazy" /></a>'
             lines += [f'#### [{name}]({page})', '', image, '',
                       f'{status} · {c["author"]} · [{choose("原始来源", "Source")}]({c["source_url"]}) · [{choose("详情与提示词状态", "Details & prompt status")}]({page})', '']
             if c.get('caveat'):

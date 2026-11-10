@@ -47,6 +47,7 @@ def validate():
                     '动画预览路径无效')
             require((ROOT / anim).is_file() and 1000 < (ROOT / anim).stat().st_size < 3 * 1024 * 1024,
                     '动图预览缺失或超限')
+            require((ROOT / anim).read_bytes()[:6] in (b'GIF87a', b'GIF89a'), '动图格式不正确')
         for m in c['media']:
             require(https(m['url']), '媒体地址无效')
             require(m['delivery'] == 'local-preview-with-source-link' and m['rights'] == 'rights-reserved', '媒体许可状态不正确')
