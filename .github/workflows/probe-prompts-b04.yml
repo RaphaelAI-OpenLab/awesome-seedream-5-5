@@ -1,0 +1,13 @@
+name: Inspect public X prompts (temporary)
+on:
+  push:
+    branches: [research/seedream55-creator-gallery-b04]
+permissions:
+  contents: read
+jobs:
+  prompt-check:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/probe_prompts_b04.py
