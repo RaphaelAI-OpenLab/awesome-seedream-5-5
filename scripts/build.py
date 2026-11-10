@@ -34,8 +34,8 @@ def render(lang):
         '[English](README.md) · [简体中文](README.zh-CN.md)', '',
         choose('由 Raphael 整理的图片与编辑案例库。官方展示、作者自报结果与本仓库编写的练习提示词分别标记。',
                'A visual reference collection by Raphael. Official demos, creator-reported outputs and original practice recipes are labeled separately.'), '',
-        choose(f'**{len(cases)} 个来源案例 · {len(categories)} 个分类 · {len(recipes)} 份原创练习配方 · {len(social)} 条已核对社媒来源（{unique_social} 份不同素材）**',
-               f'**{len(cases)} sourced cases · {len(categories)} categories · {len(recipes)} original practice recipes · {len(social)} checked social posts ({unique_social} distinct media items)**'), '',
+        choose(f'**{len(cases)} 个来源案例 · {len(categories)} 个分类 · {len(recipes)} 份原创练习配方 · {len(social)} 条独立追踪的发布帖（{unique_social} 份不同媒体）**',
+               f'**{len(cases)} sourced cases · {len(categories)} categories · {len(recipes)} original practice recipes · {len(social)} separately tracked launch posts ({unique_social} distinct media items)**'), '',
         choose('案例未由本仓库独立复现。仓库只保存缩放后的单帧预览，完整图片、GIF 与视频链接至原始地址；第三方媒体及其预览的版权归原权利人。',
                'Cases have not been independently reproduced here. Only reduced single-frame previews are bundled; full images, GIFs and videos are linked at their origins. Third-party media and previews retain their owners’ rights.'), '',
         choose('[浏览案例](#cases) · [练习提示词](#recipes) · [社媒原帖](#social) · [投稿](CONTRIBUTING.md) · [来源与核验](docs/SOURCES.md)',
@@ -81,6 +81,13 @@ def render(lang):
                       choose('以上为缩放后的代表帧预览，不是完整动画或可用的透明素材导出文件。', 'This is a reduced representative-frame preview, not a complete animation or an exported transparent asset.'), '',
                       f'[{choose("打开原始媒体", "Open original media")}]({media["url"]})', '',
                       '## ' + choose('提示词', 'Prompt'), '']
+            if len(c['media']) > 1:
+                gallery = ['', '## ' + choose('同一原帖的更多图片', 'More photos from the original post'), '']
+                for number, frame in enumerate(c['media'][1:], 2):
+                    gallery += [f'**{choose("配图", "Image")} {number}**', '',
+                                f'![{name} - {number}](../../{frame["preview"]})', '',
+                                f'[{choose("原媒体", "Source media")}]({frame["url"]})', '']
+                detail[-2:-2] = gallery
             if prompt['status'] == 'original':
                 detail += ['```text', prompt['text'], '```', '',
                            choose('以上为来源公开、归因于作者的提示词；本站未独立复现，请对照原作者帖文确认二次转录。', 'The prompt is attributed to the creator by the source curator; no independent reproduction was performed.'), '']

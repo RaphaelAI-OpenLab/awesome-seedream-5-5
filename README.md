@@ -10,7 +10,7 @@
 
 A visual reference collection by Raphael. Official demos, creator-reported outputs and original practice recipes are labeled separately.
 
-**35 sourced cases · 8 categories · 8 original practice recipes · 3 checked social posts (2 distinct media items)**
+**59 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
 
 Cases have not been independently reproduced here. Only reduced single-frame previews are bundled; full images, GIFs and videos are linked at their origins. Third-party media and previews retain their owners’ rights.
 
@@ -27,8 +27,8 @@ Seedream 5.5 was announced on **2026-11-09**. See the [official model page](http
 | Item | Count |
 | --- | ---: |
 | Official-source cases | 20 |
-| Creator-reported cases | 15 |
-| Complete original source prompts included | 8 |
+| Creator-reported cases | 39 |
+| Complete original source prompts included | 14 |
 | Independently reproduced cases | 0 |
 | Sources checked | 2026-11-10 |
 
@@ -39,14 +39,14 @@ Edit rounds are grouped as one case. Duplicate social videos do not increase the
 
 | Category | Cases |
 | --- | ---: |
-| [Multi-turn & targeted editing](#multi-turn-editing) | 4 |
-| [Transparent assets](#rgba-assets) | 5 |
+| [Multi-turn & targeted editing](#multi-turn-editing) | 5 |
+| [Transparent assets](#rgba-assets) | 9 |
 | [Portraits](#portraits) | 2 |
-| [Photography & documentary](#photography) | 7 |
+| [Photography & documentary](#photography) | 20 |
 | [Interiors & space](#interiors) | 1 |
-| [Text & typography](#typography) | 9 |
+| [Text & typography](#typography) | 11 |
 | [Infographics & interfaces](#infographics) | 4 |
-| [Characters & stickers](#characters) | 3 |
+| [Characters & stickers](#characters) | 7 |
 
 <a id="cases"></a>
 ## All cases
@@ -77,6 +77,14 @@ Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedre
 <a href="cases/quantslant-note-edit/README.md"><img src="assets/previews/quantslant-note-edit.jpg" alt="Paper-note edit" width="420" loading="lazy" /></a>
 
 Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-note-edit/README.md)
+
+#### [LLM diagram after 30 edits](cases/socialx-llm-diagram-edits/README.md)
+
+<a href="cases/socialx-llm-diagram-edits/README.md"><img src="assets/previews/socialx-llm-diagram-edits-01.jpg" alt="LLM diagram after 30 edits" width="420" loading="lazy" /></a>
+
+Creator-reported · dongxi_nlp · [Source](https://x.com/dongxi_nlp/status/2120031669893939524) · [Details & prompt status](cases/socialx-llm-diagram-edits/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. An LLM explanation diagram that the creator says was revised thirty times.
 
 <a id="rgba-assets"></a>
 ### Transparent assets
@@ -116,6 +124,38 @@ Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status
 Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Details & prompt status](cases/social-dheepan-streetwear-cutout/README.md)
 
 > Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. JPEG does not verify the source alpha channel.
+
+#### [Transparent character in two finishes](cases/socialx-transparent-character/README.md)
+
+<a href="cases/socialx-transparent-character/README.md"><img src="assets/previews/socialx-transparent-character-01.jpg" alt="Transparent character in two finishes" width="420" loading="lazy" /></a>
+
+Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119979776651710778) · [Details & prompt status](cases/socialx-transparent-character/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha. An illustration/photoreal transparency test. The creator reports some outputs lost alpha; the shown checkerboard is a composite preview. The author shared the transparency prompt suffix, not the entire base identity prompt.
+
+#### [Glass jellyfish lamp](cases/socialx-glass-jellyfish-lamp/README.md)
+
+<a href="cases/socialx-glass-jellyfish-lamp/README.md"><img src="assets/previews/socialx-glass-jellyfish-lamp-01.jpg" alt="Glass jellyfish lamp" width="420" loading="lazy" /></a>
+
+Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/status/2119920477535719739) · [Details & prompt status](cases/socialx-glass-jellyfish-lamp/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha. A glass-lamp transparency example with a prompt at source. The displayed image alone does not verify an alpha channel.
+
+#### [Frosted acrylic sheet](cases/social-dheepan-frosted-acrylic/README.md)
+
+<a href="cases/social-dheepan-frosted-acrylic/README.md"><img src="assets/previews/social-dheepan-frosted-acrylic-01.jpg" alt="Frosted acrylic sheet" width="420" loading="lazy" /></a>
+
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Details & prompt status](cases/social-dheepan-frosted-acrylic/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha.
+
+#### [Chrome ribbon logo](cases/social-dheepan-chrome-ribbon/README.md)
+
+<a href="cases/social-dheepan-chrome-ribbon/README.md"><img src="assets/previews/social-dheepan-chrome-ribbon-01.jpg" alt="Chrome ribbon logo" width="420" loading="lazy" /></a>
+
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Details & prompt status](cases/social-dheepan-chrome-ribbon/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha.
 
 <a id="portraits"></a>
 ### Portraits
@@ -178,6 +218,110 @@ Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.
 Creator-reported · genel_ai · [Source](https://x.com/genel_ai/status/2119786434567827504) · [Details & prompt status](cases/social-genel-japanese-deli/README.md)
 
 > Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. This is a 3-model collage, with Seedream 5.5 at left.
+
+#### [Skin texture study](cases/socialx-skin-texture-test/README.md)
+
+<a href="cases/socialx-skin-texture-test/README.md"><img src="assets/previews/socialx-skin-texture-test-01.jpg" alt="Skin texture study" width="420" loading="lazy" /></a>
+
+Creator-reported · oden_ai_ai · [Source](https://x.com/oden_ai_ai/status/2120015332530393282) · [Details & prompt status](cases/socialx-skin-texture-test/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator-shared image testing the model's skin rendering.
+
+#### [Four-model portrait study](cases/socialx-four-model-portrait/README.md)
+
+<a href="cases/socialx-four-model-portrait/README.md"><img src="assets/previews/socialx-four-model-portrait-01.jpg" alt="Four-model portrait study" width="420" loading="lazy" /></a>
+
+Creator-reported · 94vanAI · [Source](https://x.com/94vanAI/status/2119938579078238370) · [Details & prompt status](cases/socialx-four-model-portrait/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The creator identifies image one as Seedream, followed by ChatGPT, Gemini and Grok, and discusses limitations as well as strengths.
+
+#### [Same-prompt texture comparison](cases/socialx-same-prompt-texture/README.md)
+
+<a href="cases/socialx-same-prompt-texture/README.md"><img src="assets/previews/socialx-same-prompt-texture-01.jpg" alt="Same-prompt texture comparison" width="420" loading="lazy" /></a>
+
+Creator-reported · PowerUpInvest · [Source](https://x.com/PowerUpInvest/status/2119971057650262386) · [Details & prompt status](cases/socialx-same-prompt-texture/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator comparison with GPT Image 2.6 focused on image texture; model labels remain as stated in the post.
+
+#### [Three-model output comparison](cases/socialx-three-model-output/README.md)
+
+<a href="cases/socialx-three-model-output/README.md"><img src="assets/previews/socialx-three-model-output-01.jpg" alt="Three-model output comparison" width="420" loading="lazy" /></a>
+
+Creator-reported · Yuziyyaa · [Source](https://x.com/Yuziyyaa/status/2119991511433814093) · [Details & prompt status](cases/socialx-three-model-output/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The author lists GPT Images 2.6, Seedream 5.0 Pro and Seedream 5.5 in image order.
+
+#### [Window-light film portrait](cases/socialx-window-light-portrait/README.md)
+
+<a href="cases/socialx-window-light-portrait/README.md"><img src="assets/previews/socialx-window-light-portrait-01.jpg" alt="Window-light film portrait" width="420" loading="lazy" /></a>
+
+Creator-reported · nima2qisi2 · [Source](https://x.com/nima2qisi2/status/2119983938383106432) · [Details & prompt status](cases/socialx-window-light-portrait/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A portrait series with window lighting and film styling; the source includes the creator's prompt.
+
+#### [Vintage cinematic stills](cases/socialx-vintage-cinema/README.md)
+
+<a href="cases/socialx-vintage-cinema/README.md"><img src="assets/previews/socialx-vintage-cinema-01.jpg" alt="Vintage cinematic stills" width="420" loading="lazy" /></a>
+
+Creator-reported · ChrisGwinnLA · [Source](https://x.com/ChrisGwinnLA/status/2119979699464286506) · [Details & prompt status](cases/socialx-vintage-cinema/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. Four vintage-style images in one creator post, counted as one collection example.
+
+#### [Seedream and MiniMax H3 still-frame comparison](cases/socialx-h3-frame-comparison/README.md)
+
+<a href="cases/socialx-h3-frame-comparison/README.md"><img src="assets/previews/socialx-h3-frame-comparison-01.jpg" alt="Seedream and MiniMax H3 still-frame comparison" width="420" loading="lazy" /></a>
+
+Creator-reported · JSFILMZ0412 · [Source](https://x.com/JSFILMZ0412/status/2119889824274640957) · [Details & prompt status](cases/socialx-h3-frame-comparison/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. Two 2K still images without post-processing, as reported by the creator. The separate H3 video is not counted as a Seedream result.
+
+#### [Elf portrait material study](cases/socialx-elf-material-study/README.md)
+
+<a href="cases/socialx-elf-material-study/README.md"><img src="assets/previews/socialx-elf-material-study-01.jpg" alt="Elf portrait material study" width="420" loading="lazy" /></a>
+
+Creator-reported · nanyuan0412 · [Source](https://x.com/nanyuan0412/status/2119879195115332042) · [Details & prompt status](cases/socialx-elf-material-study/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A single-image study of skin, fabric and light; the creator explicitly says extended editing was not tested.
+
+#### [Winter portrait comparison](cases/socialx-winter-portrait-comparison/README.md)
+
+<a href="cases/socialx-winter-portrait-comparison/README.md"><img src="assets/previews/socialx-winter-portrait-comparison-01.jpg" alt="Winter portrait comparison" width="420" loading="lazy" /></a>
+
+Creator-reported · 0kncn · [Source](https://x.com/0kncn/status/2119878902344823069) · [Details & prompt status](cases/socialx-winter-portrait-comparison/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The creator compares the same portrait brief across GPT Image 2.5, Seedream 5.5 and Nano Banana 2.1.
+
+#### [Photoreal image set](cases/socialx-photoreal-image-set/README.md)
+
+<a href="cases/socialx-photoreal-image-set/README.md"><img src="assets/previews/socialx-photoreal-image-set-01.jpg" alt="Photoreal image set" width="420" loading="lazy" /></a>
+
+Creator-reported · uixmax · [Source](https://x.com/uixmax/status/2119894564073054374) · [Details & prompt status](cases/socialx-photoreal-image-set/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator's four-image photorealism test, kept together as one source example.
+
+#### [Portrait model-order comparison](cases/socialx-three-model-portrait-order/README.md)
+
+<a href="cases/socialx-three-model-portrait-order/README.md"><img src="assets/previews/socialx-three-model-portrait-order-01.jpg" alt="Portrait model-order comparison" width="420" loading="lazy" /></a>
+
+Creator-reported · foretyyt · [Source](https://x.com/foretyyt/status/2119894502588452933) · [Details & prompt status](cases/socialx-three-model-portrait-order/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The author labels image one Seedream 5.5, image two Image 2.5 and image three Nano Banana 2.1.
+
+#### [Shared brief with GPT Image 2.6](cases/socialx-gpt26-same-brief/README.md)
+
+<a href="cases/socialx-gpt26-same-brief/README.md"><img src="assets/previews/socialx-gpt26-same-brief-01.jpg" alt="Shared brief with GPT Image 2.6" width="420" loading="lazy" /></a>
+
+Creator-reported · arito_si · [Source](https://x.com/arito_si/status/2119890337699364975) · [Details & prompt status](cases/socialx-gpt26-same-brief/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. A creator reports testing Seedream 5.5 and GPT Image 2.6 with the same prompt set.
+
+#### [Fisherman at blue hour](cases/socialx-blue-hour-fisherman/README.md)
+
+<a href="cases/socialx-blue-hour-fisherman/README.md"><img src="assets/previews/socialx-blue-hour-fisherman-01.jpg" alt="Fisherman at blue hour" width="420" loading="lazy" /></a>
+
+Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/status/2119922071916757233) · [Details & prompt status](cases/socialx-blue-hour-fisherman/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A documentary-style portrait combining cool ambient light with a warm lamp; the original prompt is at source.
 
 <a id="interiors"></a>
 ### Interiors & space
@@ -255,6 +399,22 @@ Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status
 
 > Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export.
 
+#### [Dense text across model versions](cases/socialx-dense-text-comparison/README.md)
+
+<a href="cases/socialx-dense-text-comparison/README.md"><img src="assets/previews/socialx-dense-text-comparison-01.jpg" alt="Dense text across model versions" width="420" loading="lazy" /></a>
+
+Creator-reported · 94vanAI · [Source](https://x.com/94vanAI/status/2120007470898913320) · [Details & prompt status](cases/socialx-dense-text-comparison/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. A comparison covering Seedream 5.5, 5.0 Pro and GPT Image versions; view the labels in the source.
+
+#### [Deep-sea field-guide infographic](cases/socialx-deep-sea-field-guide/README.md)
+
+<a href="cases/socialx-deep-sea-field-guide/README.md"><img src="assets/previews/socialx-deep-sea-field-guide-01.jpg" alt="Deep-sea field-guide infographic" width="420" loading="lazy" /></a>
+
+Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/status/2119915956365369596) · [Details & prompt status](cases/socialx-deep-sea-field-guide/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A fictional creature field-guide page combining labels, a data table and scientific illustration; prompt at source.
+
 <a id="infographics"></a>
 ### Infographics & interfaces
 
@@ -302,6 +462,38 @@ Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedre
 <a href="cases/official-plush-characters/README.md"><img src="assets/previews/official-plush-characters.jpg" alt="Plush characters" width="420" loading="lazy" /></a>
 
 Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-plush-characters/README.md)
+
+#### [Character sheet version comparison](cases/socialx-character-sheet-comparison/README.md)
+
+<a href="cases/socialx-character-sheet-comparison/README.md"><img src="assets/previews/socialx-character-sheet-comparison-01.jpg" alt="Character sheet version comparison" width="420" loading="lazy" /></a>
+
+Creator-reported · EEJ_OOXO · [Source](https://x.com/EEJ_OOXO/status/2119780326117716281) · [Details & prompt status](cases/socialx-character-sheet-comparison/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. A character-sheet comparison with Seedream 5.0 Pro; the original post discusses panel consistency and output files.
+
+#### [Photoreal character conversion](cases/socialx-photoreal-conversion/README.md)
+
+<a href="cases/socialx-photoreal-conversion/README.md"><img src="assets/previews/socialx-photoreal-conversion-01.jpg" alt="Photoreal character conversion" width="420" loading="lazy" /></a>
+
+Creator-reported · nanyuan0412 · [Source](https://x.com/nanyuan0412/status/2119949010698137603) · [Details & prompt status](cases/socialx-photoreal-conversion/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A two-image character-to-photoreal study shared as a Seedream 5.5 test.
+
+#### [Character recreation study](cases/socialx-character-recreation/README.md)
+
+<a href="cases/socialx-character-recreation/README.md"><img src="assets/previews/socialx-character-recreation-01.jpg" alt="Character recreation study" width="420" loading="lazy" /></a>
+
+Creator-reported · haungpower · [Source](https://x.com/haungpower/status/2119852896544325859) · [Details & prompt status](cases/socialx-character-recreation/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator-labeled recreation test focused on character consistency; reference details remain at the source.
+
+#### [Nature Unseen concept series](cases/socialx-nature-unseen/README.md)
+
+<a href="cases/socialx-nature-unseen/README.md"><img src="assets/previews/socialx-nature-unseen-01.jpg" alt="Nature Unseen concept series" width="420" loading="lazy" /></a>
+
+Creator-reported · AI_Timemachine · [Source](https://x.com/AI_Timemachine/status/2119930302508286194) · [Details & prompt status](cases/socialx-nature-unseen/README.md)
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. The artist revisits an existing concept series using Seedream 5.5; the four-image album counts once.
 
 <a id="recipes"></a>
 ## Original practice recipes

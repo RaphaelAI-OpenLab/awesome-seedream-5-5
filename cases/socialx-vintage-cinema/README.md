@@ -1,0 +1,51 @@
+# Vintage cinematic stills
+
+[English](README.md) · [简体中文](README.zh-CN.md)
+
+[Back to cases](../../README.md#cases)
+
+**Creator-reported · Not independently reproduced**
+
+![Vintage cinematic stills](../../assets/previews/socialx-vintage-cinema-01.jpg)
+
+This is a reduced representative-frame preview, not a complete animation or an exported transparent asset.
+
+[Open original media](https://pbs.twimg.com/media/HWut2dlakAA4UTX.jpg?name=orig)
+
+
+## More photos from the original post
+
+**Image 2**
+
+![Vintage cinematic stills - 2](../../assets/previews/socialx-vintage-cinema-02.jpg)
+
+[Source media](https://pbs.twimg.com/media/HWut2dtbEAAlcI-.jpg?name=orig)
+
+**Image 3**
+
+![Vintage cinematic stills - 3](../../assets/previews/socialx-vintage-cinema-03.jpg)
+
+[Source media](https://pbs.twimg.com/media/HWut2dpbgAAgede.jpg?name=orig)
+
+**Image 4**
+
+![Vintage cinematic stills - 4](../../assets/previews/socialx-vintage-cinema-04.jpg)
+
+[Source media](https://pbs.twimg.com/media/HWut2d4bAAAfbwT.jpg?name=orig)
+
+## Prompt
+
+The source does not publish a complete input prompt for this example. No reconstructed text is labeled as the original prompt.
+
+[View prompt source](https://x.com/ChrisGwinnLA/status/2119979699464286506)
+
+## Attribution & limits
+
+- Author: ChrisGwinnLA
+- Source model attribution: Seedream 5.5
+- Checked: 2026-11-10
+- [Source page](https://x.com/ChrisGwinnLA/status/2119979699464286506)
+
+Original media is linked at its source. Only reduced representative-frame JPEG previews are bundled. Owners retain their rights; MIT does not cover this media, previews or source prompts. Demo GIFs do not establish native animation generation; JPEG previews have no alpha channel.
+
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. Four vintage-style images in one creator post, counted as one collection example.

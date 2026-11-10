@@ -1090,5 +1090,1139 @@
         "preview_transform": "curator-mirror-resized-jpeg-640"
       }
     ]
+  },
+  {
+    "id": "socialx-character-sheet-comparison",
+    "title": {
+      "zh-CN": "角色设定表版本对比",
+      "en": "Character sheet version comparison"
+    },
+    "category": "characters",
+    "author": "EEJ_OOXO",
+    "source_url": "https://x.com/EEJ_OOXO/status/2119780326117716281",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/EEJ_OOXO/status/2119780326117716281",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 与 Seedream 5.0 Pro 的角色设定表对比，原帖讨论分栏一致性和输出文件。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. A character-sheet comparison with Seedream 5.0 Pro; the original post discusses panel consistency and output files."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWr38IDaYAAom_a.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-character-sheet-comparison-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119779186957246464",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWr39teasAAJ3pd.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-character-sheet-comparison-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119779214182494208",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-llm-diagram-edits",
+    "title": {
+      "zh-CN": "连续修改 30 轮的 LLM 原理图",
+      "en": "LLM diagram after 30 edits"
+    },
+    "category": "multi-turn-editing",
+    "author": "dongxi_nlp",
+    "source_url": "https://x.com/dongxi_nlp/status/2120031669893939524",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/dongxi_nlp/status/2120031669893939524",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者表示对同一张 LLM 原理图连续修改了三十轮。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. An LLM explanation diagram that the creator says was revised thirty times."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWvdZ15XUAANnap.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-llm-diagram-edits-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2120031485642100736",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-skin-texture-test",
+    "title": {
+      "zh-CN": "肤质表现测试",
+      "en": "Skin texture study"
+    },
+    "category": "photography",
+    "author": "oden_ai_ai",
+    "source_url": "https://x.com/oden_ai_ai/status/2120015332530393282",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/oden_ai_ai/status/2120015332530393282",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者分享的图片测试，关注模型对皮肤质感的表现。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator-shared image testing the model's skin rendering."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWvGJDfakAA4Yr8.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-skin-texture-test-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2120005908466143232",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-dense-text-comparison",
+    "title": {
+      "zh-CN": "跨版本密集文字对比",
+      "en": "Dense text across model versions"
+    },
+    "category": "typography",
+    "author": "94vanAI",
+    "source_url": "https://x.com/94vanAI/status/2120007470898913320",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/94vanAI/status/2120007470898913320",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 比较 Seedream 5.5、5.0 Pro 与 GPT Image 多个版本，请按原帖标注辨认结果。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. A comparison covering Seedream 5.5, 5.0 Pro and GPT Image versions; view the labels in the source."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWvHZXwbsAAA30_.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-dense-text-comparison-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2120007288295763968",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWvHZXxa4AEzxfU.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-dense-text-comparison-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2120007288299905025",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-four-model-portrait",
+    "title": {
+      "zh-CN": "四模型人像测试",
+      "en": "Four-model portrait study"
+    },
+    "category": "photography",
+    "author": "94vanAI",
+    "source_url": "https://x.com/94vanAI/status/2119938579078238370",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/94vanAI/status/2119938579078238370",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者注明第一张为 Seedream，其后为 ChatGPT、Gemini、Grok，同时讨论优点与局限。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The creator identifies image one as Seedream, followed by ChatGPT, Gemini and Grok, and discusses limitations as well as strengths."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWuI5ZLbgAA9kF0.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-four-model-portrait-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119938569200697344",
+        "origin_alt": "Seedream5.5"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWuI5ZHbcAElRIS.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-four-model-portrait-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119938569183916033",
+        "origin_alt": "GPT-image2.6"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWuI5ZQa8AAe5hD.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-four-model-portrait-03.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119938569221632000",
+        "origin_alt": "Gemini  nano banana 2.1"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWuI5ZMaoAAL39U.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-four-model-portrait-04.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119938569204834304",
+        "origin_alt": "Grok imagine 2"
+      }
+    ]
+  },
+  {
+    "id": "socialx-same-prompt-texture",
+    "title": {
+      "zh-CN": "同提示词纹理对比",
+      "en": "Same-prompt texture comparison"
+    },
+    "category": "photography",
+    "author": "PowerUpInvest",
+    "source_url": "https://x.com/PowerUpInvest/status/2119971057650262386",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/PowerUpInvest/status/2119971057650262386",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者与 GPT Image 2.6 进行图像质感对比；型号归属以原帖说明为准。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator comparison with GPT Image 2.6 focused on image texture; model labels remain as stated in the post."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWul9FqbsAA3mdy.png?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-same-prompt-texture-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119970518518706176",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWul-vhaoAAZgkO.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-same-prompt-texture-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119970546935046144",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-photoreal-conversion",
+    "title": {
+      "zh-CN": "角色真人化测试",
+      "en": "Photoreal character conversion"
+    },
+    "category": "characters",
+    "author": "nanyuan0412",
+    "source_url": "https://x.com/nanyuan0412/status/2119949010698137603",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/nanyuan0412/status/2119949010698137603",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者分享的双图角色真人化测试，明确标注 Seedream 5.5。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A two-image character-to-photoreal study shared as a Seedream 5.5 test."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWuSLW_acAAqPzf.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-photoreal-conversion-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119948773455720448",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWuSLeuaMAAx5mD.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-photoreal-conversion-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119948775531884544",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-three-model-output",
+    "title": {
+      "zh-CN": "三模型出图对比",
+      "en": "Three-model output comparison"
+    },
+    "category": "photography",
+    "author": "Yuziyyaa",
+    "source_url": "https://x.com/Yuziyyaa/status/2119991511433814093",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/Yuziyyaa/status/2119991511433814093",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者按图片顺序标注 GPT Images 2.6、Seedream 5.0 Pro、Seedream 5.5。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The author lists GPT Images 2.6, Seedream 5.0 Pro and Seedream 5.5 in image order."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWu3cRnasAA1m-O.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-three-model-output-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119989746000900096",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWu3fCQa8AAzkj1.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-three-model-output-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119989793417523200",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWu4dQabsAAArVl.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-three-model-output-03.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119990862369501184",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-window-light-portrait",
+    "title": {
+      "zh-CN": "窗光胶片感人像",
+      "en": "Window-light film portrait"
+    },
+    "category": "photography",
+    "author": "nima2qisi2",
+    "source_url": "https://x.com/nima2qisi2/status/2119983938383106432",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://x.com/nima2qisi2/status/2119983938383106432",
+      "text": "俯拍人像特写局部，东方/西方 女性 22岁 人物特写半侧脸侧颜看向镜头的自然姿态，窗户光柔肤，富士Astia胶片低婉古调低饱和度，光圈F2.8、快门1/120s、ISO100、点测光脸部，磨砂肌理，暗角聚焦，私房氛围感，细节丰富，无文字、无水印、无Logo、无边框"
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 使用窗光与胶片风格的人像组图，原帖包含作者提示词。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A portrait series with window lighting and film styling; the source includes the creator's prompt."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWux49Ra4AAumFz.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-window-light-portrait-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119983641686368256",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWux5F0aUAA7e6t.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-window-light-portrait-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119983643980615680",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWuyDFqbMAAWAfz.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-window-light-portrait-03.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119983815737421824",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-transparent-character",
+    "title": {
+      "zh-CN": "双风格透明角色素材",
+      "en": "Transparent character in two finishes"
+    },
+    "category": "rgba-assets",
+    "author": "KakiponzuX",
+    "source_url": "https://x.com/KakiponzuX/status/2119979776651710778",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://x.com/KakiponzuX/status/2119979776651710778",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 缩略图无法证明原始Alpha透明度。 插画与写实风格透明度测试；作者报告部分输出丢失 alpha，棋盘格图片是合成预览。 原帖公开了透明背景提示词后缀，但未提供完整身份设定指令。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha. An illustration/photoreal transparency test. The creator reports some outputs lost alpha; the shown checkerboard is a composite preview. The author shared the transparency prompt suffix, not the entire base identity prompt."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWuuXyKbIAAedHn.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-transparent-character-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119979773233668096",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-vintage-cinema",
+    "title": {
+      "zh-CN": "复古电影静帧",
+      "en": "Vintage cinematic stills"
+    },
+    "category": "photography",
+    "author": "ChrisGwinnLA",
+    "source_url": "https://x.com/ChrisGwinnLA/status/2119979699464286506",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/ChrisGwinnLA/status/2119979699464286506",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 单篇原帖中的四张复古风图片，合并计为一组案例。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. Four vintage-style images in one creator post, counted as one collection example."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWut2dlakAA4UTX.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-vintage-cinema-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119979200774049792",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWut2dtbEAAlcI-.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-vintage-cinema-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119979200807636992",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWut2dpbgAAgede.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-vintage-cinema-03.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119979200790888448",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWut2d4bAAAfbwT.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-vintage-cinema-04.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119979200853770240",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-character-recreation",
+    "title": {
+      "zh-CN": "角色重创作测试",
+      "en": "Character recreation study"
+    },
+    "category": "characters",
+    "author": "haungpower",
+    "source_url": "https://x.com/haungpower/status/2119852896544325859",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/haungpower/status/2119852896544325859",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者标注为重创作的角色一致性测试，参考细节以原帖为准。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator-labeled recreation test focused on character consistency; reference details remain at the source."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWs352yaEAAMOB5.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-character-recreation-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119849516706959360",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWs37DwbUAA8NlH.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-character-recreation-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119849537368182784",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-h3-frame-comparison",
+    "title": {
+      "zh-CN": "Seedream 与 MiniMax H3 静帧对比",
+      "en": "Seedream and MiniMax H3 still-frame comparison"
+    },
+    "category": "photography",
+    "author": "JSFILMZ0412",
+    "source_url": "https://x.com/JSFILMZ0412/status/2119889824274640957",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/JSFILMZ0412/status/2119889824274640957",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者说明为未经后期处理的两张 2K 静帧；另发的 H3 视频不计为 Seedream 成果。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. Two 2K still images without post-processing, as reported by the creator. The separate H3 video is not counted as a Seedream result."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWtcW_7XkAArGuq.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-h3-frame-comparison-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119889599795269632",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWtcbk2WQAAnKeP.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-h3-frame-comparison-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119889678425800704",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-elf-material-study",
+    "title": {
+      "zh-CN": "精灵人像材质测试",
+      "en": "Elf portrait material study"
+    },
+    "category": "photography",
+    "author": "nanyuan0412",
+    "source_url": "https://x.com/nanyuan0412/status/2119879195115332042",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/nanyuan0412/status/2119879195115332042",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 皮肤、布料与光线的单图测试；作者明确表示尚未深度测试连续编辑。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A single-image study of skin, fabric and light; the creator explicitly says extended editing was not tested."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWtQsIVboAA3rvT.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-elf-material-study-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119876768689790976",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-winter-portrait-comparison",
+    "title": {
+      "zh-CN": "冬季人像对比",
+      "en": "Winter portrait comparison"
+    },
+    "category": "photography",
+    "author": "0kncn",
+    "source_url": "https://x.com/0kncn/status/2119878902344823069",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/0kncn/status/2119878902344823069",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者用相同人像要求对比 GPT Image 2.5、Seedream 5.5 与 Nano Banana 2.1。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The creator compares the same portrait brief across GPT Image 2.5, Seedream 5.5 and Nano Banana 2.1."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWtRxFlWcAAQeEb.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-winter-portrait-comparison-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119877953362227200",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWtRygNXIAAtrqe.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-winter-portrait-comparison-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119877977689235456",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWtRzJOXAAAMrXn.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-winter-portrait-comparison-03.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119877988699275264",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-glass-jellyfish-lamp",
+    "title": {
+      "zh-CN": "玻璃水母灯",
+      "en": "Glass jellyfish lamp"
+    },
+    "category": "rgba-assets",
+    "author": "ahmetmertugrul",
+    "source_url": "https://x.com/ahmetmertugrul/status/2119920477535719739",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://x.com/ahmetmertugrul/status/2119920477535719739",
+      "text": "Transparent background, PNG with alpha channel. A hand-blown glass jellyfish lamp floating in mid-air: semi-transparent frosted bell with visible internal air bubbles, long trailing tentacles made of thin glass threads that fade from fully opaque at the top to almost invisible at the tips, a faint warm amber glow inside the bell, soft caustic refractions, wisps of translucent steam drifting from the tentacle ends. No background, no ground shadow, clean anti-aliased edges, studio product lighting."
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 缩略图无法证明原始Alpha透明度。 原帖附提示词的玻璃灯透明素材示例；仅凭展示图不能验证文件的 alpha 通道。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha. A glass-lamp transparency example with a prompt at source. The displayed image alone does not verify an alpha channel."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWt4BjuWgAAxGSk.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-glass-jellyfish-lamp-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119920017772806144",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-deep-sea-field-guide",
+    "title": {
+      "zh-CN": "深海生物图鉴信息图",
+      "en": "Deep-sea field-guide infographic"
+    },
+    "category": "typography",
+    "author": "ahmetmertugrul",
+    "source_url": "https://x.com/ahmetmertugrul/status/2119915956365369596",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://x.com/ahmetmertugrul/status/2119915956365369596",
+      "text": "A vintage naturalist field-guide page, aged cream paper with foxing stains, documenting a fictional deep-sea creature called \"Lanternfin Abyssal Eel\". Center: a detailed scientific ink-and-watercolor illustration of the eel with bioluminescent spots. Surrounding it, 10 numbered callout labels with thin leader lines, each with a 2-line caption in small serif type (e.g. \"3. Photophore cluster — emits pulses at 490 nm to lure prey\"). Top header in ornate engraved capitals: \"PLATE XLVII — CREATURES OF THE MIDNIGHT ZONE\". Bottom: a small data table with columns \"Depth\", \"Length\", \"Lifespan\", \"Diet\" and three rows of values, plus a tiny scale bar reading \"10 cm\". Flat top-down scan, every word sharp and legible."
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 虚构生物图鉴页，组合标注、数据表和科学插图；原帖有提示词。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A fictional creature field-guide page combining labels, a data table and scientific illustration; prompt at source."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWtzn3zXMAAoUyb.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-deep-sea-field-guide-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119915178439421952",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-photoreal-image-set",
+    "title": {
+      "zh-CN": "写实图像组",
+      "en": "Photoreal image set"
+    },
+    "category": "photography",
+    "author": "uixmax",
+    "source_url": "https://x.com/uixmax/status/2119894564073054374",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/uixmax/status/2119894564073054374",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者的四图写实效果测试，保留为一组来源案例。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator's four-image photorealism test, kept together as one source example."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWtggCyXIAAsKlZ.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-photoreal-image-set-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119894153228132352",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWtghxAXEAE2-mh.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-photoreal-image-set-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119894182814748673",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWtgjpaXYAAHH3e.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-photoreal-image-set-03.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119894215136075776",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWtguZFWkAEYtpA.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-photoreal-image-set-04.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119894399731535873",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-three-model-portrait-order",
+    "title": {
+      "zh-CN": "人像模型顺序对照",
+      "en": "Portrait model-order comparison"
+    },
+    "category": "photography",
+    "author": "foretyyt",
+    "source_url": "https://x.com/foretyyt/status/2119894502588452933",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/foretyyt/status/2119894502588452933",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者标注图一为 Seedream 5.5，图二 Image 2.5，图三 Nano Banana 2.1。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The author labels image one Seedream 5.5, image two Image 2.5 and image three Nano Banana 2.1."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWtgI_QW0AAXKKm.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-three-model-portrait-order-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119893757143207936",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWtgJ7gXIAAk3HQ.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-three-model-portrait-order-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119893773316464640",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWtgKqQWoAASsib.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-three-model-portrait-order-03.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119893785865789440",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-gpt26-same-brief",
+    "title": {
+      "zh-CN": "与 GPT Image 2.6 同要求对比",
+      "en": "Shared brief with GPT Image 2.6"
+    },
+    "category": "photography",
+    "author": "arito_si",
+    "source_url": "https://x.com/arito_si/status/2119890337699364975",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/arito_si/status/2119890337699364975",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者说明以相同提示词组测试 Seedream 5.5 与 GPT Image 2.6。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. A creator reports testing Seedream 5.5 and GPT Image 2.6 with the same prompt set."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWtdA6raUAAtGw3.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-gpt26-same-brief-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119890319940669440",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWtdA6vb0AAfEa4.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-gpt26-same-brief-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119890319957544960",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-nature-unseen",
+    "title": {
+      "zh-CN": "Nature Unseen 概念系列",
+      "en": "Nature Unseen concept series"
+    },
+    "category": "characters",
+    "author": "AI_Timemachine",
+    "source_url": "https://x.com/AI_Timemachine/status/2119930302508286194",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/AI_Timemachine/status/2119930302508286194",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者使用 Seedream 5.5 重做既有概念系列；四张组图只计一次。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. The artist revisits an existing concept series using Seedream 5.5; the four-image album counts once."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWuAgnZXcAAuo-C.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-nature-unseen-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119929347427495936",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWuAhI9XYAA3UqI.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-nature-unseen-02.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119929356436856832",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWuAhphXsAAu7YT.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-nature-unseen-03.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119929365177806848",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWuAiKlXIAAfajV.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-nature-unseen-04.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119929374052917248",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "socialx-blue-hour-fisherman",
+    "title": {
+      "zh-CN": "蓝调时刻的渔夫",
+      "en": "Fisherman at blue hour"
+    },
+    "category": "photography",
+    "author": "ahmetmertugrul",
+    "source_url": "https://x.com/ahmetmertugrul/status/2119922071916757233",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-original-X-media-verified",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://x.com/ahmetmertugrul/status/2119922071916757233",
+      "text": "Candid documentary photo, 85mm lens, f/2. An elderly fisherman in his seventies mending a tangled orange net on a wooden dock at blue hour. Mixed lighting: cold blue ambient sky from the left, a single warm sodium-vapor streetlamp from behind creating a rim light on his white stubble and the loose net fibers. Visible pores, deep wrinkles, sun spots, slightly chapped lips, a small healed scar on his knuckle. Wet wooden planks with puddles reflecting the lamp. Light drizzle visible only in the backlight. No beauty retouching, natural film grain, slight underexposure in the shadows."
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 冷色环境光与暖灯混合的纪实风格人像；原帖提供提示词。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A documentary-style portrait combining cool ambient light with a warm lamp; the original prompt is at source."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWt5iRSW8AI00rA.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/socialx-blue-hour-fisherman-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "2119921679270866946",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social-dheepan-frosted-acrylic",
+    "title": {
+      "zh-CN": "磨砂亚克力板透明素材",
+      "en": "Frosted acrylic sheet"
+    },
+    "category": "rgba-assets",
+    "author": "Dheepanratnam",
+    "source_url": "https://x.com/Dheepanratnam/status/2119775195573481859",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-prompt-from-attributed-public-social-mirror",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-11.md",
+      "text": "PNG asset of a hand holding a clear acrylic sheet with a subtle frosted edge, photographed straight on. The acrylic sheet must have realistic partial transparency, visible refraction and a soft translucent gradient, while the hand and fingers remain fully opaque. Native alpha channel, clean anti-aliased edges, no background, no colour contamination, no harsh cut-out edges. Premium UI/design asset, centred composition."
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 缩略图无法证明原始Alpha透明度。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha."
+    },
+    "media": [
+      {
+        "url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/d9f9549ad1efd94719be54c9b2d2a23c5b205e59323fef90af27ebb3dab91ac8.jpg",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social-dheepan-frosted-acrylic-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "curator",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social-dheepan-chrome-ribbon",
+    "title": {
+      "zh-CN": "铬金属流体丝带透明素材",
+      "en": "Chrome ribbon logo"
+    },
+    "category": "rgba-assets",
+    "author": "Dheepanratnam",
+    "source_url": "https://x.com/Dheepanratnam/status/2119775195573481859",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-prompt-from-attributed-public-social-mirror",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-12.md",
+      "text": "Transparent PNG asset of a floating 3D chrome ribbon logo shape, elegantly twisted like liquid metal, with realistic specular highlights and soft internal reflections. Fully transparent background, native alpha channel, crisp edges around every curve, no background glow, no rectangular bounding artefacts, no drop shadow baked in. Minimal premium brand asset, centred, suitable for overlaying on video or web design."
+    },
+    "caveat": {
+      "zh-CN": "已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 缩略图无法证明原始Alpha透明度。",
+      "en": "Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha."
+    },
+    "media": [
+      {
+        "url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/37c7a2fad998200faae7f267f9e5b7d0779e43b712ee0d1e22da46e442447f83.jpg",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social-dheepan-chrome-ribbon-01.jpg",
+        "preview_transform": "original-X-post-attachment-resized-to-640px-jpeg",
+        "origin_media_id": "curator",
+        "origin_alt": ""
+      }
+    ]
   }
 ]

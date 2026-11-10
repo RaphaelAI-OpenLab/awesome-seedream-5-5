@@ -1,0 +1,458 @@
+{
+  "batch": 4,
+  "checked_at": "2026-11-10",
+  "x_cases": [
+    {
+      "id": "socialx-character-sheet-comparison",
+      "title": {
+        "zh-CN": "角色设定表版本对比",
+        "en": "Character sheet version comparison"
+      },
+      "author": "EEJ_OOXO",
+      "category": "characters",
+      "source_url": "https://x.com/EEJ_OOXO/status/2119780326117716281",
+      "media_ids": [
+        "2119779186957246464",
+        "2119779214182494208"
+      ],
+      "source_description_zh": "与 Seedream 5.0 Pro 的角色设定表对比，原帖讨论分栏一致性和输出文件。",
+      "source_description_en": "A character-sheet comparison with Seedream 5.0 Pro; the original post discusses panel consistency and output files.",
+      "comparison": true,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-llm-diagram-edits",
+      "title": {
+        "zh-CN": "连续修改 30 轮的 LLM 原理图",
+        "en": "LLM diagram after 30 edits"
+      },
+      "author": "dongxi_nlp",
+      "category": "multi-turn-editing",
+      "source_url": "https://x.com/dongxi_nlp/status/2120031669893939524",
+      "media_ids": [
+        "2120031485642100736"
+      ],
+      "source_description_zh": "作者表示对同一张 LLM 原理图连续修改了三十轮。",
+      "source_description_en": "An LLM explanation diagram that the creator says was revised thirty times.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-skin-texture-test",
+      "title": {
+        "zh-CN": "肤质表现测试",
+        "en": "Skin texture study"
+      },
+      "author": "oden_ai_ai",
+      "category": "photography",
+      "source_url": "https://x.com/oden_ai_ai/status/2120015332530393282",
+      "media_ids": [
+        "2120005908466143232"
+      ],
+      "source_description_zh": "作者分享的图片测试，关注模型对皮肤质感的表现。",
+      "source_description_en": "A creator-shared image testing the model's skin rendering.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-dense-text-comparison",
+      "title": {
+        "zh-CN": "跨版本密集文字对比",
+        "en": "Dense text across model versions"
+      },
+      "author": "94vanAI",
+      "category": "typography",
+      "source_url": "https://x.com/94vanAI/status/2120007470898913320",
+      "media_ids": [
+        "2120007288295763968",
+        "2120007288299905025"
+      ],
+      "source_description_zh": "比较 Seedream 5.5、5.0 Pro 与 GPT Image 多个版本，请按原帖标注辨认结果。",
+      "source_description_en": "A comparison covering Seedream 5.5, 5.0 Pro and GPT Image versions; view the labels in the source.",
+      "comparison": true,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-four-model-portrait",
+      "title": {
+        "zh-CN": "四模型人像测试",
+        "en": "Four-model portrait study"
+      },
+      "author": "94vanAI",
+      "category": "photography",
+      "source_url": "https://x.com/94vanAI/status/2119938579078238370",
+      "media_ids": [
+        "2119938569200697344",
+        "2119938569183916033",
+        "2119938569221632000",
+        "2119938569204834304"
+      ],
+      "source_description_zh": "作者注明第一张为 Seedream，其后为 ChatGPT、Gemini、Grok，同时讨论优点与局限。",
+      "source_description_en": "The creator identifies image one as Seedream, followed by ChatGPT, Gemini and Grok, and discusses limitations as well as strengths.",
+      "comparison": true,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-same-prompt-texture",
+      "title": {
+        "zh-CN": "同提示词纹理对比",
+        "en": "Same-prompt texture comparison"
+      },
+      "author": "PowerUpInvest",
+      "category": "photography",
+      "source_url": "https://x.com/PowerUpInvest/status/2119971057650262386",
+      "media_ids": [
+        "2119970518518706176",
+        "2119970546935046144"
+      ],
+      "source_description_zh": "作者与 GPT Image 2.6 进行图像质感对比；型号归属以原帖说明为准。",
+      "source_description_en": "A creator comparison with GPT Image 2.6 focused on image texture; model labels remain as stated in the post.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-photoreal-conversion",
+      "title": {
+        "zh-CN": "角色真人化测试",
+        "en": "Photoreal character conversion"
+      },
+      "author": "nanyuan0412",
+      "category": "characters",
+      "source_url": "https://x.com/nanyuan0412/status/2119949010698137603",
+      "media_ids": [
+        "2119948773455720448",
+        "2119948775531884544"
+      ],
+      "source_description_zh": "作者分享的双图角色真人化测试，明确标注 Seedream 5.5。",
+      "source_description_en": "A two-image character-to-photoreal study shared as a Seedream 5.5 test.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-three-model-output",
+      "title": {
+        "zh-CN": "三模型出图对比",
+        "en": "Three-model output comparison"
+      },
+      "author": "Yuziyyaa",
+      "category": "photography",
+      "source_url": "https://x.com/Yuziyyaa/status/2119991511433814093",
+      "media_ids": [
+        "2119989746000900096",
+        "2119989793417523200",
+        "2119990862369501184"
+      ],
+      "source_description_zh": "作者按图片顺序标注 GPT Images 2.6、Seedream 5.0 Pro、Seedream 5.5。",
+      "source_description_en": "The author lists GPT Images 2.6, Seedream 5.0 Pro and Seedream 5.5 in image order.",
+      "comparison": true,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-window-light-portrait",
+      "title": {
+        "zh-CN": "窗光胶片感人像",
+        "en": "Window-light film portrait"
+      },
+      "author": "nima2qisi2",
+      "category": "photography",
+      "source_url": "https://x.com/nima2qisi2/status/2119983938383106432",
+      "media_ids": [
+        "2119983641686368256",
+        "2119983643980615680",
+        "2119983815737421824"
+      ],
+      "source_description_zh": "使用窗光与胶片风格的人像组图，原帖包含作者提示词。",
+      "source_description_en": "A portrait series with window lighting and film styling; the source includes the creator's prompt.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-transparent-character",
+      "title": {
+        "zh-CN": "双风格透明角色素材",
+        "en": "Transparent character in two finishes"
+      },
+      "author": "KakiponzuX",
+      "category": "rgba-assets",
+      "source_url": "https://x.com/KakiponzuX/status/2119979776651710778",
+      "media_ids": [
+        "2119979773233668096"
+      ],
+      "source_description_zh": "插画与写实风格透明度测试；作者报告部分输出丢失 alpha，棋盘格图片是合成预览。",
+      "source_description_en": "An illustration/photoreal transparency test. The creator reports some outputs lost alpha; the shown checkerboard is a composite preview.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-vintage-cinema",
+      "title": {
+        "zh-CN": "复古电影静帧",
+        "en": "Vintage cinematic stills"
+      },
+      "author": "ChrisGwinnLA",
+      "category": "photography",
+      "source_url": "https://x.com/ChrisGwinnLA/status/2119979699464286506",
+      "media_ids": [
+        "2119979200774049792",
+        "2119979200807636992",
+        "2119979200790888448",
+        "2119979200853770240"
+      ],
+      "source_description_zh": "单篇原帖中的四张复古风图片，合并计为一组案例。",
+      "source_description_en": "Four vintage-style images in one creator post, counted as one collection example.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-character-recreation",
+      "title": {
+        "zh-CN": "角色重创作测试",
+        "en": "Character recreation study"
+      },
+      "author": "haungpower",
+      "category": "characters",
+      "source_url": "https://x.com/haungpower/status/2119852896544325859",
+      "media_ids": [
+        "2119849516706959360",
+        "2119849537368182784"
+      ],
+      "source_description_zh": "作者标注为重创作的角色一致性测试，参考细节以原帖为准。",
+      "source_description_en": "A creator-labeled recreation test focused on character consistency; reference details remain at the source.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-h3-frame-comparison",
+      "title": {
+        "zh-CN": "Seedream 与 MiniMax H3 静帧对比",
+        "en": "Seedream and MiniMax H3 still-frame comparison"
+      },
+      "author": "JSFILMZ0412",
+      "category": "photography",
+      "source_url": "https://x.com/JSFILMZ0412/status/2119889824274640957",
+      "media_ids": [
+        "2119889599795269632",
+        "2119889678425800704"
+      ],
+      "source_description_zh": "作者说明为未经后期处理的两张 2K 静帧；另发的 H3 视频不计为 Seedream 成果。",
+      "source_description_en": "Two 2K still images without post-processing, as reported by the creator. The separate H3 video is not counted as a Seedream result.",
+      "comparison": true,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-elf-material-study",
+      "title": {
+        "zh-CN": "精灵人像材质测试",
+        "en": "Elf portrait material study"
+      },
+      "author": "nanyuan0412",
+      "category": "photography",
+      "source_url": "https://x.com/nanyuan0412/status/2119879195115332042",
+      "media_ids": [
+        "2119876768689790976"
+      ],
+      "source_description_zh": "皮肤、布料与光线的单图测试；作者明确表示尚未深度测试连续编辑。",
+      "source_description_en": "A single-image study of skin, fabric and light; the creator explicitly says extended editing was not tested.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-winter-portrait-comparison",
+      "title": {
+        "zh-CN": "冬季人像对比",
+        "en": "Winter portrait comparison"
+      },
+      "author": "0kncn",
+      "category": "photography",
+      "source_url": "https://x.com/0kncn/status/2119878902344823069",
+      "media_ids": [
+        "2119877953362227200",
+        "2119877977689235456",
+        "2119877988699275264"
+      ],
+      "source_description_zh": "作者用相同人像要求对比 GPT Image 2.5、Seedream 5.5 与 Nano Banana 2.1。",
+      "source_description_en": "The creator compares the same portrait brief across GPT Image 2.5, Seedream 5.5 and Nano Banana 2.1.",
+      "comparison": true,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-glass-jellyfish-lamp",
+      "title": {
+        "zh-CN": "玻璃水母灯",
+        "en": "Glass jellyfish lamp"
+      },
+      "author": "ahmetmertugrul",
+      "category": "rgba-assets",
+      "source_url": "https://x.com/ahmetmertugrul/status/2119920477535719739",
+      "media_ids": [
+        "2119920017772806144"
+      ],
+      "source_description_zh": "原帖附提示词的玻璃灯透明素材示例；仅凭展示图不能验证文件的 alpha 通道。",
+      "source_description_en": "A glass-lamp transparency example with a prompt at source. The displayed image alone does not verify an alpha channel.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-deep-sea-field-guide",
+      "title": {
+        "zh-CN": "深海生物图鉴信息图",
+        "en": "Deep-sea field-guide infographic"
+      },
+      "author": "ahmetmertugrul",
+      "category": "typography",
+      "source_url": "https://x.com/ahmetmertugrul/status/2119915956365369596",
+      "media_ids": [
+        "2119915178439421952"
+      ],
+      "source_description_zh": "虚构生物图鉴页，组合标注、数据表和科学插图；原帖有提示词。",
+      "source_description_en": "A fictional creature field-guide page combining labels, a data table and scientific illustration; prompt at source.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-photoreal-image-set",
+      "title": {
+        "zh-CN": "写实图像组",
+        "en": "Photoreal image set"
+      },
+      "author": "uixmax",
+      "category": "photography",
+      "source_url": "https://x.com/uixmax/status/2119894564073054374",
+      "media_ids": [
+        "2119894153228132352",
+        "2119894182814748673",
+        "2119894215136075776",
+        "2119894399731535873"
+      ],
+      "source_description_zh": "作者的四图写实效果测试，保留为一组来源案例。",
+      "source_description_en": "A creator's four-image photorealism test, kept together as one source example.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-three-model-portrait-order",
+      "title": {
+        "zh-CN": "人像模型顺序对照",
+        "en": "Portrait model-order comparison"
+      },
+      "author": "foretyyt",
+      "category": "photography",
+      "source_url": "https://x.com/foretyyt/status/2119894502588452933",
+      "media_ids": [
+        "2119893757143207936",
+        "2119893773316464640",
+        "2119893785865789440"
+      ],
+      "source_description_zh": "作者标注图一为 Seedream 5.5，图二 Image 2.5，图三 Nano Banana 2.1。",
+      "source_description_en": "The author labels image one Seedream 5.5, image two Image 2.5 and image three Nano Banana 2.1.",
+      "comparison": true,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-gpt26-same-brief",
+      "title": {
+        "zh-CN": "与 GPT Image 2.6 同要求对比",
+        "en": "Shared brief with GPT Image 2.6"
+      },
+      "author": "arito_si",
+      "category": "photography",
+      "source_url": "https://x.com/arito_si/status/2119890337699364975",
+      "media_ids": [
+        "2119890319940669440",
+        "2119890319957544960"
+      ],
+      "source_description_zh": "作者说明以相同提示词组测试 Seedream 5.5 与 GPT Image 2.6。",
+      "source_description_en": "A creator reports testing Seedream 5.5 and GPT Image 2.6 with the same prompt set.",
+      "comparison": true,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-nature-unseen",
+      "title": {
+        "zh-CN": "Nature Unseen 概念系列",
+        "en": "Nature Unseen concept series"
+      },
+      "author": "AI_Timemachine",
+      "category": "characters",
+      "source_url": "https://x.com/AI_Timemachine/status/2119930302508286194",
+      "media_ids": [
+        "2119929347427495936",
+        "2119929356436856832",
+        "2119929365177806848",
+        "2119929374052917248"
+      ],
+      "source_description_zh": "作者使用 Seedream 5.5 重做既有概念系列；四张组图只计一次。",
+      "source_description_en": "The artist revisits an existing concept series using Seedream 5.5; the four-image album counts once.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    },
+    {
+      "id": "socialx-blue-hour-fisherman",
+      "title": {
+        "zh-CN": "蓝调时刻的渔夫",
+        "en": "Fisherman at blue hour"
+      },
+      "author": "ahmetmertugrul",
+      "category": "photography",
+      "source_url": "https://x.com/ahmetmertugrul/status/2119922071916757233",
+      "media_ids": [
+        "2119921679270866946"
+      ],
+      "source_description_zh": "冷色环境光与暖灯混合的纪实风格人像；原帖提供提示词。",
+      "source_description_en": "A documentary-style portrait combining cool ambient light with a warm lamp; the original prompt is at source.",
+      "comparison": false,
+      "catalog_evidence": "Public post response observed in signed-in Chrome; author, model wording and attached media checked.",
+      "checked_at": "2026-11-10"
+    }
+  ],
+  "prompt_cases": [
+    {
+      "id": "social-dheepan-frosted-acrylic",
+      "title": {
+        "zh-CN": "磨砂亚克力板透明素材",
+        "en": "Frosted acrylic sheet"
+      },
+      "category": "rgba-assets",
+      "author": "Dheepanratnam",
+      "source_url": "https://x.com/Dheepanratnam/status/2119775195573481859",
+      "source_mirror_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-11.md",
+      "media_url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/d9f9549ad1efd94719be54c9b2d2a23c5b205e59323fef90af27ebb3dab91ac8.jpg",
+      "prompt_text": "PNG asset of a hand holding a clear acrylic sheet with a subtle frosted edge, photographed straight on. The acrylic sheet must have realistic partial transparency, visible refraction and a soft translucent gradient, while the hand and fingers remain fully opaque. Native alpha channel, clean anti-aliased edges, no background, no colour contamination, no harsh cut-out edges. Premium UI/design asset, centred composition."
+    },
+    {
+      "id": "social-dheepan-chrome-ribbon",
+      "title": {
+        "zh-CN": "铬金属流体丝带透明素材",
+        "en": "Chrome ribbon logo"
+      },
+      "category": "rgba-assets",
+      "author": "Dheepanratnam",
+      "source_url": "https://x.com/Dheepanratnam/status/2119775195573481859",
+      "source_mirror_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-12.md",
+      "media_url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/37c7a2fad998200faae7f267f9e5b7d0779e43b712ee0d1e22da46e442447f83.jpg",
+      "prompt_text": "Transparent PNG asset of a floating 3D chrome ribbon logo shape, elegantly twisted like liquid metal, with realistic specular highlights and soft internal reflections. Fully transparent background, native alpha channel, crisp edges around every curve, no background glow, no rectangular bounding artefacts, no drop shadow baked in. Minimal premium brand asset, centred, suitable for overlaying on video or web design."
+    }
+  ],
+  "notes": "Only public X post photo attachments and source-attributed full prompts. Some posts are multi-model comparisons. Third-party media rights reserved."
+}

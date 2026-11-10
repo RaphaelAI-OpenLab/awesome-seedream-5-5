@@ -282,6 +282,24 @@
       "height": 640
     },
     {
+      "preview": "assets/previews/social-dheepan-chrome-ribbon-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 29316,
+      "sha256": "b11cd511012b7da2a8b725bd8597c76a71ba4a23caee97f491a0bf25a7a9b623",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/social-dheepan-frosted-acrylic-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 17584,
+      "sha256": "6ba5bacdd9d02406103c8018fa7e2d1528df1616975ef92ccae56f3a20f59d8a",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 640
+    },
+    {
       "preview": "assets/previews/social-dheepan-magazine-cover.jpg",
       "status": "decoded-preview",
       "bytes": 45317,
@@ -333,6 +351,447 @@
       "sha256": "f02c7031a891061f6962ff320ef89a918dca290f2e29fd7798753c178a8382c6",
       "codec_name": "mjpeg",
       "width": 623,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-blue-hour-fisherman-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 34088,
+      "sha256": "cfbf2a0e650b472fc28349cdaa227b10ae9550102db733705cd07142399fe372",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-character-recreation-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 38173,
+      "sha256": "141dde2317229c8e58ae1a75258faf38c6f5c2e135044f72f1d1937ff2343196",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-character-recreation-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 36828,
+      "sha256": "3c650fae696603c5a23a159458e2728d4aa887bc29a750c114142abe73ea8fff",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 365
+    },
+    {
+      "preview": "assets/previews/socialx-character-sheet-comparison-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 31227,
+      "sha256": "d8bdb16c5add5891bc33e15eda5d6a5c59ede627b3c194bee0632717ecc5846c",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-character-sheet-comparison-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 29453,
+      "sha256": "3b86f690eedf2d2fb03961800fc9c7f90c20730b8c19dc2033d74ffd08ff1bbd",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-deep-sea-field-guide-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 61133,
+      "sha256": "209058f07074780b62fb029708568c20e31df7594f2c7cb902d6b98a9a50ac9d",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-dense-text-comparison-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 94644,
+      "sha256": "e9b76371fd541521ea3e1e0f8b556a0b2d0e602ed6e2ec5258e70f23db591987",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-dense-text-comparison-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 92070,
+      "sha256": "2f70d76fc81de7556057634a050124fe71d792cc0de1189686a896e02d75e055",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-elf-material-study-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 18308,
+      "sha256": "3d2951d8d780b774ca2ff128b8757c6a68988ce0e6adbfabfc5bc9853894ee14",
+      "codec_name": "mjpeg",
+      "width": 360,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-four-model-portrait-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 42659,
+      "sha256": "bb6a125760f3874df276a58ea6ef57daae0ad3488ec82f1edf68715ef5047c87",
+      "codec_name": "mjpeg",
+      "width": 360,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-four-model-portrait-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 51955,
+      "sha256": "9e6c48a972babbb5f339904eb1b40c9845c8e77e40c9cd9b00b7235779ef5c74",
+      "codec_name": "mjpeg",
+      "width": 360,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-four-model-portrait-03.jpg",
+      "status": "decoded-preview",
+      "bytes": 41443,
+      "sha256": "aca6274f13ba9d50fa6a0fd1421a7e7a5ed8d6def6668ca1939e28e08d834d2b",
+      "codec_name": "mjpeg",
+      "width": 357,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-four-model-portrait-04.jpg",
+      "status": "decoded-preview",
+      "bytes": 40766,
+      "sha256": "49e3d253de31db1dc30a7b1cf849ce1bbc59c9535f7bba588bcbe17cf7030d24",
+      "codec_name": "mjpeg",
+      "width": 360,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-glass-jellyfish-lamp-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 12741,
+      "sha256": "2d8eb07fb2fa69380f91103e852692f12566b11bff45a9dd878fe82e9b2224ea",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-gpt26-same-brief-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 77487,
+      "sha256": "da0831ec2cb664b0bd8d587dd04181a983b2f64c30725e3f338f9b5610f7fa7c",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-gpt26-same-brief-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 59965,
+      "sha256": "f3b2d4e1393dbe41cd74bbf05042d6cb04a455791789d817e4235fc9a373a329",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-h3-frame-comparison-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 22219,
+      "sha256": "3dee757129d8069a187a6fc259378b76c8b5bd9985161c608989b6ee51dcc819",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 274
+    },
+    {
+      "preview": "assets/previews/socialx-h3-frame-comparison-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 10935,
+      "sha256": "515b5a885d3fc05afd64fc34c9d31ce8634db7bfdb49ff808c131c5c281e1001",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 274
+    },
+    {
+      "preview": "assets/previews/socialx-llm-diagram-edits-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 84373,
+      "sha256": "57c20aee41f62c8c879b9f364abaf6c9b1aab4957ac73efb87a063a6c67959e9",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 515
+    },
+    {
+      "preview": "assets/previews/socialx-nature-unseen-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 72613,
+      "sha256": "5ea01d3b17933e214309f957307098ac08f35893afec754c7451290c01f6b1af",
+      "codec_name": "mjpeg",
+      "width": 427,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-nature-unseen-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 79073,
+      "sha256": "1ce47a0ae4fa40eb11bc2086c2eab643a0edfb57891ee89cb303edb4e953f94a",
+      "codec_name": "mjpeg",
+      "width": 427,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-nature-unseen-03.jpg",
+      "status": "decoded-preview",
+      "bytes": 66672,
+      "sha256": "6f71777443d6187aaca255623806780c56e3dc46804a81a927c1ecfeebd56d38",
+      "codec_name": "mjpeg",
+      "width": 427,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-nature-unseen-04.jpg",
+      "status": "decoded-preview",
+      "bytes": 75902,
+      "sha256": "f5f745ab70bdd5d90b5254cf1d25229531f00265393a0b6133b2b896be18d73e",
+      "codec_name": "mjpeg",
+      "width": 427,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-photoreal-conversion-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 43986,
+      "sha256": "270f2be3f6406edbf3f85c44ebe3b8ad4d5c922d387ae0f40c5fa59cb7ec10fd",
+      "codec_name": "mjpeg",
+      "width": 441,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-photoreal-conversion-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 33859,
+      "sha256": "1282a69efc10fdea69409ecb296e4f729774375646ba34dfef3d9ed7cbb052bf",
+      "codec_name": "mjpeg",
+      "width": 427,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-photoreal-image-set-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 42743,
+      "sha256": "d4f96e4be1a81ca7352a4a45f419d20f9ca11b6a15d3e44b59d61010fe04d2b7",
+      "codec_name": "mjpeg",
+      "width": 483,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-photoreal-image-set-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 72193,
+      "sha256": "38a2bd1454e010b14fb63d80cc45b8df49f05ea3325a05a4accd5e708432044e",
+      "codec_name": "mjpeg",
+      "width": 483,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-photoreal-image-set-03.jpg",
+      "status": "decoded-preview",
+      "bytes": 63556,
+      "sha256": "e268a6f799ffe58546fcdb282269c729edc7260da485a73af9d6ba8cea2f90ea",
+      "codec_name": "mjpeg",
+      "width": 483,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-photoreal-image-set-04.jpg",
+      "status": "decoded-preview",
+      "bytes": 61853,
+      "sha256": "ab9855fd5fb557006f08c521ecc7fb8246e3a6cf961a4f5394f47b8cd43d2440",
+      "codec_name": "mjpeg",
+      "width": 483,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-same-prompt-texture-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 68549,
+      "sha256": "ff4c967a0a5b7c43eaf1b17f376b20b232c395cce6cb54c4b9927394d50dcdb5",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-same-prompt-texture-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 54716,
+      "sha256": "32557260352a0d90b407ac8c731c4fade7d183b9b23b72e870a349bc24a1faa4",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-skin-texture-test-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 45939,
+      "sha256": "ef8ea21ee6753209cede8275f37b0becbd7f8a4b451820f2093b70a63eda7c4a",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 479
+    },
+    {
+      "preview": "assets/previews/socialx-three-model-output-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 47942,
+      "sha256": "9bf9db8b9e59946c627dc916618226826a0ce7d51f54bf32b7096e524e7234c2",
+      "codec_name": "mjpeg",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-three-model-output-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 47314,
+      "sha256": "998245aea2e665054b4b91c41b28e5f86288c023a11f6bebcb69bad01222c562",
+      "codec_name": "mjpeg",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-three-model-output-03.jpg",
+      "status": "decoded-preview",
+      "bytes": 57262,
+      "sha256": "1947cfa340afa0ce865caba3758cd30a554dd3d67bc22a54114c514c3102db46",
+      "codec_name": "mjpeg",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-three-model-portrait-order-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 43588,
+      "sha256": "f1f4178ccee9dab399d333faf24a36012a55ea7067576ee08d3354c41705a6fa",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-three-model-portrait-order-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 45506,
+      "sha256": "27161b7c841ca87085809d40ac78edcdb6a188e69ad5ab7d3288d779cdbf3ea9",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-three-model-portrait-order-03.jpg",
+      "status": "decoded-preview",
+      "bytes": 45125,
+      "sha256": "621ed05a6e948ccdd25b8a17bd66fc60dacc24e7075cb3e9c564fab18ebda646",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 357
+    },
+    {
+      "preview": "assets/previews/socialx-transparent-character-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 75877,
+      "sha256": "640ca4abe33d95e5179e10027dfb9a19c81383ddd39838a930ace9d7e977310e",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 498
+    },
+    {
+      "preview": "assets/previews/socialx-vintage-cinema-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 25324,
+      "sha256": "9507b4535c37b834d613ab89aa9fef82c6bec9e56ad2382e6f10db27239f7e3e",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-vintage-cinema-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 32209,
+      "sha256": "49be3a277df129ef9e7e1400c05394ec120a19b55d5affd1e58efc9ae46e9b9e",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-vintage-cinema-03.jpg",
+      "status": "decoded-preview",
+      "bytes": 30988,
+      "sha256": "fe0fd2ac59a4bd4ece733fe42fd2fad3135f34aeeadf690c71bccb92e32a3861",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-vintage-cinema-04.jpg",
+      "status": "decoded-preview",
+      "bytes": 28418,
+      "sha256": "28e2795e55eb3ea7b7e32594624d38f23e1e4fab75b2cbf307bad32d193f3ffe",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/socialx-window-light-portrait-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 23208,
+      "sha256": "aeb01fa06e7551700fbe32c61dd039ad5b04a24241c79512aadb19d695bedcd3",
+      "codec_name": "mjpeg",
+      "width": 360,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-window-light-portrait-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 31297,
+      "sha256": "50e0b01182bf6dd8e2499c0e9cac83c6a5d4ecf4be24171373dbece02cb5f3f8",
+      "codec_name": "mjpeg",
+      "width": 394,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-window-light-portrait-03.jpg",
+      "status": "decoded-preview",
+      "bytes": 26271,
+      "sha256": "738f9ca0ee937496d05e3da63dc3c8a5e2d0e923d25f8bd38fcc9c671c0e9ce4",
+      "codec_name": "mjpeg",
+      "width": 394,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-winter-portrait-comparison-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 69533,
+      "sha256": "dc8f9bf5c5af0d792873b684ae4641a24acdf1323048f57daed8e36552c52f68",
+      "codec_name": "mjpeg",
+      "width": 512,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-winter-portrait-comparison-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 41483,
+      "sha256": "02dcb2dc2cff6cd48cf1e3388d3aadc1a48f13db71e14674275352cbe8d3bad7",
+      "codec_name": "mjpeg",
+      "width": 479,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/socialx-winter-portrait-comparison-03.jpg",
+      "status": "decoded-preview",
+      "bytes": 53670,
+      "sha256": "3e5744e30cde4826602e465a5e614d98b1d45933802cbc0c9ef760373f6834d5",
+      "codec_name": "mjpeg",
+      "width": 478,
       "height": 640
     }
   ]
