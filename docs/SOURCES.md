@@ -42,3 +42,7 @@ https://cdn.syndication.twimg.com/tweet-result?id=2119717948470546446&lang=en&to
 ## 首版生成与维护
 
 `content/` 是维护入口；构建与离线校验仅使用 Python 3.11+ 标准库。预览刷新使用网络与 ffmpeg，本地预览解码检查使用 ffmpeg。没有部署独立网站；案例通过 GitHub README 与仓库内详情页浏览，离线检索使用 `scripts/search.py`。
+
+## 2026-11-10 社媒研究补充批次
+
+新增 [8 条社媒研究场景索引](SOCIAL-CASES-2026-11-10.md) 与 [JSON 元数据](../content/social-research-2026-11-10.json)。证据等级、找不到单帖的情形、与官方演示可能重复的内容已经标注。**这些线索不计入主 README 的已验证案例或社媒数量**，不托管第三方原始素材。
