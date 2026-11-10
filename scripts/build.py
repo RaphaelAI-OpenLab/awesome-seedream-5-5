@@ -81,6 +81,13 @@ def render(lang):
                       choose('以上为缩放后的代表帧预览，不是完整动画或可用的透明素材导出文件。', 'This is a reduced representative-frame preview, not a complete animation or an exported transparent asset.'), '',
                       f'[{choose("打开原始媒体", "Open original media")}]({media["url"]})', '',
                       '## ' + choose('提示词', 'Prompt'), '']
+            if c.get('animation_preview'):
+                detail[-2:-2] = [
+                    '', '## ' + choose('原帖视频的短动图预览', 'Animated excerpt from X video'), '',
+                    f'![{name} — animated preview](../../{c["animation_preview"]})', '',
+                    choose('这是原帖视频生成的低分辨率短动图预览，并非模型原生输出 GIF；完整视频请打开原始媒体。',
+                           'Low-resolution excerpt of the source post video, not a native Seedream GIF. Open original media for the full video.'), ''
+                ]
             if len(c['media']) > 1:
                 gallery = ['', '## ' + choose('同一原帖的更多图片', 'More photos from the original post'), '']
                 for number, frame in enumerate(c['media'][1:], 2):

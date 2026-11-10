@@ -10,7 +10,7 @@
 
 由 Raphael 整理的图片与编辑案例库。官方展示、作者自报结果与本仓库编写的练习提示词分别标记。
 
-**59 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
+**68 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
 
 案例未由本仓库独立复现。仓库只保存缩放后的单帧预览，完整图片、GIF 与视频链接至原始地址；第三方媒体及其预览的版权归原权利人。
 
@@ -27,7 +27,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | 项目 | 数量 |
 | --- | ---: |
 | 官方来源案例 | 20 |
-| 作者自报案例 | 39 |
+| 作者自报案例 | 48 |
 | 仓库内完整原始提示词 | 14 |
 | 独立复现案例 | 0 |
 | 来源核对日期 | 2026-11-10 |
@@ -39,14 +39,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 | 分类 | 案例数 |
 | --- | ---: |
-| [多轮与局部编辑](#multi-turn-editing) | 5 |
-| [透明素材](#rgba-assets) | 9 |
-| [人像](#portraits) | 2 |
-| [摄影与纪实](#photography) | 20 |
+| [多轮与局部编辑](#multi-turn-editing) | 6 |
+| [透明素材](#rgba-assets) | 10 |
+| [人像](#portraits) | 3 |
+| [摄影与纪实](#photography) | 24 |
 | [室内与空间](#interiors) | 1 |
-| [文字与排版](#typography) | 11 |
+| [文字与排版](#typography) | 12 |
 | [信息图与界面](#infographics) | 4 |
-| [角色与贴纸](#characters) | 7 |
+| [角色与贴纸](#characters) | 8 |
 
 <a id="cases"></a>
 ## 全部案例
@@ -85,6 +85,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · dongxi_nlp · [原始来源](https://x.com/dongxi_nlp/status/2120031669893939524) · [详情与提示词状态](cases/socialx-llm-diagram-edits/README.zh-CN.md)
 
 > 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者表示对同一张 LLM 原理图连续修改了三十轮。
+
+#### [书桌五轮编辑对比](cases/social05-ddjcxx-desk-edit/README.zh-CN.md)
+
+<a href="cases/social05-ddjcxx-desk-edit/README.zh-CN.md"><img src="assets/previews/social05-ddjcxx-desk-edit-01.jpg" alt="书桌五轮编辑对比" width="420" loading="lazy" /></a>
+
+作者自报 · DDJCXX · [原始来源](https://x.com/DDJCXX/status/2119766551436116358) · [详情与提示词状态](cases/social05-ddjcxx-desk-edit/README.zh-CN.md)
+
+> 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。
 
 <a id="rgba-assets"></a>
 ### 透明素材
@@ -157,6 +165,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 > 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 缩略图无法证明原始Alpha透明度。
 
+#### [透明蒸汽、辐条与薄纱实测](cases/social05-ddjcxx-transparency/README.zh-CN.md)
+
+<a href="cases/social05-ddjcxx-transparency/README.zh-CN.md"><img src="assets/previews/social05-ddjcxx-transparency-01.jpg" alt="透明蒸汽、辐条与薄纱实测" width="420" loading="lazy" /></a>
+
+作者自报 · DDJCXX · [原始来源](https://x.com/DDJCXX/status/2119783562115494336) · [详情与提示词状态](cases/social05-ddjcxx-transparency/README.zh-CN.md)
+
+> 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。 JPEG/GIF预览不能证明原文件的Alpha通道。
+
 <a id="portraits"></a>
 ### 人像
 
@@ -171,6 +187,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 <a href="cases/quantslant-freckled-portrait/README.zh-CN.md"><img src="assets/previews/quantslant-freckled-portrait.jpg" alt="雀斑人像" width="420" loading="lazy" /></a>
 
 作者自报 · Piotr Olszewski / QUANTSLANT · [原始来源](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [详情与提示词状态](cases/quantslant-freckled-portrait/README.zh-CN.md)
+
+#### [眼部微距质感生成](cases/social05-yuzi-eye-detail/README.zh-CN.md)
+
+<a href="cases/social05-yuzi-eye-detail/README.zh-CN.md"><img src="assets/previews/social05-yuzi-eye-detail-01.jpg" alt="眼部微距质感生成" width="420" loading="lazy" /></a>
+
+作者自报 · Yuziyyaa · [原始来源](https://x.com/Yuziyyaa/status/2119799602580955179) · [详情与提示词状态](cases/social05-yuzi-eye-detail/README.zh-CN.md)
+
+> 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。
 
 <a id="photography"></a>
 ### 摄影与纪实
@@ -323,6 +347,38 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 > 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 冷色环境光与暖灯混合的纪实风格人像；原帖提供提示词。
 
+#### [咖啡馆、人像与雨天街景四图](cases/social05-dheepan-four-photographs/README.zh-CN.md)
+
+<a href="cases/social05-dheepan-four-photographs/README.zh-CN.md"><img src="assets/previews/social05-dheepan-four-photographs-01.jpg" alt="咖啡馆、人像与雨天街景四图" width="420" loading="lazy" /></a>
+
+作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119762628658462746) · [详情与提示词状态](cases/social05-dheepan-four-photographs/README.zh-CN.md)
+
+> 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。
+
+#### [街边用餐与咖啡桌人像](cases/social05-drsadek-cafe-photography/README.zh-CN.md)
+
+<a href="cases/social05-drsadek-cafe-photography/README.zh-CN.md"><img src="assets/previews/social05-drsadek-cafe-photography-01.jpg" alt="街边用餐与咖啡桌人像" width="420" loading="lazy" /></a>
+
+作者自报 · DrSadek_ · [原始来源](https://x.com/DrSadek_/status/2119788316153507886) · [详情与提示词状态](cases/social05-drsadek-cafe-photography/README.zh-CN.md)
+
+> 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。
+
+#### [钟表匠、森林地表与汽水质感](cases/social05-kevin-watchmaker-forest/README.zh-CN.md)
+
+<a href="cases/social05-kevin-watchmaker-forest/README.zh-CN.md"><img src="assets/previews/social05-kevin-watchmaker-forest-01.jpg" alt="钟表匠、森林地表与汽水质感" width="420" loading="lazy" /></a>
+
+作者自报 · kevinchin35 · [原始来源](https://x.com/kevinchin35/status/2119747692427628777) · [详情与提示词状态](cases/social05-kevin-watchmaker-forest/README.zh-CN.md)
+
+> 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。
+
+#### [四组题材的 Seedream / GPT / Nano Banana 比较](cases/social05-ozansihay-four-comparisons/README.zh-CN.md)
+
+<a href="cases/social05-ozansihay-four-comparisons/README.zh-CN.md"><img src="assets/previews/social05-ozansihay-four-comparisons-01.jpg" alt="四组题材的 Seedream / GPT / Nano Banana 比较" width="420" loading="lazy" /></a>
+
+作者自报 · ozansihay · [原始来源](https://x.com/ozansihay/status/2119803963738357803) · [详情与提示词状态](cases/social05-ozansihay-four-comparisons/README.zh-CN.md)
+
+> 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。 社媒整理站提供了图片对应关系；请以原帖为准。
+
 <a id="interiors"></a>
 ### 室内与空间
 
@@ -415,6 +471,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 > 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 虚构生物图鉴页，组合标注、数据表和科学插图；原帖有提示词。
 
+#### [雨城动漫、AI海报与窗光人像](cases/social05-tqmiracle-city-poster/README.zh-CN.md)
+
+<a href="cases/social05-tqmiracle-city-poster/README.zh-CN.md"><img src="assets/previews/social05-tqmiracle-city-poster-01.jpg" alt="雨城动漫、AI海报与窗光人像" width="420" loading="lazy" /></a>
+
+作者自报 · TqMiracle18260 · [原始来源](https://x.com/TqMiracle18260/status/2119765639825089008) · [详情与提示词状态](cases/social05-tqmiracle-city-poster/README.zh-CN.md)
+
+> 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。
+
 <a id="infographics"></a>
 ### 信息图与界面
 
@@ -494,6 +558,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · AI_Timemachine · [原始来源](https://x.com/AI_Timemachine/status/2119930302508286194) · [详情与提示词状态](cases/socialx-nature-unseen/README.zh-CN.md)
 
 > 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者使用 Seedream 5.5 重做既有概念系列；四张组图只计一次。
+
+#### [蜡笔火鸡变成真实火鸡混合模型短片](cases/social05-larklee-turkey-mixed-workflow/README.zh-CN.md)
+
+<a href="cases/social05-larklee-turkey-mixed-workflow/README.zh-CN.md"><img src="assets/previews/social05-larklee-turkey-mixed-workflow-02.jpg" alt="蜡笔火鸡变成真实火鸡混合模型短片" width="420" loading="lazy" /></a>
+
+作者自报 · larklee5 · [原始来源](https://x.com/larklee5/status/2119985661939974450) · [详情与提示词状态](cases/social05-larklee-turkey-mixed-workflow/README.zh-CN.md)
+
+> 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。 成片包含其他视频生成模型的制作环节。
 
 <a id="recipes"></a>
 ## 原创练习提示词

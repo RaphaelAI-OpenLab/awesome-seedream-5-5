@@ -10,7 +10,7 @@
 
 A visual reference collection by Raphael. Official demos, creator-reported outputs and original practice recipes are labeled separately.
 
-**59 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
+**68 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
 
 Cases have not been independently reproduced here. Only reduced single-frame previews are bundled; full images, GIFs and videos are linked at their origins. Third-party media and previews retain their owners’ rights.
 
@@ -27,7 +27,7 @@ Seedream 5.5 was announced on **2026-11-09**. See the [official model page](http
 | Item | Count |
 | --- | ---: |
 | Official-source cases | 20 |
-| Creator-reported cases | 39 |
+| Creator-reported cases | 48 |
 | Complete original source prompts included | 14 |
 | Independently reproduced cases | 0 |
 | Sources checked | 2026-11-10 |
@@ -39,14 +39,14 @@ Edit rounds are grouped as one case. Duplicate social videos do not increase the
 
 | Category | Cases |
 | --- | ---: |
-| [Multi-turn & targeted editing](#multi-turn-editing) | 5 |
-| [Transparent assets](#rgba-assets) | 9 |
-| [Portraits](#portraits) | 2 |
-| [Photography & documentary](#photography) | 20 |
+| [Multi-turn & targeted editing](#multi-turn-editing) | 6 |
+| [Transparent assets](#rgba-assets) | 10 |
+| [Portraits](#portraits) | 3 |
+| [Photography & documentary](#photography) | 24 |
 | [Interiors & space](#interiors) | 1 |
-| [Text & typography](#typography) | 11 |
+| [Text & typography](#typography) | 12 |
 | [Infographics & interfaces](#infographics) | 4 |
-| [Characters & stickers](#characters) | 7 |
+| [Characters & stickers](#characters) | 8 |
 
 <a id="cases"></a>
 ## All cases
@@ -85,6 +85,14 @@ Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.
 Creator-reported · dongxi_nlp · [Source](https://x.com/dongxi_nlp/status/2120031669893939524) · [Details & prompt status](cases/socialx-llm-diagram-edits/README.md)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. An LLM explanation diagram that the creator says was revised thirty times.
+
+#### [Five-round desk editing comparison](cases/social05-ddjcxx-desk-edit/README.md)
+
+<a href="cases/social05-ddjcxx-desk-edit/README.md"><img src="assets/previews/social05-ddjcxx-desk-edit-01.jpg" alt="Five-round desk editing comparison" width="420" loading="lazy" /></a>
+
+Creator-reported · DDJCXX · [Source](https://x.com/DDJCXX/status/2119766551436116358) · [Details & prompt status](cases/social05-ddjcxx-desk-edit/README.md)
+
+> Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result.
 
 <a id="rgba-assets"></a>
 ### Transparent assets
@@ -157,6 +165,14 @@ Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha.
 
+#### [Transparent steam, spokes and sheer fabric test](cases/social05-ddjcxx-transparency/README.md)
+
+<a href="cases/social05-ddjcxx-transparency/README.md"><img src="assets/previews/social05-ddjcxx-transparency-01.jpg" alt="Transparent steam, spokes and sheer fabric test" width="420" loading="lazy" /></a>
+
+Creator-reported · DDJCXX · [Source](https://x.com/DDJCXX/status/2119783562115494336) · [Details & prompt status](cases/social05-ddjcxx-transparency/README.md)
+
+> Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. JPEG/GIF preview does not establish native source alpha transparency.
+
 <a id="portraits"></a>
 ### Portraits
 
@@ -171,6 +187,14 @@ Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedre
 <a href="cases/quantslant-freckled-portrait/README.md"><img src="assets/previews/quantslant-freckled-portrait.jpg" alt="Freckled portrait" width="420" loading="lazy" /></a>
 
 Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-freckled-portrait/README.md)
+
+#### [Macro eye detail](cases/social05-yuzi-eye-detail/README.md)
+
+<a href="cases/social05-yuzi-eye-detail/README.md"><img src="assets/previews/social05-yuzi-eye-detail-01.jpg" alt="Macro eye detail" width="420" loading="lazy" /></a>
+
+Creator-reported · Yuziyyaa · [Source](https://x.com/Yuziyyaa/status/2119799602580955179) · [Details & prompt status](cases/social05-yuzi-eye-detail/README.md)
+
+> Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
 
 <a id="photography"></a>
 ### Photography & documentary
@@ -323,6 +347,38 @@ Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/stat
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A documentary-style portrait combining cool ambient light with a warm lamp; the original prompt is at source.
 
+#### [Four photo studies: cafe, rainy street and breakfast](cases/social05-dheepan-four-photographs/README.md)
+
+<a href="cases/social05-dheepan-four-photographs/README.md"><img src="assets/previews/social05-dheepan-four-photographs-01.jpg" alt="Four photo studies: cafe, rainy street and breakfast" width="420" loading="lazy" /></a>
+
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119762628658462746) · [Details & prompt status](cases/social05-dheepan-four-photographs/README.md)
+
+> Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
+
+#### [Street dining and cafe table portrait](cases/social05-drsadek-cafe-photography/README.md)
+
+<a href="cases/social05-drsadek-cafe-photography/README.md"><img src="assets/previews/social05-drsadek-cafe-photography-01.jpg" alt="Street dining and cafe table portrait" width="420" loading="lazy" /></a>
+
+Creator-reported · DrSadek_ · [Source](https://x.com/DrSadek_/status/2119788316153507886) · [Details & prompt status](cases/social05-drsadek-cafe-photography/README.md)
+
+> Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
+
+#### [Watchmaker, forest floor and fizzy water](cases/social05-kevin-watchmaker-forest/README.md)
+
+<a href="cases/social05-kevin-watchmaker-forest/README.md"><img src="assets/previews/social05-kevin-watchmaker-forest-01.jpg" alt="Watchmaker, forest floor and fizzy water" width="420" loading="lazy" /></a>
+
+Creator-reported · kevinchin35 · [Source](https://x.com/kevinchin35/status/2119747692427628777) · [Details & prompt status](cases/social05-kevin-watchmaker-forest/README.md)
+
+> Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
+
+#### [Four-scene image model comparison](cases/social05-ozansihay-four-comparisons/README.md)
+
+<a href="cases/social05-ozansihay-four-comparisons/README.md"><img src="assets/previews/social05-ozansihay-four-comparisons-01.jpg" alt="Four-scene image model comparison" width="420" loading="lazy" /></a>
+
+Creator-reported · ozansihay · [Source](https://x.com/ozansihay/status/2119803963738357803) · [Details & prompt status](cases/social05-ozansihay-four-comparisons/README.md)
+
+> Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. A curator catalog provides image provenance; refer to the author's original post.
+
 <a id="interiors"></a>
 ### Interiors & space
 
@@ -415,6 +471,14 @@ Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/stat
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A fictional creature field-guide page combining labels, a data table and scientific illustration; prompt at source.
 
+#### [Rainy anime city, AI conference poster and portrait](cases/social05-tqmiracle-city-poster/README.md)
+
+<a href="cases/social05-tqmiracle-city-poster/README.md"><img src="assets/previews/social05-tqmiracle-city-poster-01.jpg" alt="Rainy anime city, AI conference poster and portrait" width="420" loading="lazy" /></a>
+
+Creator-reported · TqMiracle18260 · [Source](https://x.com/TqMiracle18260/status/2119765639825089008) · [Details & prompt status](cases/social05-tqmiracle-city-poster/README.md)
+
+> Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
+
 <a id="infographics"></a>
 ### Infographics & interfaces
 
@@ -494,6 +558,14 @@ Creator-reported · haungpower · [Source](https://x.com/haungpower/status/21198
 Creator-reported · AI_Timemachine · [Source](https://x.com/AI_Timemachine/status/2119930302508286194) · [Details & prompt status](cases/socialx-nature-unseen/README.md)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. The artist revisits an existing concept series using Seedream 5.5; the four-image album counts once.
+
+#### [Crayon turkey mixed-model production](cases/social05-larklee-turkey-mixed-workflow/README.md)
+
+<a href="cases/social05-larklee-turkey-mixed-workflow/README.md"><img src="assets/previews/social05-larklee-turkey-mixed-workflow-02.jpg" alt="Crayon turkey mixed-model production" width="420" loading="lazy" /></a>
+
+Creator-reported · larklee5 · [Source](https://x.com/larklee5/status/2119985661939974450) · [Details & prompt status](cases/social05-larklee-turkey-mixed-workflow/README.md)
+
+> Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. The final animation involves other video-generation components.
 
 <a id="recipes"></a>
 ## Original practice recipes

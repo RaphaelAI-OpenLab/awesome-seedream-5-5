@@ -1,0 +1,259 @@
+{
+  "date": "2026-11-10",
+  "post_count": 9,
+  "image_source_count": 24,
+  "video_source_count": 0,
+  "animated_previews": 0,
+  "copyright": "Third-party rights reserved. Preview files are derived small excerpts; original media linked.",
+  "source_audit": [
+    {
+      "id": "social05-dheepan-four-photographs",
+      "source_url": "https://x.com/Dheepanratnam/status/2119762628658462746",
+      "author": "Dheepanratnam",
+      "media_count": 4,
+      "media_types": [
+        "image",
+        "image",
+        "image",
+        "image"
+      ],
+      "model_explicit": true,
+      "source_text_excerpt": "byteplus announced seedreem 5.5🔥🤯\n\nstable multi-turn editing across up to 100 rounds, native RGBA transparent assets, and more realistic lighting/materials/skin plus clearer small text.\n\nLets check it out\n\nTesting Seedream 5.5 Thread  \n(Continuous up",
+      "prompt_status": "not-published",
+      "animation_preview": null
+    },
+    {
+      "id": "social05-yuzi-eye-detail",
+      "source_url": "https://x.com/Yuziyyaa/status/2119799602580955179",
+      "author": "Yuziyyaa",
+      "media_count": 2,
+      "media_types": [
+        "image",
+        "image"
+      ],
+      "model_explicit": true,
+      "source_text_excerpt": "字节 Seedream 5.5有东西啊\n\n图1豆包生成，图2GPT生成\n在同一提示词下测试出来的图片\n这个水平真的可以啊？！！",
+      "prompt_status": "not-published",
+      "animation_preview": null
+    },
+    {
+      "id": "social05-drsadek-cafe-photography",
+      "source_url": "https://x.com/DrSadek_/status/2119788316153507886",
+      "author": "DrSadek_",
+      "media_count": 4,
+      "media_types": [
+        "image",
+        "image",
+        "image",
+        "image"
+      ],
+      "model_explicit": true,
+      "source_text_excerpt": "Seedream 5.5 is out, so I tested it on a few different things.\n\nPhotorealism, cinematic scenes, product ads, typography, and the same character in different settings.\n\nStarting with photorealism 👇",
+      "prompt_status": "not-published",
+      "animation_preview": null
+    },
+    {
+      "id": "social05-kevin-watchmaker-forest",
+      "source_url": "https://x.com/kevinchin35/status/2119747692427628777",
+      "author": "kevinchin35",
+      "media_count": 3,
+      "media_types": [
+        "image",
+        "image",
+        "image"
+      ],
+      "model_explicit": true,
+      "source_text_excerpt": "即梦的Seedream 5.5太强了😭\n1️⃣ 生图质量很不错，不管是光影、材质、透视等等方面都表现良好，尤其是很多模型都拉跨的动漫风格，深得我心；\n2️⃣ 中文生成效果也很顶；\n3️⃣ 多轮迭代画质劣化程度很低，视频是迭代10轮的过程，劣化程度基本可以忽略不计；\n4️⃣ 价格是真的便宜，相同分辨率和比例情况下，一样的积分，ImageMax生成一张，5.5能生成4张\n5️⃣ 没有GPT那种AI噪点和分形纹理！\n真的，可以列为主力生图模型之一了",
+      "prompt_status": "not-published",
+      "animation_preview": null
+    },
+    {
+      "id": "social05-tqmiracle-city-poster",
+      "source_url": "https://x.com/TqMiracle18260/status/2119765639825089008",
+      "author": "TqMiracle18260",
+      "media_count": 4,
+      "media_types": [
+        "image",
+        "image",
+        "image",
+        "image"
+      ],
+      "model_explicit": true,
+      "source_text_excerpt": "字节跳动今天发布 Seedream 5.5 ！\n\n1、支持最多 100 轮连续图片编辑。\n\n2、原生支持 RGBA 透明背景生成。\n\n3、图片真实感和文字渲染进一步提升。\n\n连续编辑 100 轮这个能力，如果实际效果稳定，对做海报，电商图的用户是非常的实用。\n\n分享几张实测图！\n\n#Seedream #AI绘画 #AIGC",
+      "prompt_status": "not-published",
+      "animation_preview": null
+    },
+    {
+      "id": "social05-ozansihay-four-comparisons",
+      "source_url": "https://x.com/ozansihay/status/2119803963738357803",
+      "author": "ozansihay",
+      "media_count": 4,
+      "media_types": [
+        "image",
+        "image",
+        "image",
+        "image"
+      ],
+      "model_explicit": true,
+      "source_text_excerpt": "Seedream 5.5 çıktı. Aynı promptlarla GPT Image 2.6 ve Nano Banana 2.1'in yanına koyup test ettim.\n\nSeedance gibi öncü bir video modelinin görsel tarafı bugüne kadar hiç yeterli değildi, piyasada da pek tutunamamıştı. Bu sürümle ciddi yol kat etmişler",
+      "prompt_status": "not-published",
+      "animation_preview": null
+    },
+    {
+      "id": "social05-larklee-turkey-mixed-workflow",
+      "source_url": "https://x.com/larklee5/status/2119985661939974450",
+      "author": "larklee5",
+      "media_count": 1,
+      "media_types": [
+        "image"
+      ],
+      "model_explicit": true,
+      "source_text_excerpt": "Made with Fable 5.2 + Seedream 5.5, two new models.\nA kid's crayon turkey wakes up on the fridge, bursts into glowing particles, becomes a real turkey, then sees what's in the oven.\n\nNot on the menu. 🦃",
+      "prompt_status": "not-published",
+      "animation_preview": null
+    },
+    {
+      "id": "social05-ddjcxx-desk-edit",
+      "source_url": "https://x.com/DDJCXX/status/2119766551436116358",
+      "author": "DDJCXX",
+      "media_count": 1,
+      "media_types": [
+        "image"
+      ],
+      "model_explicit": true,
+      "source_text_excerpt": "做电商图、海报要反复改图的，即梦里可以换成今天新出的 Seedream 5.5 了，比上一代 5.0 Pro 更好用，还更便宜。\n\n我在即梦里拿同一张书桌照片，让两个模型各连着改 5 轮，每轮只改一样东西：杯子换红色、加副眼镜、绿萝换仙人掌、加个闹钟、书换成蓝皮的。\n\n5.5 改完 5 轮，墙、窗户、电脑屏幕和原图逐个像素比，完全一样，变的只有那 5 样东西。\n\n5.0 Pro 每改一轮都把整张图重画一遍，第一轮改完，和原图一样的像素就只剩 0.4%。肉眼看着差不多，到第 5 轮，墙和窗户已经有",
+      "prompt_status": "not-published",
+      "animation_preview": null
+    },
+    {
+      "id": "social05-ddjcxx-transparency",
+      "source_url": "https://x.com/DDJCXX/status/2119783562115494336",
+      "author": "DDJCXX",
+      "media_count": 1,
+      "media_types": [
+        "image"
+      ],
+      "model_explicit": true,
+      "source_text_excerpt": "要透明背景的素材，在即梦里让 Seedream 5.5 直接出，比先出图再抠图干净。\n\n我拿三样最难抠的东西，两种做法各试了一次。\n\n冒热气的咖啡：直接出的，热气还在。抠图的，热气被当成背景一起抠没了。\n\n自行车：直接出的，辐条完整。抠图的，后轮辐条断了一大片。\n\n白色薄纱：两种都不行，纱是实心的，透不出底色。\n\n直接出还少一步，少花 1 积分。",
+      "prompt_status": "not-published",
+      "animation_preview": null
+    }
+  ],
+  "added": [
+    {
+      "id": "social05-dheepan-four-photographs",
+      "images": 4,
+      "video_sources": 0,
+      "animation_preview": false,
+      "source_url": "https://x.com/Dheepanratnam/status/2119762628658462746"
+    },
+    {
+      "id": "social05-yuzi-eye-detail",
+      "images": 2,
+      "video_sources": 0,
+      "animation_preview": false,
+      "source_url": "https://x.com/Yuziyyaa/status/2119799602580955179"
+    },
+    {
+      "id": "social05-drsadek-cafe-photography",
+      "images": 4,
+      "video_sources": 0,
+      "animation_preview": false,
+      "source_url": "https://x.com/DrSadek_/status/2119788316153507886"
+    },
+    {
+      "id": "social05-kevin-watchmaker-forest",
+      "images": 3,
+      "video_sources": 0,
+      "animation_preview": false,
+      "source_url": "https://x.com/kevinchin35/status/2119747692427628777"
+    },
+    {
+      "id": "social05-tqmiracle-city-poster",
+      "images": 4,
+      "video_sources": 0,
+      "animation_preview": false,
+      "source_url": "https://x.com/TqMiracle18260/status/2119765639825089008"
+    },
+    {
+      "id": "social05-ozansihay-four-comparisons",
+      "images": 4,
+      "video_sources": 0,
+      "animation_preview": false,
+      "source_url": "https://x.com/ozansihay/status/2119803963738357803"
+    },
+    {
+      "id": "social05-larklee-turkey-mixed-workflow",
+      "images": 1,
+      "video_sources": 0,
+      "animation_preview": false,
+      "source_url": "https://x.com/larklee5/status/2119985661939974450"
+    },
+    {
+      "id": "social05-ddjcxx-desk-edit",
+      "images": 1,
+      "video_sources": 0,
+      "animation_preview": false,
+      "source_url": "https://x.com/DDJCXX/status/2119766551436116358"
+    },
+    {
+      "id": "social05-ddjcxx-transparency",
+      "images": 1,
+      "video_sources": 0,
+      "animation_preview": false,
+      "source_url": "https://x.com/DDJCXX/status/2119783562115494336"
+    }
+  ],
+  "failures": [
+    {
+      "id": "social05-kevin-watchmaker-forest",
+      "media_index": 3,
+      "reason": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
+    {
+      "id": "social05-xiaohu-thirty-round-gif",
+      "media_index": 1,
+      "reason": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
+    {
+      "id": "social05-xiaohu-thirty-round-gif",
+      "reason": "No supported X image/video asset saved"
+    },
+    {
+      "id": "social05-larklee-turkey-mixed-workflow",
+      "media_index": 1,
+      "reason": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
+    {
+      "id": "social05-sjonkerr-street-weather-edit",
+      "media_index": 1,
+      "reason": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
+    {
+      "id": "social05-sjonkerr-street-weather-edit",
+      "reason": "No supported X image/video asset saved"
+    },
+    {
+      "id": "social05-opener-morphic-character",
+      "media_index": 1,
+      "reason": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
+    {
+      "id": "social05-opener-morphic-character",
+      "reason": "No supported X image/video asset saved"
+    },
+    {
+      "id": "social05-vortex-fifteen-round-compare",
+      "media_index": 1,
+      "reason": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
+    {
+      "id": "social05-vortex-fifteen-round-compare",
+      "reason": "No supported X image/video asset saved"
+    },
+    {
+      "id": "social05-dotey-avatar-travel-edits",
+      "reason": "post lookup or processing failed: No media attached"
+    }
+  ]
+}
