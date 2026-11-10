@@ -1,0 +1,26 @@
+name: Restore exact X prompts (temporary)
+on:
+  push:
+    branches: [research/seedream55-creator-gallery-b04]
+permissions:
+  contents: write
+jobs:
+  restore:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 scripts/restore_prompts_b04.py
+      - run: python3 scripts/build.py --check && python3 scripts/validate.py
+      - name: Commit extracted exact prompts and generated pages
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/cases.json docs/social-x-batch04-audit.json README.md README.zh-CN.md cases/
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: restore four verified creator prompts from original X posts [skip ci]"
+            git push origin HEAD:$GITHUB_REF_NAME
+          fi
