@@ -1,4 +1,4 @@
-# 餐厅菜品逐次加入桌面的编辑
+# 桌面静物分步增添元素
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
@@ -6,7 +6,7 @@
 
 **作者自报 · 未独立复现**
 
-![餐厅菜品逐次加入桌面的编辑](../../assets/previews/social07-aiwithsaif-menu-sequence-01.jpg)
+![桌面静物分步增添元素](../../assets/previews/social07-aiwithsaif-menu-sequence-01.jpg)
 
 以上为缩放后的代表帧预览，不是完整动画或可用的透明素材导出文件。
 
@@ -15,7 +15,7 @@
 
 ## 原帖视频的短动图预览
 
-![餐厅菜品逐次加入桌面的编辑 — animated preview](../../assets/animations/social07-aiwithsaif-menu-sequence.gif)
+![桌面静物分步增添元素 — animated preview](../../assets/animations/social07-aiwithsaif-menu-sequence.gif)
 
 这是原帖视频生成的低分辨率短动图预览，并非模型原生输出 GIF；完整视频请打开原始媒体。
 

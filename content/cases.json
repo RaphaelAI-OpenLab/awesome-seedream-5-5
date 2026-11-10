@@ -3178,8 +3178,8 @@
   {
     "id": "social07-aiwithsaif-menu-sequence",
     "title": {
-      "zh-CN": "餐厅菜品逐次加入桌面的编辑",
-      "en": "Restaurant food added across local edits"
+      "zh-CN": "桌面静物分步增添元素",
+      "en": "Tabletop still life built across local edits"
     },
     "category": "multi-turn-editing",
     "author": "AiwithSaif7",

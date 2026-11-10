@@ -1,4 +1,4 @@
-# Restaurant food added across local edits
+# Tabletop still life built across local edits
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
@@ -6,7 +6,7 @@
 
 **Creator-reported · Not independently reproduced**
 
-![Restaurant food added across local edits](../../assets/previews/social07-aiwithsaif-menu-sequence-01.jpg)
+![Tabletop still life built across local edits](../../assets/previews/social07-aiwithsaif-menu-sequence-01.jpg)
 
 This is a reduced representative-frame preview, not a complete animation or an exported transparent asset.
 
@@ -15,7 +15,7 @@ This is a reduced representative-frame preview, not a complete animation or an e
 
 ## Animated excerpt from X video
 
-![Restaurant food added across local edits — animated preview](../../assets/animations/social07-aiwithsaif-menu-sequence.gif)
+![Tabletop still life built across local edits — animated preview](../../assets/animations/social07-aiwithsaif-menu-sequence.gif)
 
 Low-resolution excerpt of the source post video, not a native Seedream GIF. Open original media for the full video.
 

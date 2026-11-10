@@ -150,9 +150,9 @@ Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status
 
 > Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced.
 
-#### [Restaurant food added across local edits](cases/social07-aiwithsaif-menu-sequence/README.md)
+#### [Tabletop still life built across local edits](cases/social07-aiwithsaif-menu-sequence/README.md)
 
-<a href="cases/social07-aiwithsaif-menu-sequence/README.md"><img src="assets/animations/social07-aiwithsaif-menu-sequence.gif" alt="Restaurant food added across local edits" width="420" loading="lazy" /></a>
+<a href="cases/social07-aiwithsaif-menu-sequence/README.md"><img src="assets/animations/social07-aiwithsaif-menu-sequence.gif" alt="Tabletop still life built across local edits" width="420" loading="lazy" /></a>
 
 Creator-reported · AiwithSaif7 · [Source](https://x.com/AiwithSaif7/status/2119807382452908472) · [Details & prompt status](cases/social07-aiwithsaif-menu-sequence/README.md)
 

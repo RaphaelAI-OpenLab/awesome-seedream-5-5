@@ -150,9 +150,9 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 > 图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。
 
-#### [餐厅菜品逐次加入桌面的编辑](cases/social07-aiwithsaif-menu-sequence/README.zh-CN.md)
+#### [桌面静物分步增添元素](cases/social07-aiwithsaif-menu-sequence/README.zh-CN.md)
 
-<a href="cases/social07-aiwithsaif-menu-sequence/README.zh-CN.md"><img src="assets/animations/social07-aiwithsaif-menu-sequence.gif" alt="餐厅菜品逐次加入桌面的编辑" width="420" loading="lazy" /></a>
+<a href="cases/social07-aiwithsaif-menu-sequence/README.zh-CN.md"><img src="assets/animations/social07-aiwithsaif-menu-sequence.gif" alt="桌面静物分步增添元素" width="420" loading="lazy" /></a>
 
 作者自报 · AiwithSaif7 · [原始来源](https://x.com/AiwithSaif7/status/2119807382452908472) · [详情与提示词状态](cases/social07-aiwithsaif-menu-sequence/README.zh-CN.md)
 
