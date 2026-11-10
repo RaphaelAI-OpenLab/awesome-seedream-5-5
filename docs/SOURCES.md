@@ -62,3 +62,7 @@ https://cdn.syndication.twimg.com/tweet-result?id=2119717948470546446&lang=en&to
 ## 第五批：X 创作者新案例（2026-11-10）
 
 直接从 X 原帖公开的媒体接口提取对应图片和视频 URL，并保存压缩 JPEG 预览。动态帖另生成低分辨率的短 GIF 摘要，不打包原始完整 MP4。来源与媒体、失败记录及提示词公开状态均见 docs/social-source-batch05-audit.json 和 content/social-source-batch05.json。跨模型案例注明其他模型参与，作者保留全部媒体权利，本仓库没有独立复现。
+
+## 第六批：已核对原帖配图的新案例（2026-11-10）
+
+新增 5 个源帖案例、10 张本地预览；参见 [批次说明](SOCIAL-BATCH06.md) 和 [媒体校验记录](social-source-batch06-audit.json)。包括风格控制、三模型奇幻人物对比、游戏式街景与三项独立局部编辑。完整原始 Prompt 本批没有新增；一份作者公开的三步操作摘要与完整 Prompt 分开记录。

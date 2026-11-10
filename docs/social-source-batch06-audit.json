@@ -1,0 +1,243 @@
+{
+  "batch": 6,
+  "checked_at": "2026-11-10",
+  "discovery": [
+    "https://agi-labo.com/radar?m=image",
+    "https://picyep.com/seedream-5-5",
+    "https://teapaw.org/KakiponzuX",
+    "https://teapaw.org/lyraxana",
+    "https://teapaw.org/Dheepanratnam"
+  ],
+  "verification": "Original X author, version self-attribution, photo IDs, reviewed source-byte hashes, JPEG decode and local preview hashes checked. No independent model run.",
+  "visual_review_artifact_run": 42829826917,
+  "cases_added": 5,
+  "preview_files_added": 10,
+  "complete_prompts_added": 0,
+  "workflow_summaries_added": 1,
+  "before_cases": 72,
+  "after_cases": 77,
+  "before_complete_prompts": 14,
+  "after_complete_prompts": 14,
+  "added": [
+    {
+      "id": "social06-kakiponzu-painterly-version-test",
+      "title": {
+        "zh-CN": "角色画风：Seedream 5.0 Pro 与 5.5 对照",
+        "en": "Painterly character: 5.0 Pro versus 5.5"
+      },
+      "source_url": "https://x.com/KakiponzuX/status/2119772951889224178",
+      "author": "KakiponzuX",
+      "published_at": "Mon Nov 09 12:43:49 +0000 2026",
+      "media": [
+        {
+          "media_id": "2119772943638994945",
+          "url": "https://pbs.twimg.com/media/HWryQt4WIAE_8wz.jpg?name=orig",
+          "source_sha256": "1b9c46b1112778535e18bfdedbc863a8c7bec8f9320d6934e887bd9735b85f2c",
+          "source_dimensions": [
+            3698,
+            3952
+          ],
+          "preview": "assets/previews/social06-kakiponzu-painterly-version-test-01.jpg",
+          "preview_sha256": "865a885328e71b22abfb669a3295a5bd033886a0d593ae00b13bb4b4385c0479",
+          "bytes": 85162,
+          "label": null
+        }
+      ],
+      "complete_original_prompt_retrieved": false,
+      "published_workflow_steps": [],
+      "visually_reviewed": true
+    },
+    {
+      "id": "social06-kakiponzu-style-tail-control",
+      "title": {
+        "zh-CN": "仅移除风格后缀：插画与写实人物对照",
+        "en": "Removing the style suffix: illustration versus photoreal"
+      },
+      "source_url": "https://x.com/KakiponzuX/status/2119799171397906607",
+      "author": "KakiponzuX",
+      "published_at": "Mon Nov 09 14:28:01 +0000 2026",
+      "media": [
+        {
+          "media_id": "2119799164355653633",
+          "url": "https://pbs.twimg.com/media/HWsKG9qWsAEjV9t.jpg?name=orig",
+          "source_sha256": "23e67fc295caee073ca950979442b2b9560c6abf9a173bfbfb526534ef1dc8aa",
+          "source_dimensions": [
+            3328,
+            3840
+          ],
+          "preview": "assets/previews/social06-kakiponzu-style-tail-control-01.jpg",
+          "preview_sha256": "1c43f3c234bf33d31b7ff71888e9e571c2beb031ef63795a79299186aeab2959",
+          "bytes": 73013,
+          "label": null
+        }
+      ],
+      "complete_original_prompt_retrieved": false,
+      "published_workflow_steps": [],
+      "visually_reviewed": true
+    },
+    {
+      "id": "social06-lyra-fantasy-three-models",
+      "title": {
+        "zh-CN": "奇幻人物与幼龙：三模型配图对比",
+        "en": "Fantasy character and small dragon: three-model comparison"
+      },
+      "source_url": "https://x.com/lyraxana/status/2118884892427551046",
+      "author": "lyraxana",
+      "published_at": "Sat Nov 07 01:54:59 +0000 2026",
+      "media": [
+        {
+          "media_id": "2118884884206817280",
+          "url": "https://pbs.twimg.com/media/HWfKk2sXkAA5Zcm.jpg?name=orig",
+          "source_sha256": "5eb2cc0c37ff068a06d0b9546d3d54b577187753f9a856e16c960970214fc550",
+          "source_dimensions": [
+            2048,
+            1370
+          ],
+          "preview": "assets/previews/social06-lyra-fantasy-three-models-01.jpg",
+          "preview_sha256": "07aaa38da8c654fdbeb7ec02cb9e8e47dd9478b3d7948a78284f719137ec9c35",
+          "bytes": 52062,
+          "label": "Seedream 5.5"
+        },
+        {
+          "media_id": "2118884884198354944",
+          "url": "https://pbs.twimg.com/media/HWfKk2qWcAAOzkN.jpg?name=orig",
+          "source_sha256": "500ed610477b74a96c42abdb7c6508611777d54e40d046a0b307d8b9f73879c4",
+          "source_dimensions": [
+            2048,
+            1118
+          ],
+          "preview": "assets/previews/social06-lyra-fantasy-three-models-02.jpg",
+          "preview_sha256": "37482e2a064298c88805921d673d7fb406602113ee791422e362d9215f08b3d7",
+          "bytes": 39099,
+          "label": "Nano Banana Pro"
+        },
+        {
+          "media_id": "2118884884248715265",
+          "url": "https://pbs.twimg.com/media/HWfKk22W4AEVIdn.jpg?name=orig",
+          "source_sha256": "c3442a1a7494f27eeeca96d721c6cbb0d550d7630a5c48a207e526e099723f0e",
+          "source_dimensions": [
+            1672,
+            941
+          ],
+          "preview": "assets/previews/social06-lyra-fantasy-three-models-03.jpg",
+          "preview_sha256": "8f0057c591616a7ace3cbc0bcd27e75790e686deb555b758111edb1b8357cc11",
+          "bytes": 73278,
+          "label": "GPT Image 2.6 Sunburst"
+        }
+      ],
+      "complete_original_prompt_retrieved": false,
+      "published_workflow_steps": [],
+      "visually_reviewed": true
+    },
+    {
+      "id": "social06-lyra-game-street-sign",
+      "title": {
+        "zh-CN": "游戏式街景与远景标牌",
+        "en": "Game-style street scene and distant signage"
+      },
+      "source_url": "https://x.com/lyraxana/status/2118896484934668512",
+      "author": "lyraxana",
+      "published_at": "Sat Nov 07 02:41:03 +0000 2026",
+      "media": [
+        {
+          "media_id": "2118895958180143104",
+          "url": "https://pbs.twimg.com/media/HWfUpcdWoAAyKB0.jpg?name=orig",
+          "source_sha256": "2c9f32653d9d47abf1e7eb45f615a58e9d1238eaef83cb015558cd02c35e4a52",
+          "source_dimensions": [
+            2736,
+            1536
+          ],
+          "preview": "assets/previews/social06-lyra-game-street-sign-01.jpg",
+          "preview_sha256": "6115fff8cfaec660e6e4817fcb2fdf5b74eb00afad3cbdb2c263039a1f102e63",
+          "bytes": 63899,
+          "label": null
+        }
+      ],
+      "complete_original_prompt_retrieved": false,
+      "published_workflow_steps": [],
+      "visually_reviewed": true
+    },
+    {
+      "id": "social06-dheepan-three-local-edits",
+      "title": {
+        "zh-CN": "花卉、窗帘与光线：三项独立局部编辑",
+        "en": "Flowers, curtains and light: three separate local edits"
+      },
+      "source_url": "https://x.com/Dheepanratnam/status/2119803435461599638",
+      "author": "Dheepanratnam",
+      "published_at": "Mon Nov 09 14:44:57 +0000 2026",
+      "media": [
+        {
+          "media_id": "2119802689697538048",
+          "url": "https://pbs.twimg.com/media/HWsNUKlW4AAa9VV.jpg?name=orig",
+          "source_sha256": "6968a3f17d85330d86ff6e855ed72d1d86d1bf6d21561d0fbe196013e16bc4dc",
+          "source_dimensions": [
+            2304,
+            1728
+          ],
+          "preview": "assets/previews/social06-dheepan-three-local-edits-01.jpg",
+          "preview_sha256": "b405ef92899a538ffa10a00c58625bcaf5cdd37e6b0112b7ef0c99feb71a3052",
+          "bytes": 40094,
+          "label": null
+        },
+        {
+          "media_id": "2119803155286245376",
+          "url": "https://pbs.twimg.com/media/HWsNvRCWwAAvGXA.jpg?name=orig",
+          "source_sha256": "a9946f8919db2100bf51eeaaca5df1292fc1f32fdf9c960e1b2f3c1d777201b3",
+          "source_dimensions": [
+            2368,
+            1776
+          ],
+          "preview": "assets/previews/social06-dheepan-three-local-edits-02.jpg",
+          "preview_sha256": "e60081a6b01c9789301ba1805df99a235212242fbc39f2d829e335ac4b97be4c",
+          "bytes": 37197,
+          "label": null
+        },
+        {
+          "media_id": "2119803189859962882",
+          "url": "https://pbs.twimg.com/media/HWsNxR1X0AIGN7r.jpg?name=orig",
+          "source_sha256": "2578ba653e30271d7af8a3b36cdb212f302e5436aabd12064989b2af864c79e0",
+          "source_dimensions": [
+            2368,
+            1776
+          ],
+          "preview": "assets/previews/social06-dheepan-three-local-edits-03.jpg",
+          "preview_sha256": "82d1c9b7a30f62e589e4872d23a7108f5860f93dcc601950ac9dce7bd42143cc",
+          "bytes": 41620,
+          "label": null
+        },
+        {
+          "media_id": "2119803207404711936",
+          "url": "https://pbs.twimg.com/media/HWsNyTMXcAABJdE.jpg?name=orig",
+          "source_sha256": "25a3076ea0184ace6f05e0d4a8f855a1b6b95e345e13c5a8a5ec6ed9cabfd8a0",
+          "source_dimensions": [
+            2368,
+            1776
+          ],
+          "preview": "assets/previews/social06-dheepan-three-local-edits-04.jpg",
+          "preview_sha256": "d3ffa93bfd932b5f780d6f46ee71ef16e2492b960fe7286281c4a3767ecfd86f",
+          "bytes": 32371,
+          "label": null
+        }
+      ],
+      "complete_original_prompt_retrieved": false,
+      "published_workflow_steps": [
+        "Change the flowers",
+        "Change the curtains",
+        "Change the lighting"
+      ],
+      "visually_reviewed": true
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://x.com/lyraxana/status/2119716289581334969",
+      "reason": "Benchmark chart, not a newly generated creator example"
+    },
+    {
+      "url": "https://x.com/KakiponzuX/status/2119801752656531616",
+      "reason": "Omitted after editorial visual review; not needed for this public showcase"
+    }
+  ],
+  "media_rights": "Third-party rights retained; repository code license does not grant rights to creator media."
+}
