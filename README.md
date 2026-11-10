@@ -10,7 +10,7 @@
 
 A visual reference collection by Raphael. Official demos, creator-reported outputs and original practice recipes are labeled separately.
 
-**83 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
+**88 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
 
 Cases have not been independently reproduced here. Only reduced single-frame previews are bundled; full images, GIFs and videos are linked at their origins. Third-party media and previews retain their owners’ rights.
 
@@ -27,10 +27,10 @@ Seedream 5.5 was announced on **2026-11-09**. See the [official model page](http
 | Item | Count |
 | --- | ---: |
 | Official-source cases | 20 |
-| Creator-reported cases | 63 |
-| Complete original source prompts included | 14 |
+| Creator-reported cases | 68 |
+| Complete original source prompts included | 15 |
 | Independently reproduced cases | 0 |
-| Sources checked | 2026-11-10 |
+| Sources checked | 2026-11-11 |
 
 Edit rounds are grouped as one case. Duplicate social videos do not increase the case count. Source-page demo descriptions are not treated as complete generation prompts.
 
@@ -41,12 +41,12 @@ Edit rounds are grouped as one case. Duplicate social videos do not increase the
 | --- | ---: |
 | [Multi-turn & targeted editing](#multi-turn-editing) | 15 |
 | [Transparent assets](#rgba-assets) | 10 |
-| [Portraits](#portraits) | 6 |
-| [Photography & documentary](#photography) | 25 |
+| [Portraits](#portraits) | 8 |
+| [Photography & documentary](#photography) | 26 |
 | [Interiors & space](#interiors) | 1 |
-| [Text & typography](#typography) | 12 |
+| [Text & typography](#typography) | 13 |
 | [Infographics & interfaces](#infographics) | 4 |
-| [Characters & stickers](#characters) | 10 |
+| [Characters & stickers](#characters) | 11 |
 
 <a id="cases"></a>
 ## All cases
@@ -292,6 +292,22 @@ Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/21198
 
 > Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced. Multi-model or external workflow: not every frame is Seedream-only.
 
+#### [Cinematic portrait designs: winter study and summer garden](cases/social08-kishen-cinematic-portraits/README.md)
+
+<a href="cases/social08-kishen-cinematic-portraits/README.md"><img src="assets/previews/social08-kishen-film-portraits-01.webp" alt="Cinematic portrait designs: winter study and summer garden" width="420" loading="lazy" /></a>
+
+Creator-reported · KishenArt · [Source](https://x.com/KishenArt/status/2120046624919769591) · [Details & prompt status](cases/social08-kishen-cinematic-portraits/README.md)
+
+> The creator posted long P1/P2 prompts in two replies, also 2120047937673916717; their full texts have not been independently checked and are not transcribed. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed.
+
+#### [Portrait trials: blue hair, red dress, white T-shirt](cases/social08-aigmudq-fashion-samples/README.md)
+
+<a href="cases/social08-aigmudq-fashion-samples/README.md"><img src="assets/previews/social08-aigmudq-tests-01.webp" alt="Portrait trials: blue hair, red dress, white T-shirt" width="420" loading="lazy" /></a>
+
+Creator-reported · 降温计划 · [Source](https://x.com/aigmudq/status/2119771043707621711) · [Details & prompt status](cases/social08-aigmudq-fashion-samples/README.md)
+
+> The author explicitly calls this a Seedream 5.5 test. Only three images from the single post are included; an image from a second post is excluded. Prompt unpublished. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed.
+
 <a id="photography"></a>
 ### Photography & documentary
 
@@ -483,6 +499,14 @@ Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/211971628
 
 > Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced.
 
+#### [9:16 outpainting: original, Seedream, GPT Image](cases/social08-drsadek-portrait-outpainting/README.md)
+
+<a href="cases/social08-drsadek-portrait-outpainting/README.md"><img src="assets/previews/social08-drsadek-resize-compare-01.webp" alt="9:16 outpainting: original, Seedream, GPT Image" width="420" loading="lazy" /></a>
+
+Creator-reported · DrSadek · [Source](https://x.com/DrSadek_/status/2119809560038772808) · [Details & prompt status](cases/social08-drsadek-portrait-outpainting/README.md)
+
+> The source labels image one the original, image two Seedream 5.5, and image three GPT Image 2.6. These are not three Seedream results. Full prompt unpublished. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed.
+
 <a id="interiors"></a>
 ### Interiors & space
 
@@ -582,6 +606,14 @@ Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/stat
 Creator-reported · TqMiracle18260 · [Source](https://x.com/TqMiracle18260/status/2119765639825089008) · [Details & prompt status](cases/social05-tqmiracle-city-poster/README.md)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
+
+#### [Ridge Snack packaging across four models](cases/social08-maxescu-ridge-snack/README.md)
+
+<a href="cases/social08-maxescu-ridge-snack/README.md"><img src="assets/previews/social08-maxescu-goat-compare-01.webp" alt="Ridge Snack packaging across four models" width="420" loading="lazy" /></a>
+
+Creator-reported · Alex Patrascu · [Source](https://x.com/maxescu/status/2120078778487505206) · [Details & prompt status](cases/social08-maxescu-ridge-snack/README.md)
+
+> Four quadrants are MiniMax H3, Seedream 5.5, Nano Banana 2.1 and GPT Image 2.6; only upper-right is Seedream. The creator publicly provided the complete shared prompt. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed.
 
 <a id="infographics"></a>
 ### Infographics & interfaces
@@ -686,6 +718,14 @@ Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/211888489
 Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/2118896484934668512) · [Details & prompt status](cases/social06-lyra-game-street-sign/README.md)
 
 > The creator attributes this GTA-style image to Seedream 5.5; it is not a verified official game screenshot. The post dates to 2026-11-07 and model attribution is self-reported. A complete prompt was not retrieved.
+
+#### [Traditional deity-style illustration test](cases/social08-taxue-deity-artwork/README.md)
+
+<a href="cases/social08-taxue-deity-artwork/README.md"><img src="assets/previews/social08-taxue-cinematic-01.webp" alt="Traditional deity-style illustration test" width="420" loading="lazy" /></a>
+
+Creator-reported · 踏雪寻仙 · [Source](https://x.com/TaXue2025/status/2119730457030041723) · [Details & prompt status](cases/social08-taxue-deity-artwork/README.md)
+
+> The author included a screenshot of Seedream 5.5 in the model selector; it is not counted as generated media. Specific per-image comparisons with 5.0 Pro were not verified. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed.
 
 <a id="recipes"></a>
 ## Original practice recipes

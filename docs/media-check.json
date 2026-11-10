@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-10T10:00:50.896722+00:00",
-  "method": "本地缩放 JPEG 预览：SHA-256、ffprobe、ffmpeg 解码；不代表原始 GIF 完整解码、模型复现或人工视觉验收。",
+  "checked_at": "2026-11-11T00:00:00+00:00",
+  "method": "本地缩放 JPEG 预览：SHA-256、ffprobe、ffmpeg 解码；不代表原始 GIF 完整解码、模型复现或人工视觉验收。 追加 10 张 WebP：复制公开汇编字节、验证 RIFF/WEBP 文件签名和 SHA-256，并经可视化渲染核对；本批未运行 ffmpeg。",
   "items": [
     {
       "preview": "assets/previews/official-bar-cat.jpg",
@@ -1207,6 +1207,96 @@
       "codec_name": "mjpeg",
       "width": 478,
       "height": 640
+    },
+    {
+      "preview": "assets/previews/social08-maxescu-goat-compare-01.webp",
+      "status": "decoded-preview",
+      "bytes": 203188,
+      "sha256": "440c66cc953bf305553940f1ac275c43b42c8868383919d92b2154409130d136",
+      "codec_name": "webp",
+      "width": 1600,
+      "height": 1064
+    },
+    {
+      "preview": "assets/previews/social08-kishen-film-portraits-01.webp",
+      "status": "decoded-preview",
+      "bytes": 144522,
+      "sha256": "4182e071b478e00dcec2ab19c6d408fb9d89ed9e43d634666ce1eefac3dbbca5",
+      "codec_name": "webp",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "preview": "assets/previews/social08-kishen-film-portraits-02.webp",
+      "status": "decoded-preview",
+      "bytes": 123660,
+      "sha256": "b5577a923d48d9974498aa1d0734ec50aa2504993b27541812bd826b725dcf02",
+      "codec_name": "webp",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "preview": "assets/previews/social08-drsadek-resize-compare-01.webp",
+      "status": "decoded-preview",
+      "bytes": 20354,
+      "sha256": "bd7e8f829ea059cfa49c129e9b977953beac387afb1a5d847b5101539505390c",
+      "codec_name": "webp",
+      "width": 500,
+      "height": 428
+    },
+    {
+      "preview": "assets/previews/social08-drsadek-resize-compare-02.webp",
+      "status": "decoded-preview",
+      "bytes": 107914,
+      "sha256": "b164c8e52d537c931fc6d18bec7edac6ff140812db099becf875a5aa7c8425dd",
+      "codec_name": "webp",
+      "width": 900,
+      "height": 1600
+    },
+    {
+      "preview": "assets/previews/social08-drsadek-resize-compare-03.webp",
+      "status": "decoded-preview",
+      "bytes": 135222,
+      "sha256": "461d5ec61208b7770e368fddc726c5fad67562b2f1c5ef12b2647525fcd2f3fa",
+      "codec_name": "webp",
+      "width": 900,
+      "height": 1600
+    },
+    {
+      "preview": "assets/previews/social08-aigmudq-tests-01.webp",
+      "status": "decoded-preview",
+      "bytes": 56568,
+      "sha256": "2b88854ebdb718f8df60bb1fa1c3731c258a9334e17a4127da6076c2ee23fcf6",
+      "codec_name": "webp",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "preview": "assets/previews/social08-aigmudq-tests-02.webp",
+      "status": "decoded-preview",
+      "bytes": 122918,
+      "sha256": "9a8dddd662028d81ce848f3b0668d574ce80bb7dbb0144e5b9ca584dc0acd939",
+      "codec_name": "webp",
+      "width": 900,
+      "height": 1600
+    },
+    {
+      "preview": "assets/previews/social08-aigmudq-tests-03.webp",
+      "status": "decoded-preview",
+      "bytes": 61976,
+      "sha256": "72af74b28da7d69d87512f5bf92360c99634695bdd547daf1110cfe9ced92b58",
+      "codec_name": "webp",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "preview": "assets/previews/social08-taxue-cinematic-01.webp",
+      "status": "decoded-preview",
+      "bytes": 196354,
+      "sha256": "d5ab3452dfcb817b98f2b2b1622beae366a437401653e99f9d7accb40ba23b08",
+      "codec_name": "webp",
+      "width": 1067,
+      "height": 1600
     }
   ]
 }

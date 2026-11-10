@@ -51,7 +51,7 @@ def validate():
         for m in c['media']:
             require(https(m['url']), '媒体地址无效')
             require(m['delivery'] == 'local-preview-with-source-link' and m['rights'] == 'rights-reserved', '媒体许可状态不正确')
-            require(re.fullmatch(r'assets/previews/[a-z0-9-]+\.jpg', m['preview']), '预览路径无效')
+            require(re.fullmatch(r'assets/previews/[a-z0-9-]+\.(?:jpg|webp)', m['preview']), '预览路径无效')
             require((ROOT / m['preview']).is_file(), '预览文件不存在')
             require(m['type'] in {'image', 'gif', 'video'}, '不支持的案例媒体类型')
             require(m['url'] not in seen_media, '同一媒体重复计数')
@@ -79,6 +79,8 @@ def validate():
         raw = (ROOT / item['preview']).read_bytes()
         require(hashlib.sha256(raw).hexdigest() == item['sha256'], '预览与核验哈希不一致')
         require(len(raw) == item['bytes'] and len(raw) < 512 * 1024, '预览文件大小不正确')
+        if item['preview'].endswith('.webp'):
+            require(raw[:4] == b'RIFF' and raw[8:12] == b'WEBP', 'WebP 文件签名不正确')
     for path, content in outputs().items():
         require(path.exists() and path.read_text() == content, f'生成结果过期: {path.relative_to(ROOT)}')
     expected_pages = {ROOT / 'cases' / c['id'] / filename for c in cases for filename in ['README.md', 'README.zh-CN.md']}

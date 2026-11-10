@@ -10,7 +10,7 @@
 
 由 Raphael 整理的图片与编辑案例库。官方展示、作者自报结果与本仓库编写的练习提示词分别标记。
 
-**83 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
+**88 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
 
 案例未由本仓库独立复现。仓库只保存缩放后的单帧预览，完整图片、GIF 与视频链接至原始地址；第三方媒体及其预览的版权归原权利人。
 
@@ -27,10 +27,10 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | 项目 | 数量 |
 | --- | ---: |
 | 官方来源案例 | 20 |
-| 作者自报案例 | 63 |
-| 仓库内完整原始提示词 | 14 |
+| 作者自报案例 | 68 |
+| 仓库内完整原始提示词 | 15 |
 | 独立复现案例 | 0 |
-| 来源核对日期 | 2026-11-10 |
+| 来源核对日期 | 2026-11-11 |
 
 同一案例的多轮图片不重复计数；重复社媒视频不增加案例总数。来源页中的展示说明不等于实际完整生成提示词。
 
@@ -41,12 +41,12 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | --- | ---: |
 | [多轮与局部编辑](#multi-turn-editing) | 15 |
 | [透明素材](#rgba-assets) | 10 |
-| [人像](#portraits) | 6 |
-| [摄影与纪实](#photography) | 25 |
+| [人像](#portraits) | 8 |
+| [摄影与纪实](#photography) | 26 |
 | [室内与空间](#interiors) | 1 |
-| [文字与排版](#typography) | 12 |
+| [文字与排版](#typography) | 13 |
 | [信息图与界面](#infographics) | 4 |
-| [角色与贴纸](#characters) | 10 |
+| [角色与贴纸](#characters) | 11 |
 
 <a id="cases"></a>
 ## 全部案例
@@ -292,6 +292,22 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 > 图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。 包含跨模型对照/其他生成工具，不能将所有媒体归类为 Seedream 单独生成。
 
+#### [胶片人像设计：冬日书房与夏日花园](cases/social08-kishen-cinematic-portraits/README.zh-CN.md)
+
+<a href="cases/social08-kishen-cinematic-portraits/README.zh-CN.md"><img src="assets/previews/social08-kishen-film-portraits-01.webp" alt="胶片人像设计：冬日书房与夏日花园" width="420" loading="lazy" /></a>
+
+作者自报 · KishenArt · [原始来源](https://x.com/KishenArt/status/2120046624919769591) · [详情与提示词状态](cases/social08-kishen-cinematic-portraits/README.zh-CN.md)
+
+> P1/P2 长提示词由作者在两条评论中发布，另见 2120047937673916717；本批未逐字复核，故不复制正文。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。
+
+#### [蓝发黑裙、花树红衣与白T：人像试图](cases/social08-aigmudq-fashion-samples/README.zh-CN.md)
+
+<a href="cases/social08-aigmudq-fashion-samples/README.zh-CN.md"><img src="assets/previews/social08-aigmudq-tests-01.webp" alt="蓝发黑裙、花树红衣与白T：人像试图" width="420" loading="lazy" /></a>
+
+作者自报 · 降温计划 · [原始来源](https://x.com/aigmudq/status/2119771043707621711) · [详情与提示词状态](cases/social08-aigmudq-fashion-samples/README.zh-CN.md)
+
+> 作者明确将这组图称为 Seedream 5.5 试图。仅收录同一原帖的三张图片，另一帖的第4张图已排除。未公开提示词。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。
+
 <a id="photography"></a>
 ### 摄影与纪实
 
@@ -483,6 +499,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 > 图片为从 X 原帖保存的压缩预览；视频为短动图摘要，不是原生 Seedream GIF。模型结果及数据由作者自报，本站未独立复现。
 
+#### [9:16 延展对比：原图、Seedream、GPT Image](cases/social08-drsadek-portrait-outpainting/README.zh-CN.md)
+
+<a href="cases/social08-drsadek-portrait-outpainting/README.zh-CN.md"><img src="assets/previews/social08-drsadek-resize-compare-01.webp" alt="9:16 延展对比：原图、Seedream、GPT Image" width="420" loading="lazy" /></a>
+
+作者自报 · DrSadek · [原始来源](https://x.com/DrSadek_/status/2119809560038772808) · [详情与提示词状态](cases/social08-drsadek-portrait-outpainting/README.zh-CN.md)
+
+> 原帖标明第1张原图、第2张 Seedream 5.5、第3张 GPT Image 2.6；并非三张都是 Seedream 输出。未公开完整提示词。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。
+
 <a id="interiors"></a>
 ### 室内与空间
 
@@ -582,6 +606,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · TqMiracle18260 · [原始来源](https://x.com/TqMiracle18260/status/2119765639825089008) · [详情与提示词状态](cases/social05-tqmiracle-city-poster/README.zh-CN.md)
 
 > 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。
+
+#### [山羊零食包装：四模型同提示词测试](cases/social08-maxescu-ridge-snack/README.zh-CN.md)
+
+<a href="cases/social08-maxescu-ridge-snack/README.zh-CN.md"><img src="assets/previews/social08-maxescu-goat-compare-01.webp" alt="山羊零食包装：四模型同提示词测试" width="420" loading="lazy" /></a>
+
+作者自报 · Alex Patrascu · [原始来源](https://x.com/maxescu/status/2120078778487505206) · [详情与提示词状态](cases/social08-maxescu-ridge-snack/README.zh-CN.md)
+
+> 四格分别为 MiniMax H3、Seedream 5.5、Nano Banana 2.1 与 GPT Image 2.6；仅右上为 5.5。作者公开完整通用提示词。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。
 
 <a id="infographics"></a>
 ### 信息图与界面
@@ -686,6 +718,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · lyraxana · [原始来源](https://x.com/lyraxana/status/2118896484934668512) · [详情与提示词状态](cases/social06-lyra-game-street-sign/README.zh-CN.md)
 
 > 作者将该图归因于 Seedream 5.5 并称其为 GTA 风格画面；它不是经证实的官方游戏截图。帖子发表于 2026-11-07，模型版本仅为作者自报。完整提示词未核得。
+
+#### [传统神像风插画试图](cases/social08-taxue-deity-artwork/README.zh-CN.md)
+
+<a href="cases/social08-taxue-deity-artwork/README.zh-CN.md"><img src="assets/previews/social08-taxue-cinematic-01.webp" alt="传统神像风插画试图" width="420" loading="lazy" /></a>
+
+作者自报 · 踏雪寻仙 · [原始来源](https://x.com/TaXue2025/status/2119730457030041723) · [详情与提示词状态](cases/social08-taxue-deity-artwork/README.zh-CN.md)
+
+> 作者配有 Seedream 5.5 模型选择界面截图；截图不算生成图。是否与 5.0 Pro 逐图对应仍未核实，不作效果优劣判断。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。
 
 <a id="recipes"></a>
 ## 原创练习提示词
