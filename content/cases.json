@@ -852,5 +852,243 @@
         "preview_transform": "gif-at-75pct-duration-or-static-image-resized-to-fit-640px-jpeg"
       }
     ]
+  },
+  {
+    "id": "social-dheepan-magazine-cover",
+    "title": {
+      "zh-CN": "杂志封面字形",
+      "en": "Magazine cover typography"
+    },
+    "category": "typography",
+    "author": "Dheepanratnam",
+    "source_url": "https://x.com/Dheepanratnam/status/2119767938173387065",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-reported-via-prompt-and-media-mirror",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-5.md",
+      "text": "Premium magazine cover design titled “THE FUTURE OF CREATIVE TOOLS”, with a realistic portrait of a stylish creative director in the lower third. Dense small cover lines around the edges: “Issue 24”, “AI Workflows”, “Design Systems”, “Cinematic Image Making”, “Inside the Studio”, “November 2026”. Clean modern serif masthead, precise kerning, crisp letterforms, editorial grid, muted cream background, subtle paper texture, high-end print-design layout. All text must be spelled exactly as written, no distorted letters, no duplicated words, no gibberish."
+    },
+    "caveat": {
+      "zh-CN": "来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。",
+      "en": "Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export."
+    },
+    "media": [
+      {
+        "url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/c2d597c77c52fa73d97cb6dc28d0181e2966d54c721b17a89bc4241ad8bfe386.jpg",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social-dheepan-magazine-cover.jpg",
+        "preview_transform": "curator-mirror-resized-jpeg-640"
+      }
+    ]
+  },
+  {
+    "id": "social-dheepan-rainy-storefront",
+    "title": {
+      "zh-CN": "雨夜多语种招牌",
+      "en": "Rainy multilingual storefront"
+    },
+    "category": "typography",
+    "author": "Dheepanratnam",
+    "source_url": "https://x.com/Dheepanratnam/status/2119767938173387065",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-reported-via-prompt-and-media-mirror",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-6.md",
+      "text": "Photorealistic street scene in a multicultural London neighbourhood at night. A shopfront sign reads exactly “OPEN LATE” in English, with a smaller hanging sign reading exactly “欢迎光临” in simplified Chinese and another small poster reading exactly “Bienvenue” in French. Realistic neon glow, legible typography, correct character shapes, no duplicated letters, no warped glyphs, natural perspective on the signs, cinematic night photography, wet pavement reflections, no extra invented text."
+    },
+    "caveat": {
+      "zh-CN": "来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。",
+      "en": "Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export."
+    },
+    "media": [
+      {
+        "url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/8ad02f55c33d972cb1769866a9bed8b68765c2576dea86f53c40a928cbb422e5.jpg",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social-dheepan-rainy-storefront.jpg",
+        "preview_transform": "curator-mirror-resized-jpeg-640"
+      }
+    ]
+  },
+  {
+    "id": "social-dheepan-skincare-label",
+    "title": {
+      "zh-CN": "护肤品包装小字",
+      "en": "Skincare packaging text"
+    },
+    "category": "typography",
+    "author": "Dheepanratnam",
+    "source_url": "https://x.com/Dheepanratnam/status/2119767938173387065",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-reported-via-prompt-and-media-mirror",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-7.md",
+      "text": "Minimalist skincare packaging mock-up on a pale stone pedestal. A frosted-glass serum bottle has a clean label reading exactly “LUMEN — BARRIER REPAIR SERUM”, with smaller text beneath: “30 ml / 1.0 fl oz”. Elegant sans-serif typography, perfectly straight label alignment, crisp small print, realistic glass refraction, soft studio lighting, subtle shadow, premium cosmetic advertising photography, no misspelled words, no extra branding, no watermark."
+    },
+    "caveat": {
+      "zh-CN": "来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。",
+      "en": "Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export."
+    },
+    "media": [
+      {
+        "url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/ed5c2e7d4b3ffb274b5ca4896acd8d5fd38333be39f6caab92192d7e3d7011fc.jpg",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social-dheepan-skincare-label.jpg",
+        "preview_transform": "curator-mirror-resized-jpeg-640"
+      }
+    ]
+  },
+  {
+    "id": "social-dheepan-night-signal-poster",
+    "title": {
+      "zh-CN": "夜间电子乐活动海报",
+      "en": "Night Signal event poster"
+    },
+    "category": "typography",
+    "author": "Dheepanratnam",
+    "source_url": "https://x.com/Dheepanratnam/status/2119767938173387065",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-reported-via-prompt-and-media-mirror",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-8.md",
+      "text": "Bold gig poster for an underground electronic music night. Large headline reads exactly “NIGHT SIGNAL”, with supporting text: “Friday 27 November”, “Warehouse 9, London”, “Doors 10PM”. Experimental Swiss-style layout, high-contrast black, off-white and electric blue, grainy risograph texture, sharp geometric typography, intentional negative space, screen-print aesthetic. All words spelled exactly as specified, no extra text, no warped letters, no AI artefacts."
+    },
+    "caveat": {
+      "zh-CN": "来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。",
+      "en": "Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export."
+    },
+    "media": [
+      {
+        "url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/c5f0ad2019f4f9d98d5b307e1c06dc1d9d671defffba7c080c0cd8d690d35c60.jpg",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social-dheepan-night-signal-poster.jpg",
+        "preview_transform": "curator-mirror-resized-jpeg-640"
+      }
+    ]
+  },
+  {
+    "id": "social-dheepan-amber-perfume",
+    "title": {
+      "zh-CN": "香水瓶透明背景素材",
+      "en": "Amber perfume cutout"
+    },
+    "category": "rgba-assets",
+    "author": "Dheepanratnam",
+    "source_url": "https://x.com/Dheepanratnam/status/2119775195573481859",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-reported-via-prompt-and-media-mirror",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-9.md",
+      "text": "Studio product asset of a translucent amber glass perfume bottle with a brushed-gold cap, floating centred in the frame. Fully transparent background with native alpha channel, clean accurate edges around the glass, cap and reflections, no background colour bleed, no white halo, no cut-off shadows. Preserve realistic glass refraction and internal liquid. Commercial e-commerce asset, front-facing composition, high detail, suitable for direct placement onto any design background."
+    },
+    "caveat": {
+      "zh-CN": "来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。 这张 JPEG 不能证明原始 Alpha 透明度。",
+      "en": "Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. JPEG does not verify the source alpha channel."
+    },
+    "media": [
+      {
+        "url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/730f32a34266b61abe0e1bf743b25d7efe417d3ffd2d4138821c7614afdfc0a1.jpg",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social-dheepan-amber-perfume.jpg",
+        "preview_transform": "curator-mirror-resized-jpeg-640"
+      }
+    ]
+  },
+  {
+    "id": "social-dheepan-streetwear-cutout",
+    "title": {
+      "zh-CN": "街头模特透明背景素材",
+      "en": "Streetwear cutout"
+    },
+    "category": "rgba-assets",
+    "author": "Dheepanratnam",
+    "source_url": "https://x.com/Dheepanratnam/status/2119775195573481859",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-reported-via-prompt-and-media-mirror",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-10.md",
+      "text": "Full-body cut-out asset of a stylish young Black male streetwear model wearing an oversized charcoal puffer jacket, baggy denim jeans and white trainers, walking casually. Fully transparent background with native alpha channel, precise edges around curly hair, jacket fibres, shoelaces and fingers, no background remnants, no halo, no clipped limbs. Natural stance, studio-quality lighting from front left, suitable for compositing into a fashion campaign."
+    },
+    "caveat": {
+      "zh-CN": "来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。 这张 JPEG 不能证明原始 Alpha 透明度。",
+      "en": "Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. JPEG does not verify the source alpha channel."
+    },
+    "media": [
+      {
+        "url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/e0e9f10be4539649b5940138a4f241da96ca0a7ce43d18881cd590b266a1a66a.jpg",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social-dheepan-streetwear-cutout.jpg",
+        "preview_transform": "curator-mirror-resized-jpeg-640"
+      }
+    ]
+  },
+  {
+    "id": "social-genel-japanese-deli",
+    "title": {
+      "zh-CN": "日本熟食店三模型对比",
+      "en": "Japanese deli model comparison"
+    },
+    "category": "photography",
+    "author": "genel_ai",
+    "source_url": "https://x.com/genel_ai/status/2119786434567827504",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-reported-via-prompt-and-media-mirror",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/genel-japanese-deli-comparison.md",
+      "text": "実写の写真。自然なスナップ写真。35mmレンズ、目の高さから撮る。夕方、日本の商店街にある家族経営の小さな惣菜屋の店先。60代前半の日本人男性の店主が、ガラスのショーケースの奥に立っている。ケースの中には、金属のトレイに並んだコロッケ・唐揚げ・とんかつ。店主は白い調理着に紺のエプロン。トングでコロッケを1つ持ち上げ、カメラから少し外れた所を見て、力の抜けた半分の笑顔。光は2種類が混ざる。店の中は青白い蛍光灯、通り側からはオレンジ色の夕日。肌は本物の質感で、しわは控えめに自然に。テカりなし、白飛びなし。ショーケースのガラスに映り込みがある。揚げ物の衣はザクザクした質感が見え、湯気が少し立つ。背景は少しぼかす。営業中の店らしい、日常の雑然さを残す。文字・ロゴは入れない。"
+    },
+    "caveat": {
+      "zh-CN": "来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。 此图是三模型比较拼图，Seedream 5.5 为左侧列。",
+      "en": "Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. This is a 3-model collage, with Seedream 5.5 at left."
+    },
+    "media": [
+      {
+        "url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/3448341778ba5e9734d6c2d9e24480995ce212affbbdc54e05cffc461ee3557d.jpg",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social-genel-japanese-deli.jpg",
+        "preview_transform": "curator-mirror-resized-jpeg-640"
+      }
+    ]
   }
 ]

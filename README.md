@@ -10,7 +10,7 @@
 
 A visual reference collection by Raphael. Official demos, creator-reported outputs and original practice recipes are labeled separately.
 
-**28 sourced cases · 8 categories · 8 original practice recipes · 3 checked social posts (2 distinct media items)**
+**35 sourced cases · 8 categories · 8 original practice recipes · 3 checked social posts (2 distinct media items)**
 
 Cases have not been independently reproduced here. Only reduced single-frame previews are bundled; full images, GIFs and videos are linked at their origins. Third-party media and previews retain their owners’ rights.
 
@@ -27,8 +27,8 @@ Seedream 5.5 was announced on **2026-11-09**. See the [official model page](http
 | Item | Count |
 | --- | ---: |
 | Official-source cases | 20 |
-| Creator-reported cases | 8 |
-| Complete original source prompts included | 1 |
+| Creator-reported cases | 15 |
+| Complete original source prompts included | 8 |
 | Independently reproduced cases | 0 |
 | Sources checked | 2026-11-10 |
 
@@ -40,11 +40,11 @@ Edit rounds are grouped as one case. Duplicate social videos do not increase the
 | Category | Cases |
 | --- | ---: |
 | [Multi-turn & targeted editing](#multi-turn-editing) | 4 |
-| [Transparent assets](#rgba-assets) | 3 |
+| [Transparent assets](#rgba-assets) | 5 |
 | [Portraits](#portraits) | 2 |
-| [Photography & documentary](#photography) | 6 |
+| [Photography & documentary](#photography) | 7 |
 | [Interiors & space](#interiors) | 1 |
-| [Text & typography](#typography) | 5 |
+| [Text & typography](#typography) | 9 |
 | [Infographics & interfaces](#infographics) | 4 |
 | [Characters & stickers](#characters) | 3 |
 
@@ -101,6 +101,22 @@ Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.
 
 > The author reports a milky umbrella; partial transparency remains a limitation.
 
+#### [Amber perfume cutout](cases/social-dheepan-amber-perfume/README.md)
+
+<a href="cases/social-dheepan-amber-perfume/README.md"><img src="assets/previews/social-dheepan-amber-perfume.jpg" alt="Amber perfume cutout" width="420" loading="lazy" /></a>
+
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Details & prompt status](cases/social-dheepan-amber-perfume/README.md)
+
+> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. JPEG does not verify the source alpha channel.
+
+#### [Streetwear cutout](cases/social-dheepan-streetwear-cutout/README.md)
+
+<a href="cases/social-dheepan-streetwear-cutout/README.md"><img src="assets/previews/social-dheepan-streetwear-cutout.jpg" alt="Streetwear cutout" width="420" loading="lazy" /></a>
+
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Details & prompt status](cases/social-dheepan-streetwear-cutout/README.md)
+
+> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. JPEG does not verify the source alpha channel.
+
 <a id="portraits"></a>
 ### Portraits
 
@@ -155,6 +171,14 @@ Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedre
 
 Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-railway-station/README.md)
 
+#### [Japanese deli model comparison](cases/social-genel-japanese-deli/README.md)
+
+<a href="cases/social-genel-japanese-deli/README.md"><img src="assets/previews/social-genel-japanese-deli.jpg" alt="Japanese deli model comparison" width="420" loading="lazy" /></a>
+
+Creator-reported · genel_ai · [Source](https://x.com/genel_ai/status/2119786434567827504) · [Details & prompt status](cases/social-genel-japanese-deli/README.md)
+
+> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. This is a 3-model collage, with Seedream 5.5 at left.
+
 <a id="interiors"></a>
 ### Interiors & space
 
@@ -198,6 +222,38 @@ Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.
 Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-newspaper-errors/README.md)
 
 > The author reports text errors; retained as a limitation example.
+
+#### [Magazine cover typography](cases/social-dheepan-magazine-cover/README.md)
+
+<a href="cases/social-dheepan-magazine-cover/README.md"><img src="assets/previews/social-dheepan-magazine-cover.jpg" alt="Magazine cover typography" width="420" loading="lazy" /></a>
+
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Details & prompt status](cases/social-dheepan-magazine-cover/README.md)
+
+> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export.
+
+#### [Rainy multilingual storefront](cases/social-dheepan-rainy-storefront/README.md)
+
+<a href="cases/social-dheepan-rainy-storefront/README.md"><img src="assets/previews/social-dheepan-rainy-storefront.jpg" alt="Rainy multilingual storefront" width="420" loading="lazy" /></a>
+
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Details & prompt status](cases/social-dheepan-rainy-storefront/README.md)
+
+> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export.
+
+#### [Skincare packaging text](cases/social-dheepan-skincare-label/README.md)
+
+<a href="cases/social-dheepan-skincare-label/README.md"><img src="assets/previews/social-dheepan-skincare-label.jpg" alt="Skincare packaging text" width="420" loading="lazy" /></a>
+
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Details & prompt status](cases/social-dheepan-skincare-label/README.md)
+
+> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export.
+
+#### [Night Signal event poster](cases/social-dheepan-night-signal-poster/README.md)
+
+<a href="cases/social-dheepan-night-signal-poster/README.md"><img src="assets/previews/social-dheepan-night-signal-poster.jpg" alt="Night Signal event poster" width="420" loading="lazy" /></a>
+
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Details & prompt status](cases/social-dheepan-night-signal-poster/README.md)
+
+> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export.
 
 <a id="infographics"></a>
 ### Infographics & interfaces

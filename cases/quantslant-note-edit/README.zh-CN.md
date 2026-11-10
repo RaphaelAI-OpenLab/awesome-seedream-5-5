@@ -18,7 +18,7 @@
 Add a small white paper note on the table with handwritten Polish text “Do zobaczenia jutro!”. Keep everything else unchanged.
 ```
 
-以上为作者公开的原始指令，包含波兰语文案。没有执行复现。
+以上为来源公开、归因于作者的提示词；本站未独立复现，请对照原作者帖文确认二次转录。
 
 [查看提示词来源](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/)
 

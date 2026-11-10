@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-10",
+  "count": 7,
+  "cases": [
+    {
+      "id": "social-dheepan-magazine-cover",
+      "category": "typography",
+      "title": {
+        "zh-CN": "杂志封面字形",
+        "en": "Magazine cover typography"
+      },
+      "author": "Dheepanratnam",
+      "media_url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/c2d597c77c52fa73d97cb6dc28d0181e2966d54c721b17a89bc4241ad8bfe386.jpg",
+      "source_post_url": "https://x.com/Dheepanratnam/status/2119767938173387065",
+      "source_mirror_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-5.md",
+      "prompt": "Premium magazine cover design titled “THE FUTURE OF CREATIVE TOOLS”, with a realistic portrait of a stylish creative director in the lower third. Dense small cover lines around the edges: “Issue 24”, “AI Workflows”, “Design Systems”, “Cinematic Image Making”, “Inside the Studio”, “November 2026”. Clean modern serif masthead, precise kerning, crisp letterforms, editorial grid, muted cream background, subtle paper texture, high-end print-design layout. All text must be spelled exactly as written, no distorted letters, no duplicated words, no gibberish."
+    },
+    {
+      "id": "social-dheepan-rainy-storefront",
+      "category": "typography",
+      "title": {
+        "zh-CN": "雨夜多语种招牌",
+        "en": "Rainy multilingual storefront"
+      },
+      "author": "Dheepanratnam",
+      "media_url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/8ad02f55c33d972cb1769866a9bed8b68765c2576dea86f53c40a928cbb422e5.jpg",
+      "source_post_url": "https://x.com/Dheepanratnam/status/2119767938173387065",
+      "source_mirror_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-6.md",
+      "prompt": "Photorealistic street scene in a multicultural London neighbourhood at night. A shopfront sign reads exactly “OPEN LATE” in English, with a smaller hanging sign reading exactly “欢迎光临” in simplified Chinese and another small poster reading exactly “Bienvenue” in French. Realistic neon glow, legible typography, correct character shapes, no duplicated letters, no warped glyphs, natural perspective on the signs, cinematic night photography, wet pavement reflections, no extra invented text."
+    },
+    {
+      "id": "social-dheepan-skincare-label",
+      "category": "typography",
+      "title": {
+        "zh-CN": "护肤品包装小字",
+        "en": "Skincare packaging text"
+      },
+      "author": "Dheepanratnam",
+      "media_url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/ed5c2e7d4b3ffb274b5ca4896acd8d5fd38333be39f6caab92192d7e3d7011fc.jpg",
+      "source_post_url": "https://x.com/Dheepanratnam/status/2119767938173387065",
+      "source_mirror_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-7.md",
+      "prompt": "Minimalist skincare packaging mock-up on a pale stone pedestal. A frosted-glass serum bottle has a clean label reading exactly “LUMEN — BARRIER REPAIR SERUM”, with smaller text beneath: “30 ml / 1.0 fl oz”. Elegant sans-serif typography, perfectly straight label alignment, crisp small print, realistic glass refraction, soft studio lighting, subtle shadow, premium cosmetic advertising photography, no misspelled words, no extra branding, no watermark."
+    },
+    {
+      "id": "social-dheepan-night-signal-poster",
+      "category": "typography",
+      "title": {
+        "zh-CN": "夜间电子乐活动海报",
+        "en": "Night Signal event poster"
+      },
+      "author": "Dheepanratnam",
+      "media_url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/c5f0ad2019f4f9d98d5b307e1c06dc1d9d671defffba7c080c0cd8d690d35c60.jpg",
+      "source_post_url": "https://x.com/Dheepanratnam/status/2119767938173387065",
+      "source_mirror_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-8.md",
+      "prompt": "Bold gig poster for an underground electronic music night. Large headline reads exactly “NIGHT SIGNAL”, with supporting text: “Friday 27 November”, “Warehouse 9, London”, “Doors 10PM”. Experimental Swiss-style layout, high-contrast black, off-white and electric blue, grainy risograph texture, sharp geometric typography, intentional negative space, screen-print aesthetic. All words spelled exactly as specified, no extra text, no warped letters, no AI artefacts."
+    },
+    {
+      "id": "social-dheepan-amber-perfume",
+      "category": "rgba-assets",
+      "title": {
+        "zh-CN": "香水瓶透明背景素材",
+        "en": "Amber perfume cutout"
+      },
+      "author": "Dheepanratnam",
+      "media_url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/730f32a34266b61abe0e1bf743b25d7efe417d3ffd2d4138821c7614afdfc0a1.jpg",
+      "source_post_url": "https://x.com/Dheepanratnam/status/2119775195573481859",
+      "source_mirror_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-9.md",
+      "prompt": "Studio product asset of a translucent amber glass perfume bottle with a brushed-gold cap, floating centred in the frame. Fully transparent background with native alpha channel, clean accurate edges around the glass, cap and reflections, no background colour bleed, no white halo, no cut-off shadows. Preserve realistic glass refraction and internal liquid. Commercial e-commerce asset, front-facing composition, high detail, suitable for direct placement onto any design background."
+    },
+    {
+      "id": "social-dheepan-streetwear-cutout",
+      "category": "rgba-assets",
+      "title": {
+        "zh-CN": "街头模特透明背景素材",
+        "en": "Streetwear cutout"
+      },
+      "author": "Dheepanratnam",
+      "media_url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/e0e9f10be4539649b5940138a4f241da96ca0a7ce43d18881cd590b266a1a66a.jpg",
+      "source_post_url": "https://x.com/Dheepanratnam/status/2119775195573481859",
+      "source_mirror_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-10.md",
+      "prompt": "Full-body cut-out asset of a stylish young Black male streetwear model wearing an oversized charcoal puffer jacket, baggy denim jeans and white trainers, walking casually. Fully transparent background with native alpha channel, precise edges around curly hair, jacket fibres, shoelaces and fingers, no background remnants, no halo, no clipped limbs. Natural stance, studio-quality lighting from front left, suitable for compositing into a fashion campaign."
+    },
+    {
+      "id": "social-genel-japanese-deli",
+      "category": "photography",
+      "title": {
+        "zh-CN": "日本熟食店三模型对比",
+        "en": "Japanese deli model comparison"
+      },
+      "author": "genel_ai",
+      "media_url": "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/3448341778ba5e9734d6c2d9e24480995ce212affbbdc54e05cffc461ee3557d.jpg",
+      "source_post_url": "https://x.com/genel_ai/status/2119786434567827504",
+      "source_mirror_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/genel-japanese-deli-comparison.md",
+      "prompt": "実写の写真。自然なスナップ写真。35mmレンズ、目の高さから撮る。夕方、日本の商店街にある家族経営の小さな惣菜屋の店先。60代前半の日本人男性の店主が、ガラスのショーケースの奥に立っている。ケースの中には、金属のトレイに並んだコロッケ・唐揚げ・とんかつ。店主は白い調理着に紺のエプロン。トングでコロッケを1つ持ち上げ、カメラから少し外れた所を見て、力の抜けた半分の笑顔。光は2種類が混ざる。店の中は青白い蛍光灯、通り側からはオレンジ色の夕日。肌は本物の質感で、しわは控えめに自然に。テカりなし、白飛びなし。ショーケースのガラスに映り込みがある。揚げ物の衣はザクザクした質感が見え、湯気が少し立つ。背景は少しぼかす。営業中の店らしい、日常の雑然さを残す。文字・ロゴは入れない。"
+    }
+  ]
+}
