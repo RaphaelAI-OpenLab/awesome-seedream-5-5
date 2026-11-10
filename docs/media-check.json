@@ -1,6 +1,6 @@
 {
   "checked_at": "2026-11-11T00:00:00+00:00",
-  "method": "本地缩放 JPEG 预览：SHA-256、ffprobe、ffmpeg 解码；不代表原始 GIF 完整解码、模型复现或人工视觉验收。 追加 10 张 WebP：复制公开汇编字节、验证 RIFF/WEBP 文件签名和 SHA-256，并经可视化渲染核对；本批未运行 ffmpeg。",
+  "method": "本地缩放 JPEG 预览：SHA-256、ffprobe、ffmpeg 解码；不代表原始 GIF 完整解码、模型复现或人工视觉验收。 追加 10 张 WebP：复制公开汇编字节、验证 RIFF/WEBP 文件签名和 SHA-256，并经可视化渲染核对；本批未运行 ffmpeg。 第九批两张 WebP 已校验格式签名、SHA256、Git blob 和视觉；没有原始 X 图片媒体 ID、授权或独立生图。",
   "items": [
     {
       "preview": "assets/previews/official-bar-cat.jpg",
@@ -1297,6 +1297,24 @@
       "codec_name": "webp",
       "width": 1067,
       "height": 1600
+    },
+    {
+      "preview": "assets/previews/social09-ghostly-seedance-suno.webp",
+      "status": "decoded-preview",
+      "bytes": 30588,
+      "sha256": "f89882f7221516464368d827e6c62f65b72d85cb6caef2030c94a346112bb242",
+      "codec_name": "webp",
+      "width": 1200,
+      "height": 675
+    },
+    {
+      "preview": "assets/previews/social09-oxen-layer-separation.webp",
+      "status": "decoded-preview",
+      "bytes": 73358,
+      "sha256": "03475ec8fefdc44431a12dac7b8135897903c68a816de7b90043e018f39ce2a2",
+      "codec_name": "webp",
+      "width": 1200,
+      "height": 718
     }
   ]
 }

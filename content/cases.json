@@ -3546,5 +3546,77 @@
       "zh-CN": "作者配有 Seedream 5.5 模型选择界面截图；截图不算生成图。是否与 5.0 Pro 逐图对应仍未核实，不作效果优劣判断。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。",
       "en": "The author included a screenshot of Seedream 5.5 in the model selector; it is not counted as generated media. Specific per-image comparisons with 5.0 Pro were not verified. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed."
     }
+  },
+  {
+    "id": "social09-ghostly-seedance-suno",
+    "title": {
+      "zh-CN": "Seedream 角色图联动 Seedance 视频与 Suno 配乐",
+      "en": "Seedream character art into Seedance video with Suno music"
+    },
+    "category": "characters",
+    "author": "Ghostly 愛",
+    "source_url": "https://x.com/GhostlyXV/status/2119866467717918756",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-X-post-attributed-public-gallery-and-version-claim",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/GhostlyXV/status/2119866467717918756",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/ghostly-seedance-mixed-01.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social09-ghostly-seedance-suno.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/GhostlyXV/status/2119866467717918756",
+        "origin_media_id": null
+      }
+    ],
+    "caveat": {
+      "zh-CN": "作者明确说明 Seedream 5.5 → Seedance 2.5，并用 Suno 配乐。这里保存的是第三方汇编的视频代表帧，并非 Seedream 原始生图；动态画面由 Seedance 制作，不能证明 Seedream 原生视频。原帖媒体 ID、完整提示词和转载许可均未取得。",
+      "en": "Seedream character art into Seedance video with Suno music"
+    }
+  },
+  {
+    "id": "social09-oxen-layer-separation",
+    "title": {
+      "zh-CN": "Oxen 演示 Seedream 5.5 Layers 场景分层",
+      "en": "Oxen demonstration of Seedream 5.5 Layers decomposition"
+    },
+    "category": "rgba-assets",
+    "author": "Greg Schoeninger",
+    "source_url": "https://x.com/gregschoeninger/status/2119898943819849963",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-X-post-attributed-public-gallery-and-version-claim",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/gregschoeninger/status/2119898943819849963",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/oxen-layers-01.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social09-oxen-layer-separation.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/gregschoeninger/status/2119898943819849963",
+        "origin_media_id": null
+      }
+    ],
+    "caveat": {
+      "zh-CN": "作者展示使用 Oxen 的 Seedream 5.5 Layers 把已有图片拆为可编辑图层。此为软件截图，并非直接文字生图，也不证明每层均由基础 Seedream 5.5 生成。公开图库的 WebP 不能视为 X 原始附件，原媒体 ID、完整提示词和转载许可均未核实。",
+      "en": "Oxen demonstration of Seedream 5.5 Layers decomposition"
+    }
   }
 ]
