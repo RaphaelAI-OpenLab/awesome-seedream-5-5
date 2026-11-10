@@ -58,3 +58,7 @@ https://cdn.syndication.twimg.com/tweet-result?id=2119717948470546446&lang=en&to
 ## 第四批：X 社媒图片原帖归档（2026-11-10）
 
 通过公开 X 帖子数据接口，按作者单帖 ID 核对媒体 ID，并从 pbs.twimg.com 下载实际图片。多图帖子作为一个案例，保存多张压缩 JPEG 预览与原图链接；对比案例不把其他模型图片说成 Seedream 单模型输出。另有两条公开完整 Prompt 的透明素材案例来自 BeatAPI 的署名整理。各项成功/失败及来源证据见 docs/social-x-batch04-audit.json。原作者保留媒体和提示词的相应权利，本站不宣称独立复现。
+
+## 第五批：X 创作者新案例（2026-11-10）
+
+直接从 X 原帖公开的媒体接口提取对应图片和视频 URL，并保存压缩 JPEG 预览。动态帖另生成低分辨率的短 GIF 摘要，不打包原始完整 MP4。来源与媒体、失败记录及提示词公开状态均见 docs/social-source-batch05-audit.json 和 content/social-source-batch05.json。跨模型案例注明其他模型参与，作者保留全部媒体权利，本仓库没有独立复现。

@@ -41,12 +41,19 @@ def validate():
         require(https(p['url']), '提示词缺少来源')
         require(bool(p['text']) == (p['status'] == 'original'), '原始提示词状态与正文矛盾')
         require(bool(c['media']), '案例无媒体')
+        if c.get('animation_preview'):
+            anim = c['animation_preview']
+            require(re.fullmatch(r'assets/animations/[a-z0-9-]+\.gif', anim) is not None,
+                    '动画预览路径无效')
+            require((ROOT / anim).is_file() and 1000 < (ROOT / anim).stat().st_size < 3 * 1024 * 1024,
+                    '动图预览缺失或超限')
+            require((ROOT / anim).read_bytes()[:6] in (b'GIF87a', b'GIF89a'), '动图格式不正确')
         for m in c['media']:
             require(https(m['url']), '媒体地址无效')
             require(m['delivery'] == 'local-preview-with-source-link' and m['rights'] == 'rights-reserved', '媒体许可状态不正确')
             require(re.fullmatch(r'assets/previews/[a-z0-9-]+\.jpg', m['preview']), '预览路径无效')
             require((ROOT / m['preview']).is_file(), '预览文件不存在')
-            require(m['type'] in {'image', 'gif'}, '不支持的案例媒体类型')
+            require(m['type'] in {'image', 'gif', 'video'}, '不支持的案例媒体类型')
             require(m['url'] not in seen_media, '同一媒体重复计数')
             seen_media.add(m['url'])
     require(len({r['id'] for r in recipes}) == len(recipes), '练习配方 ID 重复')

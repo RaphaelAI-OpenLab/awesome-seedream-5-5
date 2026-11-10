@@ -1,0 +1,252 @@
+{
+  "batch": "05",
+  "checked_at": "2026-11-10",
+  "purpose": "New X creator posts not already in main's 59 cases; group all images/video from a post as one case",
+  "source_probe": {
+    "X": "https://api.fxtwitter.com",
+    "fallback": "https://cdn.syndication.twimg.com"
+  },
+  "rights": "Attribution and small locally archived JPEG previews only; third-party media remains rights reserved",
+  "cases": [
+    {
+      "id": "social05-dheepan-four-photographs",
+      "title": {
+        "zh-CN": "咖啡馆、人像与雨天街景四图",
+        "en": "Four photo studies: cafe, rainy street and breakfast"
+      },
+      "category": "photography",
+      "comparison": false,
+      "source_url": "https://x.com/Dheepanratnam/status/2119762628658462746",
+      "source_author": "Dheepanratnam",
+      "medium": "images",
+      "curator_attribution_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/README.md",
+      "curator_showcase_media": [
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/1010f70657352b46623476389be390fb7c7344a930a6a3732c937a4df05b9229.jpg",
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/7d0ae8508dc676ea2a607a52722bd40f5141dbc2a5b986e7287fe8c57420847c.jpg",
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/ab16a5a806cbfb2ec8b814beed8f0c34246db1547ef7df5d24298c87fb488e1a.jpg",
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/269e4e84dd8be9776c96ff46ccf9c2a845420c4d1286d95a464aa664206c42ca.jpg"
+      ],
+      "curator_showcase_titles": [
+        "Café portrait",
+        "Rainy street at dusk",
+        "Coffee in window light",
+        "Breakfast still life"
+      ]
+    },
+    {
+      "id": "social05-yuzi-eye-detail",
+      "title": {
+        "zh-CN": "眼部微距质感生成",
+        "en": "Macro eye detail"
+      },
+      "category": "portraits",
+      "comparison": false,
+      "source_url": "https://x.com/Yuziyyaa/status/2119799602580955179",
+      "source_author": "Yuziyyaa",
+      "medium": "images",
+      "curator_attribution_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/README.md",
+      "curator_showcase_media": [
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/f11aa515ffdedc6ca38a927793c003ef186060d398997a30b5e65f223f86a13f.jpg"
+      ],
+      "curator_showcase_titles": [
+        "Eye detail"
+      ]
+    },
+    {
+      "id": "social05-drsadek-cafe-photography",
+      "title": {
+        "zh-CN": "街边用餐与咖啡桌人像",
+        "en": "Street dining and cafe table portrait"
+      },
+      "category": "photography",
+      "comparison": false,
+      "source_url": "https://x.com/DrSadek_/status/2119788316153507886",
+      "source_author": "DrSadek_",
+      "medium": "images",
+      "curator_attribution_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/README.md",
+      "curator_showcase_media": [
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/12205b1a1add80cf62ed59ec4c07e0b0e0d4e6596dfb9f1c3098b91fe84a2f86.jpg",
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/dd102a817446ab3d3a0ff08298b39df09c3ed0622fe530a70e6e03557bf294ec.jpg"
+      ],
+      "curator_showcase_titles": [
+        "Street-side dining portrait",
+        "Tea on a café table"
+      ]
+    },
+    {
+      "id": "social05-kevin-watchmaker-forest",
+      "title": {
+        "zh-CN": "钟表匠、森林地表与汽水质感",
+        "en": "Watchmaker, forest floor and fizzy water"
+      },
+      "category": "photography",
+      "comparison": false,
+      "source_url": "https://x.com/kevinchin35/status/2119747692427628777",
+      "source_author": "kevinchin35",
+      "medium": "images",
+      "curator_attribution_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/README.md",
+      "curator_showcase_media": [
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/64e37e499d058d3d2bf8706fad282924627a1c85f49bd8b6679c97a4f3e74820.jpg",
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/83f266c3266797af41bec7d404df131d3423be7eed0ae11a1a107f5afd575867.jpg",
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/917b6584b09718d4246458978a2dde033457d17f1bd603c0e1cab01e014ae286.jpg"
+      ],
+      "curator_showcase_titles": [
+        "Watchmaker at work",
+        "Forest floor",
+        "Raspberry sparkling water"
+      ]
+    },
+    {
+      "id": "social05-tqmiracle-city-poster",
+      "title": {
+        "zh-CN": "雨城动漫、AI海报与窗光人像",
+        "en": "Rainy anime city, AI conference poster and portrait"
+      },
+      "category": "typography",
+      "comparison": false,
+      "source_url": "https://x.com/TqMiracle18260/status/2119765639825089008",
+      "source_author": "TqMiracle18260",
+      "medium": "images",
+      "curator_attribution_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/README.md",
+      "curator_showcase_media": [
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/8250102fbb2c89c3a4d6231978eac4a604e53eb868b57031561aa4c73011c539.jpg",
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/aac403034d9bfb41b2f31d285662e54fb98c3abfddf7a78422bc52c2f9607002.jpg",
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/06fe69036139fd931ddc92dcd5e2e695fe4a996454d6bc0a447183cc7667f45c.jpg"
+      ],
+      "curator_showcase_titles": [
+        "Rainy city anime poster",
+        "AI conference poster",
+        "Window-lit portrait"
+      ]
+    },
+    {
+      "id": "social05-ozansihay-four-comparisons",
+      "title": {
+        "zh-CN": "四组题材的 Seedream / GPT / Nano Banana 比较",
+        "en": "Four-scene image model comparison"
+      },
+      "category": "photography",
+      "comparison": true,
+      "source_url": "https://x.com/ozansihay/status/2119803963738357803",
+      "source_author": "ozansihay",
+      "medium": "images",
+      "curator_attribution_url": "https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/README.md",
+      "curator_showcase_media": [
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/109e087fea42533e62d4be873e1c064e9b4ef95ee6e42a84f84d51b674fb5828.jpg",
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/fe3c841ec17b3d7d50f1fdfe457c8600a837214d9f563867b2877ef592d17fdd.jpg",
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/a05e5d729cf4d39bd4aafa8bf014861c9e568492e0129c7473753bb5bb5d9b61.jpg",
+        "https://cdn.beatapi.io/prompt-gallery/seedream-5-5/df761e6ce868715fe0ed553c8e8258a5a25f874a33dd81e6f4dd816a7ea4c56d.jpg"
+      ],
+      "curator_showcase_titles": [
+        "Tea house — three models",
+        "Golden field — three models",
+        "Tavern portrait — three models",
+        "Night portrait — three models"
+      ]
+    },
+    {
+      "id": "social05-xiaohu-thirty-round-gif",
+      "title": {
+        "zh-CN": "多轮编辑人物与小字 GIF",
+        "en": "Thirty-round character and text edit GIF"
+      },
+      "category": "multi-turn-editing",
+      "source_url": "https://x.com/xiaohu/status/2119774478788141417",
+      "source_author": "xiaohu",
+      "medium": "mixed",
+      "kind": "animated-original-post",
+      "comparison": false
+    },
+    {
+      "id": "social05-larklee-turkey-mixed-workflow",
+      "title": {
+        "zh-CN": "蜡笔火鸡变成真实火鸡混合模型短片",
+        "en": "Crayon turkey mixed-model production"
+      },
+      "category": "characters",
+      "source_url": "https://x.com/larklee5/status/2119985661939974450",
+      "source_author": "larklee5",
+      "medium": "mixed",
+      "kind": "mixed-model-video",
+      "comparison": true
+    },
+    {
+      "id": "social05-sjonkerr-street-weather-edit",
+      "title": {
+        "zh-CN": "街景六次天气场景连续编辑",
+        "en": "Six-step street weather edit to video"
+      },
+      "category": "multi-turn-editing",
+      "source_url": "https://x.com/Sjonkerr/status/2119904922703438173",
+      "source_author": "Sjonkerr",
+      "medium": "mixed",
+      "kind": "mixed-seedream-seedance-video",
+      "comparison": false
+    },
+    {
+      "id": "social05-opener-morphic-character",
+      "title": {
+        "zh-CN": "Morphic 中的角色表情多轮编辑",
+        "en": "Morphic character expression editing"
+      },
+      "category": "multi-turn-editing",
+      "source_url": "https://x.com/opener_ai/status/2119942433412931907",
+      "source_author": "opener_ai",
+      "medium": "mixed",
+      "kind": "morphic-edit-video",
+      "comparison": false
+    },
+    {
+      "id": "social05-vortex-fifteen-round-compare",
+      "title": {
+        "zh-CN": "五模型15轮连续修图对比",
+        "en": "Five-model 15-round image-edit comparison"
+      },
+      "category": "multi-turn-editing",
+      "source_url": "https://x.com/VORTEX_Promos/status/2119928374235701452",
+      "source_author": "VORTEX_Promos",
+      "medium": "mixed",
+      "kind": "comparison-video",
+      "comparison": true
+    },
+    {
+      "id": "social05-ddjcxx-desk-edit",
+      "title": {
+        "zh-CN": "书桌五轮编辑对比",
+        "en": "Five-round desk editing comparison"
+      },
+      "category": "multi-turn-editing",
+      "source_url": "https://x.com/DDJCXX/status/2119766551436116358",
+      "source_author": "DDJCXX",
+      "medium": "mixed",
+      "kind": "desk-creator-test",
+      "comparison": true
+    },
+    {
+      "id": "social05-ddjcxx-transparency",
+      "title": {
+        "zh-CN": "透明蒸汽、辐条与薄纱实测",
+        "en": "Transparent steam, spokes and sheer fabric test"
+      },
+      "category": "rgba-assets",
+      "source_url": "https://x.com/DDJCXX/status/2119783562115494336",
+      "source_author": "DDJCXX",
+      "medium": "mixed",
+      "kind": "transparency-creator-test",
+      "comparison": true
+    },
+    {
+      "id": "social05-dotey-avatar-travel-edits",
+      "title": {
+        "zh-CN": "虚拟主播帧与游客照连续修图",
+        "en": "Avatar frames and traveler photo edit chain"
+      },
+      "category": "multi-turn-editing",
+      "source_url": "https://x.com/dotey/status/2119822405350600850",
+      "source_author": "dotey",
+      "medium": "mixed",
+      "kind": "creator-article-or-post",
+      "comparison": false
+    }
+  ]
+}

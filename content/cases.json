@@ -2224,5 +2224,643 @@
         "origin_alt": ""
       }
     ]
+  },
+  {
+    "id": "social05-dheepan-four-photographs",
+    "title": {
+      "zh-CN": "咖啡馆、人像与雨天街景四图",
+      "en": "Four photo studies: cafe, rainy street and breakfast"
+    },
+    "category": "photography",
+    "author": "Dheepanratnam",
+    "source_url": "https://x.com/Dheepanratnam/status/2119762628658462746",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/Dheepanratnam/status/2119762628658462746",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。",
+      "en": "Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWrnD7nWAAApu2y.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-dheepan-four-photographs-01.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119760629359575040",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWrnkq2XoAAH6qZ.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-dheepan-four-photographs-02.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119761191794876416",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWroZWDWwAEonTk.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-dheepan-four-photographs-03.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119762096745267201",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWrofOqX0AAvhj6.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-dheepan-four-photographs-04.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119762197840646144",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social05-yuzi-eye-detail",
+    "title": {
+      "zh-CN": "眼部微距质感生成",
+      "en": "Macro eye detail"
+    },
+    "category": "portraits",
+    "author": "Yuziyyaa",
+    "source_url": "https://x.com/Yuziyyaa/status/2119799602580955179",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/Yuziyyaa/status/2119799602580955179",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。",
+      "en": "Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWsKf2_a4AAWPTh.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-yuzi-eye-detail-01.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119799592061689856",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWsKf2saYAEkDbW.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-yuzi-eye-detail-02.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119799591981965313",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social05-drsadek-cafe-photography",
+    "title": {
+      "zh-CN": "街边用餐与咖啡桌人像",
+      "en": "Street dining and cafe table portrait"
+    },
+    "category": "photography",
+    "author": "DrSadek_",
+    "source_url": "https://x.com/DrSadek_/status/2119788316153507886",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/DrSadek_/status/2119788316153507886",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。",
+      "en": "Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWr13-rWoAAj523.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-drsadek-cafe-photography-01.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119776916697686016",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWr139QWoAAb_nh.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-drsadek-cafe-photography-02.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119776916316004352",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWr1360XAAAn-a6.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-drsadek-cafe-photography-03.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119776915661717504",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWr14_sXAAA-dbr.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-drsadek-cafe-photography-04.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119776934150209536",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social05-kevin-watchmaker-forest",
+    "title": {
+      "zh-CN": "钟表匠、森林地表与汽水质感",
+      "en": "Watchmaker, forest floor and fizzy water"
+    },
+    "category": "photography",
+    "author": "kevinchin35",
+    "source_url": "https://x.com/kevinchin35/status/2119747692427628777",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/kevinchin35/status/2119747692427628777",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。",
+      "en": "Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWrahiWbUAAe4ma.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-kevin-watchmaker-forest-01.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119746844322648064",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWrakfOawAEZGis.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-kevin-watchmaker-forest-02.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119746895023357953",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWra8BKa4AA9spQ.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-kevin-watchmaker-forest-04.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119747299270385664",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://video.twimg.com/amplify_video/2119747057913311232/vid/avc1/720x960/pvYxTQmjCe3zpFv3.mp4?tag=29",
+        "type": "video",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-kevin-watchmaker-forest-video-01.jpg",
+        "preview_transform": "X-video-excerpt-JPEG-still",
+        "origin_media_id": "2119747057913311232"
+      }
+    ],
+    "animation_preview": "assets/animations/social05-kevin-watchmaker-forest.gif"
+  },
+  {
+    "id": "social05-tqmiracle-city-poster",
+    "title": {
+      "zh-CN": "雨城动漫、AI海报与窗光人像",
+      "en": "Rainy anime city, AI conference poster and portrait"
+    },
+    "category": "typography",
+    "author": "TqMiracle18260",
+    "source_url": "https://x.com/TqMiracle18260/status/2119765639825089008",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/TqMiracle18260/status/2119765639825089008",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。",
+      "en": "Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWrp7fpbYAAg-yf.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-tqmiracle-city-poster-01.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119763782948052992",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWrqC4Ub0AAuQ3f.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-tqmiracle-city-poster-02.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119763909829971968",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWrqFyCaUAI0mSN.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-tqmiracle-city-poster-03.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119763959683371010",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWrqI7NacAAt6d0.png?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-tqmiracle-city-poster-04.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119764013685043200",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social05-ozansihay-four-comparisons",
+    "title": {
+      "zh-CN": "四组题材的 Seedream / GPT / Nano Banana 比较",
+      "en": "Four-scene image model comparison"
+    },
+    "category": "photography",
+    "author": "ozansihay",
+    "source_url": "https://x.com/ozansihay/status/2119803963738357803",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/ozansihay/status/2119803963738357803",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。 社媒整理站提供了图片对应关系；请以原帖为准。",
+      "en": "Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. A curator catalog provides image provenance; refer to the author's original post."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWsOVvMWkAA7plU.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-ozansihay-four-comparisons-01.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119803816216268800",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWsOVvMW8AAQgw3.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-ozansihay-four-comparisons-02.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119803816216293376",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWsOVvKWoAEKPfv.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-ozansihay-four-comparisons-03.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119803816207884289",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWsOVvSWAAAWfqz.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-ozansihay-four-comparisons-04.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119803816241397760",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social05-larklee-turkey-mixed-workflow",
+    "title": {
+      "zh-CN": "蜡笔火鸡变成真实火鸡混合模型短片",
+      "en": "Crayon turkey mixed-model production"
+    },
+    "category": "characters",
+    "author": "larklee5",
+    "source_url": "https://x.com/larklee5/status/2119985661939974450",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/larklee5/status/2119985661939974450",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。 成片包含其他视频生成模型的制作环节。",
+      "en": "Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. The final animation involves other video-generation components."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWuzdL6aAAA1G0V.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-larklee-turkey-mixed-workflow-02.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119985363603292160",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://video.twimg.com/amplify_video/2119985333773467649/vid/avc1/640x360/V5D8nQ4ReuF8tmHR.mp4?tag=14",
+        "type": "video",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-larklee-turkey-mixed-workflow-video-01.jpg",
+        "preview_transform": "X-video-excerpt-JPEG-still",
+        "origin_media_id": "2119985333773467649"
+      }
+    ],
+    "animation_preview": "assets/animations/social05-larklee-turkey-mixed-workflow.gif"
+  },
+  {
+    "id": "social05-ddjcxx-desk-edit",
+    "title": {
+      "zh-CN": "书桌五轮编辑对比",
+      "en": "Five-round desk editing comparison"
+    },
+    "category": "multi-turn-editing",
+    "author": "DDJCXX",
+    "source_url": "https://x.com/DDJCXX/status/2119766551436116358",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/DDJCXX/status/2119766551436116358",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。",
+      "en": "Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWrscI0aIAAnyCf.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-ddjcxx-desk-edit-01.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119766542779031552",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social05-ddjcxx-transparency",
+    "title": {
+      "zh-CN": "透明蒸汽、辐条与薄纱实测",
+      "en": "Transparent steam, spokes and sheer fabric test"
+    },
+    "category": "rgba-assets",
+    "author": "DDJCXX",
+    "source_url": "https://x.com/DDJCXX/status/2119783562115494336",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/DDJCXX/status/2119783562115494336",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。 JPEG/GIF预览不能证明原文件的Alpha通道。",
+      "en": "Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. JPEG/GIF preview does not establish native source alpha transparency."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWr76UfacAAiozM.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-ddjcxx-transparency-01.jpg",
+        "preview_transform": "original-X-attachment-reduced-JPEG",
+        "origin_media_id": "2119783553982689280",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social05-xiaohu-thirty-round-gif",
+    "title": {
+      "zh-CN": "多轮编辑人物与小字 GIF",
+      "en": "Thirty-round character and text edit GIF"
+    },
+    "category": "multi-turn-editing",
+    "author": "xiaohu",
+    "source_url": "https://x.com/xiaohu/status/2119774478788141417",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/xiaohu/status/2119774478788141417",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "直接从 X 作者原帖视频抽帧，短GIF为预览而非模型原生 GIF。完整视频见原媒体链接。",
+      "en": "Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video."
+    },
+    "media": [
+      {
+        "url": "https://video.twimg.com/tweet_video/HWrwXJeboAEJIj6.mp4",
+        "type": "video",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-xiaohu-thirty-round-gif-video-01.jpg",
+        "preview_transform": "X-video-excerpt-JPEG-still",
+        "origin_media_id": "2119770855102455809"
+      }
+    ],
+    "animation_preview": "assets/animations/social05-xiaohu-thirty-round-gif.gif"
+  },
+  {
+    "id": "social05-sjonkerr-street-weather-edit",
+    "title": {
+      "zh-CN": "街景六次天气场景连续编辑",
+      "en": "Six-step street weather edit to video"
+    },
+    "category": "multi-turn-editing",
+    "author": "Sjonkerr",
+    "source_url": "https://x.com/Sjonkerr/status/2119904922703438173",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/Sjonkerr/status/2119904922703438173",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "直接从 X 作者原帖视频抽帧，短GIF为预览而非模型原生 GIF。完整视频见原媒体链接。",
+      "en": "Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video."
+    },
+    "media": [
+      {
+        "url": "https://video.twimg.com/amplify_video/2119904818047156225/vid/avc1/640x360/9n5peMn0pxuwJUXs.mp4?tag=14",
+        "type": "video",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-sjonkerr-street-weather-edit-video-01.jpg",
+        "preview_transform": "X-video-excerpt-JPEG-still",
+        "origin_media_id": "2119904818047156225"
+      }
+    ],
+    "animation_preview": "assets/animations/social05-sjonkerr-street-weather-edit.gif"
+  },
+  {
+    "id": "social05-opener-morphic-character",
+    "title": {
+      "zh-CN": "Morphic 中的角色表情多轮编辑",
+      "en": "Morphic character expression editing"
+    },
+    "category": "multi-turn-editing",
+    "author": "opener_ai",
+    "source_url": "https://x.com/opener_ai/status/2119942433412931907",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/opener_ai/status/2119942433412931907",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "直接从 X 作者原帖视频抽帧，短GIF为预览而非模型原生 GIF。完整视频见原媒体链接。",
+      "en": "Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video."
+    },
+    "media": [
+      {
+        "url": "https://video.twimg.com/amplify_video/2119942423392755712/vid/avc1/576x720/E7FU7KGqyOxzlhLd.mp4?tag=29",
+        "type": "video",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-opener-morphic-character-video-01.jpg",
+        "preview_transform": "X-video-excerpt-JPEG-still",
+        "origin_media_id": "2119942423392755712"
+      }
+    ],
+    "animation_preview": "assets/animations/social05-opener-morphic-character.gif"
+  },
+  {
+    "id": "social05-vortex-fifteen-round-compare",
+    "title": {
+      "zh-CN": "五模型15轮连续修图对比",
+      "en": "Five-model 15-round image-edit comparison"
+    },
+    "category": "multi-turn-editing",
+    "author": "VORTEX_Promos",
+    "source_url": "https://x.com/VORTEX_Promos/status/2119928374235701452",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "creator-X-post-explicit",
+    "checked_at": "2026-11-10",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/VORTEX_Promos/status/2119928374235701452",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "直接从 X 作者原帖视频抽帧，短GIF为预览而非模型原生 GIF。完整视频见原媒体链接。 这是跨模型比较/混合工作流，不应全部视为 Seedream 5.5 单模型输出。",
+      "en": "Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video. This comparison or mixed workflow contains outputs by other models."
+    },
+    "media": [
+      {
+        "url": "https://video.twimg.com/amplify_video/2119928182216269824/vid/avc1/640x360/GLpseXYO3PuhFN6p.mp4?tag=29",
+        "type": "video",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social05-vortex-fifteen-round-compare-video-01.jpg",
+        "preview_transform": "X-video-excerpt-JPEG-still",
+        "origin_media_id": "2119928182216269824"
+      }
+    ],
+    "animation_preview": "assets/animations/social05-vortex-fifteen-round-compare.gif"
   }
 ]

@@ -68,7 +68,7 @@ def render(lang):
             name, media = c['title'][lang], c['media'][0]
             page = f'cases/{c["id"]}/{file_for(lang)}'
             status = choose('官方展示', 'Official demo') if c['source_type'] == 'official' else choose('作者自报', 'Creator-reported')
-            image = f'<a href="{page}"><img src="{media["preview"]}" alt="{html.escape(name, quote=True)}" width="420" loading="lazy" /></a>'
+            image = f'<a href="{page}"><img src="{c.get("animation_preview", media["preview"])}" alt="{html.escape(name, quote=True)}" width="420" loading="lazy" /></a>'
             lines += [f'#### [{name}]({page})', '', image, '',
                       f'{status} · {c["author"]} · [{choose("原始来源", "Source")}]({c["source_url"]}) · [{choose("详情与提示词状态", "Details & prompt status")}]({page})', '']
             if c.get('caveat'):
@@ -81,6 +81,13 @@ def render(lang):
                       choose('以上为缩放后的代表帧预览，不是完整动画或可用的透明素材导出文件。', 'This is a reduced representative-frame preview, not a complete animation or an exported transparent asset.'), '',
                       f'[{choose("打开原始媒体", "Open original media")}]({media["url"]})', '',
                       '## ' + choose('提示词', 'Prompt'), '']
+            if c.get('animation_preview'):
+                detail[-2:-2] = [
+                    '', '## ' + choose('原帖视频的短动图预览', 'Animated excerpt from X video'), '',
+                    f'![{name} — animated preview](../../{c["animation_preview"]})', '',
+                    choose('这是原帖视频生成的低分辨率短动图预览，并非模型原生输出 GIF；完整视频请打开原始媒体。',
+                           'Low-resolution excerpt of the source post video, not a native Seedream GIF. Open original media for the full video.'), ''
+                ]
             if len(c['media']) > 1:
                 gallery = ['', '## ' + choose('同一原帖的更多图片', 'More photos from the original post'), '']
                 for number, frame in enumerate(c['media'][1:], 2):
