@@ -51,7 +51,7 @@ def render(lang):
         f'| {choose("作者自报案例", "Creator-reported cases")} | {sum(c["source_type"] == "creator-reported" for c in cases)} |',
         f'| {choose("仓库内完整原始提示词", "Complete original source prompts included")} | {sum(c["prompt"]["status"] == "original" for c in cases)} |',
         f'| {choose("独立复现案例", "Independently reproduced cases")} | 0 |',
-        f'| {choose("来源核对日期", "Sources checked")} | 2026-11-10 |', '',
+        f'| {choose("来源核对日期", "Sources checked")} | {max(c["checked_at"] for c in cases)} |', '',
         choose('同一案例的多轮图片不重复计数；重复社媒视频不增加案例总数。来源页中的展示说明不等于实际完整生成提示词。',
                'Edit rounds are grouped as one case. Duplicate social videos do not increase the case count. Source-page demo descriptions are not treated as complete generation prompts.'), '',
         '<a id="categories"></a>', '## ' + choose('按分类浏览', 'Browse by category'), '',
@@ -78,8 +78,8 @@ def render(lang):
                       f'[{choose("返回案例目录", "Back to cases")}](../../{file_for(lang)}#cases)', '',
                       f'**{status} · {choose("未独立复现", "Not independently reproduced")}**', '',
                       f'![{name}](../../{media["preview"]})', '',
-                      choose('以上为缩放后的代表帧预览，不是完整动画或可用的透明素材导出文件。', 'This is a reduced representative-frame preview, not a complete animation or an exported transparent asset.'), '',
-                      f'[{choose("打开原始媒体", "Open original media")}]({media["url"]})', '',
+                      (choose('以上为缩放后的代表帧预览，不是完整动画或可用的透明素材导出文件。', 'This is a reduced representative-frame preview, not a complete animation or an exported transparent asset.') if not media['preview'].endswith('.webp') else choose('这是来源注明出处的公开案例汇编的 WebP 预览，并非原始媒体或透明素材导出。', 'This is a WebP preview from an attributed public gallery, not original media or an exported transparent asset.')), '',
+                      f'[{choose("打开原始媒体", "Open original media") if not media["preview"].endswith(".webp") else choose("打开汇编预览", "Open gallery preview")}]({media["url"]})', '',
                       '## ' + choose('提示词', 'Prompt'), '']
             if c.get('animation_preview'):
                 detail[-2:-2] = [
@@ -93,7 +93,7 @@ def render(lang):
                 for number, frame in enumerate(c['media'][1:], 2):
                     gallery += [f'**{choose("配图", "Image")} {number}**', '',
                                 f'![{name} - {number}](../../{frame["preview"]})', '',
-                                f'[{choose("原媒体", "Source media")}]({frame["url"]})', '']
+                                f'[{choose("原媒体", "Source media") if not frame["preview"].endswith(".webp") else choose("汇编预览", "Gallery preview")}]({frame["url"]})', '']
                 detail[-2:-2] = gallery
             if prompt['status'] == 'original':
                 detail += ['```text', prompt['text'], '```', '',
@@ -108,8 +108,8 @@ def render(lang):
                        f'- {choose("模型来源归因", "Source model attribution")}: Seedream 5.5',
                        f'- {choose("核对日期", "Checked")}: {c["checked_at"]}',
                        f'- [{choose("来源页面", "Source page")}]({c["source_url"]})', '',
-                       choose('原始媒体通过来源地址提供；仓库只保存经缩放的 JPEG 代表帧预览。原权利人保留权利；MIT 许可不覆盖这些媒体、预览与原始提示词。GIF 是展示序列，不代表模型原生生成动画；JPEG 预览不含 Alpha 通道。',
-                              'Original media is linked at its source. Only reduced representative-frame JPEG previews are bundled. Owners retain their rights; MIT does not cover this media, previews or source prompts. Demo GIFs do not establish native animation generation; JPEG previews have no alpha channel.'), '']
+                       (choose('原始媒体通过来源地址提供；仓库只保存经缩放的 JPEG 代表帧预览。原权利人保留权利；MIT 许可不覆盖这些媒体、预览与原始提示词。GIF 是展示序列，不代表模型原生生成动画；JPEG 预览不含 Alpha 通道。',
+                              'Original media is linked at its source. Only reduced representative-frame JPEG previews are bundled. Owners retain their rights; MIT does not cover this media, previews or source prompts. Demo GIFs do not establish native animation generation; JPEG previews have no alpha channel.') if not media['preview'].endswith('.webp') else choose('原帖在上方链接。WebP 来自注明出处的公开第三方汇编，不代表有转载许可、拿到原始附件或独立复现。媒体、预览、提示词版权仍属原作者，MIT 许可不覆盖。', 'Original post is linked above. This WebP comes from an attributed public third-party gallery: no redistribution license, raw-media status, or model reproduction is implied. Owners retain rights to images, previews and prompts; MIT does not cover them.')), '']
             if c.get('caveat'):
                 detail += ['> ' + c['caveat'][lang], '']
             pages[ROOT / page] = '\n'.join(detail)

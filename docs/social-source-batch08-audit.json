@@ -1,0 +1,223 @@
+{
+  "batch": 8,
+  "checked_at": "2026-11-11",
+  "case_count": 5,
+  "local_webp_preview_count": 10,
+  "complete_creator_prompts": 1,
+  "rights": "rights-reserved; authors retain all rights; this does not imply permission",
+  "source_boundary": "Original X media IDs unavailable; public WebP gallery copies with source attribution were visually checked and byte-verified, no model rerun.",
+  "cases": [
+    {
+      "id": "social08-maxescu-ridge-snack",
+      "author": "Alex Patrascu",
+      "source_url": "https://x.com/maxescu/status/2120078778487505206",
+      "post_id": "2120078778487505206",
+      "model_evidence": "original-author-X-post-and-public-source-gallery",
+      "prompt_status": "original",
+      "media": [
+        "assets/previews/social08-maxescu-goat-compare-01.webp"
+      ]
+    },
+    {
+      "id": "social08-kishen-cinematic-portraits",
+      "author": "KishenArt",
+      "source_url": "https://x.com/KishenArt/status/2120046624919769591",
+      "post_id": "2120046624919769591",
+      "model_evidence": "original-author-X-post-and-public-source-gallery",
+      "prompt_status": "source-linked",
+      "media": [
+        "assets/previews/social08-kishen-film-portraits-01.webp",
+        "assets/previews/social08-kishen-film-portraits-02.webp"
+      ]
+    },
+    {
+      "id": "social08-drsadek-portrait-outpainting",
+      "author": "DrSadek",
+      "source_url": "https://x.com/DrSadek_/status/2119809560038772808",
+      "post_id": "2119809560038772808",
+      "model_evidence": "original-author-X-post-and-public-source-gallery",
+      "prompt_status": "not-published",
+      "media": [
+        "assets/previews/social08-drsadek-resize-compare-01.webp",
+        "assets/previews/social08-drsadek-resize-compare-02.webp",
+        "assets/previews/social08-drsadek-resize-compare-03.webp"
+      ]
+    },
+    {
+      "id": "social08-aigmudq-fashion-samples",
+      "author": "降温计划",
+      "source_url": "https://x.com/aigmudq/status/2119771043707621711",
+      "post_id": "2119771043707621711",
+      "model_evidence": "original-author-X-post-and-public-source-gallery",
+      "prompt_status": "not-published",
+      "media": [
+        "assets/previews/social08-aigmudq-tests-01.webp",
+        "assets/previews/social08-aigmudq-tests-02.webp",
+        "assets/previews/social08-aigmudq-tests-03.webp"
+      ]
+    },
+    {
+      "id": "social08-taxue-deity-artwork",
+      "author": "踏雪寻仙",
+      "source_url": "https://x.com/TaXue2025/status/2119730457030041723",
+      "post_id": "2119730457030041723",
+      "model_evidence": "original-author-X-post-and-public-source-gallery",
+      "prompt_status": "not-published",
+      "media": [
+        "assets/previews/social08-taxue-cinematic-01.webp"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "case_id": "social08-maxescu-ridge-snack",
+      "source_post": "https://x.com/maxescu/status/2120078778487505206",
+      "post_id": "2120078778487505206",
+      "file": "assets/previews/social08-maxescu-goat-compare-01.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/maxescu-goat-compare-01.webp",
+      "origin_media_id": null,
+      "git_blob": "26427d94e92d8a6c4e127dbf7a6c8fc8f4a43fff",
+      "sha256": "440c66cc953bf305553940f1ac275c43b42c8868383919d92b2154409130d136",
+      "bytes": 203188,
+      "width": 1600,
+      "height": 1064,
+      "verified": "WebP signature, SHA256, rendered visual inspection; not independent full model reproduction",
+      "rights": "rights-reserved"
+    },
+    {
+      "case_id": "social08-kishen-cinematic-portraits",
+      "source_post": "https://x.com/KishenArt/status/2120046624919769591",
+      "post_id": "2120046624919769591",
+      "file": "assets/previews/social08-kishen-film-portraits-01.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/kishen-film-portraits-01.webp",
+      "origin_media_id": null,
+      "git_blob": "d3ffa8d02f8b74aebb34d5d12fc91495f7ae87db",
+      "sha256": "4182e071b478e00dcec2ab19c6d408fb9d89ed9e43d634666ce1eefac3dbbca5",
+      "bytes": 144522,
+      "width": 1200,
+      "height": 1600,
+      "verified": "WebP signature, SHA256, rendered visual inspection; not independent full model reproduction",
+      "rights": "rights-reserved"
+    },
+    {
+      "case_id": "social08-kishen-cinematic-portraits",
+      "source_post": "https://x.com/KishenArt/status/2120046624919769591",
+      "post_id": "2120046624919769591",
+      "file": "assets/previews/social08-kishen-film-portraits-02.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/kishen-film-portraits-02.webp",
+      "origin_media_id": null,
+      "git_blob": "65c2c94fbd0f31d111ae8974d9a294a7c6e8c2c7",
+      "sha256": "b5577a923d48d9974498aa1d0734ec50aa2504993b27541812bd826b725dcf02",
+      "bytes": 123660,
+      "width": 1200,
+      "height": 1600,
+      "verified": "WebP signature, SHA256, rendered visual inspection; not independent full model reproduction",
+      "rights": "rights-reserved"
+    },
+    {
+      "case_id": "social08-drsadek-portrait-outpainting",
+      "source_post": "https://x.com/DrSadek_/status/2119809560038772808",
+      "post_id": "2119809560038772808",
+      "file": "assets/previews/social08-drsadek-resize-compare-01.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/drsadek-resize-compare-01.webp",
+      "origin_media_id": null,
+      "git_blob": "949897f985f44f0d24859346f92914b189432466",
+      "sha256": "bd7e8f829ea059cfa49c129e9b977953beac387afb1a5d847b5101539505390c",
+      "bytes": 20354,
+      "width": 500,
+      "height": 428,
+      "verified": "WebP signature, SHA256, rendered visual inspection; not independent full model reproduction",
+      "rights": "rights-reserved"
+    },
+    {
+      "case_id": "social08-drsadek-portrait-outpainting",
+      "source_post": "https://x.com/DrSadek_/status/2119809560038772808",
+      "post_id": "2119809560038772808",
+      "file": "assets/previews/social08-drsadek-resize-compare-02.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/drsadek-resize-compare-02.webp",
+      "origin_media_id": null,
+      "git_blob": "439bd626a1104cbe41eaf554fc790eacf26ae296",
+      "sha256": "b164c8e52d537c931fc6d18bec7edac6ff140812db099becf875a5aa7c8425dd",
+      "bytes": 107914,
+      "width": 900,
+      "height": 1600,
+      "verified": "WebP signature, SHA256, rendered visual inspection; not independent full model reproduction",
+      "rights": "rights-reserved"
+    },
+    {
+      "case_id": "social08-drsadek-portrait-outpainting",
+      "source_post": "https://x.com/DrSadek_/status/2119809560038772808",
+      "post_id": "2119809560038772808",
+      "file": "assets/previews/social08-drsadek-resize-compare-03.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/drsadek-resize-compare-03.webp",
+      "origin_media_id": null,
+      "git_blob": "cda4d0650f9be5e453473920cdac7443cb28bf68",
+      "sha256": "461d5ec61208b7770e368fddc726c5fad67562b2f1c5ef12b2647525fcd2f3fa",
+      "bytes": 135222,
+      "width": 900,
+      "height": 1600,
+      "verified": "WebP signature, SHA256, rendered visual inspection; not independent full model reproduction",
+      "rights": "rights-reserved"
+    },
+    {
+      "case_id": "social08-aigmudq-fashion-samples",
+      "source_post": "https://x.com/aigmudq/status/2119771043707621711",
+      "post_id": "2119771043707621711",
+      "file": "assets/previews/social08-aigmudq-tests-01.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/aigmudq-tests-01.webp",
+      "origin_media_id": null,
+      "git_blob": "37cfe7242fa0eae969f44cb930da16beda8dccc1",
+      "sha256": "2b88854ebdb718f8df60bb1fa1c3731c258a9334e17a4127da6076c2ee23fcf6",
+      "bytes": 56568,
+      "width": 1200,
+      "height": 1600,
+      "verified": "WebP signature, SHA256, rendered visual inspection; not independent full model reproduction",
+      "rights": "rights-reserved"
+    },
+    {
+      "case_id": "social08-aigmudq-fashion-samples",
+      "source_post": "https://x.com/aigmudq/status/2119771043707621711",
+      "post_id": "2119771043707621711",
+      "file": "assets/previews/social08-aigmudq-tests-02.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/aigmudq-tests-02.webp",
+      "origin_media_id": null,
+      "git_blob": "c37714dbdbe62a3842377a03586c49334c0eb860",
+      "sha256": "9a8dddd662028d81ce848f3b0668d574ce80bb7dbb0144e5b9ca584dc0acd939",
+      "bytes": 122918,
+      "width": 900,
+      "height": 1600,
+      "verified": "WebP signature, SHA256, rendered visual inspection; not independent full model reproduction",
+      "rights": "rights-reserved"
+    },
+    {
+      "case_id": "social08-aigmudq-fashion-samples",
+      "source_post": "https://x.com/aigmudq/status/2119771043707621711",
+      "post_id": "2119771043707621711",
+      "file": "assets/previews/social08-aigmudq-tests-03.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/aigmudq-tests-03.webp",
+      "origin_media_id": null,
+      "git_blob": "0f9f45f627124ffd90b6af83aa63d341cc4573a7",
+      "sha256": "72af74b28da7d69d87512f5bf92360c99634695bdd547daf1110cfe9ced92b58",
+      "bytes": 61976,
+      "width": 1200,
+      "height": 1600,
+      "verified": "WebP signature, SHA256, rendered visual inspection; not independent full model reproduction",
+      "rights": "rights-reserved"
+    },
+    {
+      "case_id": "social08-taxue-deity-artwork",
+      "source_post": "https://x.com/TaXue2025/status/2119730457030041723",
+      "post_id": "2119730457030041723",
+      "file": "assets/previews/social08-taxue-cinematic-01.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/taxue-cinematic-01.webp",
+      "origin_media_id": null,
+      "git_blob": "b27fe2e8f95ad754e7d0018446f95d4e205836ac",
+      "sha256": "d5ab3452dfcb817b98f2b2b1622beae366a437401653e99f9d7accb40ba23b08",
+      "bytes": 196354,
+      "width": 1067,
+      "height": 1600,
+      "verified": "WebP signature, SHA256, rendered visual inspection; not independent full model reproduction",
+      "rights": "rights-reserved"
+    }
+  ]
+}

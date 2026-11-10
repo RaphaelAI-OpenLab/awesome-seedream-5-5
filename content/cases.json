@@ -3316,5 +3316,235 @@
       }
     ],
     "animation_preview": "assets/animations/social07-dotey-review-video.gif"
+  },
+  {
+    "id": "social08-maxescu-ridge-snack",
+    "title": {
+      "zh-CN": "山羊零食包装：四模型同提示词测试",
+      "en": "Ridge Snack packaging across four models"
+    },
+    "category": "typography",
+    "author": "Alex Patrascu",
+    "source_url": "https://x.com/maxescu/status/2120078778487505206",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "original-author-X-post-and-public-source-gallery",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "original",
+      "url": "https://x.com/maxescu/status/2120078778487505206",
+      "text": "A realistic on-shelf product mockup of exactly two adjacent milk-white cartons for a fictional Alpine snack brand. Both cartons show the same original white-haired delivery woman mascot in a tiny ochre hooded coat, standing beside a black-and-white pack goat with one bent left horn. Carton on the left has a copper accent band, and carton on the right has a deep blue accent band. Match the mascot's nose, hood buckle, glove shape, and the goat's horn on both cartons. Print exactly “RIDGE SNACK” at the top of each package and “AGED” on the copper band, “MILD” on the blue band. Slight view from above to show both label faces, real folded-paper edges, empty warm gray countertop."
+    },
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/maxescu-goat-compare-01.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social08-maxescu-goat-compare-01.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/maxescu/status/2120078778487505206",
+        "origin_media_id": null
+      }
+    ],
+    "caveat": {
+      "zh-CN": "四格分别为 MiniMax H3、Seedream 5.5、Nano Banana 2.1 与 GPT Image 2.6；仅右上为 5.5。作者公开完整通用提示词。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。",
+      "en": "Four quadrants are MiniMax H3, Seedream 5.5, Nano Banana 2.1 and GPT Image 2.6; only upper-right is Seedream. The creator publicly provided the complete shared prompt. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed."
+    }
+  },
+  {
+    "id": "social08-kishen-cinematic-portraits",
+    "title": {
+      "zh-CN": "胶片人像设计：冬日书房与夏日花园",
+      "en": "Cinematic portrait designs: winter study and summer garden"
+    },
+    "category": "portraits",
+    "author": "KishenArt",
+    "source_url": "https://x.com/KishenArt/status/2120046624919769591",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "original-author-X-post-and-public-source-gallery",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://x.com/KishenArt/status/2120047577957867826",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/kishen-film-portraits-01.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social08-kishen-film-portraits-01.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/KishenArt/status/2120046624919769591",
+        "origin_media_id": null
+      },
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/kishen-film-portraits-02.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social08-kishen-film-portraits-02.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/KishenArt/status/2120046624919769591",
+        "origin_media_id": null
+      }
+    ],
+    "caveat": {
+      "zh-CN": "P1/P2 长提示词由作者在两条评论中发布，另见 2120047937673916717；本批未逐字复核，故不复制正文。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。",
+      "en": "The creator posted long P1/P2 prompts in two replies, also 2120047937673916717; their full texts have not been independently checked and are not transcribed. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed."
+    }
+  },
+  {
+    "id": "social08-drsadek-portrait-outpainting",
+    "title": {
+      "zh-CN": "9:16 延展对比：原图、Seedream、GPT Image",
+      "en": "9:16 outpainting: original, Seedream, GPT Image"
+    },
+    "category": "photography",
+    "author": "DrSadek",
+    "source_url": "https://x.com/DrSadek_/status/2119809560038772808",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "original-author-X-post-and-public-source-gallery",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/DrSadek_/status/2119809560038772808",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/drsadek-resize-compare-01.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social08-drsadek-resize-compare-01.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/DrSadek_/status/2119809560038772808",
+        "origin_media_id": null
+      },
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/drsadek-resize-compare-02.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social08-drsadek-resize-compare-02.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/DrSadek_/status/2119809560038772808",
+        "origin_media_id": null
+      },
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/drsadek-resize-compare-03.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social08-drsadek-resize-compare-03.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/DrSadek_/status/2119809560038772808",
+        "origin_media_id": null
+      }
+    ],
+    "caveat": {
+      "zh-CN": "原帖标明第1张原图、第2张 Seedream 5.5、第3张 GPT Image 2.6；并非三张都是 Seedream 输出。未公开完整提示词。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。",
+      "en": "The source labels image one the original, image two Seedream 5.5, and image three GPT Image 2.6. These are not three Seedream results. Full prompt unpublished. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed."
+    }
+  },
+  {
+    "id": "social08-aigmudq-fashion-samples",
+    "title": {
+      "zh-CN": "蓝发黑裙、花树红衣与白T：人像试图",
+      "en": "Portrait trials: blue hair, red dress, white T-shirt"
+    },
+    "category": "portraits",
+    "author": "降温计划",
+    "source_url": "https://x.com/aigmudq/status/2119771043707621711",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "original-author-X-post-and-public-source-gallery",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/aigmudq/status/2119771043707621711",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/aigmudq-tests-01.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social08-aigmudq-tests-01.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/aigmudq/status/2119771043707621711",
+        "origin_media_id": null
+      },
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/aigmudq-tests-02.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social08-aigmudq-tests-02.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/aigmudq/status/2119771043707621711",
+        "origin_media_id": null
+      },
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/aigmudq-tests-03.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social08-aigmudq-tests-03.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/aigmudq/status/2119771043707621711",
+        "origin_media_id": null
+      }
+    ],
+    "caveat": {
+      "zh-CN": "作者明确将这组图称为 Seedream 5.5 试图。仅收录同一原帖的三张图片，另一帖的第4张图已排除。未公开提示词。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。",
+      "en": "The author explicitly calls this a Seedream 5.5 test. Only three images from the single post are included; an image from a second post is excluded. Prompt unpublished. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed."
+    }
+  },
+  {
+    "id": "social08-taxue-deity-artwork",
+    "title": {
+      "zh-CN": "传统神像风插画试图",
+      "en": "Traditional deity-style illustration test"
+    },
+    "category": "characters",
+    "author": "踏雪寻仙",
+    "source_url": "https://x.com/TaXue2025/status/2119730457030041723",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "original-author-X-post-and-public-source-gallery",
+    "checked_at": "2026-11-11",
+    "reproduced": false,
+    "prompt": {
+      "status": "not-published",
+      "url": "https://x.com/TaXue2025/status/2119730457030041723",
+      "text": null
+    },
+    "media": [
+      {
+        "url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/taxue-cinematic-01.webp",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social08-taxue-cinematic-01.webp",
+        "preview_transform": "source-gallery-webp-copied-byte-identical",
+        "origin_post_url": "https://x.com/TaXue2025/status/2119730457030041723",
+        "origin_media_id": null
+      }
+    ],
+    "caveat": {
+      "zh-CN": "作者配有 Seedream 5.5 模型选择界面截图；截图不算生成图。是否与 5.0 Pro 逐图对应仍未核实，不作效果优劣判断。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。",
+      "en": "The author included a screenshot of Seedream 5.5 in the model selector; it is not counted as generated media. Specific per-image comparisons with 5.0 Pro were not verified. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed."
+    }
   }
 ]
