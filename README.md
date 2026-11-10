@@ -10,7 +10,7 @@
 
 A visual reference collection by Raphael. Official demos, creator-reported outputs and original practice recipes are labeled separately.
 
-**88 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
+**90 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
 
 Cases have not been independently reproduced here. Only reduced single-frame previews are bundled; full images, GIFs and videos are linked at their origins. Third-party media and previews retain their owners’ rights.
 
@@ -27,7 +27,7 @@ Seedream 5.5 was announced on **2026-11-09**. See the [official model page](http
 | Item | Count |
 | --- | ---: |
 | Official-source cases | 20 |
-| Creator-reported cases | 68 |
+| Creator-reported cases | 70 |
 | Complete original source prompts included | 15 |
 | Independently reproduced cases | 0 |
 | Sources checked | 2026-11-11 |
@@ -40,13 +40,13 @@ Edit rounds are grouped as one case. Duplicate social videos do not increase the
 | Category | Cases |
 | --- | ---: |
 | [Multi-turn & targeted editing](#multi-turn-editing) | 15 |
-| [Transparent assets](#rgba-assets) | 10 |
+| [Transparent assets](#rgba-assets) | 11 |
 | [Portraits](#portraits) | 8 |
 | [Photography & documentary](#photography) | 26 |
 | [Interiors & space](#interiors) | 1 |
 | [Text & typography](#typography) | 13 |
 | [Infographics & interfaces](#infographics) | 4 |
-| [Characters & stickers](#characters) | 11 |
+| [Characters & stickers](#characters) | 12 |
 
 <a id="cases"></a>
 ## All cases
@@ -244,6 +244,14 @@ Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status
 Creator-reported · DDJCXX · [Source](https://x.com/DDJCXX/status/2119783562115494336) · [Details & prompt status](cases/social05-ddjcxx-transparency/README.md)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. JPEG/GIF preview does not establish native source alpha transparency.
+
+#### [Oxen demonstration of Seedream 5.5 Layers decomposition](cases/social09-oxen-layer-separation/README.md)
+
+<a href="cases/social09-oxen-layer-separation/README.md"><img src="assets/previews/social09-oxen-layer-separation.webp" alt="Oxen demonstration of Seedream 5.5 Layers decomposition" width="420" loading="lazy" /></a>
+
+Creator-reported · Greg Schoeninger · [Source](https://x.com/gregschoeninger/status/2119898943819849963) · [Details & prompt status](cases/social09-oxen-layer-separation/README.md)
+
+> Oxen demonstration of Seedream 5.5 Layers decomposition
 
 <a id="portraits"></a>
 ### Portraits
@@ -726,6 +734,14 @@ Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/211889648
 Creator-reported · 踏雪寻仙 · [Source](https://x.com/TaXue2025/status/2119730457030041723) · [Details & prompt status](cases/social08-taxue-deity-artwork/README.md)
 
 > The author included a screenshot of Seedream 5.5 in the model selector; it is not counted as generated media. Specific per-image comparisons with 5.0 Pro were not verified. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed.
+
+#### [Seedream character art into Seedance video with Suno music](cases/social09-ghostly-seedance-suno/README.md)
+
+<a href="cases/social09-ghostly-seedance-suno/README.md"><img src="assets/previews/social09-ghostly-seedance-suno.webp" alt="Seedream character art into Seedance video with Suno music" width="420" loading="lazy" /></a>
+
+Creator-reported · Ghostly 愛 · [Source](https://x.com/GhostlyXV/status/2119866467717918756) · [Details & prompt status](cases/social09-ghostly-seedance-suno/README.md)
+
+> Seedream character art into Seedance video with Suno music
 
 <a id="recipes"></a>
 ## Original practice recipes

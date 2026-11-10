@@ -1,0 +1,73 @@
+{
+  "batch": 9,
+  "checked_at": "2026-11-11",
+  "case_count": 2,
+  "local_webp_preview_count": 2,
+  "complete_creator_prompts": 0,
+  "rights": "rights-reserved; no republication license inferred",
+  "source_boundary": "Public attributed WebP gallery, not original X media; author claims model version; no independent reproduction.",
+  "cases": [
+    {
+      "id": "social09-ghostly-seedance-suno",
+      "author": "Ghostly 愛",
+      "source_url": "https://x.com/GhostlyXV/status/2119866467717918756",
+      "post_id": "2119866467717918756",
+      "model_evidence": "creator X post and gallery attribution",
+      "prompt_status": "not-published",
+      "media": [
+        "assets/previews/social09-ghostly-seedance-suno.webp"
+      ]
+    },
+    {
+      "id": "social09-oxen-layer-separation",
+      "author": "Greg Schoeninger",
+      "source_url": "https://x.com/gregschoeninger/status/2119898943819849963",
+      "post_id": "2119898943819849963",
+      "model_evidence": "creator X post and gallery attribution",
+      "prompt_status": "not-published",
+      "media": [
+        "assets/previews/social09-oxen-layer-separation.webp"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "case_id": "social09-ghostly-seedance-suno",
+      "source_post": "https://x.com/GhostlyXV/status/2119866467717918756",
+      "file": "assets/previews/social09-ghostly-seedance-suno.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/ghostly-seedance-mixed-01.webp",
+      "origin_media_id": null,
+      "git_blob": "b3ccef50897da6f9776f4b84afc418fb2df63c78",
+      "sha256": "f89882f7221516464368d827e6c62f65b72d85cb6caef2030c94a346112bb242",
+      "bytes": 30588,
+      "width": 1200,
+      "height": 675,
+      "verified": "Source WebP byte-identical in target blob, signature and SHA-256 checked; manual visual inspection; source model execution not reproduced",
+      "rights": "rights-reserved"
+    },
+    {
+      "case_id": "social09-oxen-layer-separation",
+      "source_post": "https://x.com/gregschoeninger/status/2119898943819849963",
+      "file": "assets/previews/social09-oxen-layer-separation.webp",
+      "source_gallery_media_url": "https://raw.githubusercontent.com/aiwonderful/yiailearning/master/public/images/seedream-5-5/oxen-layers-01.webp",
+      "origin_media_id": null,
+      "git_blob": "26a733129cacc463c2ded72937e347a861a46a0c",
+      "sha256": "03475ec8fefdc44431a12dac7b8135897903c68a816de7b90043e018f39ce2a2",
+      "bytes": 73358,
+      "width": 1200,
+      "height": 718,
+      "verified": "Source WebP byte-identical in target blob, signature and SHA-256 checked; manual visual inspection; source model execution not reproduced",
+      "rights": "rights-reserved"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "https://x.com/nanyuan0412/status/2120085502736953603",
+      "reason": "Available gallery still is visually blank"
+    },
+    {
+      "source": "https://x.com/DeepBlueX0/status/2120000077209251934",
+      "reason": "Gallery copies are promotional posters, not verifiable model comparison outputs"
+    }
+  ]
+}

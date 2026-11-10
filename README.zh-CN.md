@@ -10,7 +10,7 @@
 
 由 Raphael 整理的图片与编辑案例库。官方展示、作者自报结果与本仓库编写的练习提示词分别标记。
 
-**88 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
+**90 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
 
 案例未由本仓库独立复现。仓库只保存缩放后的单帧预览，完整图片、GIF 与视频链接至原始地址；第三方媒体及其预览的版权归原权利人。
 
@@ -27,7 +27,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | 项目 | 数量 |
 | --- | ---: |
 | 官方来源案例 | 20 |
-| 作者自报案例 | 68 |
+| 作者自报案例 | 70 |
 | 仓库内完整原始提示词 | 15 |
 | 独立复现案例 | 0 |
 | 来源核对日期 | 2026-11-11 |
@@ -40,13 +40,13 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | 分类 | 案例数 |
 | --- | ---: |
 | [多轮与局部编辑](#multi-turn-editing) | 15 |
-| [透明素材](#rgba-assets) | 10 |
+| [透明素材](#rgba-assets) | 11 |
 | [人像](#portraits) | 8 |
 | [摄影与纪实](#photography) | 26 |
 | [室内与空间](#interiors) | 1 |
 | [文字与排版](#typography) | 13 |
 | [信息图与界面](#infographics) | 4 |
-| [角色与贴纸](#characters) | 11 |
+| [角色与贴纸](#characters) | 12 |
 
 <a id="cases"></a>
 ## 全部案例
@@ -244,6 +244,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · DDJCXX · [原始来源](https://x.com/DDJCXX/status/2119783562115494336) · [详情与提示词状态](cases/social05-ddjcxx-transparency/README.zh-CN.md)
 
 > 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。 JPEG/GIF预览不能证明原文件的Alpha通道。
+
+#### [Oxen 演示 Seedream 5.5 Layers 场景分层](cases/social09-oxen-layer-separation/README.zh-CN.md)
+
+<a href="cases/social09-oxen-layer-separation/README.zh-CN.md"><img src="assets/previews/social09-oxen-layer-separation.webp" alt="Oxen 演示 Seedream 5.5 Layers 场景分层" width="420" loading="lazy" /></a>
+
+作者自报 · Greg Schoeninger · [原始来源](https://x.com/gregschoeninger/status/2119898943819849963) · [详情与提示词状态](cases/social09-oxen-layer-separation/README.zh-CN.md)
+
+> 作者展示使用 Oxen 的 Seedream 5.5 Layers 把已有图片拆为可编辑图层。此为软件截图，并非直接文字生图，也不证明每层均由基础 Seedream 5.5 生成。公开图库的 WebP 不能视为 X 原始附件，原媒体 ID、完整提示词和转载许可均未核实。
 
 <a id="portraits"></a>
 ### 人像
@@ -726,6 +734,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · 踏雪寻仙 · [原始来源](https://x.com/TaXue2025/status/2119730457030041723) · [详情与提示词状态](cases/social08-taxue-deity-artwork/README.zh-CN.md)
 
 > 作者配有 Seedream 5.5 模型选择界面截图；截图不算生成图。是否与 5.0 Pro 逐图对应仍未核实，不作效果优劣判断。 媒体为公开 GitHub 汇编的 WebP 预览，原帖媒体 ID 未取得；未声称获得再发布许可。
+
+#### [Seedream 角色图联动 Seedance 视频与 Suno 配乐](cases/social09-ghostly-seedance-suno/README.zh-CN.md)
+
+<a href="cases/social09-ghostly-seedance-suno/README.zh-CN.md"><img src="assets/previews/social09-ghostly-seedance-suno.webp" alt="Seedream 角色图联动 Seedance 视频与 Suno 配乐" width="420" loading="lazy" /></a>
+
+作者自报 · Ghostly 愛 · [原始来源](https://x.com/GhostlyXV/status/2119866467717918756) · [详情与提示词状态](cases/social09-ghostly-seedance-suno/README.zh-CN.md)
+
+> 作者明确说明 Seedream 5.5 → Seedance 2.5，并用 Suno 配乐。这里保存的是第三方汇编的视频代表帧，并非 Seedream 原始生图；动态画面由 Seedance 制作，不能证明 Seedream 原生视频。原帖媒体 ID、完整提示词和转载许可均未取得。
 
 <a id="recipes"></a>
 ## 原创练习提示词

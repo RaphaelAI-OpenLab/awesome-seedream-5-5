@@ -70,3 +70,7 @@ https://cdn.syndication.twimg.com/tweet-result?id=2119717948470546446&lang=en&to
 ## 第七批 X 社媒原帖图片和视频（2026-11-11）
 
 从原始作者 X 帖子公开媒体直接提取图片/视频 CDN 地址，下载压缩 JPEG 预览和视频短动图；作者、来源、媒体 ID、缺失 Prompt 状态、失败条目见 docs/social-source-batch07-audit.json。多模型案例不表示全部画面由 Seedream 5.5 生成。未独立复现，第三方媒体权利保留。
+
+## 第九批：作者社媒演示（2026-11-11）
+
+新增两项 X 作者自报案例：GhostlyXV 的 Seedream 图片 → Seedance 2.5 视频 → Suno 音乐工作流，Greg Schoeninger 在 Oxen 使用 Seedream 5.5 Layers 为已有图像拆出可编辑图层。共 2 张实际保存的第三方汇编 WebP 单帧预览，版权归原作者。未获取 X 原媒体 ID、完整提示词或转载许可；不表示已用模型独立复现。见 [媒体审计](social-source-batch09-audit.json)。
