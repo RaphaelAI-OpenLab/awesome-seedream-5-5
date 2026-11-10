@@ -18,7 +18,7 @@ This is a reduced representative-frame preview, not a complete animation or an e
 Add a small white paper note on the table with handwritten Polish text “Do zobaczenia jutro!”. Keep everything else unchanged.
 ```
 
-The source author published this exact instruction, including the Polish copy. It has not been reproduced here.
+The prompt is attributed to the creator by the source curator; no independent reproduction was performed.
 
 [View prompt source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/)
 

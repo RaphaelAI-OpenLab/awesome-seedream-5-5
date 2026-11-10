@@ -10,7 +10,7 @@
 
 由 Raphael 整理的图片与编辑案例库。官方展示、作者自报结果与本仓库编写的练习提示词分别标记。
 
-**28 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条已核对社媒来源（2 份不同素材）**
+**35 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条已核对社媒来源（2 份不同素材）**
 
 案例未由本仓库独立复现。仓库只保存缩放后的单帧预览，完整图片、GIF 与视频链接至原始地址；第三方媒体及其预览的版权归原权利人。
 
@@ -27,8 +27,8 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | 项目 | 数量 |
 | --- | ---: |
 | 官方来源案例 | 20 |
-| 作者自报案例 | 8 |
-| 仓库内完整原始提示词 | 1 |
+| 作者自报案例 | 15 |
+| 仓库内完整原始提示词 | 8 |
 | 独立复现案例 | 0 |
 | 来源核对日期 | 2026-11-10 |
 
@@ -40,11 +40,11 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | 分类 | 案例数 |
 | --- | ---: |
 | [多轮与局部编辑](#multi-turn-editing) | 4 |
-| [透明素材](#rgba-assets) | 3 |
+| [透明素材](#rgba-assets) | 5 |
 | [人像](#portraits) | 2 |
-| [摄影与纪实](#photography) | 6 |
+| [摄影与纪实](#photography) | 7 |
 | [室内与空间](#interiors) | 1 |
-| [文字与排版](#typography) | 5 |
+| [文字与排版](#typography) | 9 |
 | [信息图与界面](#infographics) | 4 |
 | [角色与贴纸](#characters) | 3 |
 
@@ -101,6 +101,22 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 > 作者报告伞面呈乳白色，半透明材质表现存在局限。
 
+#### [香水瓶透明背景素材](cases/social-dheepan-amber-perfume/README.zh-CN.md)
+
+<a href="cases/social-dheepan-amber-perfume/README.zh-CN.md"><img src="assets/previews/social-dheepan-amber-perfume.jpg" alt="香水瓶透明背景素材" width="420" loading="lazy" /></a>
+
+作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119775195573481859) · [详情与提示词状态](cases/social-dheepan-amber-perfume/README.zh-CN.md)
+
+> 来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。 这张 JPEG 不能证明原始 Alpha 透明度。
+
+#### [街头模特透明背景素材](cases/social-dheepan-streetwear-cutout/README.zh-CN.md)
+
+<a href="cases/social-dheepan-streetwear-cutout/README.zh-CN.md"><img src="assets/previews/social-dheepan-streetwear-cutout.jpg" alt="街头模特透明背景素材" width="420" loading="lazy" /></a>
+
+作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119775195573481859) · [详情与提示词状态](cases/social-dheepan-streetwear-cutout/README.zh-CN.md)
+
+> 来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。 这张 JPEG 不能证明原始 Alpha 透明度。
+
 <a id="portraits"></a>
 ### 人像
 
@@ -155,6 +171,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 作者自报 · Piotr Olszewski / QUANTSLANT · [原始来源](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [详情与提示词状态](cases/quantslant-railway-station/README.zh-CN.md)
 
+#### [日本熟食店三模型对比](cases/social-genel-japanese-deli/README.zh-CN.md)
+
+<a href="cases/social-genel-japanese-deli/README.zh-CN.md"><img src="assets/previews/social-genel-japanese-deli.jpg" alt="日本熟食店三模型对比" width="420" loading="lazy" /></a>
+
+作者自报 · genel_ai · [原始来源](https://x.com/genel_ai/status/2119786434567827504) · [详情与提示词状态](cases/social-genel-japanese-deli/README.zh-CN.md)
+
+> 来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。 此图是三模型比较拼图，Seedream 5.5 为左侧列。
+
 <a id="interiors"></a>
 ### 室内与空间
 
@@ -198,6 +222,38 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · Piotr Olszewski / QUANTSLANT · [原始来源](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [详情与提示词状态](cases/quantslant-newspaper-errors/README.zh-CN.md)
 
 > 作者报告存在文字错误；保留为局限样本。
+
+#### [杂志封面字形](cases/social-dheepan-magazine-cover/README.zh-CN.md)
+
+<a href="cases/social-dheepan-magazine-cover/README.zh-CN.md"><img src="assets/previews/social-dheepan-magazine-cover.jpg" alt="杂志封面字形" width="420" loading="lazy" /></a>
+
+作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119767938173387065) · [详情与提示词状态](cases/social-dheepan-magazine-cover/README.zh-CN.md)
+
+> 来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。
+
+#### [雨夜多语种招牌](cases/social-dheepan-rainy-storefront/README.zh-CN.md)
+
+<a href="cases/social-dheepan-rainy-storefront/README.zh-CN.md"><img src="assets/previews/social-dheepan-rainy-storefront.jpg" alt="雨夜多语种招牌" width="420" loading="lazy" /></a>
+
+作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119767938173387065) · [详情与提示词状态](cases/social-dheepan-rainy-storefront/README.zh-CN.md)
+
+> 来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。
+
+#### [护肤品包装小字](cases/social-dheepan-skincare-label/README.zh-CN.md)
+
+<a href="cases/social-dheepan-skincare-label/README.zh-CN.md"><img src="assets/previews/social-dheepan-skincare-label.jpg" alt="护肤品包装小字" width="420" loading="lazy" /></a>
+
+作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119767938173387065) · [详情与提示词状态](cases/social-dheepan-skincare-label/README.zh-CN.md)
+
+> 来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。
+
+#### [夜间电子乐活动海报](cases/social-dheepan-night-signal-poster/README.zh-CN.md)
+
+<a href="cases/social-dheepan-night-signal-poster/README.zh-CN.md"><img src="assets/previews/social-dheepan-night-signal-poster.jpg" alt="夜间电子乐活动海报" width="420" loading="lazy" /></a>
+
+作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119767938173387065) · [详情与提示词状态](cases/social-dheepan-night-signal-poster/README.zh-CN.md)
+
+> 来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。
 
 <a id="infographics"></a>
 ### 信息图与界面

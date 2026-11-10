@@ -271,6 +271,69 @@
       "codec_name": "mjpeg",
       "width": 480,
       "height": 640
+    },
+    {
+      "preview": "assets/previews/social-dheepan-amber-perfume.jpg",
+      "status": "decoded-preview",
+      "bytes": 25279,
+      "sha256": "7b9e5c6a72126340de0bdce8786d70cff7c7615e8e299044ab99a67424e51fd0",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/social-dheepan-magazine-cover.jpg",
+      "status": "decoded-preview",
+      "bytes": 45317,
+      "sha256": "27cf48699383ee45974dc3c268b323a69323eb9c6d55fc7d40b30ecbb45fad63",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/social-dheepan-night-signal-poster.jpg",
+      "status": "decoded-preview",
+      "bytes": 54480,
+      "sha256": "0d0e8569424c14d6c373c302b538753881feb4ab456ff0ec485a6f8d253c4c56",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/social-dheepan-rainy-storefront.jpg",
+      "status": "decoded-preview",
+      "bytes": 45343,
+      "sha256": "1ef98bad24051a30509dbb42656a7fc2e0ee04cc7d2d1b638324c93b7e081949",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/social-dheepan-skincare-label.jpg",
+      "status": "decoded-preview",
+      "bytes": 22845,
+      "sha256": "8b5310b992c9c6884a6238b313d785f2aaa0274fcc31dfdd74bea2eb1c1d3f07",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/social-dheepan-streetwear-cutout.jpg",
+      "status": "decoded-preview",
+      "bytes": 19836,
+      "sha256": "ce58d5de85bacf7406fddedb562724d59af585c1d5f25ec03b132192d3e3e7b0",
+      "codec_name": "mjpeg",
+      "width": 427,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/social-genel-japanese-deli.jpg",
+      "status": "decoded-preview",
+      "bytes": 99699,
+      "sha256": "f02c7031a891061f6962ff320ef89a918dca290f2e29fd7798753c178a8382c6",
+      "codec_name": "mjpeg",
+      "width": 623,
+      "height": 640
     }
   ]
 }

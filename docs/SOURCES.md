@@ -50,3 +50,7 @@ https://cdn.syndication.twimg.com/tweet-result?id=2119717948470546446&lang=en&to
 ## 第二批新增创作者社媒案例（2026-11-10）
 
 [五个源帖关联的新案例和排重备注](SOCIAL-SHOWCASE-2026-11-10-BATCH2.md)与 [JSON 元数据](../content/social-discoveries-batch02.json)。本批仅有社媒镜像/聚合页面级别的作者自述证据，准确单帖 ID、原媒体直接地址和完整提示词仍有缺口；不将其加入 `content/cases.json` 或 `content/social.json` 的严格计数，不上传其他人的图片冒充作者输出。
+
+## 第三批社媒 Prompt 与图片（2026-11-10）
+
+来源为 BeatAPI 的公开整理项目，其中关联了原 X 作者、完整 prompt 及镜像图片。本仓库实际保存了裁缩至640px内的 JPEG 预览，保留原帖与媒体链接。无法证明是原始未压缩文件或原生透明图，也不声称原作者授权转让版权。详情见 content/social-image-batch03.json 和 docs/social-image-batch03-audit.json。

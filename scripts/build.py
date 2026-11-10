@@ -83,7 +83,7 @@ def render(lang):
                       '## ' + choose('提示词', 'Prompt'), '']
             if prompt['status'] == 'original':
                 detail += ['```text', prompt['text'], '```', '',
-                           choose('以上为作者公开的原始指令，包含波兰语文案。没有执行复现。', 'The source author published this exact instruction, including the Polish copy. It has not been reproduced here.'), '']
+                           choose('以上为来源公开、归因于作者的提示词；本站未独立复现，请对照原作者帖文确认二次转录。', 'The prompt is attributed to the creator by the source curator; no independent reproduction was performed.'), '']
             elif prompt['status'] == 'source-linked':
                 detail += [choose('提示词或展示说明位于原始来源；本页不复制全文，不把展示说明标为实际完整输入。', 'Prompt text or demo descriptions are available at the source. The full text is not copied here; demo descriptions are not presented as complete model inputs.'), '']
             else:

@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-10",
+  "source": "BeatAPI prompt gallery mirror",
+  "note": "Preview was locally fetched and resized, but source exported original and rights clearance not independently established.",
+  "added": [
+    {
+      "id": "social-dheepan-magazine-cover",
+      "post": "https://x.com/Dheepanratnam/status/2119767938173387065",
+      "preview": "assets/previews/social-dheepan-magazine-cover.jpg",
+      "mirror_sha256": "c2d597c77c52fa73d97cb6dc28d0181e2966d54c721b17a89bc4241ad8bfe386"
+    },
+    {
+      "id": "social-dheepan-rainy-storefront",
+      "post": "https://x.com/Dheepanratnam/status/2119767938173387065",
+      "preview": "assets/previews/social-dheepan-rainy-storefront.jpg",
+      "mirror_sha256": "8ad02f55c33d972cb1769866a9bed8b68765c2576dea86f53c40a928cbb422e5"
+    },
+    {
+      "id": "social-dheepan-skincare-label",
+      "post": "https://x.com/Dheepanratnam/status/2119767938173387065",
+      "preview": "assets/previews/social-dheepan-skincare-label.jpg",
+      "mirror_sha256": "ed5c2e7d4b3ffb274b5ca4896acd8d5fd38333be39f6caab92192d7e3d7011fc"
+    },
+    {
+      "id": "social-dheepan-night-signal-poster",
+      "post": "https://x.com/Dheepanratnam/status/2119767938173387065",
+      "preview": "assets/previews/social-dheepan-night-signal-poster.jpg",
+      "mirror_sha256": "c5f0ad2019f4f9d98d5b307e1c06dc1d9d671defffba7c080c0cd8d690d35c60"
+    },
+    {
+      "id": "social-dheepan-amber-perfume",
+      "post": "https://x.com/Dheepanratnam/status/2119775195573481859",
+      "preview": "assets/previews/social-dheepan-amber-perfume.jpg",
+      "mirror_sha256": "730f32a34266b61abe0e1bf743b25d7efe417d3ffd2d4138821c7614afdfc0a1"
+    },
+    {
+      "id": "social-dheepan-streetwear-cutout",
+      "post": "https://x.com/Dheepanratnam/status/2119775195573481859",
+      "preview": "assets/previews/social-dheepan-streetwear-cutout.jpg",
+      "mirror_sha256": "e0e9f10be4539649b5940138a4f241da96ca0a7ce43d18881cd590b266a1a66a"
+    },
+    {
+      "id": "social-genel-japanese-deli",
+      "post": "https://x.com/genel_ai/status/2119786434567827504",
+      "preview": "assets/previews/social-genel-japanese-deli.jpg",
+      "mirror_sha256": "3448341778ba5e9734d6c2d9e24480995ce212affbbdc54e05cffc461ee3557d"
+    }
+  ],
+  "failed": []
+}
