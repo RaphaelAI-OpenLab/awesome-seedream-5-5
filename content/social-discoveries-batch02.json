@@ -1,0 +1,146 @@
+{
+  "collection": "Seedream 5.5 additional creator social examples",
+  "batch": 2,
+  "checked_at": "2026-11-10",
+  "count": 5,
+  "verification_boundary": "Creator-attributed via public X mirror or aggregation; exact original tweet ID, direct image/GIF bytes and original prompts remain missing for some examples.",
+  "not_in_main_verified_case_count": true,
+  "hosted_third_party_media": 0,
+  "prompt_policy": "Editorial paraphrases written for evaluation, not creator's exact original prompts or claims of executions.",
+  "cases": [
+    {
+      "id": "genel-japanese-deli-realism",
+      "title": {
+        "zh": "日本商店街熟食店写实对照",
+        "en": "Japanese deli photorealism comparison"
+      },
+      "category": "photography",
+      "creator": "GENEL",
+      "handle": "genel_ai",
+      "creator_profile": "https://x.com/genel_ai",
+      "social_source": "https://xitter.cf/genel_ai",
+      "supporting_gallery": "https://beatapi.io/seedream-5-5-prompts",
+      "date": "2026-11-10",
+      "model_claim": "author-explicit",
+      "source_confidence": "creator-text-visible-in-X-mirror",
+      "images": "Author-reported 3-model comparisons; not locally archived",
+      "media_direct_urls": [],
+      "exact_x_post_url": null,
+      "original_prompt_status": "full-prompt-visible-at-source-not-republished",
+      "prompt_paraphrase": {
+        "zh": "傍晚的日本街边熟食店；一位年长男店主站在玻璃柜台后，用夹子夹起可乐饼。混合室内荧光灯与夕阳，重点观察皱纹、油炸食品表面以及玻璃反射，照片无字标。",
+        "en": "Eye-level documentary photograph of a Japanese neighborhood delicatessen at dusk. An older shopkeeper holds a croquette above a glass case; mixed fluorescent and sunset light reveals skin, fried-food texture and reflections. No added lettering."
+      },
+      "claim_note": "Creator compares Seedream 5.5, GPT Image 2.6 and Nano Banana 2.1 using one prompt and a single run each; conclusions about the reflection and skin are subjective.",
+      "original_prompt_quote": "実写の写真。自然なスナップ写真。35mmレンズ、目の高さから撮る。"
+    },
+    {
+      "id": "lyraxana-gta-style-street",
+      "title": {
+        "zh": "GTA 风格游戏街景与远处标牌",
+        "en": "GTA-style street scene and distant signage"
+      },
+      "category": "typography",
+      "creator": "lyra",
+      "handle": "lyraxana",
+      "creator_profile": "https://x.com/lyraxana",
+      "social_source": "https://teapaw.org/lyraxana",
+      "supporting_gallery": "https://picyep.com/seedream-5-5",
+      "date": "2026-11-07",
+      "model_claim": "author-explicit-pre-release",
+      "source_confidence": "creator-text-visible-in-X-mirror",
+      "images": "Creator-posted screenshot is mentioned by social mirrors; image bytes not locally inspected",
+      "media_direct_urls": [],
+      "exact_x_post_url": null,
+      "original_prompt_status": "not-public-in-checked-post",
+      "prompt_paraphrase": {
+        "zh": "游戏内第三人称街景构图，真实的街道环境和背景店面告示牌，检查远景小字是否出现刻板套话与重复文本。",
+        "en": "Cinematic open-world game street scene with believable shops and a legible distant sign. Inspect whether background text remains semantically appropriate rather than generic filler."
+      },
+      "claim_note": "Pre-release Seedream 5.5 output self-attributed by creator; creator called out an unexpected sign reading 'Good People Brighter Tomorrow'. GTA is the author's style reference, not proof of an official game screenshot."
+    },
+    {
+      "id": "lyraxana-three-model-detail",
+      "title": {
+        "zh": "Seedream 与 Nano Banana / GPT Image 三模型对比",
+        "en": "Seedream vs Nano Banana and GPT Image comparison"
+      },
+      "category": "portraits",
+      "creator": "lyra",
+      "handle": "lyraxana",
+      "creator_profile": "https://x.com/lyraxana",
+      "social_source": "https://teapaw.org/lyraxana",
+      "supporting_gallery": "https://picyep.com/seedream-5-5",
+      "date": "2026-11-07",
+      "model_claim": "author-explicit-pre-release",
+      "source_confidence": "creator-text-visible-in-X-mirror",
+      "images": "Source post reportedly has 3 ALT-labeled model images; no image copies",
+      "media_direct_urls": [],
+      "exact_x_post_url": null,
+      "original_prompt_status": "not-confirmed",
+      "prompt_paraphrase": {
+        "zh": "同一视觉任务分别用 Seedream 5.5、Nano Banana Pro 和 GPT Image 2.6 生成，观察皮肤细节、物体纹理和整体写实风格；避免从单张作品推断普遍优劣。",
+        "en": "Run the same brief separately in Seedream 5.5, Nano Banana Pro and GPT Image 2.6. Compare skin and material detail with each result labeled by model; treat any ranking as subjective."
+      },
+      "claim_note": "Social post explicitly labels each of three images by model. Prompt parity and model backend have not been independently audited."
+    },
+    {
+      "id": "94vanai-four-model-portrait",
+      "title": {
+        "zh": "四模型人像同提示词盲测",
+        "en": "Four-model portrait test with shared prompt"
+      },
+      "category": "portraits",
+      "creator": "94vanai",
+      "handle": "94vanai",
+      "creator_profile": "https://x.com/94vanai",
+      "social_source": "https://nilvasignature.com/",
+      "supporting_gallery": null,
+      "date": "2026-11-10",
+      "model_claim": "author-explicit",
+      "source_confidence": "aggregated-creator-post-text-and-four-media-reference",
+      "images": "Four images reported: Seedream 5.5, ChatGPT, Gemini and Grok. Source media not archived.",
+      "media_direct_urls": [],
+      "exact_x_post_url": null,
+      "original_prompt_status": "not-collected",
+      "prompt_paraphrase": {
+        "zh": "在相同写实人像委托下分别用四种图像模型出图，比较脸型多样性、过度磨皮、眼神与微表情、皮肤质感。保留四张结果与生成设置以便盲评。",
+        "en": "Apply one realistic portrait brief to four image generators and compare facial diversity, over-smoothing, emotion and texture. Keep the four outputs and settings grouped for a fair evaluation."
+      },
+      "claim_note": "Author identifies P1 as Seedream 5.5, P2 as ChatGPT, P3 as Gemini and P4 as Grok; the reported strengths and weaknesses are author opinions, not a benchmark."
+    },
+    {
+      "id": "tsubaki-japanese-winter-portrait",
+      "title": {
+        "zh": "日系冬日下午人像，5.0 Pro 对比 5.5",
+        "en": "Japanese winter portrait: 5.0 Pro vs 5.5"
+      },
+      "category": "portraits",
+      "creator": "TSUBAKI",
+      "handle": "AI__TSUBAKI",
+      "creator_profile": "https://x.com/AI__TSUBAKI",
+      "social_source": "https://teapaw.org/won_wizard",
+      "supporting_gallery": null,
+      "date": "2026-11-10",
+      "model_claim": "author-explicit",
+      "source_confidence": "retweet-mirror-of-author-comparison-text",
+      "images": "Post presents a creator comparison; a direct photo URL was not confirmed",
+      "media_direct_urls": [],
+      "exact_x_post_url": null,
+      "original_prompt_status": "not-public-in-checked-post",
+      "prompt_paraphrase": {
+        "zh": "日本冬日午后自然光下的人像，同样的人物与镜头语言分别让 Seedream 5.0 Pro 与 5.5 生成，关注真实皮肤纹理、五官特征与冷暖空气感。",
+        "en": "Natural portrait in a Japanese winter afternoon, with the same intended person and scene across Seedream 5.0 Pro and 5.5; evaluate skin detail, facial features and airy daylight."
+      },
+      "claim_note": "Creator reports improved natural skin texture and atmosphere in Seedream 5.5; original prompt and media file are still missing."
+    }
+  ],
+  "dedup_watchlist": [
+    {
+      "candidate": "alisaqqt-100-watch-edits",
+      "profile": "https://x.com/alisaqqt",
+      "mirror": "https://teapaw.org/jagaimu",
+      "reason": "A 100-round +1-second watch edit is also described in the prior research as @UFO2002616's watch comparison, and an official watch demo exists. Treat as possible repost/source mix-up; do not add as new case without original media comparison."
+    }
+  ]
+}

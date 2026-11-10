@@ -46,3 +46,7 @@ https://cdn.syndication.twimg.com/tweet-result?id=2119717948470546446&lang=en&to
 ## 2026-11-10 社媒研究补充批次
 
 新增 [8 条社媒研究场景索引](SOCIAL-CASES-2026-11-10.md) 与 [JSON 元数据](../content/social-research-2026-11-10.json)。证据等级、找不到单帖的情形、与官方演示可能重复的内容已经标注。**这些线索不计入主 README 的已验证案例或社媒数量**，不托管第三方原始素材。
+
+## 第二批新增创作者社媒案例（2026-11-10）
+
+[五个源帖关联的新案例和排重备注](SOCIAL-SHOWCASE-2026-11-10-BATCH2.md)与 [JSON 元数据](../content/social-discoveries-batch02.json)。本批仅有社媒镜像/聚合页面级别的作者自述证据，准确单帖 ID、原媒体直接地址和完整提示词仍有缺口；不将其加入 `content/cases.json` 或 `content/social.json` 的严格计数，不上传其他人的图片冒充作者输出。
