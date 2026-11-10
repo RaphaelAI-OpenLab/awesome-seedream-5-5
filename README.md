@@ -10,7 +10,7 @@
 
 A visual reference collection by Raphael. Official demos, creator-reported outputs and original practice recipes are labeled separately.
 
-**72 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
+**77 sourced cases · 8 categories · 8 original practice recipes · 3 separately tracked launch posts (2 distinct media items)**
 
 Cases have not been independently reproduced here. Only reduced single-frame previews are bundled; full images, GIFs and videos are linked at their origins. Third-party media and previews retain their owners’ rights.
 
@@ -27,7 +27,7 @@ Seedream 5.5 was announced on **2026-11-09**. See the [official model page](http
 | Item | Count |
 | --- | ---: |
 | Official-source cases | 20 |
-| Creator-reported cases | 52 |
+| Creator-reported cases | 57 |
 | Complete original source prompts included | 14 |
 | Independently reproduced cases | 0 |
 | Sources checked | 2026-11-10 |
@@ -39,14 +39,14 @@ Edit rounds are grouped as one case. Duplicate social videos do not increase the
 
 | Category | Cases |
 | --- | ---: |
-| [Multi-turn & targeted editing](#multi-turn-editing) | 10 |
+| [Multi-turn & targeted editing](#multi-turn-editing) | 11 |
 | [Transparent assets](#rgba-assets) | 10 |
-| [Portraits](#portraits) | 3 |
+| [Portraits](#portraits) | 5 |
 | [Photography & documentary](#photography) | 24 |
 | [Interiors & space](#interiors) | 1 |
 | [Text & typography](#typography) | 12 |
 | [Infographics & interfaces](#infographics) | 4 |
-| [Characters & stickers](#characters) | 8 |
+| [Characters & stickers](#characters) | 10 |
 
 <a id="cases"></a>
 ## All cases
@@ -125,6 +125,14 @@ Creator-reported · opener_ai · [Source](https://x.com/opener_ai/status/2119942
 Creator-reported · VORTEX_Promos · [Source](https://x.com/VORTEX_Promos/status/2119928374235701452) · [Details & prompt status](cases/social05-vortex-fifteen-round-compare/README.md)
 
 > Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video. This comparison or mixed workflow contains outputs by other models.
+
+#### [Flowers, curtains and light: three separate local edits](cases/social06-dheepan-three-local-edits/README.md)
+
+<a href="cases/social06-dheepan-three-local-edits/README.md"><img src="assets/previews/social06-dheepan-three-local-edits-01.jpg" alt="Flowers, curtains and light: three separate local edits" width="420" loading="lazy" /></a>
+
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119803435461599638) · [Details & prompt status](cases/social06-dheepan-three-local-edits/README.md)
+
+> The first image is the base, followed by separate flower, curtain and lighting edits. The author explicitly describes separate edits, not a three-round chain. Published workflow wording: “Change the flowers / Change the curtains / Change the lighting”. These are action summaries, not a verified complete execution prompt.
 
 <a id="rgba-assets"></a>
 ### Transparent assets
@@ -227,6 +235,22 @@ Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.
 Creator-reported · Yuziyyaa · [Source](https://x.com/Yuziyyaa/status/2119799602580955179) · [Details & prompt status](cases/social05-yuzi-eye-detail/README.md)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
+
+#### [Painterly character: 5.0 Pro versus 5.5](cases/social06-kakiponzu-painterly-version-test/README.md)
+
+<a href="cases/social06-kakiponzu-painterly-version-test/README.md"><img src="assets/previews/social06-kakiponzu-painterly-version-test-01.jpg" alt="Painterly character: 5.0 Pro versus 5.5" width="420" loading="lazy" /></a>
+
+Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119772951889224178) · [Details & prompt status](cases/social06-kakiponzu-painterly-version-test/README.md)
+
+> The collage labels the top row 5.0 Pro and the bottom row 5.5. Both use a painterly style suffix. The creator reports three draws per version; neither the complete input nor an independent reproduction is available here.
+
+#### [Removing the style suffix: illustration versus photoreal](cases/social06-kakiponzu-style-tail-control/README.md)
+
+<a href="cases/social06-kakiponzu-style-tail-control/README.md"><img src="assets/previews/social06-kakiponzu-style-tail-control-01.jpg" alt="Removing the style suffix: illustration versus photoreal" width="420" loading="lazy" /></a>
+
+Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119799171397906607) · [Details & prompt status](cases/social06-kakiponzu-style-tail-control/README.md)
+
+> The creator reports removing only a painterly style suffix: left includes it and right omits it. This is a same-model style control, not a model ranking. The complete base prompt was not retrieved.
 
 <a id="photography"></a>
 ### Photography & documentary
@@ -598,6 +622,22 @@ Creator-reported · AI_Timemachine · [Source](https://x.com/AI_Timemachine/stat
 Creator-reported · larklee5 · [Source](https://x.com/larklee5/status/2119985661939974450) · [Details & prompt status](cases/social05-larklee-turkey-mixed-workflow/README.md)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. The final animation involves other video-generation components.
+
+#### [Fantasy character and small dragon: three-model comparison](cases/social06-lyra-fantasy-three-models/README.md)
+
+<a href="cases/social06-lyra-fantasy-three-models/README.md"><img src="assets/previews/social06-lyra-fantasy-three-models-01.jpg" alt="Fantasy character and small dragon: three-model comparison" width="420" loading="lazy" /></a>
+
+Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/2118884892427551046) · [Details & prompt status](cases/social06-lyra-fantasy-three-models/README.md)
+
+> Source ALT labels identify Seedream 5.5, Nano Banana Pro, then GPT Image 2.6 Sunburst. The latter two are not Seedream outputs. Posted on 2026-11-07 before the official release; attribution is creator-reported and neither backend identity nor prompt parity was independently verified.
+
+#### [Game-style street scene and distant signage](cases/social06-lyra-game-street-sign/README.md)
+
+<a href="cases/social06-lyra-game-street-sign/README.md"><img src="assets/previews/social06-lyra-game-street-sign-01.jpg" alt="Game-style street scene and distant signage" width="420" loading="lazy" /></a>
+
+Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/2118896484934668512) · [Details & prompt status](cases/social06-lyra-game-street-sign/README.md)
+
+> The creator attributes this GTA-style image to Seedream 5.5; it is not a verified official game screenshot. The post dates to 2026-11-07 and model attribution is self-reported. A complete prompt was not retrieved.
 
 <a id="recipes"></a>
 ## Original practice recipes

@@ -2862,5 +2862,245 @@
       }
     ],
     "animation_preview": "assets/animations/social05-vortex-fifteen-round-compare.gif"
+  },
+  {
+    "id": "social06-kakiponzu-painterly-version-test",
+    "title": {
+      "zh-CN": "角色画风：Seedream 5.0 Pro 与 5.5 对照",
+      "en": "Painterly character: 5.0 Pro versus 5.5"
+    },
+    "category": "portraits",
+    "author": "KakiponzuX",
+    "source_url": "https://x.com/KakiponzuX/status/2119772951889224178",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-source-photo-IDs-verified; model-execution-not-independently-verified",
+    "checked_at": "2026-11-10",
+    "published_at": "Mon Nov 09 12:43:49 +0000 2026",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://x.com/KakiponzuX/status/2119772951889224178",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "拼图上排为 Seedream 5.0 Pro，下排为作者标注的 5.5；两排均含绘画风格后缀。作者报告每版本三次采样，本站未独立复测，也未取得完整输入。",
+      "en": "The collage labels the top row 5.0 Pro and the bottom row 5.5. Both use a painterly style suffix. The creator reports three draws per version; neither the complete input nor an independent reproduction is available here."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWryQt4WIAE_8wz.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social06-kakiponzu-painterly-version-test-01.jpg",
+        "preview_transform": "reviewed-source-X-photo-resized-to-fit-640px-jpeg",
+        "origin_media_id": "2119772943638994945",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social06-kakiponzu-style-tail-control",
+    "title": {
+      "zh-CN": "仅移除风格后缀：插画与写实人物对照",
+      "en": "Removing the style suffix: illustration versus photoreal"
+    },
+    "category": "portraits",
+    "author": "KakiponzuX",
+    "source_url": "https://x.com/KakiponzuX/status/2119799171397906607",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-source-photo-IDs-verified; model-execution-not-independently-verified",
+    "checked_at": "2026-11-10",
+    "published_at": "Mon Nov 09 14:28:01 +0000 2026",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://x.com/KakiponzuX/status/2119799171397906607",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "作者称其控制变量为移除绘画风格后缀，拼图左侧保留后缀、右侧移除后缀。这是同一模型的风格控制实验，不是两个模型的排名；完整基础提示词未核得。",
+      "en": "The creator reports removing only a painterly style suffix: left includes it and right omits it. This is a same-model style control, not a model ranking. The complete base prompt was not retrieved."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWsKG9qWsAEjV9t.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social06-kakiponzu-style-tail-control-01.jpg",
+        "preview_transform": "reviewed-source-X-photo-resized-to-fit-640px-jpeg",
+        "origin_media_id": "2119799164355653633",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social06-lyra-fantasy-three-models",
+    "title": {
+      "zh-CN": "奇幻人物与幼龙：三模型配图对比",
+      "en": "Fantasy character and small dragon: three-model comparison"
+    },
+    "category": "characters",
+    "author": "lyraxana",
+    "source_url": "https://x.com/lyraxana/status/2118884892427551046",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-source-photo-IDs-verified; model-execution-not-independently-verified",
+    "checked_at": "2026-11-10",
+    "published_at": "Sat Nov 07 01:54:59 +0000 2026",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://x.com/lyraxana/status/2118884892427551046",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "原帖 ALT 按顺序标为 Seedream 5.5、Nano Banana Pro、GPT Image 2.6 Sunburst；后两张不是 Seedream 输出。帖子发表于 2026-11-07，早于官方发布，版本仅按作者自报记录，后台模型与相同提示词条件未独立核实。",
+      "en": "Source ALT labels identify Seedream 5.5, Nano Banana Pro, then GPT Image 2.6 Sunburst. The latter two are not Seedream outputs. Posted on 2026-11-07 before the official release; attribution is creator-reported and neither backend identity nor prompt parity was independently verified."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWfKk2sXkAA5Zcm.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social06-lyra-fantasy-three-models-01.jpg",
+        "preview_transform": "reviewed-source-X-photo-resized-to-fit-640px-jpeg",
+        "origin_media_id": "2118884884206817280",
+        "origin_alt": "Seedream 5.5"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWfKk2qWcAAOzkN.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social06-lyra-fantasy-three-models-02.jpg",
+        "preview_transform": "reviewed-source-X-photo-resized-to-fit-640px-jpeg",
+        "origin_media_id": "2118884884198354944",
+        "origin_alt": "Nano Banana Pro"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWfKk22W4AEVIdn.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social06-lyra-fantasy-three-models-03.jpg",
+        "preview_transform": "reviewed-source-X-photo-resized-to-fit-640px-jpeg",
+        "origin_media_id": "2118884884248715265",
+        "origin_alt": "GPT Image 2.6 Sunburst"
+      }
+    ]
+  },
+  {
+    "id": "social06-lyra-game-street-sign",
+    "title": {
+      "zh-CN": "游戏式街景与远景标牌",
+      "en": "Game-style street scene and distant signage"
+    },
+    "category": "characters",
+    "author": "lyraxana",
+    "source_url": "https://x.com/lyraxana/status/2118896484934668512",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-source-photo-IDs-verified; model-execution-not-independently-verified",
+    "checked_at": "2026-11-10",
+    "published_at": "Sat Nov 07 02:41:03 +0000 2026",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://x.com/lyraxana/status/2118896484934668512",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "作者将该图归因于 Seedream 5.5 并称其为 GTA 风格画面；它不是经证实的官方游戏截图。帖子发表于 2026-11-07，模型版本仅为作者自报。完整提示词未核得。",
+      "en": "The creator attributes this GTA-style image to Seedream 5.5; it is not a verified official game screenshot. The post dates to 2026-11-07 and model attribution is self-reported. A complete prompt was not retrieved."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWfUpcdWoAAyKB0.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social06-lyra-game-street-sign-01.jpg",
+        "preview_transform": "reviewed-source-X-photo-resized-to-fit-640px-jpeg",
+        "origin_media_id": "2118895958180143104",
+        "origin_alt": ""
+      }
+    ]
+  },
+  {
+    "id": "social06-dheepan-three-local-edits",
+    "title": {
+      "zh-CN": "花卉、窗帘与光线：三项独立局部编辑",
+      "en": "Flowers, curtains and light: three separate local edits"
+    },
+    "category": "multi-turn-editing",
+    "author": "Dheepanratnam",
+    "source_url": "https://x.com/Dheepanratnam/status/2119803435461599638",
+    "source_type": "creator-reported",
+    "model": "Seedream 5.5",
+    "model_evidence": "author-post-and-source-photo-IDs-verified; model-execution-not-independently-verified",
+    "checked_at": "2026-11-10",
+    "published_at": "Mon Nov 09 14:44:57 +0000 2026",
+    "reproduced": false,
+    "prompt": {
+      "status": "source-linked",
+      "url": "https://x.com/Dheepanratnam/status/2119803435461599638",
+      "text": null
+    },
+    "caveat": {
+      "zh-CN": "第一张为基础图，其后三张分别修改花卉、窗帘和光线。原作者写明是三项独立编辑，不能据此称为串联三轮实验。原帖公开的步骤原文为 “Change the flowers / Change the curtains / Change the lighting”；这是操作摘要，不是已核实的完整执行提示词。",
+      "en": "The first image is the base, followed by separate flower, curtain and lighting edits. The author explicitly describes separate edits, not a three-round chain. Published workflow wording: “Change the flowers / Change the curtains / Change the lighting”. These are action summaries, not a verified complete execution prompt."
+    },
+    "media": [
+      {
+        "url": "https://pbs.twimg.com/media/HWsNUKlW4AAa9VV.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social06-dheepan-three-local-edits-01.jpg",
+        "preview_transform": "reviewed-source-X-photo-resized-to-fit-640px-jpeg",
+        "origin_media_id": "2119802689697538048",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWsNvRCWwAAvGXA.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social06-dheepan-three-local-edits-02.jpg",
+        "preview_transform": "reviewed-source-X-photo-resized-to-fit-640px-jpeg",
+        "origin_media_id": "2119803155286245376",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWsNxR1X0AIGN7r.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social06-dheepan-three-local-edits-03.jpg",
+        "preview_transform": "reviewed-source-X-photo-resized-to-fit-640px-jpeg",
+        "origin_media_id": "2119803189859962882",
+        "origin_alt": ""
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HWsNyTMXcAABJdE.jpg?name=orig",
+        "type": "image",
+        "rights": "rights-reserved",
+        "delivery": "local-preview-with-source-link",
+        "preview": "assets/previews/social06-dheepan-three-local-edits-04.jpg",
+        "preview_transform": "reviewed-source-X-photo-resized-to-fit-640px-jpeg",
+        "origin_media_id": "2119803207404711936",
+        "origin_alt": ""
+      }
+    ],
+    "published_workflow_steps": [
+      "Change the flowers",
+      "Change the curtains",
+      "Change the lighting"
+    ]
   }
 ]

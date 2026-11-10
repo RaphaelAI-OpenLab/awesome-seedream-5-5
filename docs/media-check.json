@@ -624,6 +624,96 @@
       "height": 360
     },
     {
+      "preview": "assets/previews/social06-dheepan-three-local-edits-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 40094,
+      "sha256": "b405ef92899a538ffa10a00c58625bcaf5cdd37e6b0112b7ef0c99feb71a3052",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "preview": "assets/previews/social06-dheepan-three-local-edits-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 37197,
+      "sha256": "e60081a6b01c9789301ba1805df99a235212242fbc39f2d829e335ac4b97be4c",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "preview": "assets/previews/social06-dheepan-three-local-edits-03.jpg",
+      "status": "decoded-preview",
+      "bytes": 41620,
+      "sha256": "82d1c9b7a30f62e589e4872d23a7108f5860f93dcc601950ac9dce7bd42143cc",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "preview": "assets/previews/social06-dheepan-three-local-edits-04.jpg",
+      "status": "decoded-preview",
+      "bytes": 32371,
+      "sha256": "d3ffa93bfd932b5f780d6f46ee71ef16e2492b960fe7286281c4a3767ecfd86f",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "preview": "assets/previews/social06-kakiponzu-painterly-version-test-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 85162,
+      "sha256": "865a885328e71b22abfb669a3295a5bd033886a0d593ae00b13bb4b4385c0479",
+      "codec_name": "mjpeg",
+      "width": 599,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/social06-kakiponzu-style-tail-control-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 73013,
+      "sha256": "1c43f3c234bf33d31b7ff71888e9e571c2beb031ef63795a79299186aeab2959",
+      "codec_name": "mjpeg",
+      "width": 555,
+      "height": 640
+    },
+    {
+      "preview": "assets/previews/social06-lyra-fantasy-three-models-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 52062,
+      "sha256": "07aaa38da8c654fdbeb7ec02cb9e8e47dd9478b3d7948a78284f719137ec9c35",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 428
+    },
+    {
+      "preview": "assets/previews/social06-lyra-fantasy-three-models-02.jpg",
+      "status": "decoded-preview",
+      "bytes": 39099,
+      "sha256": "37482e2a064298c88805921d673d7fb406602113ee791422e362d9215f08b3d7",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 349
+    },
+    {
+      "preview": "assets/previews/social06-lyra-fantasy-three-models-03.jpg",
+      "status": "decoded-preview",
+      "bytes": 73278,
+      "sha256": "8f0057c591616a7ace3cbc0bcd27e75790e686deb555b758111edb1b8357cc11",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "preview": "assets/previews/social06-lyra-game-street-sign-01.jpg",
+      "status": "decoded-preview",
+      "bytes": 63899,
+      "sha256": "6115fff8cfaec660e6e4817fcb2fdf5b74eb00afad3cbdb2c263039a1f102e63",
+      "codec_name": "mjpeg",
+      "width": 640,
+      "height": 359
+    },
+    {
       "preview": "assets/previews/socialx-blue-hour-fisherman-01.jpg",
       "status": "decoded-preview",
       "bytes": 34088,

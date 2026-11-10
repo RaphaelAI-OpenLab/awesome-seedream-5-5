@@ -10,7 +10,7 @@
 
 由 Raphael 整理的图片与编辑案例库。官方展示、作者自报结果与本仓库编写的练习提示词分别标记。
 
-**72 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
+**77 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条独立追踪的发布帖（2 份不同媒体）**
 
 案例未由本仓库独立复现。仓库只保存缩放后的单帧预览，完整图片、GIF 与视频链接至原始地址；第三方媒体及其预览的版权归原权利人。
 
@@ -27,7 +27,7 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | 项目 | 数量 |
 | --- | ---: |
 | 官方来源案例 | 20 |
-| 作者自报案例 | 52 |
+| 作者自报案例 | 57 |
 | 仓库内完整原始提示词 | 14 |
 | 独立复现案例 | 0 |
 | 来源核对日期 | 2026-11-10 |
@@ -39,14 +39,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 | 分类 | 案例数 |
 | --- | ---: |
-| [多轮与局部编辑](#multi-turn-editing) | 10 |
+| [多轮与局部编辑](#multi-turn-editing) | 11 |
 | [透明素材](#rgba-assets) | 10 |
-| [人像](#portraits) | 3 |
+| [人像](#portraits) | 5 |
 | [摄影与纪实](#photography) | 24 |
 | [室内与空间](#interiors) | 1 |
 | [文字与排版](#typography) | 12 |
 | [信息图与界面](#infographics) | 4 |
-| [角色与贴纸](#characters) | 8 |
+| [角色与贴纸](#characters) | 10 |
 
 <a id="cases"></a>
 ## 全部案例
@@ -125,6 +125,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · VORTEX_Promos · [原始来源](https://x.com/VORTEX_Promos/status/2119928374235701452) · [详情与提示词状态](cases/social05-vortex-fifteen-round-compare/README.zh-CN.md)
 
 > 直接从 X 作者原帖视频抽帧，短GIF为预览而非模型原生 GIF。完整视频见原媒体链接。 这是跨模型比较/混合工作流，不应全部视为 Seedream 5.5 单模型输出。
+
+#### [花卉、窗帘与光线：三项独立局部编辑](cases/social06-dheepan-three-local-edits/README.zh-CN.md)
+
+<a href="cases/social06-dheepan-three-local-edits/README.zh-CN.md"><img src="assets/previews/social06-dheepan-three-local-edits-01.jpg" alt="花卉、窗帘与光线：三项独立局部编辑" width="420" loading="lazy" /></a>
+
+作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119803435461599638) · [详情与提示词状态](cases/social06-dheepan-three-local-edits/README.zh-CN.md)
+
+> 第一张为基础图，其后三张分别修改花卉、窗帘和光线。原作者写明是三项独立编辑，不能据此称为串联三轮实验。原帖公开的步骤原文为 “Change the flowers / Change the curtains / Change the lighting”；这是操作摘要，不是已核实的完整执行提示词。
 
 <a id="rgba-assets"></a>
 ### 透明素材
@@ -227,6 +235,22 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · Yuziyyaa · [原始来源](https://x.com/Yuziyyaa/status/2119799602580955179) · [详情与提示词状态](cases/social05-yuzi-eye-detail/README.zh-CN.md)
 
 > 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 社媒整理站提供了图片对应关系；请以原帖为准。
+
+#### [角色画风：Seedream 5.0 Pro 与 5.5 对照](cases/social06-kakiponzu-painterly-version-test/README.zh-CN.md)
+
+<a href="cases/social06-kakiponzu-painterly-version-test/README.zh-CN.md"><img src="assets/previews/social06-kakiponzu-painterly-version-test-01.jpg" alt="角色画风：Seedream 5.0 Pro 与 5.5 对照" width="420" loading="lazy" /></a>
+
+作者自报 · KakiponzuX · [原始来源](https://x.com/KakiponzuX/status/2119772951889224178) · [详情与提示词状态](cases/social06-kakiponzu-painterly-version-test/README.zh-CN.md)
+
+> 拼图上排为 Seedream 5.0 Pro，下排为作者标注的 5.5；两排均含绘画风格后缀。作者报告每版本三次采样，本站未独立复测，也未取得完整输入。
+
+#### [仅移除风格后缀：插画与写实人物对照](cases/social06-kakiponzu-style-tail-control/README.zh-CN.md)
+
+<a href="cases/social06-kakiponzu-style-tail-control/README.zh-CN.md"><img src="assets/previews/social06-kakiponzu-style-tail-control-01.jpg" alt="仅移除风格后缀：插画与写实人物对照" width="420" loading="lazy" /></a>
+
+作者自报 · KakiponzuX · [原始来源](https://x.com/KakiponzuX/status/2119799171397906607) · [详情与提示词状态](cases/social06-kakiponzu-style-tail-control/README.zh-CN.md)
+
+> 作者称其控制变量为移除绘画风格后缀，拼图左侧保留后缀、右侧移除后缀。这是同一模型的风格控制实验，不是两个模型的排名；完整基础提示词未核得。
 
 <a id="photography"></a>
 ### 摄影与纪实
@@ -598,6 +622,22 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · larklee5 · [原始来源](https://x.com/larklee5/status/2119985661939974450) · [详情与提示词状态](cases/social05-larklee-turkey-mixed-workflow/README.zh-CN.md)
 
 > 图片直接从作者 X 原帖媒体下载并缩放；视频只保存抽帧和短动图预览，完整视频请打开原始媒体。模型归因来自作者或署名整理，非本仓库复现。 此帖含其他模型对照或跨模型制作，不能把整组当作 Seedream 独立输出。 成片包含其他视频生成模型的制作环节。
+
+#### [奇幻人物与幼龙：三模型配图对比](cases/social06-lyra-fantasy-three-models/README.zh-CN.md)
+
+<a href="cases/social06-lyra-fantasy-three-models/README.zh-CN.md"><img src="assets/previews/social06-lyra-fantasy-three-models-01.jpg" alt="奇幻人物与幼龙：三模型配图对比" width="420" loading="lazy" /></a>
+
+作者自报 · lyraxana · [原始来源](https://x.com/lyraxana/status/2118884892427551046) · [详情与提示词状态](cases/social06-lyra-fantasy-three-models/README.zh-CN.md)
+
+> 原帖 ALT 按顺序标为 Seedream 5.5、Nano Banana Pro、GPT Image 2.6 Sunburst；后两张不是 Seedream 输出。帖子发表于 2026-11-07，早于官方发布，版本仅按作者自报记录，后台模型与相同提示词条件未独立核实。
+
+#### [游戏式街景与远景标牌](cases/social06-lyra-game-street-sign/README.zh-CN.md)
+
+<a href="cases/social06-lyra-game-street-sign/README.zh-CN.md"><img src="assets/previews/social06-lyra-game-street-sign-01.jpg" alt="游戏式街景与远景标牌" width="420" loading="lazy" /></a>
+
+作者自报 · lyraxana · [原始来源](https://x.com/lyraxana/status/2118896484934668512) · [详情与提示词状态](cases/social06-lyra-game-street-sign/README.zh-CN.md)
+
+> 作者将该图归因于 Seedream 5.5 并称其为 GTA 风格画面；它不是经证实的官方游戏截图。帖子发表于 2026-11-07，模型版本仅为作者自报。完整提示词未核得。
 
 <a id="recipes"></a>
 ## 原创练习提示词
