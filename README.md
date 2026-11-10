@@ -28,7 +28,7 @@ Seedream 5.5 was announced on **2026-11-09**. See the [official model page](http
 | --- | ---: |
 | Official-source cases | 20 |
 | Creator-reported cases | 39 |
-| Complete original source prompts included | 10 |
+| Complete original source prompts included | 14 |
 | Independently reproduced cases | 0 |
 | Sources checked | 2026-11-10 |
 
@@ -131,7 +131,7 @@ Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status
 
 Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119979776651710778) · [Details & prompt status](cases/socialx-transparent-character/README.md)
 
-> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha. An illustration/photoreal transparency test. The creator reports some outputs lost alpha; the shown checkerboard is a composite preview.
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha. An illustration/photoreal transparency test. The creator reports some outputs lost alpha; the shown checkerboard is a composite preview. The author shared the transparency prompt suffix, not the entire base identity prompt.
 
 #### [Glass jellyfish lamp](cases/socialx-glass-jellyfish-lamp/README.md)
 

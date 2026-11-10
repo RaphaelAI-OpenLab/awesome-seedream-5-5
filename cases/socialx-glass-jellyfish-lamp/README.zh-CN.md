@@ -14,7 +14,11 @@
 
 ## 提示词
 
-该来源没有公开本案例的完整输入提示词；本仓库不补写为原始提示词。
+```text
+Transparent background, PNG with alpha channel. A hand-blown glass jellyfish lamp floating in mid-air: semi-transparent frosted bell with visible internal air bubbles, long trailing tentacles made of thin glass threads that fade from fully opaque at the top to almost invisible at the tips, a faint warm amber glow inside the bell, soft caustic refractions, wisps of translucent steam drifting from the tentacle ends. No background, no ground shadow, clean anti-aliased edges, studio product lighting.
+```
+
+以上为来源公开、归因于作者的提示词；本站未独立复现，请对照原作者帖文确认二次转录。
 
 [查看提示词来源](https://x.com/ahmetmertugrul/status/2119920477535719739)
 

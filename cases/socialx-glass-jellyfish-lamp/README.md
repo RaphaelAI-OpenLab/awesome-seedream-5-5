@@ -14,7 +14,11 @@ This is a reduced representative-frame preview, not a complete animation or an e
 
 ## Prompt
 
-The source does not publish a complete input prompt for this example. No reconstructed text is labeled as the original prompt.
+```text
+Transparent background, PNG with alpha channel. A hand-blown glass jellyfish lamp floating in mid-air: semi-transparent frosted bell with visible internal air bubbles, long trailing tentacles made of thin glass threads that fade from fully opaque at the top to almost invisible at the tips, a faint warm amber glow inside the bell, soft caustic refractions, wisps of translucent steam drifting from the tentacle ends. No background, no ground shadow, clean anti-aliased edges, studio product lighting.
+```
+
+The prompt is attributed to the creator by the source curator; no independent reproduction was performed.
 
 [View prompt source](https://x.com/ahmetmertugrul/status/2119920477535719739)
 

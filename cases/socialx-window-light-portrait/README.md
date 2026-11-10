@@ -29,7 +29,11 @@ This is a reduced representative-frame preview, not a complete animation or an e
 
 ## Prompt
 
-The source does not publish a complete input prompt for this example. No reconstructed text is labeled as the original prompt.
+```text
+俯拍人像特写局部，东方/西方 女性 22岁 人物特写半侧脸侧颜看向镜头的自然姿态，窗户光柔肤，富士Astia胶片低婉古调低饱和度，光圈F2.8、快门1/120s、ISO100、点测光脸部，磨砂肌理，暗角聚焦，私房氛围感，细节丰富，无文字、无水印、无Logo、无边框
+```
+
+The prompt is attributed to the creator by the source curator; no independent reproduction was performed.
 
 [View prompt source](https://x.com/nima2qisi2/status/2119983938383106432)
 

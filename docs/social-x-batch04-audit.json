@@ -442,5 +442,35 @@
       "downloaded": 1
     }
   ],
-  "failures": []
+  "failures": [],
+  "source_post_exact_prompts": [
+    {
+      "id": "socialx-window-light-portrait",
+      "characters": 132,
+      "source_url": "https://x.com/nima2qisi2/status/2119983938383106432",
+      "prompt_sha256": "747e75edb5f3ed21e0aaddd67d2ad02323d1f6f65e0d0b52235e7c9a4a6c4c47",
+      "extraction": "exact author-post text segment"
+    },
+    {
+      "id": "socialx-glass-jellyfish-lamp",
+      "characters": 501,
+      "source_url": "https://x.com/ahmetmertugrul/status/2119920477535719739",
+      "prompt_sha256": "f54beddc8bbd5aa73a056ac0c240e92bd866e55e563d9fbf2aa86ae17be6b430",
+      "extraction": "exact author-post text segment"
+    },
+    {
+      "id": "socialx-deep-sea-field-guide",
+      "characters": 715,
+      "source_url": "https://x.com/ahmetmertugrul/status/2119915956365369596",
+      "prompt_sha256": "f2ef40790e47601d0fe5712253246386e13fc3e34b29316cbcbe25d9e0c2f9de",
+      "extraction": "exact author-post text segment"
+    },
+    {
+      "id": "socialx-blue-hour-fisherman",
+      "characters": 586,
+      "source_url": "https://x.com/ahmetmertugrul/status/2119922071916757233",
+      "prompt_sha256": "224ab9ffe4c4552296d457d4c04bd4de09051f56af0b840c147a1cebe8e43e7d",
+      "extraction": "exact author-post text segment"
+    }
+  ]
 }

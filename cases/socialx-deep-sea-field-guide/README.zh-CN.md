@@ -14,7 +14,11 @@
 
 ## 提示词
 
-该来源没有公开本案例的完整输入提示词；本仓库不补写为原始提示词。
+```text
+A vintage naturalist field-guide page, aged cream paper with foxing stains, documenting a fictional deep-sea creature called "Lanternfin Abyssal Eel". Center: a detailed scientific ink-and-watercolor illustration of the eel with bioluminescent spots. Surrounding it, 10 numbered callout labels with thin leader lines, each with a 2-line caption in small serif type (e.g. "3. Photophore cluster — emits pulses at 490 nm to lure prey"). Top header in ornate engraved capitals: "PLATE XLVII — CREATURES OF THE MIDNIGHT ZONE". Bottom: a small data table with columns "Depth", "Length", "Lifespan", "Diet" and three rows of values, plus a tiny scale bar reading "10 cm". Flat top-down scan, every word sharp and legible.
+```
+
+以上为来源公开、归因于作者的提示词；本站未独立复现，请对照原作者帖文确认二次转录。
 
 [查看提示词来源](https://x.com/ahmetmertugrul/status/2119915956365369596)
 

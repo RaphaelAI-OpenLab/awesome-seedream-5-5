@@ -14,7 +14,11 @@ This is a reduced representative-frame preview, not a complete animation or an e
 
 ## Prompt
 
-The source does not publish a complete input prompt for this example. No reconstructed text is labeled as the original prompt.
+```text
+A vintage naturalist field-guide page, aged cream paper with foxing stains, documenting a fictional deep-sea creature called "Lanternfin Abyssal Eel". Center: a detailed scientific ink-and-watercolor illustration of the eel with bioluminescent spots. Surrounding it, 10 numbered callout labels with thin leader lines, each with a 2-line caption in small serif type (e.g. "3. Photophore cluster — emits pulses at 490 nm to lure prey"). Top header in ornate engraved capitals: "PLATE XLVII — CREATURES OF THE MIDNIGHT ZONE". Bottom: a small data table with columns "Depth", "Length", "Lifespan", "Diet" and three rows of values, plus a tiny scale bar reading "10 cm". Flat top-down scan, every word sharp and legible.
+```
+
+The prompt is attributed to the creator by the source curator; no independent reproduction was performed.
 
 [View prompt source](https://x.com/ahmetmertugrul/status/2119915956365369596)
 

@@ -14,7 +14,11 @@ This is a reduced representative-frame preview, not a complete animation or an e
 
 ## Prompt
 
-The source does not publish a complete input prompt for this example. No reconstructed text is labeled as the original prompt.
+```text
+Candid documentary photo, 85mm lens, f/2. An elderly fisherman in his seventies mending a tangled orange net on a wooden dock at blue hour. Mixed lighting: cold blue ambient sky from the left, a single warm sodium-vapor streetlamp from behind creating a rim light on his white stubble and the loose net fibers. Visible pores, deep wrinkles, sun spots, slightly chapped lips, a small healed scar on his knuckle. Wet wooden planks with puddles reflecting the lamp. Light drizzle visible only in the backlight. No beauty retouching, natural film grain, slight underexposure in the shadows.
+```
+
+The prompt is attributed to the creator by the source curator; no independent reproduction was performed.
 
 [View prompt source](https://x.com/ahmetmertugrul/status/2119922071916757233)
 

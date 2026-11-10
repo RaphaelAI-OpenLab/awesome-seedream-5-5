@@ -14,7 +14,7 @@ This is a reduced representative-frame preview, not a complete animation or an e
 
 ## Prompt
 
-The source does not publish a complete input prompt for this example. No reconstructed text is labeled as the original prompt.
+Prompt text or demo descriptions are available at the source. The full text is not copied here; demo descriptions are not presented as complete model inputs.
 
 [View prompt source](https://x.com/KakiponzuX/status/2119979776651710778)
 
@@ -27,4 +27,4 @@ The source does not publish a complete input prompt for this example. No reconst
 
 Original media is linked at its source. Only reduced representative-frame JPEG previews are bundled. Owners retain their rights; MIT does not cover this media, previews or source prompts. Demo GIFs do not establish native animation generation; JPEG previews have no alpha channel.
 
-> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha. An illustration/photoreal transparency test. The creator reports some outputs lost alpha; the shown checkerboard is a composite preview.
+> Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha. An illustration/photoreal transparency test. The creator reports some outputs lost alpha; the shown checkerboard is a composite preview. The author shared the transparency prompt suffix, not the entire base identity prompt.

@@ -14,7 +14,11 @@
 
 ## 提示词
 
-该来源没有公开本案例的完整输入提示词；本仓库不补写为原始提示词。
+```text
+Candid documentary photo, 85mm lens, f/2. An elderly fisherman in his seventies mending a tangled orange net on a wooden dock at blue hour. Mixed lighting: cold blue ambient sky from the left, a single warm sodium-vapor streetlamp from behind creating a rim light on his white stubble and the loose net fibers. Visible pores, deep wrinkles, sun spots, slightly chapped lips, a small healed scar on his knuckle. Wet wooden planks with puddles reflecting the lamp. Light drizzle visible only in the backlight. No beauty retouching, natural film grain, slight underexposure in the shadows.
+```
+
+以上为来源公开、归因于作者的提示词；本站未独立复现，请对照原作者帖文确认二次转录。
 
 [查看提示词来源](https://x.com/ahmetmertugrul/status/2119922071916757233)
 
