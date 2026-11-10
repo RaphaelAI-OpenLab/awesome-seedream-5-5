@@ -1,0 +1,33 @@
+name: Ingest Seedream 5.5 X creator galleries (temporary)
+on:
+  push:
+    branches:
+      - research/seedream55-creator-gallery-b04
+permissions:
+  contents: write
+jobs:
+  import-media:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install JPG processing
+        run: python -m pip install 'Pillow>=11,<12'
+      - name: Download matched media from original X posts and generate galleries
+        run: python3 scripts/import_social_b04.py
+      - name: Validate cases, all preview hashes and bilingual README
+        run: python3 scripts/build.py --check && python3 scripts/validate.py
+      - name: Save verified source images and case pages
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/cases.json docs/media-check.json docs/SOURCES.md docs/social-x-batch04-audit.json scripts/build.py README.md README.zh-CN.md cases/ assets/previews/
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: add original X images and source-attributed Seedream 5.5 examples [skip ci]"
+            git push origin HEAD:$GITHUB_REF_NAME
+          fi
