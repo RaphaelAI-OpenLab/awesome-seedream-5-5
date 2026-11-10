@@ -54,3 +54,7 @@ https://cdn.syndication.twimg.com/tweet-result?id=2119717948470546446&lang=en&to
 ## 第三批社媒 Prompt 与图片（2026-11-10）
 
 来源为 BeatAPI 的公开整理项目，其中关联了原 X 作者、完整 prompt 及镜像图片。本仓库实际保存了裁缩至640px内的 JPEG 预览，保留原帖与媒体链接。无法证明是原始未压缩文件或原生透明图，也不声称原作者授权转让版权。详情见 content/social-image-batch03.json 和 docs/social-image-batch03-audit.json。
+
+## 第四批：X 社媒图片原帖归档（2026-11-10）
+
+通过公开 X 帖子数据接口，按作者单帖 ID 核对媒体 ID，并从 pbs.twimg.com 下载实际图片。多图帖子作为一个案例，保存多张压缩 JPEG 预览与原图链接；对比案例不把其他模型图片说成 Seedream 单模型输出。另有两条公开完整 Prompt 的透明素材案例来自 BeatAPI 的署名整理。各项成功/失败及来源证据见 docs/social-x-batch04-audit.json。原作者保留媒体和提示词的相应权利，本站不宣称独立复现。

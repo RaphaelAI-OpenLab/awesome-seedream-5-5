@@ -81,6 +81,13 @@ def render(lang):
                       choose('以上为缩放后的代表帧预览，不是完整动画或可用的透明素材导出文件。', 'This is a reduced representative-frame preview, not a complete animation or an exported transparent asset.'), '',
                       f'[{choose("打开原始媒体", "Open original media")}]({media["url"]})', '',
                       '## ' + choose('提示词', 'Prompt'), '']
+            if len(c['media']) > 1:
+                gallery = ['', '## ' + choose('同一原帖的更多图片', 'More photos from the original post'), '']
+                for number, frame in enumerate(c['media'][1:], 2):
+                    gallery += [f'**{choose("配图", "Image")} {number}**', '',
+                                f'![{name} - {number}](../../{frame["preview"]})', '',
+                                f'[{choose("原媒体", "Source media")}]({frame["url"]})', '']
+                detail[-2:-2] = gallery
             if prompt['status'] == 'original':
                 detail += ['```text', prompt['text'], '```', '',
                            choose('以上为来源公开、归因于作者的提示词；本站未独立复现，请对照原作者帖文确认二次转录。', 'The prompt is attributed to the creator by the source curator; no independent reproduction was performed.'), '']

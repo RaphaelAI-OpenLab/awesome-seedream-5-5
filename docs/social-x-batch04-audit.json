@@ -1,0 +1,446 @@
+{
+  "checked_at": "2026-11-10",
+  "original_medium": "public X CDN media URLs",
+  "independently_reproduced": false,
+  "copyright": "Third-party rights reserved",
+  "added": [
+    {
+      "id": "socialx-character-sheet-comparison",
+      "images": 2,
+      "source_url": "https://x.com/EEJ_OOXO/status/2119780326117716281",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-character-sheet-comparison-01.jpg",
+        "assets/previews/socialx-character-sheet-comparison-02.jpg"
+      ]
+    },
+    {
+      "id": "socialx-llm-diagram-edits",
+      "images": 1,
+      "source_url": "https://x.com/dongxi_nlp/status/2120031669893939524",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-llm-diagram-edits-01.jpg"
+      ]
+    },
+    {
+      "id": "socialx-skin-texture-test",
+      "images": 1,
+      "source_url": "https://x.com/oden_ai_ai/status/2120015332530393282",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-skin-texture-test-01.jpg"
+      ]
+    },
+    {
+      "id": "socialx-dense-text-comparison",
+      "images": 2,
+      "source_url": "https://x.com/94vanAI/status/2120007470898913320",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-dense-text-comparison-01.jpg",
+        "assets/previews/socialx-dense-text-comparison-02.jpg"
+      ]
+    },
+    {
+      "id": "socialx-four-model-portrait",
+      "images": 4,
+      "source_url": "https://x.com/94vanAI/status/2119938579078238370",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-four-model-portrait-01.jpg",
+        "assets/previews/socialx-four-model-portrait-02.jpg",
+        "assets/previews/socialx-four-model-portrait-03.jpg",
+        "assets/previews/socialx-four-model-portrait-04.jpg"
+      ]
+    },
+    {
+      "id": "socialx-same-prompt-texture",
+      "images": 2,
+      "source_url": "https://x.com/PowerUpInvest/status/2119971057650262386",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-same-prompt-texture-01.jpg",
+        "assets/previews/socialx-same-prompt-texture-02.jpg"
+      ]
+    },
+    {
+      "id": "socialx-photoreal-conversion",
+      "images": 2,
+      "source_url": "https://x.com/nanyuan0412/status/2119949010698137603",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-photoreal-conversion-01.jpg",
+        "assets/previews/socialx-photoreal-conversion-02.jpg"
+      ]
+    },
+    {
+      "id": "socialx-three-model-output",
+      "images": 3,
+      "source_url": "https://x.com/Yuziyyaa/status/2119991511433814093",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-three-model-output-01.jpg",
+        "assets/previews/socialx-three-model-output-02.jpg",
+        "assets/previews/socialx-three-model-output-03.jpg"
+      ]
+    },
+    {
+      "id": "socialx-window-light-portrait",
+      "images": 3,
+      "source_url": "https://x.com/nima2qisi2/status/2119983938383106432",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-window-light-portrait-01.jpg",
+        "assets/previews/socialx-window-light-portrait-02.jpg",
+        "assets/previews/socialx-window-light-portrait-03.jpg"
+      ]
+    },
+    {
+      "id": "socialx-transparent-character",
+      "images": 1,
+      "source_url": "https://x.com/KakiponzuX/status/2119979776651710778",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-transparent-character-01.jpg"
+      ]
+    },
+    {
+      "id": "socialx-vintage-cinema",
+      "images": 4,
+      "source_url": "https://x.com/ChrisGwinnLA/status/2119979699464286506",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-vintage-cinema-01.jpg",
+        "assets/previews/socialx-vintage-cinema-02.jpg",
+        "assets/previews/socialx-vintage-cinema-03.jpg",
+        "assets/previews/socialx-vintage-cinema-04.jpg"
+      ]
+    },
+    {
+      "id": "socialx-character-recreation",
+      "images": 2,
+      "source_url": "https://x.com/haungpower/status/2119852896544325859",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-character-recreation-01.jpg",
+        "assets/previews/socialx-character-recreation-02.jpg"
+      ]
+    },
+    {
+      "id": "socialx-h3-frame-comparison",
+      "images": 2,
+      "source_url": "https://x.com/JSFILMZ0412/status/2119889824274640957",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-h3-frame-comparison-01.jpg",
+        "assets/previews/socialx-h3-frame-comparison-02.jpg"
+      ]
+    },
+    {
+      "id": "socialx-elf-material-study",
+      "images": 1,
+      "source_url": "https://x.com/nanyuan0412/status/2119879195115332042",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-elf-material-study-01.jpg"
+      ]
+    },
+    {
+      "id": "socialx-winter-portrait-comparison",
+      "images": 3,
+      "source_url": "https://x.com/0kncn/status/2119878902344823069",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-winter-portrait-comparison-01.jpg",
+        "assets/previews/socialx-winter-portrait-comparison-02.jpg",
+        "assets/previews/socialx-winter-portrait-comparison-03.jpg"
+      ]
+    },
+    {
+      "id": "socialx-glass-jellyfish-lamp",
+      "images": 1,
+      "source_url": "https://x.com/ahmetmertugrul/status/2119920477535719739",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-glass-jellyfish-lamp-01.jpg"
+      ]
+    },
+    {
+      "id": "socialx-deep-sea-field-guide",
+      "images": 1,
+      "source_url": "https://x.com/ahmetmertugrul/status/2119915956365369596",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-deep-sea-field-guide-01.jpg"
+      ]
+    },
+    {
+      "id": "socialx-photoreal-image-set",
+      "images": 4,
+      "source_url": "https://x.com/uixmax/status/2119894564073054374",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-photoreal-image-set-01.jpg",
+        "assets/previews/socialx-photoreal-image-set-02.jpg",
+        "assets/previews/socialx-photoreal-image-set-03.jpg",
+        "assets/previews/socialx-photoreal-image-set-04.jpg"
+      ]
+    },
+    {
+      "id": "socialx-three-model-portrait-order",
+      "images": 3,
+      "source_url": "https://x.com/foretyyt/status/2119894502588452933",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-three-model-portrait-order-01.jpg",
+        "assets/previews/socialx-three-model-portrait-order-02.jpg",
+        "assets/previews/socialx-three-model-portrait-order-03.jpg"
+      ]
+    },
+    {
+      "id": "socialx-gpt26-same-brief",
+      "images": 2,
+      "source_url": "https://x.com/arito_si/status/2119890337699364975",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-gpt26-same-brief-01.jpg",
+        "assets/previews/socialx-gpt26-same-brief-02.jpg"
+      ]
+    },
+    {
+      "id": "socialx-nature-unseen",
+      "images": 4,
+      "source_url": "https://x.com/AI_Timemachine/status/2119930302508286194",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-nature-unseen-01.jpg",
+        "assets/previews/socialx-nature-unseen-02.jpg",
+        "assets/previews/socialx-nature-unseen-03.jpg",
+        "assets/previews/socialx-nature-unseen-04.jpg"
+      ]
+    },
+    {
+      "id": "socialx-blue-hour-fisherman",
+      "images": 1,
+      "source_url": "https://x.com/ahmetmertugrul/status/2119922071916757233",
+      "prompt": "not-published",
+      "previews": [
+        "assets/previews/socialx-blue-hour-fisherman-01.jpg"
+      ]
+    },
+    {
+      "id": "social-dheepan-frosted-acrylic",
+      "images": 1,
+      "source_url": "https://x.com/Dheepanratnam/status/2119775195573481859",
+      "prompt": "original",
+      "previews": [
+        "assets/previews/social-dheepan-frosted-acrylic-01.jpg"
+      ]
+    },
+    {
+      "id": "social-dheepan-chrome-ribbon",
+      "images": 1,
+      "source_url": "https://x.com/Dheepanratnam/status/2119775195573481859",
+      "prompt": "original",
+      "previews": [
+        "assets/previews/social-dheepan-chrome-ribbon-01.jpg"
+      ]
+    }
+  ],
+  "source_audit": [
+    {
+      "id": "socialx-character-sheet-comparison",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Seedream 5.5가 나왔다길래 바로 캐릭터 시트 한번 뽑아봄.\n비교용으로 이전 버전인 Seedream 5.0 Pro로도 똑같이 뽑았음.\n\n1. 제일 확 느껴지는 건 이미지가 PNG로 다운로드됨\n・Seedream 5.5 - 5,217KB (PNG)\n・Seedream 5.0 Pro - 584KB (JPEG)\n\n2. 육안으로 봤을 땐 Seedream 5.5가 캐릭터 시트에서 좌우 패널 일관성을 더 잘 지켜주는 것 같음\n\n나머지",
+      "media_id_count": 2,
+      "downloaded": 2
+    },
+    {
+      "id": "socialx-llm-diagram-edits",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "用 Seedream 5.5 画 LLM 原理图：\n\n同一张图连续改 30 轮",
+      "media_id_count": 1,
+      "downloaded": 1
+    },
+    {
+      "id": "socialx-skin-texture-test",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Seedream 5.5 お試ししてみました🍎\n肌の感じ、いい感じ",
+      "media_id_count": 1,
+      "downloaded": 1
+    },
+    {
+      "id": "socialx-dense-text-comparison",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "#Seedream5_5 文字渲染方面，官方给出的是：Seedream 5.5 提升了密集小字的生成与排布能力，能更准确地还原复杂字形。\n实际测试情况如下：\n即梦5.5对比5.0pro模型 （👈🏻）& GPT-image2.0对比GPT-image2.6（👉）\n\n相较于GPT-image对文字的排布和密集文字解析能力的提升，Seedream 5.5有自己独特的新模式⬇️\n\n有没有提升可以👀下面参照。\n\n注⚠️：另外说一点Seedream 5.0 Pro 消耗积分要比Seedr",
+      "media_id_count": 2,
+      "downloaded": 2
+    },
+    {
+      "id": "socialx-four-model-portrait",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "🏞️📷同 Prompt 盲测 4 家人像：字节生图新模型—即梦 #Seedream5_5 能平替 GPT 和 Grok 吗？\n\n拿到 Seedream 5.5 内测跑了一圈人像（P1 即梦 / P2 ChatGPT / P3 Gemini / P4 Grok），说点大白话实测感受：\n\n1️⃣ 脸模终于脱敏了\n从 5.0 开始不再是满屏同款“网红统一脸”，5.5 在骨相和面部多样性上有肉眼可见的进步，这点必须点赞。\n\n2️⃣ 还是洗不掉的“高 P 底色”\n磨皮和高光 虽然比老版",
+      "media_id_count": 4,
+      "downloaded": 4
+    },
+    {
+      "id": "socialx-same-prompt-texture",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "同提示词，GPT Image 2.6 Sunburst 和 Seedream 5.5 的图，大家觉得哪个好？\n\n虽然 GPT Image 的细节多一些，可是它的问题太致命了，就是高频信息过多，导致画面看起来特别的脏，非常不耐看，特别的假\n\nSeedream 5.5 是我用过的最好的图片模型，我已经接入到产品里了",
+      "media_id_count": 2,
+      "downloaded": 2
+    },
+    {
+      "id": "socialx-photoreal-conversion",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "seedream 5.5 的模型效果有些过于的出乎意料了\n\n特别是这个真人转化的效果上",
+      "media_id_count": 2,
+      "downloaded": 2
+    },
+    {
+      "id": "socialx-three-model-output",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "这是我用：\nChatGPT Images 2.6\n豆包Seedream 5.0 Pro\n豆包Seedream 5.5\n现在豆包的生图功能已经可以追赶上GPT了\n这样子看那以后GPT会越来越不行了啊",
+      "media_id_count": 3,
+      "downloaded": 3
+    },
+    {
+      "id": "socialx-window-light-portrait",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "摄影质感提升挺大的，感觉就是生图不稳+太敏感\nSeedream 5.5👇\n俯拍人像特写局部，东方/西方 女性 22岁 人物特写半侧脸侧颜看向镜头的自然姿态，窗户光柔肤，富士Astia胶片低婉古调低饱和度，光圈F2.8、快门1/120s、ISO100、点测光脸部，磨砂肌理，暗角聚焦，私房氛围感，细节丰富，无文字、无水印、无Logo、无边框",
+      "media_id_count": 3,
+      "downloaded": 3
+    },
+    {
+      "id": "socialx-transparent-character",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Seedream 5.5 writes native transparent PNGs. We put our lab character through it — same prompt, two finishes.\n\nSetup: one identity prompt for our character (long black hair, pink inner colour, cowrie-shell earrings, red-and-gold Arabian out",
+      "media_id_count": 1,
+      "downloaded": 1
+    },
+    {
+      "id": "socialx-vintage-cinema",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Testing out the new Seedream 5.5 image model on Dreamina. I think these are on par with what can typically generate with Midjourney (which is good - I like having options). Not all image models can do convincing vintage cinematic stills. \n\n",
+      "media_id_count": 4,
+      "downloaded": 4
+    },
+    {
+      "id": "socialx-character-recreation",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "⚠️Re-creation\n\n測試 Seedream 5.5，這模型的能力和人物一致性目前就我所知大概是最強了，原本要搞半天的畫面現在可以比較輕鬆就達成，唯一的缺點大概就是有版權的限制，需要想辦法繞過去，有趣的是就算是原創的也有可能會被誤判，但比起 GPT Image 2.X 那種極端的限制真的好很多。",
+      "media_id_count": 2,
+      "downloaded": 2
+    },
+    {
+      "id": "socialx-h3-frame-comparison",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Minimax H3 Image Text to Image. Original frame vs Seedream 5.5 Text to Image both at 2K. Both without any post processing done in post.",
+      "media_id_count": 2,
+      "downloaded": 2
+    },
+    {
+      "id": "socialx-elf-material-study",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "在真实度方面，Seedream 5.5 这次提升很大！\n\n光看单张直出的材质细节就已经非常顶了：不管是精灵耳廓边缘的次表面散射（透光血色感）、白T恤纯棉布料的自然垂坠褶皱，还是锁骨与大腿阴影处的真实微单肤质，几乎已经把以前那种讨厌的“AI 塑料硅胶感”洗干净了。\n\n不过我觉得这次 5.5 真正的核心杀招，估计是在「多轮对话编辑（Multi-turn Editing）」上——毕竟做 AI 视频和角色资产，单张好看只是起点，能不能在保持骨相 ID 和光影完全不崩的前提下，连续微调",
+      "media_id_count": 1,
+      "downloaded": 1
+    },
+    {
+      "id": "socialx-winter-portrait-comparison",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Aynı prompt’u üç görsel modeline verdim: GPT Image 2.5, Seedream 5.5 ve Nano Banana 2.1.\n\nPortre, İstanbul manzarası, yazılı bir sahne ve uzay olmak üzere dört test yaptım. Sonuçlar beklediğimden farklı çıktı.\n\nİlki kış portresi. Sizce hang",
+      "media_id_count": 3,
+      "downloaded": 3
+    },
+    {
+      "id": "socialx-glass-jellyfish-lamp",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Seedream 5.5\n\nRGBA + partial transparency\n\nTransparent background, PNG with alpha channel. A hand-blown glass jellyfish lamp floating in mid-air: semi-transparent frosted bell with visible internal air bubbles, long trailing tentacles made ",
+      "media_id_count": 1,
+      "downloaded": 1
+    },
+    {
+      "id": "socialx-deep-sea-field-guide",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Seedream 5.5\n\nDense, short text + infographic\n\n@dreamina_ai #dreamina #dreaminacpp \n\nA vintage naturalist field-guide page, aged cream paper with foxing stains, documenting a fictional deep-sea creature called \"Lanternfin Abyssal Eel\". Cent",
+      "media_id_count": 1,
+      "downloaded": 1
+    },
+    {
+      "id": "socialx-photoreal-image-set",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Seedream 5.5 has been released, and I immediately tested it on a few images. \n\nThe photorealism has improved, and there’s more detail 👇",
+      "media_id_count": 4,
+      "downloaded": 4
+    },
+    {
+      "id": "socialx-three-model-portrait-order",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "@MayorKingAI Antes prefería GPT image para criaturas (para personas es muy genérico), para personas, me seguían pareciendo más naturales en NB2. \nAhora Seedream 5.5 me gustan más en general. \n1-SD5.5\n2-Image2.5 \n3-NB2.1",
+      "media_id_count": 3,
+      "downloaded": 3
+    },
+    {
+      "id": "socialx-gpt26-same-brief",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "豆包今天发的 Seedream 5.5，官方对比图里写的对手是 GPT Image 2.5。\n\n我拿同一组 prompt 跟 2.6 对了一下。\n\n差距比价格差距明显。",
+      "media_id_count": 2,
+      "downloaded": 2
+    },
+    {
+      "id": "socialx-nature-unseen",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Testing Seedream 5.5 tonight and decided to give a new flare to a few of my concepts from Nature Unseen.\nWhat do you think of these?\nHave you tried Seedream 5.5 yet? Show me your results",
+      "media_id_count": 4,
+      "downloaded": 4
+    },
+    {
+      "id": "socialx-blue-hour-fisherman",
+      "method": "fx-public",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Seedream 5.5\n\nRealism: mixed lighting + skin texture\n\n@dreamina_ai #dreamina #dreaminacpp\n\nCandid documentary photo, 85mm lens, f/2. An elderly fisherman in his seventies mending a tangled orange net on a wooden dock at blue hour. Mixed lig",
+      "media_id_count": 1,
+      "downloaded": 1
+    },
+    {
+      "id": "social-dheepan-frosted-acrylic",
+      "method": "public-source-prompt-and-media",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "PNG asset of a hand holding a clear acrylic sheet with a subtle frosted edge, photographed straight on. The acrylic sheet must have realistic partial transparency, visible refraction and a soft translucent gradient, while the hand and finge",
+      "media_id_count": 1,
+      "downloaded": 1
+    },
+    {
+      "id": "social-dheepan-chrome-ribbon",
+      "method": "public-source-prompt-and-media",
+      "explicit_seedream_5_5_text": true,
+      "author_text_excerpt": "Transparent PNG asset of a floating 3D chrome ribbon logo shape, elegantly twisted like liquid metal, with realistic specular highlights and soft internal reflections. Fully transparent background, native alpha channel, crisp edges around e",
+      "media_id_count": 1,
+      "downloaded": 1
+    }
+  ],
+  "failures": []
+}

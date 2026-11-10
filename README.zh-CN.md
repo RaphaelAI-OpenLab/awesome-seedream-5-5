@@ -10,7 +10,7 @@
 
 由 Raphael 整理的图片与编辑案例库。官方展示、作者自报结果与本仓库编写的练习提示词分别标记。
 
-**35 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条已核对社媒来源（2 份不同素材）**
+**59 个来源案例 · 8 个分类 · 8 份原创练习配方 · 3 条已核对社媒来源（2 份不同素材）**
 
 案例未由本仓库独立复现。仓库只保存缩放后的单帧预览，完整图片、GIF 与视频链接至原始地址；第三方媒体及其预览的版权归原权利人。
 
@@ -27,8 +27,8 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | 项目 | 数量 |
 | --- | ---: |
 | 官方来源案例 | 20 |
-| 作者自报案例 | 15 |
-| 仓库内完整原始提示词 | 8 |
+| 作者自报案例 | 39 |
+| 仓库内完整原始提示词 | 10 |
 | 独立复现案例 | 0 |
 | 来源核对日期 | 2026-11-10 |
 
@@ -39,14 +39,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 | 分类 | 案例数 |
 | --- | ---: |
-| [多轮与局部编辑](#multi-turn-editing) | 4 |
-| [透明素材](#rgba-assets) | 5 |
+| [多轮与局部编辑](#multi-turn-editing) | 5 |
+| [透明素材](#rgba-assets) | 9 |
 | [人像](#portraits) | 2 |
-| [摄影与纪实](#photography) | 7 |
+| [摄影与纪实](#photography) | 20 |
 | [室内与空间](#interiors) | 1 |
-| [文字与排版](#typography) | 9 |
+| [文字与排版](#typography) | 11 |
 | [信息图与界面](#infographics) | 4 |
-| [角色与贴纸](#characters) | 3 |
+| [角色与贴纸](#characters) | 7 |
 
 <a id="cases"></a>
 ## 全部案例
@@ -77,6 +77,14 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 <a href="cases/quantslant-note-edit/README.zh-CN.md"><img src="assets/previews/quantslant-note-edit.jpg" alt="纸条局部编辑" width="420" loading="lazy" /></a>
 
 作者自报 · Piotr Olszewski / QUANTSLANT · [原始来源](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [详情与提示词状态](cases/quantslant-note-edit/README.zh-CN.md)
+
+#### [连续修改 30 轮的 LLM 原理图](cases/socialx-llm-diagram-edits/README.zh-CN.md)
+
+<a href="cases/socialx-llm-diagram-edits/README.zh-CN.md"><img src="assets/previews/socialx-llm-diagram-edits-01.jpg" alt="连续修改 30 轮的 LLM 原理图" width="420" loading="lazy" /></a>
+
+作者自报 · dongxi_nlp · [原始来源](https://x.com/dongxi_nlp/status/2120031669893939524) · [详情与提示词状态](cases/socialx-llm-diagram-edits/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者表示对同一张 LLM 原理图连续修改了三十轮。
 
 <a id="rgba-assets"></a>
 ### 透明素材
@@ -116,6 +124,38 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119775195573481859) · [详情与提示词状态](cases/social-dheepan-streetwear-cutout/README.zh-CN.md)
 
 > 来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。 这张 JPEG 不能证明原始 Alpha 透明度。
+
+#### [双风格透明角色素材](cases/socialx-transparent-character/README.zh-CN.md)
+
+<a href="cases/socialx-transparent-character/README.zh-CN.md"><img src="assets/previews/socialx-transparent-character-01.jpg" alt="双风格透明角色素材" width="420" loading="lazy" /></a>
+
+作者自报 · KakiponzuX · [原始来源](https://x.com/KakiponzuX/status/2119979776651710778) · [详情与提示词状态](cases/socialx-transparent-character/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 缩略图无法证明原始Alpha透明度。 插画与写实风格透明度测试；作者报告部分输出丢失 alpha，棋盘格图片是合成预览。
+
+#### [玻璃水母灯](cases/socialx-glass-jellyfish-lamp/README.zh-CN.md)
+
+<a href="cases/socialx-glass-jellyfish-lamp/README.zh-CN.md"><img src="assets/previews/socialx-glass-jellyfish-lamp-01.jpg" alt="玻璃水母灯" width="420" loading="lazy" /></a>
+
+作者自报 · ahmetmertugrul · [原始来源](https://x.com/ahmetmertugrul/status/2119920477535719739) · [详情与提示词状态](cases/socialx-glass-jellyfish-lamp/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 缩略图无法证明原始Alpha透明度。 原帖附提示词的玻璃灯透明素材示例；仅凭展示图不能验证文件的 alpha 通道。
+
+#### [磨砂亚克力板透明素材](cases/social-dheepan-frosted-acrylic/README.zh-CN.md)
+
+<a href="cases/social-dheepan-frosted-acrylic/README.zh-CN.md"><img src="assets/previews/social-dheepan-frosted-acrylic-01.jpg" alt="磨砂亚克力板透明素材" width="420" loading="lazy" /></a>
+
+作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119775195573481859) · [详情与提示词状态](cases/social-dheepan-frosted-acrylic/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 缩略图无法证明原始Alpha透明度。
+
+#### [铬金属流体丝带透明素材](cases/social-dheepan-chrome-ribbon/README.zh-CN.md)
+
+<a href="cases/social-dheepan-chrome-ribbon/README.zh-CN.md"><img src="assets/previews/social-dheepan-chrome-ribbon-01.jpg" alt="铬金属流体丝带透明素材" width="420" loading="lazy" /></a>
+
+作者自报 · Dheepanratnam · [原始来源](https://x.com/Dheepanratnam/status/2119775195573481859) · [详情与提示词状态](cases/social-dheepan-chrome-ribbon/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 缩略图无法证明原始Alpha透明度。
 
 <a id="portraits"></a>
 ### 人像
@@ -178,6 +218,110 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 作者自报 · genel_ai · [原始来源](https://x.com/genel_ai/status/2119786434567827504) · [详情与提示词状态](cases/social-genel-japanese-deli/README.zh-CN.md)
 
 > 来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。 此图是三模型比较拼图，Seedream 5.5 为左侧列。
+
+#### [肤质表现测试](cases/socialx-skin-texture-test/README.zh-CN.md)
+
+<a href="cases/socialx-skin-texture-test/README.zh-CN.md"><img src="assets/previews/socialx-skin-texture-test-01.jpg" alt="肤质表现测试" width="420" loading="lazy" /></a>
+
+作者自报 · oden_ai_ai · [原始来源](https://x.com/oden_ai_ai/status/2120015332530393282) · [详情与提示词状态](cases/socialx-skin-texture-test/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者分享的图片测试，关注模型对皮肤质感的表现。
+
+#### [四模型人像测试](cases/socialx-four-model-portrait/README.zh-CN.md)
+
+<a href="cases/socialx-four-model-portrait/README.zh-CN.md"><img src="assets/previews/socialx-four-model-portrait-01.jpg" alt="四模型人像测试" width="420" loading="lazy" /></a>
+
+作者自报 · 94vanAI · [原始来源](https://x.com/94vanAI/status/2119938579078238370) · [详情与提示词状态](cases/socialx-four-model-portrait/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者注明第一张为 Seedream，其后为 ChatGPT、Gemini、Grok，同时讨论优点与局限。
+
+#### [同提示词纹理对比](cases/socialx-same-prompt-texture/README.zh-CN.md)
+
+<a href="cases/socialx-same-prompt-texture/README.zh-CN.md"><img src="assets/previews/socialx-same-prompt-texture-01.jpg" alt="同提示词纹理对比" width="420" loading="lazy" /></a>
+
+作者自报 · PowerUpInvest · [原始来源](https://x.com/PowerUpInvest/status/2119971057650262386) · [详情与提示词状态](cases/socialx-same-prompt-texture/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者与 GPT Image 2.6 进行图像质感对比；型号归属以原帖说明为准。
+
+#### [三模型出图对比](cases/socialx-three-model-output/README.zh-CN.md)
+
+<a href="cases/socialx-three-model-output/README.zh-CN.md"><img src="assets/previews/socialx-three-model-output-01.jpg" alt="三模型出图对比" width="420" loading="lazy" /></a>
+
+作者自报 · Yuziyyaa · [原始来源](https://x.com/Yuziyyaa/status/2119991511433814093) · [详情与提示词状态](cases/socialx-three-model-output/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者按图片顺序标注 GPT Images 2.6、Seedream 5.0 Pro、Seedream 5.5。
+
+#### [窗光胶片感人像](cases/socialx-window-light-portrait/README.zh-CN.md)
+
+<a href="cases/socialx-window-light-portrait/README.zh-CN.md"><img src="assets/previews/socialx-window-light-portrait-01.jpg" alt="窗光胶片感人像" width="420" loading="lazy" /></a>
+
+作者自报 · nima2qisi2 · [原始来源](https://x.com/nima2qisi2/status/2119983938383106432) · [详情与提示词状态](cases/socialx-window-light-portrait/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 使用窗光与胶片风格的人像组图，原帖包含作者提示词。
+
+#### [复古电影静帧](cases/socialx-vintage-cinema/README.zh-CN.md)
+
+<a href="cases/socialx-vintage-cinema/README.zh-CN.md"><img src="assets/previews/socialx-vintage-cinema-01.jpg" alt="复古电影静帧" width="420" loading="lazy" /></a>
+
+作者自报 · ChrisGwinnLA · [原始来源](https://x.com/ChrisGwinnLA/status/2119979699464286506) · [详情与提示词状态](cases/socialx-vintage-cinema/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 单篇原帖中的四张复古风图片，合并计为一组案例。
+
+#### [Seedream 与 MiniMax H3 静帧对比](cases/socialx-h3-frame-comparison/README.zh-CN.md)
+
+<a href="cases/socialx-h3-frame-comparison/README.zh-CN.md"><img src="assets/previews/socialx-h3-frame-comparison-01.jpg" alt="Seedream 与 MiniMax H3 静帧对比" width="420" loading="lazy" /></a>
+
+作者自报 · JSFILMZ0412 · [原始来源](https://x.com/JSFILMZ0412/status/2119889824274640957) · [详情与提示词状态](cases/socialx-h3-frame-comparison/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者说明为未经后期处理的两张 2K 静帧；另发的 H3 视频不计为 Seedream 成果。
+
+#### [精灵人像材质测试](cases/socialx-elf-material-study/README.zh-CN.md)
+
+<a href="cases/socialx-elf-material-study/README.zh-CN.md"><img src="assets/previews/socialx-elf-material-study-01.jpg" alt="精灵人像材质测试" width="420" loading="lazy" /></a>
+
+作者自报 · nanyuan0412 · [原始来源](https://x.com/nanyuan0412/status/2119879195115332042) · [详情与提示词状态](cases/socialx-elf-material-study/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 皮肤、布料与光线的单图测试；作者明确表示尚未深度测试连续编辑。
+
+#### [冬季人像对比](cases/socialx-winter-portrait-comparison/README.zh-CN.md)
+
+<a href="cases/socialx-winter-portrait-comparison/README.zh-CN.md"><img src="assets/previews/socialx-winter-portrait-comparison-01.jpg" alt="冬季人像对比" width="420" loading="lazy" /></a>
+
+作者自报 · 0kncn · [原始来源](https://x.com/0kncn/status/2119878902344823069) · [详情与提示词状态](cases/socialx-winter-portrait-comparison/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者用相同人像要求对比 GPT Image 2.5、Seedream 5.5 与 Nano Banana 2.1。
+
+#### [写实图像组](cases/socialx-photoreal-image-set/README.zh-CN.md)
+
+<a href="cases/socialx-photoreal-image-set/README.zh-CN.md"><img src="assets/previews/socialx-photoreal-image-set-01.jpg" alt="写实图像组" width="420" loading="lazy" /></a>
+
+作者自报 · uixmax · [原始来源](https://x.com/uixmax/status/2119894564073054374) · [详情与提示词状态](cases/socialx-photoreal-image-set/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者的四图写实效果测试，保留为一组来源案例。
+
+#### [人像模型顺序对照](cases/socialx-three-model-portrait-order/README.zh-CN.md)
+
+<a href="cases/socialx-three-model-portrait-order/README.zh-CN.md"><img src="assets/previews/socialx-three-model-portrait-order-01.jpg" alt="人像模型顺序对照" width="420" loading="lazy" /></a>
+
+作者自报 · foretyyt · [原始来源](https://x.com/foretyyt/status/2119894502588452933) · [详情与提示词状态](cases/socialx-three-model-portrait-order/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者标注图一为 Seedream 5.5，图二 Image 2.5，图三 Nano Banana 2.1。
+
+#### [与 GPT Image 2.6 同要求对比](cases/socialx-gpt26-same-brief/README.zh-CN.md)
+
+<a href="cases/socialx-gpt26-same-brief/README.zh-CN.md"><img src="assets/previews/socialx-gpt26-same-brief-01.jpg" alt="与 GPT Image 2.6 同要求对比" width="420" loading="lazy" /></a>
+
+作者自报 · arito_si · [原始来源](https://x.com/arito_si/status/2119890337699364975) · [详情与提示词状态](cases/socialx-gpt26-same-brief/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 作者说明以相同提示词组测试 Seedream 5.5 与 GPT Image 2.6。
+
+#### [蓝调时刻的渔夫](cases/socialx-blue-hour-fisherman/README.zh-CN.md)
+
+<a href="cases/socialx-blue-hour-fisherman/README.zh-CN.md"><img src="assets/previews/socialx-blue-hour-fisherman-01.jpg" alt="蓝调时刻的渔夫" width="420" loading="lazy" /></a>
+
+作者自报 · ahmetmertugrul · [原始来源](https://x.com/ahmetmertugrul/status/2119922071916757233) · [详情与提示词状态](cases/socialx-blue-hour-fisherman/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 冷色环境光与暖灯混合的纪实风格人像；原帖提供提示词。
 
 <a id="interiors"></a>
 ### 室内与空间
@@ -255,6 +399,22 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 
 > 来自公开整理站的作者归因图片与提示词，未在本仓库独立复现。图像为缩小版，非原始导出。
 
+#### [跨版本密集文字对比](cases/socialx-dense-text-comparison/README.zh-CN.md)
+
+<a href="cases/socialx-dense-text-comparison/README.zh-CN.md"><img src="assets/previews/socialx-dense-text-comparison-01.jpg" alt="跨版本密集文字对比" width="420" loading="lazy" /></a>
+
+作者自报 · 94vanAI · [原始来源](https://x.com/94vanAI/status/2120007470898913320) · [详情与提示词状态](cases/socialx-dense-text-comparison/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 比较 Seedream 5.5、5.0 Pro 与 GPT Image 多个版本，请按原帖标注辨认结果。
+
+#### [深海生物图鉴信息图](cases/socialx-deep-sea-field-guide/README.zh-CN.md)
+
+<a href="cases/socialx-deep-sea-field-guide/README.zh-CN.md"><img src="assets/previews/socialx-deep-sea-field-guide-01.jpg" alt="深海生物图鉴信息图" width="420" loading="lazy" /></a>
+
+作者自报 · ahmetmertugrul · [原始来源](https://x.com/ahmetmertugrul/status/2119915956365369596) · [详情与提示词状态](cases/socialx-deep-sea-field-guide/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 虚构生物图鉴页，组合标注、数据表和科学插图；原帖有提示词。
+
 <a id="infographics"></a>
 ### 信息图与界面
 
@@ -302,6 +462,38 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 <a href="cases/official-plush-characters/README.zh-CN.md"><img src="assets/previews/official-plush-characters.jpg" alt="毛绒角色" width="420" loading="lazy" /></a>
 
 官方展示 · ByteDance Seed · [原始来源](https://seed.bytedance.com/en/seedream5_5) · [详情与提示词状态](cases/official-plush-characters/README.zh-CN.md)
+
+#### [角色设定表版本对比](cases/socialx-character-sheet-comparison/README.zh-CN.md)
+
+<a href="cases/socialx-character-sheet-comparison/README.zh-CN.md"><img src="assets/previews/socialx-character-sheet-comparison-01.jpg" alt="角色设定表版本对比" width="420" loading="lazy" /></a>
+
+作者自报 · EEJ_OOXO · [原始来源](https://x.com/EEJ_OOXO/status/2119780326117716281) · [详情与提示词状态](cases/socialx-character-sheet-comparison/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 原帖为多模型对比，部分图片来自其他模型，需按原帖标签区分。 与 Seedream 5.0 Pro 的角色设定表对比，原帖讨论分栏一致性和输出文件。
+
+#### [角色真人化测试](cases/socialx-photoreal-conversion/README.zh-CN.md)
+
+<a href="cases/socialx-photoreal-conversion/README.zh-CN.md"><img src="assets/previews/socialx-photoreal-conversion-01.jpg" alt="角色真人化测试" width="420" loading="lazy" /></a>
+
+作者自报 · nanyuan0412 · [原始来源](https://x.com/nanyuan0412/status/2119949010698137603) · [详情与提示词状态](cases/socialx-photoreal-conversion/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者分享的双图角色真人化测试，明确标注 Seedream 5.5。
+
+#### [角色重创作测试](cases/socialx-character-recreation/README.zh-CN.md)
+
+<a href="cases/socialx-character-recreation/README.zh-CN.md"><img src="assets/previews/socialx-character-recreation-01.jpg" alt="角色重创作测试" width="420" loading="lazy" /></a>
+
+作者自报 · haungpower · [原始来源](https://x.com/haungpower/status/2119852896544325859) · [详情与提示词状态](cases/socialx-character-recreation/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者标注为重创作的角色一致性测试，参考细节以原帖为准。
+
+#### [Nature Unseen 概念系列](cases/socialx-nature-unseen/README.zh-CN.md)
+
+<a href="cases/socialx-nature-unseen/README.zh-CN.md"><img src="assets/previews/socialx-nature-unseen-01.jpg" alt="Nature Unseen 概念系列" width="420" loading="lazy" /></a>
+
+作者自报 · AI_Timemachine · [原始来源](https://x.com/AI_Timemachine/status/2119930302508286194) · [详情与提示词状态](cases/socialx-nature-unseen/README.zh-CN.md)
+
+> 已从作者 X 原帖下载配图，并保存为640px以内的JPEG预览。模型来源归因未经独立生成验证。 作者使用 Seedream 5.5 重做既有概念系列；四张组图只计一次。
 
 <a id="recipes"></a>
 ## 原创练习提示词
