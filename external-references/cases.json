@@ -420,7 +420,10 @@
           "alt": "guy asleep in a laundromat chair with a cat on his lap generated with Seedream 5.5 in Made",
           "alternative_url": "https://www.made.app/_next/image?url=%2Fimages%2Fmodels%2Fseedream-5-5%2Fnight-nap.jpg&w=3840&q=75&dpl=dpl_AJcAfNfSCvAA1hDRwGDc3FvUpDEQ",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-made-01-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "6a86e2b57906997e8db1193da6156e076e82a9d805a8a583a85cc527d68b7ca8",
+          "downloaded_from": "https://www.made.app/images/models/seedream-5-5/night-nap.jpg"
         }
       ],
       "caveat": "Made reports in-house model samples with generation record prompts.",
@@ -460,7 +463,10 @@
           "alt": "handwritten OUT OF QUARTERS sign on a change machine generated with Seedream 5.5 in Made",
           "alternative_url": "https://www.made.app/_next/image?url=%2Fimages%2Fmodels%2Fseedream-5-5%2Fquarters-sign.jpg&w=3840&q=75&dpl=dpl_AJcAfNfSCvAA1hDRwGDc3FvUpDEQ",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-made-02-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "7dad427bd707c3bae1ce6cc214173b71eeb9bae2410533e2bbe64abef7747f27",
+          "downloaded_from": "https://www.made.app/images/models/seedream-5-5/quarters-sign.jpg"
         }
       ],
       "caveat": "Made reports in-house model samples with generation record prompts.",
@@ -500,7 +506,10 @@
           "alt": "two friends seen from inside a dryer drum generated with Seedream 5.5 in Made",
           "alternative_url": "https://www.made.app/_next/image?url=%2Fimages%2Fmodels%2Fseedream-5-5%2Fdryer-drum.jpg&w=3840&q=75&dpl=dpl_AJcAfNfSCvAA1hDRwGDc3FvUpDEQ",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-made-03-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "237fc0d7eb6160909264a31da14066c2b73914719b615e21f687bdcc9889033b",
+          "downloaded_from": "https://www.made.app/images/models/seedream-5-5/dryer-drum.jpg"
         }
       ],
       "caveat": "Made reports in-house model samples with generation record prompts.",
@@ -540,7 +549,10 @@
           "alt": "golden retriever with a towel on its head on a folding table generated with Seedream 5.5 in Made",
           "alternative_url": "https://www.made.app/_next/image?url=%2Fimages%2Fmodels%2Fseedream-5-5%2Ftowel-dog.jpg&w=3840&q=75&dpl=dpl_AJcAfNfSCvAA1hDRwGDc3FvUpDEQ",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-made-04-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "99e1a9815e60706ce06753d973d9b065a2bb59b363710e24b9524d91db343198",
+          "downloaded_from": "https://www.made.app/images/models/seedream-5-5/towel-dog.jpg"
         }
       ],
       "caveat": "Made reports in-house model samples with generation record prompts.",
@@ -580,7 +592,10 @@
           "alt": "laundromat window with a WASH & FOLD 24 HRS neon sign generated with Seedream 5.5 in Made",
           "alternative_url": "https://www.made.app/_next/image?url=%2Fimages%2Fmodels%2Fseedream-5-5%2Fwash-fold-neon.jpg&w=3840&q=75&dpl=dpl_AJcAfNfSCvAA1hDRwGDc3FvUpDEQ",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-made-05-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "034dc438c29e17d670eedd39a78ced6345b1f39714ace1015548967d38d95e0a",
+          "downloaded_from": "https://www.made.app/images/models/seedream-5-5/wash-fold-neon.jpg"
         }
       ],
       "caveat": "Made reports in-house model samples with generation record prompts.",
@@ -620,7 +635,10 @@
           "alt": "corkboard of lost socks under a LOST SOCKS sign generated with Seedream 5.5 in Made",
           "alternative_url": "https://www.made.app/_next/image?url=%2Fimages%2Fmodels%2Fseedream-5-5%2Flost-socks.jpg&w=3840&q=75&dpl=dpl_AJcAfNfSCvAA1hDRwGDc3FvUpDEQ",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-made-06-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "3ab6c89f9f6e9a10522185649927cdb18f2c2b5792b2c8db347be14a28de0656",
+          "downloaded_from": "https://www.made.app/images/models/seedream-5-5/lost-socks.jpg"
         }
       ],
       "caveat": "Made reports in-house model samples with generation record prompts.",
@@ -659,7 +677,10 @@
           "url": "https://r2.flux1.ai/static/seedream-5-5/portrait.webp",
           "alt": "Natural portrait — Seedream 5.5",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-flux1-01-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "61cd64f373721c4a41b60d3f3387b23be0f6c8f1b6f4756faab08bdb3e51044f",
+          "downloaded_from": "https://r2.flux1.ai/static/seedream-5-5/portrait.webp"
         }
       ],
       "caveat": "Source states these are generated samples; edits depend on an original reference image.",
@@ -698,7 +719,10 @@
           "url": "https://r2.flux1.ai/static/seedream-5-5/infographic.webp",
           "alt": "Infographic with small text — Seedream 5.5",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-flux1-02-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "295ab72084adb8f90c8089b02a937c55ee19189e1c4ebe257833f3f7f9f9c188",
+          "downloaded_from": "https://r2.flux1.ai/static/seedream-5-5/infographic.webp"
         }
       ],
       "caveat": "Source states these are generated samples; edits depend on an original reference image.",
@@ -737,7 +761,10 @@
           "url": "https://r2.flux1.ai/static/seedream-5-5/tea-poster.webp",
           "alt": "Chinese and English poster — Seedream 5.5",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-flux1-03-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "41682b64668ac4553ba379fa9d45db9be07cd4625071f728d886a8f5e3ec293c",
+          "downloaded_from": "https://r2.flux1.ai/static/seedream-5-5/tea-poster.webp"
         }
       ],
       "caveat": "Source states these are generated samples; edits depend on an original reference image.",
@@ -776,7 +803,10 @@
           "url": "https://r2.flux1.ai/static/seedream-5-5/perfume.webp",
           "alt": "Glass on a transparent background — Seedream 5.5",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-flux1-04-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "ee8a6daff5babf51cd4069229aa0915f54c13ec235729409846ce6389234f352",
+          "downloaded_from": "https://r2.flux1.ai/static/seedream-5-5/perfume.webp"
         }
       ],
       "caveat": "Source states these are generated samples; edits depend on an original reference image.",
@@ -815,7 +845,10 @@
           "url": "https://r2.flux1.ai/static/seedream-5-5/sticker.webp",
           "alt": "Sticker with lettering — Seedream 5.5",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-flux1-05-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "80d86f3bd619d27f38b7674f4bd940376a9850af2cbc8a8828a3876bebf188f1",
+          "downloaded_from": "https://r2.flux1.ai/static/seedream-5-5/sticker.webp"
         }
       ],
       "caveat": "Source states these are generated samples; edits depend on an original reference image.",
@@ -854,7 +887,10 @@
           "url": "https://r2.flux1.ai/static/seedream-5-5/dog-cutout.webp",
           "alt": "Cut-out from a photo — Seedream 5.5",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-flux1-06-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "3e7b0f365b708894432ece4ca0147e85115bf82587465df388007a8f65279049",
+          "downloaded_from": "https://r2.flux1.ai/static/seedream-5-5/dog-cutout.webp"
         }
       ],
       "caveat": "Source states these are generated samples; edits depend on an original reference image.",
@@ -893,7 +929,10 @@
           "url": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-poster-1920.webp",
           "alt": "A vintage-style poster for Lantern Tea House: a glowing red paper lantern above a steaming teapot and two cups, under an indigo ni",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-studio-01-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "87ff3f77c3de8755776aec60d44012ffc14acf6edc3d535657c4ca2743e08c01",
+          "downloaded_from": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-poster-1920.webp"
         }
       ],
       "caveat": "Site presents an exact prompt and the model-generated output.",
@@ -932,7 +971,10 @@
           "url": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-portrait-1920.webp",
           "alt": "A freckled woman with auburn hair, in a cream linen shirt, backlit by the low sun in a meadow of dry grass.",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-studio-02-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "5d959a0ab1bd786696bf1f2c6d371c29e157873f746c57a58292677d75eb4904",
+          "downloaded_from": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-portrait-1920.webp"
         }
       ],
       "caveat": "Site presents an exact prompt and the model-generated output.",
@@ -971,7 +1013,10 @@
           "url": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-product-1920.webp",
           "alt": "A pour-over coffee set on a walnut tray: a speckled stoneware dripper on a glass carafe of coffee, beside a copper gooseneck kettl",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-studio-03-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "703eff4ed56780cabd96278baddba4aea65fbe43997ef80b23c7d94ba8c27600",
+          "downloaded_from": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-product-1920.webp"
         }
       ],
       "caveat": "Site presents an exact prompt and the model-generated output.",
@@ -1010,7 +1055,10 @@
           "url": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-panorama-1920.webp",
           "alt": "A glacial valley at sunrise, with snow-covered peaks lit pink and gold above a turquoise river and a small wooden cabin.",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-studio-04-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "cfcf2ddd79041bfc0c0352e736a9e39e521d97486b4622597f5ba583de48e739",
+          "downloaded_from": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-panorama-1920.webp"
         }
       ],
       "caveat": "Site presents an exact prompt and the model-generated output.",
@@ -1049,7 +1097,10 @@
           "url": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-sticker-1920.webp",
           "alt": "A sticker of a sleeping ginger cat curled up in a blue ramen bowl, with chopsticks and wisps of steam.",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-studio-05-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "f3e1e0cf5f41e20e17d74793768e84144399ea025de1b7042631c162499ec9ff",
+          "downloaded_from": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-sticker-1920.webp"
         }
       ],
       "caveat": "Site presents an exact prompt and the model-generated output.",
@@ -1088,7 +1139,10 @@
           "url": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-icon-set-1920.webp",
           "alt": "Nine glossy pastel weather icons in a three-by-three grid, from a sun and a rain cloud to an umbrella and a rainbow.",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-studio-06-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "372c674c4ebbee65b9f0b3ce7f554a3f792d5ad618bb8f7f9321b29ecafb8616",
+          "downloaded_from": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-icon-set-1920.webp"
         }
       ],
       "caveat": "Site presents an exact prompt and the model-generated output.",
@@ -1143,25 +1197,37 @@
           "url": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-base-1920.webp",
           "alt": "The first image: a sunny café terrace with a cappuccino and a croissant on a round marble bistro table, under a green-and-white st",
           "role": "initial",
-          "preview": null
+          "preview": "previews/web-studio-07-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "a7e733c80ab0f3c388d3a4bbdbc9865a5c29ac246f6ad4495d1e2514053b14d6",
+          "downloaded_from": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-base-1920.webp"
         },
         {
           "url": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-r1-1920.webp",
           "alt": "The café table with a tall glass of iced coffee and a paper straw where the cappuccino was.",
           "role": "edit-1",
-          "preview": null
+          "preview": "previews/web-studio-07-02.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "fefc4879e5edeaf6c16ccc10becc0b1c26eb5508522b28dc6f82128a96bf748b",
+          "downloaded_from": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-r1-1920.webp"
         },
         {
           "url": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-r2-1920.webp",
           "alt": "The same café terrace, its awning stripes now red and white.",
           "role": "edit-2",
-          "preview": null
+          "preview": "previews/web-studio-07-03.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "d8a848cd48c6337b21b1f2d8d09af12b83ad81e7c8868a687f4ad2c7a240e3e7",
+          "downloaded_from": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-r2-1920.webp"
         },
         {
           "url": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-r3-1920.webp",
           "alt": "After three rounds: the same terrace with a glass of iced coffee on the table, a red-and-white striped awning and a small brown da",
           "role": "edit-3",
-          "preview": null
+          "preview": "previews/web-studio-07-04.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "191bc95ca3aa21d91152719abed727d934e11c7aad0a07d12f8eff33d7f56c32",
+          "downloaded_from": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-r3-1920.webp"
         }
       ],
       "caveat": "Successive edits each depend on the previous frame, rather than independent generations.",
@@ -1200,7 +1266,10 @@
           "url": "https://cdn.froging.ai/frogingai/seedream-5-5/v1-20261111/headphones-cobalt-edit.jpg",
           "alt": "Change a product backdrop",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-froging-01-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "d2cea368ed71613376d9c5f8c076c501cffbad4942e71c780e816ef952caf978",
+          "downloaded_from": "https://cdn.froging.ai/frogingai/seedream-5-5/v1-20261111/headphones-cobalt-edit.jpg"
         }
       ],
       "caveat": "Original headphones input photo is needed to reproduce this edit.",
@@ -1239,7 +1308,10 @@
           "url": "https://cdn.froging.ai/frogingai/seedream-5-5/v1-20261111/citrus-splash.jpg",
           "alt": "Freeze a splash for a campaign image",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-froging-02-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "4c4cd4c6fa2a96f7927ad4d68a459c7f2891c46898675b2b5cb973eadab327f3",
+          "downloaded_from": "https://cdn.froging.ai/frogingai/seedream-5-5/v1-20261111/citrus-splash.jpg"
         }
       ],
       "caveat": "Source claims this is a generated result.",
@@ -1278,7 +1350,10 @@
           "url": "https://cdn.froging.ai/frogingai/seedream-5-5/v1-20261111/glass-jellyfish.png",
           "alt": "Create a transparent glass asset",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-froging-03-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "1e85268d841270801c2c2538d07a821f258edbb35502dc9698e1f55fbdca9b72",
+          "downloaded_from": "https://cdn.froging.ai/frogingai/seedream-5-5/v1-20261111/glass-jellyfish.png"
         }
       ],
       "caveat": "Source claims this is a generated result.",
@@ -1317,7 +1392,10 @@
           "url": "https://cdn.orylia.ai/research/seedream-5-5/c897c4bc-c281-42fb-957f-ec34c8cd5b98.webp",
           "alt": "Seedream 5.5 · Editorial portraits",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-orylia-01-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "67a1b706702da77b9f3c364904cce834d2275ecd91ca92a92692f226bef2c5a9",
+          "downloaded_from": "https://cdn.orylia.ai/research/seedream-5-5/c897c4bc-c281-42fb-957f-ec34c8cd5b98.webp"
         }
       ],
       "caveat": "Orylia reports this as a Seedream 5.5 research output; not independently generated.",
@@ -1356,7 +1434,10 @@
           "url": "https://cdn.orylia.ai/research/seedream-5-5/7338d995-e2b2-4d43-b6c8-e30dbbeefb40.webp",
           "alt": "Seedream 5.5 · Product photography",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-orylia-02-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "67ffebd9110cbf9240dd54d387ac7288af517b3f5299406155d597f976ac2218",
+          "downloaded_from": "https://cdn.orylia.ai/research/seedream-5-5/7338d995-e2b2-4d43-b6c8-e30dbbeefb40.webp"
         }
       ],
       "caveat": "Orylia reports this as a Seedream 5.5 research output; not independently generated.",
@@ -1395,7 +1476,10 @@
           "url": "https://cdn.orylia.ai/research/seedream-5-5/8938c3cc-4f90-4f35-b846-6a840db6acc2.webp",
           "alt": "Seedream 5.5 · Bilingual typography",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-orylia-03-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "f71018213e39bdc627bdc9c1d873fd8f33c39a3d5756fbc5a701ab21d6babfd6",
+          "downloaded_from": "https://cdn.orylia.ai/research/seedream-5-5/8938c3cc-4f90-4f35-b846-6a840db6acc2.webp"
         }
       ],
       "caveat": "Orylia reports this as a Seedream 5.5 research output; not independently generated.",

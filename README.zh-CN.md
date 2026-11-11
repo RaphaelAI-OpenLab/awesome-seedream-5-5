@@ -14,7 +14,7 @@
 
 案例未由本仓库独立复现。仓库只保存缩放后的单帧预览，完整图片、GIF 与视频链接至原始地址；第三方媒体及其预览的版权归原权利人。
 
-[浏览案例](#cases) · [练习提示词](#recipes) · [社媒原帖](#social) · [投稿](CONTRIBUTING.md) · [来源与核验](docs/SOURCES.md)
+[浏览案例](#cases) · [全网待重做素材](external-references/README.zh-CN.md) · [练习提示词](#recipes) · [社媒原帖](#social) · [投稿](CONTRIBUTING.md) · [来源与核验](docs/SOURCES.md)
 
 ## 模型与入口
 
@@ -33,6 +33,13 @@ Seedream 5.5 的官方发布日期为 **2026-11-09**。能力和入口以[官方
 | 来源核对日期 | 2026-11-11 |
 
 同一案例的多轮图片不重复计数；重复社媒视频不增加案例总数。来源页中的展示说明不等于实际完整生成提示词。
+
+<a id="external-web-references"></a>
+## 全网外部参考素材 · 待重做
+
+已另外整理来自公开网站的图像和来源提示词。它们不是本站已生成的成果，也不计入下面的正式案例数；第三方媒体许可仍需核查。
+
+[进入独立待重做素材库](external-references/README.zh-CN.md) · [重做操作说明](external-references/WORKFLOW.md)
 
 <a id="categories"></a>
 ## 按分类浏览
