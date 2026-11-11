@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """One-time fetch of small web-gallery reference previews; never save the source originals."""
-import hashlib,io,json,time
+import hashlib,io,json,time,re
 from pathlib import Path
 from urllib.parse import urlsplit
 from urllib.request import Request,urlopen
@@ -18,7 +18,8 @@ def get(url):
             req=Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; ReferencePreviewAudit/1.0)","Accept":"image/avif,image/webp,image/png,image/jpeg,image/*"})
             with urlopen(req,timeout=28) as response:
                 final=urlsplit(response.geturl())
-                if final.scheme!="https" or final.hostname not in HOSTS:
+                r2_ok=(u.hostname=="vdobloom.com" and bool(re.fullmatch(r"[0-9a-f]{32}\.r2\.cloudflarestorage\.com",final.hostname or "")))
+                if final.scheme!="https" or (final.hostname not in HOSTS and not r2_ok):
                     raise ValueError("Unexpected media redirect: "+str(final.hostname))
                 result=response.read(MAX_BYTES+1)
                 ctype=response.headers.get("Content-Type") or ""
@@ -49,7 +50,9 @@ def make_jpg(raw):
 def main():
     path=DIR/"cases.json"
     root=json.loads(path.read_text(encoding="utf-8"))
-    checks=[]
+    checks=json.loads((DIR/"media-check.json").read_text())["items"] if (DIR/"media-check.json").exists() else []
+    old=json.loads((DIR/"source-audit.json").read_text())["entries"] if (DIR/"source-audit.json").exists() else []
+    previous={x["source_media"]:x for x in old}
     report=[]
     ok=0;misses=0
     (DIR/"previews").mkdir(exist_ok=True,parents=True)
@@ -57,6 +60,8 @@ def main():
         for n,m in enumerate(item["media"],1):
             name="previews/"+item["id"]+"-"+f"{n:02d}"+".jpg"
             if m.get("preview") and (DIR/m["preview"]).exists():
+                report.append(previous.get(m["url"],{"id":item["id"],"source_media":m["url"],"status":"saved-low-res-preview","preview":m["preview"]}))
+                ok+=1
                 print("SKIP saved",name,flush=True)
                 continue
             urls=[m["url"]]
