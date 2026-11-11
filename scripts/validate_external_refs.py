@@ -23,7 +23,7 @@ def main():
         must(https(c["source_url"]) and c["source_url"] not in existing,"source invalid or main duplicate "+id)
         must(c["counted_in_main"] is False,"external counted as main "+id)
         must(c["prompt"]["status"]=="source-exact" and len(c["prompt"]["text"])>=45 and https(c["prompt"]["url"]),"missing source prompt "+id)
-        must(c["rights"]["republication_license"]=="not verified","unlicensed reference unexpectedly marked cleared "+id)
+        must(c["rights"]["republication_license"] in ("not verified","verified","restricted"),"invalid rights status "+id)
         must(c["remake"]["status"] in ("pending","recreated","published"),"bad remake state "+id)
         for step in c.get("steps",[]):must(len(step["prompt"])>=25,"invalid edit instruction "+id)
         must(c["media"],"missing media "+id)

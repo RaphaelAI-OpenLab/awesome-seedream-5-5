@@ -53,8 +53,8 @@ def outputs():
                 detail=["<!-- Generated from external-references/cases.json; not original model output by Raphael. -->",
                         "# "+name,"","[English](README.md) · [简体中文](README.zh-CN.md)","",
                         f"[{choose(lang,'返回外部素材库','Back to external queue')}](../../{filename(lang)})","",
-                        choose(lang,"**状态：待重做。第三方网站自报模型和结果，本站尚未独立复现。**",
-                               "**Status: pending remake. Model and outputs are source-reported, not independently reproduced.**"),""]
+                        choose(lang,"**状态："+("待重做" if state=="pending" else "已重做")+"。第三方网站自报模型和结果，本站尚未独立复现。**",
+                               "**Status: "+("pending remake" if state=="pending" else state)+". Model and outputs are source-reported, not independently reproduced.**"),""]
                 for idx,m in enumerate(c["media"],1):
                     detail.extend(["## "+choose(lang,"原始参考图","Original reference")+" "+str(idx),""])
                     if m.get("preview"):
