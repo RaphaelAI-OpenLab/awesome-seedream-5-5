@@ -15,5 +15,9 @@ jobs:
           python-version: '3.11'
       - name: 检查生成一致性
         run: python scripts/build.py --check
+      - name: 检查外部待重做库生成结果
+        run: python scripts/build_external_refs.py --check
+      - name: 验证外部图片及来源
+        run: python scripts/validate_external_refs.py
       - name: 校验数据与链接
         run: python scripts/validate.py

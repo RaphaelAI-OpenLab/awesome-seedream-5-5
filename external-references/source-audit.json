@@ -1,0 +1,352 @@
+{
+  "checked_at": "2026-11-11",
+  "cases": 35,
+  "saved_previews": 38,
+  "source_only": 0,
+  "source_rights": "all unverified — not cleared for public image reuse",
+  "download_mode": "compressed 440px reference thumbnail only",
+  "entries": [
+    {
+      "id": "web-vdobloom-01",
+      "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-sign.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-01-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "30c480a366057e2519d52ce624bb5aa359337a18a0e657d85130a58173c88ef0"
+    },
+    {
+      "id": "web-vdobloom-02",
+      "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-poster.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-02-01.jpg",
+      "width": 293,
+      "height": 440,
+      "source_sha256": "f4482f19a678766dd64a906572dbc2e863f01afa763143cb5c6b11eae42f487a"
+    },
+    {
+      "id": "web-vdobloom-03",
+      "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-portrait.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-03-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "81f0d7cb67fd2e4b7635f61ab6acd0811226241db1a55977421ce30082f7ca47"
+    },
+    {
+      "id": "web-vdobloom-04",
+      "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-product.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-04-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "24c0a11fb42647c6a545e1bb1edf721f10c9797ff004a0dd9d974f315dadcc8c"
+    },
+    {
+      "id": "web-vdobloom-05",
+      "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-food.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-05-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "bcbe0eec46e1566830da68d676d146b9d03eca1b55bdc5e02e1d44c29a36bdfe"
+    },
+    {
+      "id": "web-vdobloom-06",
+      "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-interior.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-06-01.jpg",
+      "width": 440,
+      "height": 248,
+      "source_sha256": "9b37a8cd816f5745ef9f8a785d43c0b983811735b103aed29fd949d146ed3090"
+    },
+    {
+      "id": "web-vdobloom-07",
+      "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-cinematic.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-07-01.jpg",
+      "width": 440,
+      "height": 189,
+      "source_sha256": "75b2003785f1eeac5e2ad7ab337a97003a084a0441d24a1eba70c0f2bea97d4a"
+    },
+    {
+      "id": "web-vdobloom-08",
+      "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-anime.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-08-01.jpg",
+      "width": 247,
+      "height": 440,
+      "source_sha256": "30184014c5a170abe584190c18c3a2665e8d76f11f4af68ae9b7caa2c5a7b694"
+    },
+    {
+      "id": "web-vdobloom-09",
+      "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-count.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-09-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "c35d666493c3fd69cdab21f36fa963f35d652eb8357ffd68a004955dc7c48891"
+    },
+    {
+      "id": "web-vdobloom-10",
+      "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-illustration.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-10-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "7c8050ce8bba6749efaaec8f78b770369d8d2ca92a95f75f8c5a8a8dd1cd474a"
+    },
+    {
+      "id": "web-made-01",
+      "source_media": "https://www.made.app/images/models/seedream-5-5/night-nap.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-made-01-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "6a86e2b57906997e8db1193da6156e076e82a9d805a8a583a85cc527d68b7ca8"
+    },
+    {
+      "id": "web-made-02",
+      "source_media": "https://www.made.app/images/models/seedream-5-5/quarters-sign.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-made-02-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "7dad427bd707c3bae1ce6cc214173b71eeb9bae2410533e2bbe64abef7747f27"
+    },
+    {
+      "id": "web-made-03",
+      "source_media": "https://www.made.app/images/models/seedream-5-5/dryer-drum.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-made-03-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "237fc0d7eb6160909264a31da14066c2b73914719b615e21f687bdcc9889033b"
+    },
+    {
+      "id": "web-made-04",
+      "source_media": "https://www.made.app/images/models/seedream-5-5/towel-dog.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-made-04-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "99e1a9815e60706ce06753d973d9b065a2bb59b363710e24b9524d91db343198"
+    },
+    {
+      "id": "web-made-05",
+      "source_media": "https://www.made.app/images/models/seedream-5-5/wash-fold-neon.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-made-05-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "034dc438c29e17d670eedd39a78ced6345b1f39714ace1015548967d38d95e0a"
+    },
+    {
+      "id": "web-made-06",
+      "source_media": "https://www.made.app/images/models/seedream-5-5/lost-socks.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-made-06-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "3ab6c89f9f6e9a10522185649927cdb18f2c2b5792b2c8db347be14a28de0656"
+    },
+    {
+      "id": "web-flux1-01",
+      "source_media": "https://r2.flux1.ai/static/seedream-5-5/portrait.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-flux1-01-01.jpg",
+      "width": 330,
+      "height": 440,
+      "source_sha256": "61cd64f373721c4a41b60d3f3387b23be0f6c8f1b6f4756faab08bdb3e51044f"
+    },
+    {
+      "id": "web-flux1-02",
+      "source_media": "https://r2.flux1.ai/static/seedream-5-5/infographic.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-flux1-02-01.jpg",
+      "width": 293,
+      "height": 440,
+      "source_sha256": "295ab72084adb8f90c8089b02a937c55ee19189e1c4ebe257833f3f7f9f9c188"
+    },
+    {
+      "id": "web-flux1-03",
+      "source_media": "https://r2.flux1.ai/static/seedream-5-5/tea-poster.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-flux1-03-01.jpg",
+      "width": 330,
+      "height": 440,
+      "source_sha256": "41682b64668ac4553ba379fa9d45db9be07cd4625071f728d886a8f5e3ec293c"
+    },
+    {
+      "id": "web-flux1-04",
+      "source_media": "https://r2.flux1.ai/static/seedream-5-5/perfume.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-flux1-04-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "ee8a6daff5babf51cd4069229aa0915f54c13ec235729409846ce6389234f352"
+    },
+    {
+      "id": "web-flux1-05",
+      "source_media": "https://r2.flux1.ai/static/seedream-5-5/sticker.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-flux1-05-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "80d86f3bd619d27f38b7674f4bd940376a9850af2cbc8a8828a3876bebf188f1"
+    },
+    {
+      "id": "web-flux1-06",
+      "source_media": "https://r2.flux1.ai/static/seedream-5-5/dog-cutout.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-flux1-06-01.jpg",
+      "width": 440,
+      "height": 336,
+      "source_sha256": "3e7b0f365b708894432ece4ca0147e85115bf82587465df388007a8f65279049"
+    },
+    {
+      "id": "web-studio-01",
+      "source_media": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-poster-1920.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-studio-01-01.jpg",
+      "width": 293,
+      "height": 440,
+      "source_sha256": "87ff3f77c3de8755776aec60d44012ffc14acf6edc3d535657c4ca2743e08c01"
+    },
+    {
+      "id": "web-studio-02",
+      "source_media": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-portrait-1920.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-studio-02-01.jpg",
+      "width": 330,
+      "height": 440,
+      "source_sha256": "5d959a0ab1bd786696bf1f2c6d371c29e157873f746c57a58292677d75eb4904"
+    },
+    {
+      "id": "web-studio-03",
+      "source_media": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-product-1920.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-studio-03-01.jpg",
+      "width": 440,
+      "height": 330,
+      "source_sha256": "703eff4ed56780cabd96278baddba4aea65fbe43997ef80b23c7d94ba8c27600"
+    },
+    {
+      "id": "web-studio-04",
+      "source_media": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-panorama-1920.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-studio-04-01.jpg",
+      "width": 440,
+      "height": 189,
+      "source_sha256": "cfcf2ddd79041bfc0c0352e736a9e39e521d97486b4622597f5ba583de48e739"
+    },
+    {
+      "id": "web-studio-05",
+      "source_media": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-sticker-1920.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-studio-05-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "f3e1e0cf5f41e20e17d74793768e84144399ea025de1b7042631c162499ec9ff"
+    },
+    {
+      "id": "web-studio-06",
+      "source_media": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-icon-set-1920.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-studio-06-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "372c674c4ebbee65b9f0b3ce7f554a3f792d5ad618bb8f7f9321b29ecafb8616"
+    },
+    {
+      "id": "web-studio-07",
+      "source_media": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-base-1920.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-studio-07-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "a7e733c80ab0f3c388d3a4bbdbc9865a5c29ac246f6ad4495d1e2514053b14d6"
+    },
+    {
+      "id": "web-studio-07",
+      "source_media": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-r1-1920.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-studio-07-02.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "fefc4879e5edeaf6c16ccc10becc0b1c26eb5508522b28dc6f82128a96bf748b"
+    },
+    {
+      "id": "web-studio-07",
+      "source_media": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-r2-1920.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-studio-07-03.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "d8a848cd48c6337b21b1f2d8d09af12b83ad81e7c8868a687f4ad2c7a240e3e7"
+    },
+    {
+      "id": "web-studio-07",
+      "source_media": "https://aws.seedreamv5.com/marketing/showcase-seedream-55-edit-r3-1920.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-studio-07-04.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "191bc95ca3aa21d91152719abed727d934e11c7aad0a07d12f8eff33d7f56c32"
+    },
+    {
+      "id": "web-froging-01",
+      "source_media": "https://cdn.froging.ai/frogingai/seedream-5-5/v1-20261111/headphones-cobalt-edit.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-froging-01-01.jpg",
+      "width": 440,
+      "height": 248,
+      "source_sha256": "d2cea368ed71613376d9c5f8c076c501cffbad4942e71c780e816ef952caf978"
+    },
+    {
+      "id": "web-froging-02",
+      "source_media": "https://cdn.froging.ai/frogingai/seedream-5-5/v1-20261111/citrus-splash.jpg",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-froging-02-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "4c4cd4c6fa2a96f7927ad4d68a459c7f2891c46898675b2b5cb973eadab327f3"
+    },
+    {
+      "id": "web-froging-03",
+      "source_media": "https://cdn.froging.ai/frogingai/seedream-5-5/v1-20261111/glass-jellyfish.png",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-froging-03-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "1e85268d841270801c2c2538d07a821f258edbb35502dc9698e1f55fbdca9b72"
+    },
+    {
+      "id": "web-orylia-01",
+      "source_media": "https://cdn.orylia.ai/research/seedream-5-5/c897c4bc-c281-42fb-957f-ec34c8cd5b98.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-orylia-01-01.jpg",
+      "width": 440,
+      "height": 293,
+      "source_sha256": "67a1b706702da77b9f3c364904cce834d2275ecd91ca92a92692f226bef2c5a9"
+    },
+    {
+      "id": "web-orylia-02",
+      "source_media": "https://cdn.orylia.ai/research/seedream-5-5/7338d995-e2b2-4d43-b6c8-e30dbbeefb40.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-orylia-02-01.jpg",
+      "width": 352,
+      "height": 440,
+      "source_sha256": "67ffebd9110cbf9240dd54d387ac7288af517b3f5299406155d597f976ac2218"
+    },
+    {
+      "id": "web-orylia-03",
+      "source_media": "https://cdn.orylia.ai/research/seedream-5-5/8938c3cc-4f90-4f35-b846-6a840db6acc2.webp",
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-orylia-03-01.jpg",
+      "width": 330,
+      "height": 440,
+      "source_sha256": "f71018213e39bdc627bdc9c1d873fd8f33c39a3d5756fbc5a701ab21d6babfd6"
+    }
+  ]
+}
