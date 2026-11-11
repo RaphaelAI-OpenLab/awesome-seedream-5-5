@@ -44,6 +44,98 @@ def prompt_lines(case, lang, inline=False):
     return lines
 
 
+
+def prompt_first_gallery(readme, lang):
+    """Add a prompt-first, fully inline gallery covering all main and web references."""
+    zh = lang == 'zh-CN'
+    pick = lambda cn, en: cn if zh else en
+    all_cases = [(c, False) for c in data('cases')]
+    all_cases += [(c, True) for c in json.loads((ROOT / 'external-references/cases.json').read_text())['cases']]
+    categories = data('categories')
+    has_prompt = lambda c, web: bool(c['prompt'].get('text')) and (web or c['prompt']['status'] == 'original')
+    ready = [(c, web) for c, web in all_cases if has_prompt(c, web)]
+    pending = [(c, web) for c, web in all_cases if not has_prompt(c, web)]
+    lines = [
+        '<a id="external-web-references"></a>',
+        '## ' + pick('提示词优先的完整案例库', 'Prompt-first case gallery'), '',
+        f'**{len(all_cases)} ' + pick('个案例', 'cases') + f' · {len(ready)} ' + pick('个附完整 Prompt', 'with complete prompts') + f' · {len(pending)} ' + pick('个待补 Prompt', 'missing prompts') + '**', '',
+        pick('所有已有的本地图片与短 GIF 预览，以及公开的完整 Prompt，均直接在此 README 展示。无需点击外站才能看图或复制 Prompt。链接仅作出处署名。外站来源自报的模型和结果尚未独立复现。',
+             'All available local image/short-GIF previews and published full prompts appear directly in this README. No off-site visit is required to view or copy them; links provide attribution. Website-reported model outputs are not independently reproduced.'), '',
+        pick('90 个正式来源案例与 35 个外站待重做案例分别计数；外站图片版权和模型归因仍待核验。仓库收录的是低清预览，不代表已经获得高清原始素材或转载授权。',
+             'The 90 main source cases and 35 website-remake references remain separately counted. Source rights and model attribution need review. Stored images are low-resolution previews, not licensed full-resolution originals.'), '',
+        pick('[外站素材与重做清单](external-references/README.zh-CN.md) · [重做流程](external-references/WORKFLOW.md)',
+             '[External references and remake queue](external-references/README.md) · [Remake workflow](external-references/WORKFLOW.md)'), '',
+        '<a id="categories"></a>', '## ' + pick('按分类浏览', 'Browse by category'), '',
+        '| ' + pick('分类 | 有 Prompt | 待补 Prompt | 合计 |', 'Category | With prompt | Missing prompt | Total |'),
+        '| --- | ---: | ---: | ---: |'
+    ]
+    for cat in categories:
+        good = sum(c['category'] == cat['id'] for c, web in ready)
+        bad = sum(c['category'] == cat['id'] for c, web in pending)
+        lines.append(f'| [{cat["label"][lang]}](#{cat["id"]}) | {good} | {bad} | {good + bad} |')
+    lines += ['', '<a id="cases"></a>', '## ' + pick('全部案例：有 Prompt 的排在前面', 'All cases: prompts first'), '']
+    for complete, group in ((True, ready), (False, pending)):
+        lines += [f'<a id="{"with-prompts" if complete else "without-prompts"}"></a>',
+                  '### ' + (pick('有公开完整 Prompt', 'With published full prompts') if complete else pick('暂无公开完整 Prompt', 'No published full prompts')) + f' ({len(group)})', '']
+        for cat in categories:
+            subset = [(c, web) for c, web in group if c['category'] == cat['id']]
+            if not subset:
+                continue
+            if complete:
+                lines.append(f'<a id="{cat["id"]}"></a>')
+            lines += [f'#### {cat["label"][lang]}', '']
+            for c, web in subset:
+                name = c['title'][lang]
+                page = ('external-references/' if web else '') + f'cases/{c["id"]}/{file_for(lang)}'
+                author = c['source_name'] if web else c['author']
+                label = (pick('外站 · 待重做', 'Website · Pending remake') if web else
+                         pick('官方来源', 'Official source') if c['source_type'] == 'official' else
+                         pick('社交媒体 · X', 'Social media · X') if c['source_url'].startswith(('https://x.com/', 'https://twitter.com/')) else
+                         pick('外站', 'Website'))
+                lines += [f'<a id="{c["id"]}"></a>', f'##### [{name}]({page})', '',
+                          f'**{label}** · {author} · {cat["label"][lang]} · [{pick("原始出处", "Source")}]({c["source_url"]}) · [{pick("仓库详情", "Case details")}]({page})', '']
+                if not web and c.get('animation_preview'):
+                    img = c['animation_preview']
+                    lines += [f'<img src="{html.escape(img, quote=True)}" alt="{html.escape(name + " GIF", quote=True)}" width="360" loading="lazy" />', '']
+                for idx, media in enumerate(c['media'], 1):
+                    if not media.get('preview'):
+                        continue
+                    img = ('external-references/' if web else '') + media['preview']
+                    alt = name + (' ' + str(idx) if len(c['media']) > 1 else '')
+                    lines += [f'<img src="{html.escape(img, quote=True)}" alt="{html.escape(alt, quote=True)}" width="360" loading="lazy" />', '']
+                if complete:
+                    prompt = c['prompt']['text']
+                    fence = chr(96) * 3
+                    while fence in prompt:
+                        fence += chr(96)
+                    lines += ['**' + pick('来源公开 Prompt（未独立复现）', 'Source-published prompt (not independently reproduced)') + '**',
+                              '', fence + 'text', prompt, fence, '']
+                    if web:
+                        for step in c.get('steps', []):
+                            sfence = chr(96) * 3
+                            while sfence in step['prompt']:
+                                sfence += chr(96)
+                            lines += ['**' + pick('编辑步骤', 'Edit step') + f' {step["round"]}: {step["title"]}**',
+                                      '', sfence + 'text', step['prompt'], sfence, '']
+                else:
+                    lines += ['**' + pick('完整原始 Prompt：未公开或尚未核实', 'Full original prompt: unpublished or unverified') + '**', '',
+                              pick('本地预览已展示在上方；不把来源链接冒充为原始 Prompt。',
+                                   'Local previews appear above; source links do not substitute for original prompts.'), '']
+                    if c.get('published_workflow_steps'):
+                        lines += [pick('作者公开的操作摘要（非完整 Prompt）：', 'Published action summaries (not full prompts):'),
+                                  '', chr(96) * 3 + 'text', '\n'.join(c['published_workflow_steps']), chr(96) * 3, '']
+                if c.get('caveat'):
+                    lines += ['> ' + (c['caveat'] if web else c['caveat'][lang]), '']
+    before = '案例未由本仓库独立复现。仓库只保存缩放后的单帧预览，完整图片、GIF 与视频链接至原始地址；第三方媒体及其预览的版权归原权利人。'
+    after = '案例尚未由本仓库独立复现。README 已直接展示仓库内保存的图片与短 GIF 预览，以及已收录的完整 Prompt；高清原图、长视频仍需从出处溯源，权利归原作者。'
+    readme = readme.replace(before, after)
+    before = 'Cases have not been independently reproduced here. Only reduced single-frame previews are bundled; full images, GIFs and videos are linked at their origins. Third-party media and previews retain their owners’ rights.'
+    after = 'Cases have not been independently reproduced. The README directly displays stored image and short-GIF previews plus all collected full prompts. Full-resolution images and long videos remain at source; rights belong to their owners.'
+    readme = readme.replace(before, after)
+    a = readme.index('<a id="external-web-references"></a>')
+    b = readme.index('<a id="recipes"></a>', a)
+    return readme[:a] + '\n'.join(lines) + '\n' + readme[b:]
+
 def render(lang):
     zh = lang == 'zh-CN'
     cases, categories, social, recipes = (data(n) for n in ['cases', 'categories', 'social', 'recipes'])
@@ -171,7 +263,7 @@ def render(lang):
                      'Follow the [contribution guide](CONTRIBUTING.md) with the original post, explicit version evidence and prompt status. Report rights issues through the [issue form](https://github.com/RaphaelAI-OpenLab/awesome-seedream-5-5/issues/new?template=report-problem.yml).'), '',
               choose('代码与原创文档适用 [MIT](LICENSE)；第三方提示词与媒体保留各自权利。README 组织方式参考 [GPT Image 2.6 仓库](https://github.com/RaphaelAI-OpenLab/awesome-gpt-image-2-6)，署名见 [ATTRIBUTION](docs/ATTRIBUTION.md)。',
                      'Code and original documentation use [MIT](LICENSE). Third-party prompts and media retain their own rights. Layout follows the [GPT Image 2.6 collection](https://github.com/RaphaelAI-OpenLab/awesome-gpt-image-2-6); see [attribution](docs/ATTRIBUTION.md).'), '']
-    pages[ROOT / file_for(lang)] = '\n'.join(lines)
+    pages[ROOT / file_for(lang)] = prompt_first_gallery('\n'.join(lines), lang)
     return pages
 
 

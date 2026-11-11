@@ -5,7 +5,7 @@
 ## 发布前
 
 1. 运行 `python3 scripts/build.py --check` 检查生成一致性。
-2. 运行 `python3 scripts/validate.py` 检查数据、路径与基础凭据扫描。
+2. 运行 `python3 scripts/validate.py` 检查数据、路径、双语 README Prompt 优先展示、本地图片与基础凭据扫描。
 3. 修改来源媒体时先运行 `python3 scripts/refresh_previews.py` 刷新预览，再运行 `python3 scripts/check_media.py` 更新解码记录。
 4. 检查待提交文件，排除缓存、凭据、临时下载文件与未授权媒体归档。
 
