@@ -6,7 +6,7 @@
 
 This separate collection contains third-party images and public prompts. These are not main collection cases or Raphael-generated outputs.
 
-**References: 35 · Local low-res previews: 28 · Recreated: 0**
+**References: 35 · Local low-res previews: 38 · Recreated: 0**
 
 **Rights:** Public URLs do not grant rehosting rights. Source previews are research references only. Remove or license them before public promotion. A new generation is not automatically free of likeness, trademark or other rights issues.
 
@@ -28,13 +28,13 @@ This separate collection contains third-party images and public prompts. These a
 
 ### [A sign with exact words](cases/web-vdobloom-01/README.md)
 
-Preview unavailable; original source link retained.
+<a href="cases/web-vdobloom-01/README.md"><img src="previews/web-vdobloom-01-01.jpg" alt="A sign with exact words" width="300" loading="lazy" /></a>
 
 **VdoBloom** · Pending · [Source](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
 ### [A poster with a title and a date](cases/web-vdobloom-02/README.md)
 
-Preview unavailable; original source link retained.
+<a href="cases/web-vdobloom-02/README.md"><img src="previews/web-vdobloom-02-01.jpg" alt="A poster with a title and a date" width="300" loading="lazy" /></a>
 
 **VdoBloom** · Pending · [Source](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
@@ -79,7 +79,7 @@ Preview unavailable; original source link retained.
 
 ### [A realistic portrait](cases/web-vdobloom-03/README.md)
 
-Preview unavailable; original source link retained.
+<a href="cases/web-vdobloom-03/README.md"><img src="previews/web-vdobloom-03-01.jpg" alt="A realistic portrait" width="300" loading="lazy" /></a>
 
 **VdoBloom** · Pending · [Source](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
@@ -118,25 +118,25 @@ Preview unavailable; original source link retained.
 
 ### [A product photo](cases/web-vdobloom-04/README.md)
 
-Preview unavailable; original source link retained.
+<a href="cases/web-vdobloom-04/README.md"><img src="previews/web-vdobloom-04-01.jpg" alt="A product photo" width="300" loading="lazy" /></a>
 
 **VdoBloom** · Pending · [Source](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
 ### [Food from above](cases/web-vdobloom-05/README.md)
 
-Preview unavailable; original source link retained.
+<a href="cases/web-vdobloom-05/README.md"><img src="previews/web-vdobloom-05-01.jpg" alt="Food from above" width="300" loading="lazy" /></a>
 
 **VdoBloom** · Pending · [Source](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
 ### [A wide cinematic shot](cases/web-vdobloom-07/README.md)
 
-Preview unavailable; original source link retained.
+<a href="cases/web-vdobloom-07/README.md"><img src="previews/web-vdobloom-07-01.jpg" alt="A wide cinematic shot" width="300" loading="lazy" /></a>
 
 **VdoBloom** · Pending · [Source](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
 ### [An exact number of things](cases/web-vdobloom-09/README.md)
 
-Preview unavailable; original source link retained.
+<a href="cases/web-vdobloom-09/README.md"><img src="previews/web-vdobloom-09-01.jpg" alt="An exact number of things" width="300" loading="lazy" /></a>
 
 **VdoBloom** · Pending · [Source](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
@@ -175,7 +175,7 @@ Preview unavailable; original source link retained.
 
 ### [A room](cases/web-vdobloom-06/README.md)
 
-Preview unavailable; original source link retained.
+<a href="cases/web-vdobloom-06/README.md"><img src="previews/web-vdobloom-06-01.jpg" alt="A room" width="300" loading="lazy" /></a>
 
 **VdoBloom** · Pending · [Source](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
@@ -184,13 +184,13 @@ Preview unavailable; original source link retained.
 
 ### [Anime style](cases/web-vdobloom-08/README.md)
 
-Preview unavailable; original source link retained.
+<a href="cases/web-vdobloom-08/README.md"><img src="previews/web-vdobloom-08-01.jpg" alt="Anime style" width="300" loading="lazy" /></a>
 
 **VdoBloom** · Pending · [Source](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
 ### [A children’s book illustration](cases/web-vdobloom-10/README.md)
 
-Preview unavailable; original source link retained.
+<a href="cases/web-vdobloom-10/README.md"><img src="previews/web-vdobloom-10-01.jpg" alt="A children’s book illustration" width="300" loading="lazy" /></a>
 
 **VdoBloom** · Pending · [Source](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 

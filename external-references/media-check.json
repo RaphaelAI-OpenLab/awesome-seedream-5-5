@@ -224,6 +224,86 @@
       "width": 330,
       "height": 440,
       "source_sha256": "f71018213e39bdc627bdc9c1d873fd8f33c39a3d5756fbc5a701ab21d6babfd6"
+    },
+    {
+      "preview": "previews/web-vdobloom-01-01.jpg",
+      "sha256": "c7fd90eef95ace0417b8e357c1d1219a1add4992947fd027722736cae0e4efd4",
+      "bytes": 92096,
+      "width": 440,
+      "height": 440,
+      "source_sha256": "30c480a366057e2519d52ce624bb5aa359337a18a0e657d85130a58173c88ef0"
+    },
+    {
+      "preview": "previews/web-vdobloom-02-01.jpg",
+      "sha256": "627fb92a949b9088374c8fd130d67addde7ad848b78b32dc751a8d29b157cedf",
+      "bytes": 23697,
+      "width": 293,
+      "height": 440,
+      "source_sha256": "f4482f19a678766dd64a906572dbc2e863f01afa763143cb5c6b11eae42f487a"
+    },
+    {
+      "preview": "previews/web-vdobloom-03-01.jpg",
+      "sha256": "2dc6f881dadb927ba0f67d26da0b454e02ae090c0b982434cbaf2d8841f64ea6",
+      "bytes": 27411,
+      "width": 440,
+      "height": 440,
+      "source_sha256": "81f0d7cb67fd2e4b7635f61ab6acd0811226241db1a55977421ce30082f7ca47"
+    },
+    {
+      "preview": "previews/web-vdobloom-04-01.jpg",
+      "sha256": "f3263d28d0cc213fd0be743701c6136cb8c8a743b91bd7c06b9a119464418fc6",
+      "bytes": 65729,
+      "width": 440,
+      "height": 440,
+      "source_sha256": "24c0a11fb42647c6a545e1bb1edf721f10c9797ff004a0dd9d974f315dadcc8c"
+    },
+    {
+      "preview": "previews/web-vdobloom-05-01.jpg",
+      "sha256": "9de778416ddfdb5f673539aba556fb89acf1cef6576dfb1016311c6d8d2f53f4",
+      "bytes": 66672,
+      "width": 440,
+      "height": 440,
+      "source_sha256": "bcbe0eec46e1566830da68d676d146b9d03eca1b55bdc5e02e1d44c29a36bdfe"
+    },
+    {
+      "preview": "previews/web-vdobloom-06-01.jpg",
+      "sha256": "94991cabe330fe3386cf889fbf3b75c5b1acbcfa99a68ab19f7b33151069c9a4",
+      "bytes": 63751,
+      "width": 440,
+      "height": 248,
+      "source_sha256": "9b37a8cd816f5745ef9f8a785d43c0b983811735b103aed29fd949d146ed3090"
+    },
+    {
+      "preview": "previews/web-vdobloom-07-01.jpg",
+      "sha256": "30fa32ae36f275984a1d260feaa9ad57576352f147c52b7f3834df584fde1ad7",
+      "bytes": 7251,
+      "width": 440,
+      "height": 189,
+      "source_sha256": "75b2003785f1eeac5e2ad7ab337a97003a084a0441d24a1eba70c0f2bea97d4a"
+    },
+    {
+      "preview": "previews/web-vdobloom-08-01.jpg",
+      "sha256": "cea34bbc9d6bd717ab9d3f252c4ca38425a7b319d9b2c29dc07d3270a2a8e754",
+      "bytes": 59532,
+      "width": 247,
+      "height": 440,
+      "source_sha256": "30184014c5a170abe584190c18c3a2665e8d76f11f4af68ae9b7caa2c5a7b694"
+    },
+    {
+      "preview": "previews/web-vdobloom-09-01.jpg",
+      "sha256": "585024492c32ef91758b20534b0b341ab7b904ecfc1e61cca26a4bb64749e8f2",
+      "bytes": 50104,
+      "width": 440,
+      "height": 440,
+      "source_sha256": "c35d666493c3fd69cdab21f36fa963f35d652eb8357ffd68a004955dc7c48891"
+    },
+    {
+      "preview": "previews/web-vdobloom-10-01.jpg",
+      "sha256": "6f03defb2a577656f2bb1582c7fb95f5d233b7df4fabe551b99d5c8ea9635b94",
+      "bytes": 41650,
+      "width": 440,
+      "height": 440,
+      "source_sha256": "7c8050ce8bba6749efaaec8f78b770369d8d2ca92a95f75f8c5a8a8dd1cd474a"
     }
   ]
 }

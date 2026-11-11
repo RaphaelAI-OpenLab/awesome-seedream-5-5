@@ -6,7 +6,7 @@
 
 这是独立的第三方图片和公开提示词整理区，不属于主 README 的正式案例，也不是 Raphael 自行生成的结果。
 
-**待重做参考: 35 · 本地低清预览: 28 · 已重做: 0**
+**待重做参考: 35 · 本地低清预览: 38 · 已重做: 0**
 
 **版权：** 公开网页不代表可授权转载。图片可能受版权保护，本文仅供素材核对；正式宣传前须取得许可或移除参考预览。重新生成也不自动消除对他人作品、商标、肖像等权利的影响。
 
@@ -28,13 +28,13 @@
 
 ### [霓虹面馆英文招牌](cases/web-vdobloom-01/README.zh-CN.md)
 
-预览未下载，原图仍可从来源打开。
+<a href="cases/web-vdobloom-01/README.zh-CN.md"><img src="previews/web-vdobloom-01-01.jpg" alt="霓虹面馆英文招牌" width="300" loading="lazy" /></a>
 
 **VdoBloom** · 待重做 · [来源](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
 ### [极简夏季音乐会海报](cases/web-vdobloom-02/README.zh-CN.md)
 
-预览未下载，原图仍可从来源打开。
+<a href="cases/web-vdobloom-02/README.zh-CN.md"><img src="previews/web-vdobloom-02-01.jpg" alt="极简夏季音乐会海报" width="300" loading="lazy" /></a>
 
 **VdoBloom** · 待重做 · [来源](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
@@ -79,7 +79,7 @@
 
 ### [港口黄雨衣渔夫人像](cases/web-vdobloom-03/README.zh-CN.md)
 
-预览未下载，原图仍可从来源打开。
+<a href="cases/web-vdobloom-03/README.zh-CN.md"><img src="previews/web-vdobloom-03-01.jpg" alt="港口黄雨衣渔夫人像" width="300" loading="lazy" /></a>
 
 **VdoBloom** · 待重做 · [来源](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
@@ -118,25 +118,25 @@
 
 ### [黑石玻璃香水瓶](cases/web-vdobloom-04/README.zh-CN.md)
 
-预览未下载，原图仍可从来源打开。
+<a href="cases/web-vdobloom-04/README.zh-CN.md"><img src="previews/web-vdobloom-04-01.jpg" alt="黑石玻璃香水瓶" width="300" loading="lazy" /></a>
 
 **VdoBloom** · 待重做 · [来源](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
 ### [俯拍拉面美食](cases/web-vdobloom-05/README.zh-CN.md)
 
-预览未下载，原图仍可从来源打开。
+<a href="cases/web-vdobloom-05/README.zh-CN.md"><img src="previews/web-vdobloom-05-01.jpg" alt="俯拍拉面美食" width="300" loading="lazy" /></a>
 
 **VdoBloom** · 待重做 · [来源](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
 ### [荒漠宇航员超宽幅电影剧照](cases/web-vdobloom-07/README.zh-CN.md)
 
-预览未下载，原图仍可从来源打开。
+<a href="cases/web-vdobloom-07/README.zh-CN.md"><img src="previews/web-vdobloom-07-01.jpg" alt="荒漠宇航员超宽幅电影剧照" width="300" loading="lazy" /></a>
 
 **VdoBloom** · 待重做 · [来源](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
 ### [指定数量柑橘](cases/web-vdobloom-09/README.zh-CN.md)
 
-预览未下载，原图仍可从来源打开。
+<a href="cases/web-vdobloom-09/README.zh-CN.md"><img src="previews/web-vdobloom-09-01.jpg" alt="指定数量柑橘" width="300" loading="lazy" /></a>
 
 **VdoBloom** · 待重做 · [来源](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
@@ -175,7 +175,7 @@
 
 ### [北欧客厅](cases/web-vdobloom-06/README.zh-CN.md)
 
-预览未下载，原图仍可从来源打开。
+<a href="cases/web-vdobloom-06/README.zh-CN.md"><img src="previews/web-vdobloom-06-01.jpg" alt="北欧客厅" width="300" loading="lazy" /></a>
 
 **VdoBloom** · 待重做 · [来源](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
@@ -184,13 +184,13 @@
 
 ### [雨中蓝发动漫女孩](cases/web-vdobloom-08/README.zh-CN.md)
 
-预览未下载，原图仍可从来源打开。
+<a href="cases/web-vdobloom-08/README.zh-CN.md"><img src="previews/web-vdobloom-08-01.jpg" alt="雨中蓝发动漫女孩" width="300" loading="lazy" /></a>
 
 **VdoBloom** · 待重做 · [来源](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 
 ### [树下读书的小狐狸水彩](cases/web-vdobloom-10/README.zh-CN.md)
 
-预览未下载，原图仍可从来源打开。
+<a href="cases/web-vdobloom-10/README.zh-CN.md"><img src="previews/web-vdobloom-10-01.jpg" alt="树下读书的小狐狸水彩" width="300" loading="lazy" /></a>
 
 **VdoBloom** · 待重做 · [来源](https://vdobloom.com/blog/seedream-5-5-prompt-guide/)
 

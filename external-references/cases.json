@@ -29,7 +29,10 @@
           "url": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-sign.jpg",
           "alt": "Seedream 5.5 result: A sign with exact words",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-vdobloom-01-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "30c480a366057e2519d52ce624bb5aa359337a18a0e657d85130a58173c88ef0",
+          "downloaded_from": "https://b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com/vdbloommarketplace/model_tests/2026-11/seedream-5-5/prompt-sign.jpg?response-cache-control=public%2C%20max-age%3D86400&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ed8e5163bed866b02f897fbba45755b5%2F20261111%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261111T030217Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=bbc85dba98a257d8ad187a4390d7fd40ca6fe42cb6d9796c416881589a16611c"
         }
       ],
       "caveat": "VdoBloom claims first-take sample images and shows prompts; independent model execution not audited.",
@@ -68,7 +71,10 @@
           "url": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-poster.jpg",
           "alt": "Seedream 5.5 result: A poster with a title and a date",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-vdobloom-02-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "f4482f19a678766dd64a906572dbc2e863f01afa763143cb5c6b11eae42f487a",
+          "downloaded_from": "https://b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com/vdbloommarketplace/model_tests/2026-11/seedream-5-5/prompt-poster.jpg?response-cache-control=public%2C%20max-age%3D86400&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ed8e5163bed866b02f897fbba45755b5%2F20261111%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261111T030217Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9d5c2cc555fbe4b3d29b943383c18735ceddcc130e22801d28181edfc98ec5a9"
         }
       ],
       "caveat": "VdoBloom claims first-take sample images and shows prompts; independent model execution not audited.",
@@ -107,7 +113,10 @@
           "url": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-portrait.jpg",
           "alt": "Seedream 5.5 result: A realistic portrait",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-vdobloom-03-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "81f0d7cb67fd2e4b7635f61ab6acd0811226241db1a55977421ce30082f7ca47",
+          "downloaded_from": "https://b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com/vdbloommarketplace/model_tests/2026-11/seedream-5-5/prompt-portrait.jpg?response-cache-control=public%2C%20max-age%3D86400&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ed8e5163bed866b02f897fbba45755b5%2F20261111%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261111T030218Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=91316c70c3378bb011288c75210540128c7617a3b2088da5760ea10817ad0cf8"
         }
       ],
       "caveat": "VdoBloom claims first-take sample images and shows prompts; independent model execution not audited.",
@@ -146,7 +155,10 @@
           "url": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-product.jpg",
           "alt": "Seedream 5.5 result: A product photo",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-vdobloom-04-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "24c0a11fb42647c6a545e1bb1edf721f10c9797ff004a0dd9d974f315dadcc8c",
+          "downloaded_from": "https://b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com/vdbloommarketplace/model_tests/2026-11/seedream-5-5/prompt-product.jpg?response-cache-control=public%2C%20max-age%3D86400&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ed8e5163bed866b02f897fbba45755b5%2F20261111%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261111T030219Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a1528ce729ececadad90584da798347b09cc72bb5d74b25347dbf9bb8c9b58b7"
         }
       ],
       "caveat": "VdoBloom claims first-take sample images and shows prompts; independent model execution not audited.",
@@ -185,7 +197,10 @@
           "url": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-food.jpg",
           "alt": "Seedream 5.5 result: Food from above",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-vdobloom-05-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "bcbe0eec46e1566830da68d676d146b9d03eca1b55bdc5e02e1d44c29a36bdfe",
+          "downloaded_from": "https://b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com/vdbloommarketplace/model_tests/2026-11/seedream-5-5/prompt-food.jpg?response-cache-control=public%2C%20max-age%3D86400&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ed8e5163bed866b02f897fbba45755b5%2F20261111%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261111T030000Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c28667d6c779b03bb9641a9041d13da38e8956f72cf2cb6f5861d63724cdbb1d"
         }
       ],
       "caveat": "VdoBloom claims first-take sample images and shows prompts; independent model execution not audited.",
@@ -224,7 +239,10 @@
           "url": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-interior.jpg",
           "alt": "Seedream 5.5 result: A room",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-vdobloom-06-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "9b37a8cd816f5745ef9f8a785d43c0b983811735b103aed29fd949d146ed3090",
+          "downloaded_from": "https://b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com/vdbloommarketplace/model_tests/2026-11/seedream-5-5/prompt-interior.jpg?response-cache-control=public%2C%20max-age%3D86400&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ed8e5163bed866b02f897fbba45755b5%2F20261111%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261111T030006Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0e4cbd28ee39f7baeca8a4fc839c88f83203999cbccafd80b82a785ef1d8012b"
         }
       ],
       "caveat": "VdoBloom claims first-take sample images and shows prompts; independent model execution not audited.",
@@ -263,7 +281,10 @@
           "url": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-cinematic.jpg",
           "alt": "Seedream 5.5 result: A wide cinematic shot",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-vdobloom-07-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "75b2003785f1eeac5e2ad7ab337a97003a084a0441d24a1eba70c0f2bea97d4a",
+          "downloaded_from": "https://b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com/vdbloommarketplace/model_tests/2026-11/seedream-5-5/prompt-cinematic.jpg?response-cache-control=public%2C%20max-age%3D86400&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ed8e5163bed866b02f897fbba45755b5%2F20261111%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261111T030014Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a6b73d3bacbb771579abfefbbfc5e43224b23a29d9d6452ecd1559147abc8ac2"
         }
       ],
       "caveat": "VdoBloom claims first-take sample images and shows prompts; independent model execution not audited.",
@@ -302,7 +323,10 @@
           "url": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-anime.jpg",
           "alt": "Seedream 5.5 result: Anime style",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-vdobloom-08-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "30184014c5a170abe584190c18c3a2665e8d76f11f4af68ae9b7caa2c5a7b694",
+          "downloaded_from": "https://b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com/vdbloommarketplace/model_tests/2026-11/seedream-5-5/prompt-anime.jpg?response-cache-control=public%2C%20max-age%3D86400&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ed8e5163bed866b02f897fbba45755b5%2F20261111%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261111T030021Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c6a28912bfa563c6c67d746c4696481bd7db20459c29bcbd507b426aec1c6837"
         }
       ],
       "caveat": "VdoBloom claims first-take sample images and shows prompts; independent model execution not audited.",
@@ -341,7 +365,10 @@
           "url": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-count.jpg",
           "alt": "Seedream 5.5 result: An exact number of things",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-vdobloom-09-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "c35d666493c3fd69cdab21f36fa963f35d652eb8357ffd68a004955dc7c48891",
+          "downloaded_from": "https://b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com/vdbloommarketplace/model_tests/2026-11/seedream-5-5/prompt-count.jpg?response-cache-control=public%2C%20max-age%3D86400&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ed8e5163bed866b02f897fbba45755b5%2F20261111%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261111T030029Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a9d441a482ec8ca4dc34e81e1b030b1993fd09223014964b8b46a64fb9c492b1"
         }
       ],
       "caveat": "VdoBloom claims first-take sample images and shows prompts; independent model execution not audited.",
@@ -380,7 +407,10 @@
           "url": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-illustration.jpg",
           "alt": "Seedream 5.5 result: A children's book illustration",
           "role": "output-1",
-          "preview": null
+          "preview": "previews/web-vdobloom-10-01.jpg",
+          "preview_transform": "source-web-image-resized-to-440px-low-quality-jpeg",
+          "source_sha256": "7c8050ce8bba6749efaaec8f78b770369d8d2ca92a95f75f8c5a8a8dd1cd474a",
+          "downloaded_from": "https://b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com/vdbloommarketplace/model_tests/2026-11/seedream-5-5/prompt-illustration.jpg?response-cache-control=public%2C%20max-age%3D86400&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ed8e5163bed866b02f897fbba45755b5%2F20261111%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261111T030037Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9109a3b1a070eb5d5daee46d5c789a818e65605d87f9c2c5b6e4ca89be02ff1c"
         }
       ],
       "caveat": "VdoBloom claims first-take sample images and shows prompts; independent model execution not audited.",

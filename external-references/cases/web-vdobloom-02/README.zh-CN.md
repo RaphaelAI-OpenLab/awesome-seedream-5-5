@@ -9,7 +9,7 @@
 
 ## 原始参考图 1
 
-原图未保存到仓库，本项只有外部媒体入口。
+![极简夏季音乐会海报 1](../../previews/web-vdobloom-02-01.jpg)
 
 [打开来源图片](https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-poster.jpg)
 

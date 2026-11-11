@@ -1,70 +1,100 @@
 {
   "checked_at": "2026-11-11",
   "cases": 35,
-  "saved_previews": 28,
-  "source_only": 10,
+  "saved_previews": 38,
+  "source_only": 0,
   "source_rights": "all unverified — not cleared for public image reuse",
   "download_mode": "compressed 440px reference thumbnail only",
   "entries": [
     {
       "id": "web-vdobloom-01",
       "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-sign.jpg",
-      "status": "source-only",
-      "error": "Unexpected media redirect: b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com"
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-01-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "30c480a366057e2519d52ce624bb5aa359337a18a0e657d85130a58173c88ef0"
     },
     {
       "id": "web-vdobloom-02",
       "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-poster.jpg",
-      "status": "source-only",
-      "error": "Unexpected media redirect: b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com"
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-02-01.jpg",
+      "width": 293,
+      "height": 440,
+      "source_sha256": "f4482f19a678766dd64a906572dbc2e863f01afa763143cb5c6b11eae42f487a"
     },
     {
       "id": "web-vdobloom-03",
       "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-portrait.jpg",
-      "status": "source-only",
-      "error": "Unexpected media redirect: b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com"
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-03-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "81f0d7cb67fd2e4b7635f61ab6acd0811226241db1a55977421ce30082f7ca47"
     },
     {
       "id": "web-vdobloom-04",
       "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-product.jpg",
-      "status": "source-only",
-      "error": "Unexpected media redirect: b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com"
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-04-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "24c0a11fb42647c6a545e1bb1edf721f10c9797ff004a0dd9d974f315dadcc8c"
     },
     {
       "id": "web-vdobloom-05",
       "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-food.jpg",
-      "status": "source-only",
-      "error": "Unexpected media redirect: b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com"
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-05-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "bcbe0eec46e1566830da68d676d146b9d03eca1b55bdc5e02e1d44c29a36bdfe"
     },
     {
       "id": "web-vdobloom-06",
       "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-interior.jpg",
-      "status": "source-only",
-      "error": "Unexpected media redirect: b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com"
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-06-01.jpg",
+      "width": 440,
+      "height": 248,
+      "source_sha256": "9b37a8cd816f5745ef9f8a785d43c0b983811735b103aed29fd949d146ed3090"
     },
     {
       "id": "web-vdobloom-07",
       "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-cinematic.jpg",
-      "status": "source-only",
-      "error": "Unexpected media redirect: b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com"
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-07-01.jpg",
+      "width": 440,
+      "height": 189,
+      "source_sha256": "75b2003785f1eeac5e2ad7ab337a97003a084a0441d24a1eba70c0f2bea97d4a"
     },
     {
       "id": "web-vdobloom-08",
       "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-anime.jpg",
-      "status": "source-only",
-      "error": "Unexpected media redirect: b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com"
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-08-01.jpg",
+      "width": 247,
+      "height": 440,
+      "source_sha256": "30184014c5a170abe584190c18c3a2665e8d76f11f4af68ae9b7caa2c5a7b694"
     },
     {
       "id": "web-vdobloom-09",
       "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-count.jpg",
-      "status": "source-only",
-      "error": "Unexpected media redirect: b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com"
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-09-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "c35d666493c3fd69cdab21f36fa963f35d652eb8357ffd68a004955dc7c48891"
     },
     {
       "id": "web-vdobloom-10",
       "source_media": "https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-illustration.jpg",
-      "status": "source-only",
-      "error": "Unexpected media redirect: b248fec39c2f07f295b84ad4366c7e24.r2.cloudflarestorage.com"
+      "status": "saved-low-res-preview",
+      "preview": "previews/web-vdobloom-10-01.jpg",
+      "width": 440,
+      "height": 440,
+      "source_sha256": "7c8050ce8bba6749efaaec8f78b770369d8d2ca92a95f75f8c5a8a8dd1cd474a"
     },
     {
       "id": "web-made-01",

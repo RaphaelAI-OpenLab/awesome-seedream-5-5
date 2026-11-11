@@ -9,7 +9,7 @@
 
 ## Original reference 1
 
-Not stored locally; only the source-media URL is available.
+![An exact number of things 1](../../previews/web-vdobloom-09-01.jpg)
 
 [Open source image](https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-count.jpg)
 

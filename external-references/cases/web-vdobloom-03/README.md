@@ -9,7 +9,7 @@
 
 ## Original reference 1
 
-Not stored locally; only the source-media URL is available.
+![A realistic portrait 1](../../previews/web-vdobloom-03-01.jpg)
 
 [Open source image](https://vdobloom.com/api/uploads/r2/file?key=model_tests/2026-11/seedream-5-5/prompt-portrait.jpg)
 
