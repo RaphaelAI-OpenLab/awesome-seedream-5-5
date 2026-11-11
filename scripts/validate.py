@@ -81,6 +81,25 @@ def validate():
         require(len(raw) == item['bytes'] and len(raw) < 512 * 1024, '预览文件大小不正确')
         if item['preview'].endswith('.webp'):
             require(raw[:4] == b'RIFF' and raw[8:12] == b'WEBP', 'WebP 文件签名不正确')
+    external_cases = json.loads((ROOT / 'external-references/cases.json').read_text())['cases']
+    for filename in ['README.md', 'README.zh-CN.md']:
+        readme = (ROOT / filename).read_text()
+        first = readme.index('<a id="with-prompts"></a>')
+        second = readme.index('<a id="without-prompts"></a>')
+        require(first < second, 'README 未按完整 Prompt 优先排序')
+        for c, is_external in [(c, False) for c in cases] + [(c, True) for c in external_cases]:
+            marker = f'<a id="{c["id"]}"></a>'
+            require(readme.count(marker) == 1, f'{filename}: 案例缺失或重复：{c["id"]}')
+            has_prompt = bool(c['prompt'].get('text')) and (is_external or c['prompt']['status'] == 'original')
+            pos = readme.index(marker)
+            require((first < pos < second) if has_prompt else (pos > second),
+                    f'{filename}: Prompt 排序错误：{c["id"]}')
+            if has_prompt:
+                require(c['prompt']['text'] in readme, f'{filename}: 未展示 Prompt：{c["id"]}')
+            for m in c['media']:
+                if m.get('preview'):
+                    src = ('external-references/' if is_external else '') + m['preview']
+                    require(f'src="{src}"' in readme, f'{filename}: 未展示本地图片：{src}')
     for path, content in outputs().items():
         require(path.exists() and path.read_text() == content, f'生成结果过期: {path.relative_to(ROOT)}')
     expected_pages = {ROOT / 'cases' / c['id'] / filename for c in cases for filename in ['README.md', 'README.zh-CN.md']}

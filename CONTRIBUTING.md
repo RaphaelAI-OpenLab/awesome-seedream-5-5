@@ -30,6 +30,14 @@ python3 scripts/build_external_refs.py --check
 
 不要手改生成的 README 和案例页。官方展示不等于独立复现；技术解码通过不等于人工视觉验收。
 
+## README 展示与素材入库标准
+
+- 主 README 合并展示正式来源案例与独立外站待重做案例，**全局先有完整 Prompt、后无 Prompt**，分类仅在两个层级内组织。
+- 每个已收录案例的图片、抽帧、短 GIF 预览必须先存入仓库并在中英文主 README 内联。原图 URL 可以留作署名，不得代替本地预览；未经授权不要镜像完整高清原图。
+- 有公开完整 Prompt 时保存进对应 JSON 的 prompt.text 并紧跟图片全文展示为可复制代码块；逐轮编辑使用 steps[].prompt。没有完整 Prompt 时如实标注，禁止编造或从图像反推冒充原文。
+- 逐例区分官方来源、社交媒体（X）和外站；保留作者及来源链接。外站待重做资料不能被描述成 Raphael 已独立生成。
+- 改动 content/ 或 external-references/cases.json 后必须运行生成器与校验器；不要只手改生成的 README。
+
 ## 提示词状态
 
 | 状态 | 含义 |
