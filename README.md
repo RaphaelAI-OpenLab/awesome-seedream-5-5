@@ -34,6 +34,8 @@ Seedream 5.5 was announced on **2026-11-09**. See the [official model page](http
 
 Edit rounds are grouped as one case. Duplicate social videos do not increase the case count. Source-page demo descriptions are not treated as complete generation prompts.
 
+Every collected complete prompt appears directly below its image in a copyable text block, preserving the original language and line breaks. Cases without complete prompt text are labeled.
+
 <a id="external-web-references"></a>
 ## Web-wide external references · Remake queue
 
@@ -61,692 +63,1358 @@ A separate queue collects source-attributed web images and prompts. They are not
 <a id="multi-turn-editing"></a>
 ### Multi-turn & targeted editing
 
+<a id="official-portrait-editing"></a>
 #### [Portrait editing](cases/official-portrait-editing/README.md)
 
 <a href="cases/official-portrait-editing/README.md"><img src="assets/previews/official-portrait-editing.jpg" alt="Portrait editing" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-portrait-editing/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-portrait-editing/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-still-life-editing"></a>
 #### [Still-life editing](cases/official-still-life-editing/README.md)
 
 <a href="cases/official-still-life-editing/README.md"><img src="assets/previews/official-still-life-editing.jpg" alt="Still-life editing" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-still-life-editing/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-still-life-editing/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-ink-painting-editing"></a>
 #### [Ink-painting editing](cases/official-ink-painting-editing/README.md)
 
 <a href="cases/official-ink-painting-editing/README.md"><img src="assets/previews/official-ink-painting-editing.jpg" alt="Ink-painting editing" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-ink-painting-editing/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-ink-painting-editing/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="quantslant-note-edit"></a>
 #### [Paper-note edit](cases/quantslant-note-edit/README.md)
 
 <a href="cases/quantslant-note-edit/README.md"><img src="assets/previews/quantslant-note-edit.jpg" alt="Paper-note edit" width="420" loading="lazy" /></a>
 
-Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-note-edit/README.md)
+Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Case details](cases/quantslant-note-edit/README.md)
 
+**Original prompt**
+
+```text
+Add a small white paper note on the table with handwritten Polish text “Do zobaczenia jutro!”. Keep everything else unchanged.
+```
+
+[Prompt source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/)
+
+<a id="socialx-llm-diagram-edits"></a>
 #### [LLM diagram after 30 edits](cases/socialx-llm-diagram-edits/README.md)
 
 <a href="cases/socialx-llm-diagram-edits/README.md"><img src="assets/previews/socialx-llm-diagram-edits-01.jpg" alt="LLM diagram after 30 edits" width="420" loading="lazy" /></a>
 
-Creator-reported · dongxi_nlp · [Source](https://x.com/dongxi_nlp/status/2120031669893939524) · [Details & prompt status](cases/socialx-llm-diagram-edits/README.md)
+Creator-reported · dongxi_nlp · [Source](https://x.com/dongxi_nlp/status/2120031669893939524) · [Case details](cases/socialx-llm-diagram-edits/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/dongxi_nlp/status/2120031669893939524)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. An LLM explanation diagram that the creator says was revised thirty times.
 
+<a id="social05-ddjcxx-desk-edit"></a>
 #### [Five-round desk editing comparison](cases/social05-ddjcxx-desk-edit/README.md)
 
 <a href="cases/social05-ddjcxx-desk-edit/README.md"><img src="assets/previews/social05-ddjcxx-desk-edit-01.jpg" alt="Five-round desk editing comparison" width="420" loading="lazy" /></a>
 
-Creator-reported · DDJCXX · [Source](https://x.com/DDJCXX/status/2119766551436116358) · [Details & prompt status](cases/social05-ddjcxx-desk-edit/README.md)
+Creator-reported · DDJCXX · [Source](https://x.com/DDJCXX/status/2119766551436116358) · [Case details](cases/social05-ddjcxx-desk-edit/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/DDJCXX/status/2119766551436116358)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result.
 
+<a id="social05-xiaohu-thirty-round-gif"></a>
 #### [Thirty-round character and text edit GIF](cases/social05-xiaohu-thirty-round-gif/README.md)
 
 <a href="cases/social05-xiaohu-thirty-round-gif/README.md"><img src="assets/animations/social05-xiaohu-thirty-round-gif.gif" alt="Thirty-round character and text edit GIF" width="420" loading="lazy" /></a>
 
-Creator-reported · xiaohu · [Source](https://x.com/xiaohu/status/2119774478788141417) · [Details & prompt status](cases/social05-xiaohu-thirty-round-gif/README.md)
+Creator-reported · xiaohu · [Source](https://x.com/xiaohu/status/2119774478788141417) · [Case details](cases/social05-xiaohu-thirty-round-gif/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/xiaohu/status/2119774478788141417)
 
 > Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video.
 
+<a id="social05-sjonkerr-street-weather-edit"></a>
 #### [Six-step street weather edit to video](cases/social05-sjonkerr-street-weather-edit/README.md)
 
 <a href="cases/social05-sjonkerr-street-weather-edit/README.md"><img src="assets/animations/social05-sjonkerr-street-weather-edit.gif" alt="Six-step street weather edit to video" width="420" loading="lazy" /></a>
 
-Creator-reported · Sjonkerr · [Source](https://x.com/Sjonkerr/status/2119904922703438173) · [Details & prompt status](cases/social05-sjonkerr-street-weather-edit/README.md)
+Creator-reported · Sjonkerr · [Source](https://x.com/Sjonkerr/status/2119904922703438173) · [Case details](cases/social05-sjonkerr-street-weather-edit/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/Sjonkerr/status/2119904922703438173)
 
 > Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video.
 
+<a id="social05-opener-morphic-character"></a>
 #### [Morphic character expression editing](cases/social05-opener-morphic-character/README.md)
 
 <a href="cases/social05-opener-morphic-character/README.md"><img src="assets/animations/social05-opener-morphic-character.gif" alt="Morphic character expression editing" width="420" loading="lazy" /></a>
 
-Creator-reported · opener_ai · [Source](https://x.com/opener_ai/status/2119942433412931907) · [Details & prompt status](cases/social05-opener-morphic-character/README.md)
+Creator-reported · opener_ai · [Source](https://x.com/opener_ai/status/2119942433412931907) · [Case details](cases/social05-opener-morphic-character/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/opener_ai/status/2119942433412931907)
 
 > Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video.
 
+<a id="social05-vortex-fifteen-round-compare"></a>
 #### [Five-model 15-round image-edit comparison](cases/social05-vortex-fifteen-round-compare/README.md)
 
 <a href="cases/social05-vortex-fifteen-round-compare/README.md"><img src="assets/animations/social05-vortex-fifteen-round-compare.gif" alt="Five-model 15-round image-edit comparison" width="420" loading="lazy" /></a>
 
-Creator-reported · VORTEX_Promos · [Source](https://x.com/VORTEX_Promos/status/2119928374235701452) · [Details & prompt status](cases/social05-vortex-fifteen-round-compare/README.md)
+Creator-reported · VORTEX_Promos · [Source](https://x.com/VORTEX_Promos/status/2119928374235701452) · [Case details](cases/social05-vortex-fifteen-round-compare/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/VORTEX_Promos/status/2119928374235701452)
 
 > Still and short GIF extracted from the original X post video, not a native model GIF. The source link has the full video. This comparison or mixed workflow contains outputs by other models.
 
+<a id="social06-dheepan-three-local-edits"></a>
 #### [Flowers, curtains and light: three separate local edits](cases/social06-dheepan-three-local-edits/README.md)
 
 <a href="cases/social06-dheepan-three-local-edits/README.md"><img src="assets/previews/social06-dheepan-three-local-edits-01.jpg" alt="Flowers, curtains and light: three separate local edits" width="420" loading="lazy" /></a>
 
-Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119803435461599638) · [Details & prompt status](cases/social06-dheepan-three-local-edits/README.md)
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119803435461599638) · [Case details](cases/social06-dheepan-three-local-edits/README.md)
+
+**Original prompt**
+
+Published action summaries (not complete execution prompts):
+
+```text
+Change the flowers
+Change the curtains
+Change the lighting
+```
+
+[Prompt source](https://x.com/Dheepanratnam/status/2119803435461599638)
 
 > The first image is the base, followed by separate flower, curtain and lighting edits. The author explicitly describes separate edits, not a three-round chain. Published workflow wording: “Change the flowers / Change the curtains / Change the lighting”. These are action summaries, not a verified complete execution prompt.
 
+<a id="social07-alisa-watch-sequence"></a>
 #### [Watch display +1 second through 100 edits](cases/social07-alisa-watch-sequence/README.md)
 
 <a href="cases/social07-alisa-watch-sequence/README.md"><img src="assets/animations/social07-alisa-watch-sequence.gif" alt="Watch display +1 second through 100 edits" width="420" loading="lazy" /></a>
 
-Creator-reported · alisaqqt · [Source](https://x.com/alisaqqt/status/2119805701300408634) · [Details & prompt status](cases/social07-alisa-watch-sequence/README.md)
+Creator-reported · alisaqqt · [Source](https://x.com/alisaqqt/status/2119805701300408634) · [Case details](cases/social07-alisa-watch-sequence/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/alisaqqt/status/2119805701300408634)
 
 > Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced. Multi-model or external workflow: not every frame is Seedream-only.
 
+<a id="social07-dheepan-blazer-stage"></a>
 #### [Blazer, background and lighting edits](cases/social07-dheepan-blazer-stage/README.md)
 
 <a href="cases/social07-dheepan-blazer-stage/README.md"><img src="assets/animations/social07-dheepan-blazer-stage.gif" alt="Blazer, background and lighting edits" width="420" loading="lazy" /></a>
 
-Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2120102574569451995) · [Details & prompt status](cases/social07-dheepan-blazer-stage/README.md)
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2120102574569451995) · [Case details](cases/social07-dheepan-blazer-stage/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/Dheepanratnam/status/2120102574569451995)
 
 > Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced.
 
+<a id="social07-aiwithsaif-menu-sequence"></a>
 #### [Tabletop still life built across local edits](cases/social07-aiwithsaif-menu-sequence/README.md)
 
 <a href="cases/social07-aiwithsaif-menu-sequence/README.md"><img src="assets/animations/social07-aiwithsaif-menu-sequence.gif" alt="Tabletop still life built across local edits" width="420" loading="lazy" /></a>
 
-Creator-reported · AiwithSaif7 · [Source](https://x.com/AiwithSaif7/status/2119807382452908472) · [Details & prompt status](cases/social07-aiwithsaif-menu-sequence/README.md)
+Creator-reported · AiwithSaif7 · [Source](https://x.com/AiwithSaif7/status/2119807382452908472) · [Case details](cases/social07-aiwithsaif-menu-sequence/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/AiwithSaif7/status/2119807382452908472)
 
 > Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced.
 
+<a id="social07-dotey-review-video"></a>
 #### [Seedream 5.5 editing demo and creator review](cases/social07-dotey-review-video/README.md)
 
 <a href="cases/social07-dotey-review-video/README.md"><img src="assets/animations/social07-dotey-review-video.gif" alt="Seedream 5.5 editing demo and creator review" width="420" loading="lazy" /></a>
 
-Creator-reported · dotey · [Source](https://x.com/dotey/status/2119823986603299193) · [Details & prompt status](cases/social07-dotey-review-video/README.md)
+Creator-reported · dotey · [Source](https://x.com/dotey/status/2119823986603299193) · [Case details](cases/social07-dotey-review-video/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/dotey/status/2119823986603299193)
 
 > Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced. Multi-model or external workflow: not every frame is Seedream-only.
 
 <a id="rgba-assets"></a>
 ### Transparent assets
 
+<a id="official-flamingo-layer"></a>
 #### [Flamingo layer](cases/official-flamingo-layer/README.md)
 
 <a href="cases/official-flamingo-layer/README.md"><img src="assets/previews/official-flamingo-layer.jpg" alt="Flamingo layer" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-flamingo-layer/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-flamingo-layer/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-owl-macro"></a>
 #### [Owl macro](cases/official-owl-macro/README.md)
 
 <a href="cases/official-owl-macro/README.md"><img src="assets/previews/official-owl-macro.jpg" alt="Owl macro" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-owl-macro/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-owl-macro/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="quantslant-raincoat-character"></a>
 #### [Raincoat character](cases/quantslant-raincoat-character/README.md)
 
 <a href="cases/quantslant-raincoat-character/README.md"><img src="assets/previews/quantslant-raincoat-character.jpg" alt="Raincoat character" width="420" loading="lazy" /></a>
 
-Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-raincoat-character/README.md)
+Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Case details](cases/quantslant-raincoat-character/README.md)
+
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/)
 
 > The author reports a milky umbrella; partial transparency remains a limitation.
 
+<a id="social-dheepan-amber-perfume"></a>
 #### [Amber perfume cutout](cases/social-dheepan-amber-perfume/README.md)
 
 <a href="cases/social-dheepan-amber-perfume/README.md"><img src="assets/previews/social-dheepan-amber-perfume.jpg" alt="Amber perfume cutout" width="420" loading="lazy" /></a>
 
-Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Details & prompt status](cases/social-dheepan-amber-perfume/README.md)
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Case details](cases/social-dheepan-amber-perfume/README.md)
 
-> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. JPEG does not verify the source alpha channel.
+**Original prompt**
 
+```text
+Studio product asset of a translucent amber glass perfume bottle with a brushed-gold cap, floating centred in the frame. Fully transparent background with native alpha channel, clean accurate edges around the glass, cap and reflections, no background colour bleed, no white halo, no cut-off shadows. Preserve realistic glass refraction and internal liquid. Commercial e-commerce asset, front-facing composition, high detail, suitable for direct placement onto any design background.
+```
+
+[Prompt source](https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-9.md)
+
+> Source-attributed social image and prompt from a public curator; not independently regenerated here. Reduced preview, not original export. JPEG does not verify the source alpha channel.
+
+<a id="social-dheepan-streetwear-cutout"></a>
 #### [Streetwear cutout](cases/social-dheepan-streetwear-cutout/README.md)
 
 <a href="cases/social-dheepan-streetwear-cutout/README.md"><img src="assets/previews/social-dheepan-streetwear-cutout.jpg" alt="Streetwear cutout" width="420" loading="lazy" /></a>
 
-Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Details & prompt status](cases/social-dheepan-streetwear-cutout/README.md)
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Case details](cases/social-dheepan-streetwear-cutout/README.md)
 
-> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. JPEG does not verify the source alpha channel.
+**Original prompt**
 
+```text
+Full-body cut-out asset of a stylish young Black male streetwear model wearing an oversized charcoal puffer jacket, baggy denim jeans and white trainers, walking casually. Fully transparent background with native alpha channel, precise edges around curly hair, jacket fibres, shoelaces and fingers, no background remnants, no halo, no clipped limbs. Natural stance, studio-quality lighting from front left, suitable for compositing into a fashion campaign.
+```
+
+[Prompt source](https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-10.md)
+
+> Source-attributed social image and prompt from a public curator; not independently regenerated here. Reduced preview, not original export. JPEG does not verify the source alpha channel.
+
+<a id="socialx-transparent-character"></a>
 #### [Transparent character in two finishes](cases/socialx-transparent-character/README.md)
 
 <a href="cases/socialx-transparent-character/README.md"><img src="assets/previews/socialx-transparent-character-01.jpg" alt="Transparent character in two finishes" width="420" loading="lazy" /></a>
 
-Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119979776651710778) · [Details & prompt status](cases/socialx-transparent-character/README.md)
+Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119979776651710778) · [Case details](cases/socialx-transparent-character/README.md)
+
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://x.com/KakiponzuX/status/2119979776651710778)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha. An illustration/photoreal transparency test. The creator reports some outputs lost alpha; the shown checkerboard is a composite preview. The author shared the transparency prompt suffix, not the entire base identity prompt.
 
+<a id="socialx-glass-jellyfish-lamp"></a>
 #### [Glass jellyfish lamp](cases/socialx-glass-jellyfish-lamp/README.md)
 
 <a href="cases/socialx-glass-jellyfish-lamp/README.md"><img src="assets/previews/socialx-glass-jellyfish-lamp-01.jpg" alt="Glass jellyfish lamp" width="420" loading="lazy" /></a>
 
-Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/status/2119920477535719739) · [Details & prompt status](cases/socialx-glass-jellyfish-lamp/README.md)
+Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/status/2119920477535719739) · [Case details](cases/socialx-glass-jellyfish-lamp/README.md)
+
+**Original prompt**
+
+```text
+Transparent background, PNG with alpha channel. A hand-blown glass jellyfish lamp floating in mid-air: semi-transparent frosted bell with visible internal air bubbles, long trailing tentacles made of thin glass threads that fade from fully opaque at the top to almost invisible at the tips, a faint warm amber glow inside the bell, soft caustic refractions, wisps of translucent steam drifting from the tentacle ends. No background, no ground shadow, clean anti-aliased edges, studio product lighting.
+```
+
+[Prompt source](https://x.com/ahmetmertugrul/status/2119920477535719739)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha. A glass-lamp transparency example with a prompt at source. The displayed image alone does not verify an alpha channel.
 
+<a id="social-dheepan-frosted-acrylic"></a>
 #### [Frosted acrylic sheet](cases/social-dheepan-frosted-acrylic/README.md)
 
 <a href="cases/social-dheepan-frosted-acrylic/README.md"><img src="assets/previews/social-dheepan-frosted-acrylic-01.jpg" alt="Frosted acrylic sheet" width="420" loading="lazy" /></a>
 
-Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Details & prompt status](cases/social-dheepan-frosted-acrylic/README.md)
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Case details](cases/social-dheepan-frosted-acrylic/README.md)
+
+**Original prompt**
+
+```text
+PNG asset of a hand holding a clear acrylic sheet with a subtle frosted edge, photographed straight on. The acrylic sheet must have realistic partial transparency, visible refraction and a soft translucent gradient, while the hand and fingers remain fully opaque. Native alpha channel, clean anti-aliased edges, no background, no colour contamination, no harsh cut-out edges. Premium UI/design asset, centred composition.
+```
+
+[Prompt source](https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-11.md)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha.
 
+<a id="social-dheepan-chrome-ribbon"></a>
 #### [Chrome ribbon logo](cases/social-dheepan-chrome-ribbon/README.md)
 
 <a href="cases/social-dheepan-chrome-ribbon/README.md"><img src="assets/previews/social-dheepan-chrome-ribbon-01.jpg" alt="Chrome ribbon logo" width="420" loading="lazy" /></a>
 
-Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Details & prompt status](cases/social-dheepan-chrome-ribbon/README.md)
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119775195573481859) · [Case details](cases/social-dheepan-chrome-ribbon/README.md)
+
+**Original prompt**
+
+```text
+Transparent PNG asset of a floating 3D chrome ribbon logo shape, elegantly twisted like liquid metal, with realistic specular highlights and soft internal reflections. Fully transparent background, native alpha channel, crisp edges around every curve, no background glow, no rectangular bounding artefacts, no drop shadow baked in. Minimal premium brand asset, centred, suitable for overlaying on video or web design.
+```
+
+[Prompt source](https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-asset-12.md)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. JPEG preview does not verify original alpha.
 
+<a id="social05-ddjcxx-transparency"></a>
 #### [Transparent steam, spokes and sheer fabric test](cases/social05-ddjcxx-transparency/README.md)
 
 <a href="cases/social05-ddjcxx-transparency/README.md"><img src="assets/previews/social05-ddjcxx-transparency-01.jpg" alt="Transparent steam, spokes and sheer fabric test" width="420" loading="lazy" /></a>
 
-Creator-reported · DDJCXX · [Source](https://x.com/DDJCXX/status/2119783562115494336) · [Details & prompt status](cases/social05-ddjcxx-transparency/README.md)
+Creator-reported · DDJCXX · [Source](https://x.com/DDJCXX/status/2119783562115494336) · [Case details](cases/social05-ddjcxx-transparency/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/DDJCXX/status/2119783562115494336)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. JPEG/GIF preview does not establish native source alpha transparency.
 
+<a id="social09-oxen-layer-separation"></a>
 #### [Oxen demonstration of Seedream 5.5 Layers decomposition](cases/social09-oxen-layer-separation/README.md)
 
 <a href="cases/social09-oxen-layer-separation/README.md"><img src="assets/previews/social09-oxen-layer-separation.webp" alt="Oxen demonstration of Seedream 5.5 Layers decomposition" width="420" loading="lazy" /></a>
 
-Creator-reported · Greg Schoeninger · [Source](https://x.com/gregschoeninger/status/2119898943819849963) · [Details & prompt status](cases/social09-oxen-layer-separation/README.md)
+Creator-reported · Greg Schoeninger · [Source](https://x.com/gregschoeninger/status/2119898943819849963) · [Case details](cases/social09-oxen-layer-separation/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/gregschoeninger/status/2119898943819849963)
 
 > Oxen demonstration of Seedream 5.5 Layers decomposition
 
 <a id="portraits"></a>
 ### Portraits
 
+<a id="official-beauty-editing"></a>
 #### [Beauty editing](cases/official-beauty-editing/README.md)
 
 <a href="cases/official-beauty-editing/README.md"><img src="assets/previews/official-beauty-editing.jpg" alt="Beauty editing" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-beauty-editing/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-beauty-editing/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="quantslant-freckled-portrait"></a>
 #### [Freckled portrait](cases/quantslant-freckled-portrait/README.md)
 
 <a href="cases/quantslant-freckled-portrait/README.md"><img src="assets/previews/quantslant-freckled-portrait.jpg" alt="Freckled portrait" width="420" loading="lazy" /></a>
 
-Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-freckled-portrait/README.md)
+Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Case details](cases/quantslant-freckled-portrait/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/)
+
+<a id="social05-yuzi-eye-detail"></a>
 #### [Macro eye detail](cases/social05-yuzi-eye-detail/README.md)
 
 <a href="cases/social05-yuzi-eye-detail/README.md"><img src="assets/previews/social05-yuzi-eye-detail-01.jpg" alt="Macro eye detail" width="420" loading="lazy" /></a>
 
-Creator-reported · Yuziyyaa · [Source](https://x.com/Yuziyyaa/status/2119799602580955179) · [Details & prompt status](cases/social05-yuzi-eye-detail/README.md)
+Creator-reported · Yuziyyaa · [Source](https://x.com/Yuziyyaa/status/2119799602580955179) · [Case details](cases/social05-yuzi-eye-detail/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/Yuziyyaa/status/2119799602580955179)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
 
+<a id="social06-kakiponzu-painterly-version-test"></a>
 #### [Painterly character: 5.0 Pro versus 5.5](cases/social06-kakiponzu-painterly-version-test/README.md)
 
 <a href="cases/social06-kakiponzu-painterly-version-test/README.md"><img src="assets/previews/social06-kakiponzu-painterly-version-test-01.jpg" alt="Painterly character: 5.0 Pro versus 5.5" width="420" loading="lazy" /></a>
 
-Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119772951889224178) · [Details & prompt status](cases/social06-kakiponzu-painterly-version-test/README.md)
+Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119772951889224178) · [Case details](cases/social06-kakiponzu-painterly-version-test/README.md)
+
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://x.com/KakiponzuX/status/2119772951889224178)
 
 > The collage labels the top row 5.0 Pro and the bottom row 5.5. Both use a painterly style suffix. The creator reports three draws per version; neither the complete input nor an independent reproduction is available here.
 
+<a id="social06-kakiponzu-style-tail-control"></a>
 #### [Removing the style suffix: illustration versus photoreal](cases/social06-kakiponzu-style-tail-control/README.md)
 
 <a href="cases/social06-kakiponzu-style-tail-control/README.md"><img src="assets/previews/social06-kakiponzu-style-tail-control-01.jpg" alt="Removing the style suffix: illustration versus photoreal" width="420" loading="lazy" /></a>
 
-Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119799171397906607) · [Details & prompt status](cases/social06-kakiponzu-style-tail-control/README.md)
+Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119799171397906607) · [Case details](cases/social06-kakiponzu-style-tail-control/README.md)
+
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://x.com/KakiponzuX/status/2119799171397906607)
 
 > The creator reports removing only a painterly style suffix: left includes it and right omits it. This is a same-model style control, not a model ranking. The complete base prompt was not retrieved.
 
+<a id="social07-kakiponzu-photoreal-finisher"></a>
 #### [Photoreal portrait finisher and two edits](cases/social07-kakiponzu-photoreal-finisher/README.md)
 
 <a href="cases/social07-kakiponzu-photoreal-finisher/README.md"><img src="assets/previews/social07-kakiponzu-photoreal-finisher-01.jpg" alt="Photoreal portrait finisher and two edits" width="420" loading="lazy" /></a>
 
-Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119801752656531616) · [Details & prompt status](cases/social07-kakiponzu-photoreal-finisher/README.md)
+Creator-reported · KakiponzuX · [Source](https://x.com/KakiponzuX/status/2119801752656531616) · [Case details](cases/social07-kakiponzu-photoreal-finisher/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/KakiponzuX/status/2119801752656531616)
 
 > Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced. Multi-model or external workflow: not every frame is Seedream-only.
 
+<a id="social08-kishen-cinematic-portraits"></a>
 #### [Cinematic portrait designs: winter study and summer garden](cases/social08-kishen-cinematic-portraits/README.md)
 
 <a href="cases/social08-kishen-cinematic-portraits/README.md"><img src="assets/previews/social08-kishen-film-portraits-01.webp" alt="Cinematic portrait designs: winter study and summer garden" width="420" loading="lazy" /></a>
 
-Creator-reported · KishenArt · [Source](https://x.com/KishenArt/status/2120046624919769591) · [Details & prompt status](cases/social08-kishen-cinematic-portraits/README.md)
+Creator-reported · KishenArt · [Source](https://x.com/KishenArt/status/2120046624919769591) · [Case details](cases/social08-kishen-cinematic-portraits/README.md)
+
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://x.com/KishenArt/status/2120047577957867826)
 
 > The creator posted long P1/P2 prompts in two replies, also 2120047937673916717; their full texts have not been independently checked and are not transcribed. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed.
 
+<a id="social08-aigmudq-fashion-samples"></a>
 #### [Portrait trials: blue hair, red dress, white T-shirt](cases/social08-aigmudq-fashion-samples/README.md)
 
 <a href="cases/social08-aigmudq-fashion-samples/README.md"><img src="assets/previews/social08-aigmudq-tests-01.webp" alt="Portrait trials: blue hair, red dress, white T-shirt" width="420" loading="lazy" /></a>
 
-Creator-reported · 降温计划 · [Source](https://x.com/aigmudq/status/2119771043707621711) · [Details & prompt status](cases/social08-aigmudq-fashion-samples/README.md)
+Creator-reported · 降温计划 · [Source](https://x.com/aigmudq/status/2119771043707621711) · [Case details](cases/social08-aigmudq-fashion-samples/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/aigmudq/status/2119771043707621711)
 
 > The author explicitly calls this a Seedream 5.5 test. Only three images from the single post are included; an image from a second post is excluded. Prompt unpublished. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed.
 
 <a id="photography"></a>
 ### Photography & documentary
 
+<a id="official-bar-cat"></a>
 #### [Bar cat](cases/official-bar-cat/README.md)
 
 <a href="cases/official-bar-cat/README.md"><img src="assets/previews/official-bar-cat.jpg" alt="Bar cat" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-bar-cat/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-bar-cat/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-purple-yellow-street"></a>
 #### [Purple-yellow street](cases/official-purple-yellow-street/README.md)
 
 <a href="cases/official-purple-yellow-street/README.md"><img src="assets/previews/official-purple-yellow-street.jpg" alt="Purple-yellow street" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-purple-yellow-street/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-purple-yellow-street/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-windy-street"></a>
 #### [Windy street](cases/official-windy-street/README.md)
 
 <a href="cases/official-windy-street/README.md"><img src="assets/previews/official-windy-street.jpg" alt="Windy street" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-windy-street/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-windy-street/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-bistro"></a>
 #### [Bistro](cases/official-bistro/README.md)
 
 <a href="cases/official-bistro/README.md"><img src="assets/previews/official-bistro.jpg" alt="Bistro" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-bistro/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-bistro/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-rain-reflections"></a>
 #### [Rain reflections](cases/official-rain-reflections/README.md)
 
 <a href="cases/official-rain-reflections/README.md"><img src="assets/previews/official-rain-reflections.jpg" alt="Rain reflections" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-rain-reflections/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-rain-reflections/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="quantslant-railway-station"></a>
 #### [Railway station at dusk](cases/quantslant-railway-station/README.md)
 
 <a href="cases/quantslant-railway-station/README.md"><img src="assets/previews/quantslant-railway-station.jpg" alt="Railway station at dusk" width="420" loading="lazy" /></a>
 
-Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-railway-station/README.md)
+Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Case details](cases/quantslant-railway-station/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/)
+
+<a id="social-genel-japanese-deli"></a>
 #### [Japanese deli model comparison](cases/social-genel-japanese-deli/README.md)
 
 <a href="cases/social-genel-japanese-deli/README.md"><img src="assets/previews/social-genel-japanese-deli.jpg" alt="Japanese deli model comparison" width="420" loading="lazy" /></a>
 
-Creator-reported · genel_ai · [Source](https://x.com/genel_ai/status/2119786434567827504) · [Details & prompt status](cases/social-genel-japanese-deli/README.md)
+Creator-reported · genel_ai · [Source](https://x.com/genel_ai/status/2119786434567827504) · [Case details](cases/social-genel-japanese-deli/README.md)
 
-> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. This is a 3-model collage, with Seedream 5.5 at left.
+**Original prompt**
 
+```text
+実写の写真。自然なスナップ写真。35mmレンズ、目の高さから撮る。夕方、日本の商店街にある家族経営の小さな惣菜屋の店先。60代前半の日本人男性の店主が、ガラスのショーケースの奥に立っている。ケースの中には、金属のトレイに並んだコロッケ・唐揚げ・とんかつ。店主は白い調理着に紺のエプロン。トングでコロッケを1つ持ち上げ、カメラから少し外れた所を見て、力の抜けた半分の笑顔。光は2種類が混ざる。店の中は青白い蛍光灯、通り側からはオレンジ色の夕日。肌は本物の質感で、しわは控えめに自然に。テカりなし、白飛びなし。ショーケースのガラスに映り込みがある。揚げ物の衣はザクザクした質感が見え、湯気が少し立つ。背景は少しぼかす。営業中の店らしい、日常の雑然さを残す。文字・ロゴは入れない。
+```
+
+[Prompt source](https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/genel-japanese-deli-comparison.md)
+
+> Source-attributed social image and prompt from a public curator; not independently regenerated here. Reduced preview, not original export. This is a 3-model collage, with Seedream 5.5 at left.
+
+<a id="socialx-skin-texture-test"></a>
 #### [Skin texture study](cases/socialx-skin-texture-test/README.md)
 
 <a href="cases/socialx-skin-texture-test/README.md"><img src="assets/previews/socialx-skin-texture-test-01.jpg" alt="Skin texture study" width="420" loading="lazy" /></a>
 
-Creator-reported · oden_ai_ai · [Source](https://x.com/oden_ai_ai/status/2120015332530393282) · [Details & prompt status](cases/socialx-skin-texture-test/README.md)
+Creator-reported · oden_ai_ai · [Source](https://x.com/oden_ai_ai/status/2120015332530393282) · [Case details](cases/socialx-skin-texture-test/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/oden_ai_ai/status/2120015332530393282)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator-shared image testing the model's skin rendering.
 
+<a id="socialx-four-model-portrait"></a>
 #### [Four-model portrait study](cases/socialx-four-model-portrait/README.md)
 
 <a href="cases/socialx-four-model-portrait/README.md"><img src="assets/previews/socialx-four-model-portrait-01.jpg" alt="Four-model portrait study" width="420" loading="lazy" /></a>
 
-Creator-reported · 94vanAI · [Source](https://x.com/94vanAI/status/2119938579078238370) · [Details & prompt status](cases/socialx-four-model-portrait/README.md)
+Creator-reported · 94vanAI · [Source](https://x.com/94vanAI/status/2119938579078238370) · [Case details](cases/socialx-four-model-portrait/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/94vanAI/status/2119938579078238370)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The creator identifies image one as Seedream, followed by ChatGPT, Gemini and Grok, and discusses limitations as well as strengths.
 
+<a id="socialx-same-prompt-texture"></a>
 #### [Same-prompt texture comparison](cases/socialx-same-prompt-texture/README.md)
 
 <a href="cases/socialx-same-prompt-texture/README.md"><img src="assets/previews/socialx-same-prompt-texture-01.jpg" alt="Same-prompt texture comparison" width="420" loading="lazy" /></a>
 
-Creator-reported · PowerUpInvest · [Source](https://x.com/PowerUpInvest/status/2119971057650262386) · [Details & prompt status](cases/socialx-same-prompt-texture/README.md)
+Creator-reported · PowerUpInvest · [Source](https://x.com/PowerUpInvest/status/2119971057650262386) · [Case details](cases/socialx-same-prompt-texture/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/PowerUpInvest/status/2119971057650262386)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator comparison with GPT Image 2.6 focused on image texture; model labels remain as stated in the post.
 
+<a id="socialx-three-model-output"></a>
 #### [Three-model output comparison](cases/socialx-three-model-output/README.md)
 
 <a href="cases/socialx-three-model-output/README.md"><img src="assets/previews/socialx-three-model-output-01.jpg" alt="Three-model output comparison" width="420" loading="lazy" /></a>
 
-Creator-reported · Yuziyyaa · [Source](https://x.com/Yuziyyaa/status/2119991511433814093) · [Details & prompt status](cases/socialx-three-model-output/README.md)
+Creator-reported · Yuziyyaa · [Source](https://x.com/Yuziyyaa/status/2119991511433814093) · [Case details](cases/socialx-three-model-output/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/Yuziyyaa/status/2119991511433814093)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The author lists GPT Images 2.6, Seedream 5.0 Pro and Seedream 5.5 in image order.
 
+<a id="socialx-window-light-portrait"></a>
 #### [Window-light film portrait](cases/socialx-window-light-portrait/README.md)
 
 <a href="cases/socialx-window-light-portrait/README.md"><img src="assets/previews/socialx-window-light-portrait-01.jpg" alt="Window-light film portrait" width="420" loading="lazy" /></a>
 
-Creator-reported · nima2qisi2 · [Source](https://x.com/nima2qisi2/status/2119983938383106432) · [Details & prompt status](cases/socialx-window-light-portrait/README.md)
+Creator-reported · nima2qisi2 · [Source](https://x.com/nima2qisi2/status/2119983938383106432) · [Case details](cases/socialx-window-light-portrait/README.md)
+
+**Original prompt**
+
+```text
+俯拍人像特写局部，东方/西方 女性 22岁 人物特写半侧脸侧颜看向镜头的自然姿态，窗户光柔肤，富士Astia胶片低婉古调低饱和度，光圈F2.8、快门1/120s、ISO100、点测光脸部，磨砂肌理，暗角聚焦，私房氛围感，细节丰富，无文字、无水印、无Logo、无边框
+```
+
+[Prompt source](https://x.com/nima2qisi2/status/2119983938383106432)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A portrait series with window lighting and film styling; the source includes the creator's prompt.
 
+<a id="socialx-vintage-cinema"></a>
 #### [Vintage cinematic stills](cases/socialx-vintage-cinema/README.md)
 
 <a href="cases/socialx-vintage-cinema/README.md"><img src="assets/previews/socialx-vintage-cinema-01.jpg" alt="Vintage cinematic stills" width="420" loading="lazy" /></a>
 
-Creator-reported · ChrisGwinnLA · [Source](https://x.com/ChrisGwinnLA/status/2119979699464286506) · [Details & prompt status](cases/socialx-vintage-cinema/README.md)
+Creator-reported · ChrisGwinnLA · [Source](https://x.com/ChrisGwinnLA/status/2119979699464286506) · [Case details](cases/socialx-vintage-cinema/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/ChrisGwinnLA/status/2119979699464286506)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. Four vintage-style images in one creator post, counted as one collection example.
 
+<a id="socialx-h3-frame-comparison"></a>
 #### [Seedream and MiniMax H3 still-frame comparison](cases/socialx-h3-frame-comparison/README.md)
 
 <a href="cases/socialx-h3-frame-comparison/README.md"><img src="assets/previews/socialx-h3-frame-comparison-01.jpg" alt="Seedream and MiniMax H3 still-frame comparison" width="420" loading="lazy" /></a>
 
-Creator-reported · JSFILMZ0412 · [Source](https://x.com/JSFILMZ0412/status/2119889824274640957) · [Details & prompt status](cases/socialx-h3-frame-comparison/README.md)
+Creator-reported · JSFILMZ0412 · [Source](https://x.com/JSFILMZ0412/status/2119889824274640957) · [Case details](cases/socialx-h3-frame-comparison/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/JSFILMZ0412/status/2119889824274640957)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. Two 2K still images without post-processing, as reported by the creator. The separate H3 video is not counted as a Seedream result.
 
+<a id="socialx-elf-material-study"></a>
 #### [Elf portrait material study](cases/socialx-elf-material-study/README.md)
 
 <a href="cases/socialx-elf-material-study/README.md"><img src="assets/previews/socialx-elf-material-study-01.jpg" alt="Elf portrait material study" width="420" loading="lazy" /></a>
 
-Creator-reported · nanyuan0412 · [Source](https://x.com/nanyuan0412/status/2119879195115332042) · [Details & prompt status](cases/socialx-elf-material-study/README.md)
+Creator-reported · nanyuan0412 · [Source](https://x.com/nanyuan0412/status/2119879195115332042) · [Case details](cases/socialx-elf-material-study/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/nanyuan0412/status/2119879195115332042)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A single-image study of skin, fabric and light; the creator explicitly says extended editing was not tested.
 
+<a id="socialx-winter-portrait-comparison"></a>
 #### [Winter portrait comparison](cases/socialx-winter-portrait-comparison/README.md)
 
 <a href="cases/socialx-winter-portrait-comparison/README.md"><img src="assets/previews/socialx-winter-portrait-comparison-01.jpg" alt="Winter portrait comparison" width="420" loading="lazy" /></a>
 
-Creator-reported · 0kncn · [Source](https://x.com/0kncn/status/2119878902344823069) · [Details & prompt status](cases/socialx-winter-portrait-comparison/README.md)
+Creator-reported · 0kncn · [Source](https://x.com/0kncn/status/2119878902344823069) · [Case details](cases/socialx-winter-portrait-comparison/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/0kncn/status/2119878902344823069)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The creator compares the same portrait brief across GPT Image 2.5, Seedream 5.5 and Nano Banana 2.1.
 
+<a id="socialx-photoreal-image-set"></a>
 #### [Photoreal image set](cases/socialx-photoreal-image-set/README.md)
 
 <a href="cases/socialx-photoreal-image-set/README.md"><img src="assets/previews/socialx-photoreal-image-set-01.jpg" alt="Photoreal image set" width="420" loading="lazy" /></a>
 
-Creator-reported · uixmax · [Source](https://x.com/uixmax/status/2119894564073054374) · [Details & prompt status](cases/socialx-photoreal-image-set/README.md)
+Creator-reported · uixmax · [Source](https://x.com/uixmax/status/2119894564073054374) · [Case details](cases/socialx-photoreal-image-set/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/uixmax/status/2119894564073054374)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator's four-image photorealism test, kept together as one source example.
 
+<a id="socialx-three-model-portrait-order"></a>
 #### [Portrait model-order comparison](cases/socialx-three-model-portrait-order/README.md)
 
 <a href="cases/socialx-three-model-portrait-order/README.md"><img src="assets/previews/socialx-three-model-portrait-order-01.jpg" alt="Portrait model-order comparison" width="420" loading="lazy" /></a>
 
-Creator-reported · foretyyt · [Source](https://x.com/foretyyt/status/2119894502588452933) · [Details & prompt status](cases/socialx-three-model-portrait-order/README.md)
+Creator-reported · foretyyt · [Source](https://x.com/foretyyt/status/2119894502588452933) · [Case details](cases/socialx-three-model-portrait-order/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/foretyyt/status/2119894502588452933)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. The author labels image one Seedream 5.5, image two Image 2.5 and image three Nano Banana 2.1.
 
+<a id="socialx-gpt26-same-brief"></a>
 #### [Shared brief with GPT Image 2.6](cases/socialx-gpt26-same-brief/README.md)
 
 <a href="cases/socialx-gpt26-same-brief/README.md"><img src="assets/previews/socialx-gpt26-same-brief-01.jpg" alt="Shared brief with GPT Image 2.6" width="420" loading="lazy" /></a>
 
-Creator-reported · arito_si · [Source](https://x.com/arito_si/status/2119890337699364975) · [Details & prompt status](cases/socialx-gpt26-same-brief/README.md)
+Creator-reported · arito_si · [Source](https://x.com/arito_si/status/2119890337699364975) · [Case details](cases/socialx-gpt26-same-brief/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/arito_si/status/2119890337699364975)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. A creator reports testing Seedream 5.5 and GPT Image 2.6 with the same prompt set.
 
+<a id="socialx-blue-hour-fisherman"></a>
 #### [Fisherman at blue hour](cases/socialx-blue-hour-fisherman/README.md)
 
 <a href="cases/socialx-blue-hour-fisherman/README.md"><img src="assets/previews/socialx-blue-hour-fisherman-01.jpg" alt="Fisherman at blue hour" width="420" loading="lazy" /></a>
 
-Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/status/2119922071916757233) · [Details & prompt status](cases/socialx-blue-hour-fisherman/README.md)
+Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/status/2119922071916757233) · [Case details](cases/socialx-blue-hour-fisherman/README.md)
+
+**Original prompt**
+
+```text
+Candid documentary photo, 85mm lens, f/2. An elderly fisherman in his seventies mending a tangled orange net on a wooden dock at blue hour. Mixed lighting: cold blue ambient sky from the left, a single warm sodium-vapor streetlamp from behind creating a rim light on his white stubble and the loose net fibers. Visible pores, deep wrinkles, sun spots, slightly chapped lips, a small healed scar on his knuckle. Wet wooden planks with puddles reflecting the lamp. Light drizzle visible only in the backlight. No beauty retouching, natural film grain, slight underexposure in the shadows.
+```
+
+[Prompt source](https://x.com/ahmetmertugrul/status/2119922071916757233)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A documentary-style portrait combining cool ambient light with a warm lamp; the original prompt is at source.
 
+<a id="social05-dheepan-four-photographs"></a>
 #### [Four photo studies: cafe, rainy street and breakfast](cases/social05-dheepan-four-photographs/README.md)
 
 <a href="cases/social05-dheepan-four-photographs/README.md"><img src="assets/previews/social05-dheepan-four-photographs-01.jpg" alt="Four photo studies: cafe, rainy street and breakfast" width="420" loading="lazy" /></a>
 
-Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119762628658462746) · [Details & prompt status](cases/social05-dheepan-four-photographs/README.md)
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119762628658462746) · [Case details](cases/social05-dheepan-four-photographs/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/Dheepanratnam/status/2119762628658462746)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
 
+<a id="social05-drsadek-cafe-photography"></a>
 #### [Street dining and cafe table portrait](cases/social05-drsadek-cafe-photography/README.md)
 
 <a href="cases/social05-drsadek-cafe-photography/README.md"><img src="assets/previews/social05-drsadek-cafe-photography-01.jpg" alt="Street dining and cafe table portrait" width="420" loading="lazy" /></a>
 
-Creator-reported · DrSadek_ · [Source](https://x.com/DrSadek_/status/2119788316153507886) · [Details & prompt status](cases/social05-drsadek-cafe-photography/README.md)
+Creator-reported · DrSadek_ · [Source](https://x.com/DrSadek_/status/2119788316153507886) · [Case details](cases/social05-drsadek-cafe-photography/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/DrSadek_/status/2119788316153507886)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
 
+<a id="social05-kevin-watchmaker-forest"></a>
 #### [Watchmaker, forest floor and fizzy water](cases/social05-kevin-watchmaker-forest/README.md)
 
 <a href="cases/social05-kevin-watchmaker-forest/README.md"><img src="assets/animations/social05-kevin-watchmaker-forest.gif" alt="Watchmaker, forest floor and fizzy water" width="420" loading="lazy" /></a>
 
-Creator-reported · kevinchin35 · [Source](https://x.com/kevinchin35/status/2119747692427628777) · [Details & prompt status](cases/social05-kevin-watchmaker-forest/README.md)
+Creator-reported · kevinchin35 · [Source](https://x.com/kevinchin35/status/2119747692427628777) · [Case details](cases/social05-kevin-watchmaker-forest/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/kevinchin35/status/2119747692427628777)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
 
+<a id="social05-ozansihay-four-comparisons"></a>
 #### [Four-scene image model comparison](cases/social05-ozansihay-four-comparisons/README.md)
 
 <a href="cases/social05-ozansihay-four-comparisons/README.md"><img src="assets/previews/social05-ozansihay-four-comparisons-01.jpg" alt="Four-scene image model comparison" width="420" loading="lazy" /></a>
 
-Creator-reported · ozansihay · [Source](https://x.com/ozansihay/status/2119803963738357803) · [Details & prompt status](cases/social05-ozansihay-four-comparisons/README.md)
+Creator-reported · ozansihay · [Source](https://x.com/ozansihay/status/2119803963738357803) · [Case details](cases/social05-ozansihay-four-comparisons/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/ozansihay/status/2119803963738357803)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. A curator catalog provides image provenance; refer to the author's original post.
 
+<a id="social07-lyra-release-test"></a>
 #### [Seedream 5.5 release-day creator image test](cases/social07-lyra-release-test/README.md)
 
 <a href="cases/social07-lyra-release-test/README.md"><img src="assets/previews/social07-lyra-release-test-01.jpg" alt="Seedream 5.5 release-day creator image test" width="420" loading="lazy" /></a>
 
-Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/2119716289581334969) · [Details & prompt status](cases/social07-lyra-release-test/README.md)
+Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/2119716289581334969) · [Case details](cases/social07-lyra-release-test/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/lyraxana/status/2119716289581334969)
 
 > Source X images saved as compressed previews; video is represented by a brief derived GIF, not model-native animation. Creator assertions are not independently reproduced.
 
+<a id="social08-drsadek-portrait-outpainting"></a>
 #### [9:16 outpainting: original, Seedream, GPT Image](cases/social08-drsadek-portrait-outpainting/README.md)
 
 <a href="cases/social08-drsadek-portrait-outpainting/README.md"><img src="assets/previews/social08-drsadek-resize-compare-01.webp" alt="9:16 outpainting: original, Seedream, GPT Image" width="420" loading="lazy" /></a>
 
-Creator-reported · DrSadek · [Source](https://x.com/DrSadek_/status/2119809560038772808) · [Details & prompt status](cases/social08-drsadek-portrait-outpainting/README.md)
+Creator-reported · DrSadek · [Source](https://x.com/DrSadek_/status/2119809560038772808) · [Case details](cases/social08-drsadek-portrait-outpainting/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/DrSadek_/status/2119809560038772808)
 
 > The source labels image one the original, image two Seedream 5.5, and image three GPT Image 2.6. These are not three Seedream results. Full prompt unpublished. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed.
 
 <a id="interiors"></a>
 ### Interiors & space
 
+<a id="official-interior-editing"></a>
 #### [Room editing](cases/official-interior-editing/README.md)
 
 <a href="cases/official-interior-editing/README.md"><img src="assets/previews/official-interior-editing.jpg" alt="Room editing" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-interior-editing/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-interior-editing/README.md)
+
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
 
 <a id="typography"></a>
 ### Text & typography
 
+<a id="official-yarn-lettering"></a>
 #### [Transparent material lettering](cases/official-yarn-lettering/README.md)
 
 <a href="cases/official-yarn-lettering/README.md"><img src="assets/previews/official-yarn-lettering.jpg" alt="Transparent material lettering" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-yarn-lettering/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-yarn-lettering/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-shakespeare-newspaper"></a>
 #### [Shakespeare newspaper](cases/official-shakespeare-newspaper/README.md)
 
 <a href="cases/official-shakespeare-newspaper/README.md"><img src="assets/previews/official-shakespeare-newspaper.jpg" alt="Shakespeare newspaper" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5) · [Details & prompt status](cases/official-shakespeare-newspaper/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5) · [Case details](cases/official-shakespeare-newspaper/README.md)
 
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5)
+
+<a id="quantslant-polish-menu"></a>
 #### [Polish menu](cases/quantslant-polish-menu/README.md)
 
 <a href="cases/quantslant-polish-menu/README.md"><img src="assets/previews/quantslant-polish-menu.jpg" alt="Polish menu" width="420" loading="lazy" /></a>
 
-Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-polish-menu/README.md)
+Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Case details](cases/quantslant-polish-menu/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/)
+
+<a id="quantslant-polish-pangram"></a>
 #### [Polish pangram](cases/quantslant-polish-pangram/README.md)
 
 <a href="cases/quantslant-polish-pangram/README.md"><img src="assets/previews/quantslant-polish-pangram.jpg" alt="Polish pangram" width="420" loading="lazy" /></a>
 
-Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-polish-pangram/README.md)
+Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Case details](cases/quantslant-polish-pangram/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/)
+
+<a id="quantslant-newspaper-errors"></a>
 #### [Newspaper text-error sample](cases/quantslant-newspaper-errors/README.md)
 
 <a href="cases/quantslant-newspaper-errors/README.md"><img src="assets/previews/quantslant-newspaper-errors.jpg" alt="Newspaper text-error sample" width="420" loading="lazy" /></a>
 
-Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-newspaper-errors/README.md)
+Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Case details](cases/quantslant-newspaper-errors/README.md)
+
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/)
 
 > The author reports text errors; retained as a limitation example.
 
+<a id="social-dheepan-magazine-cover"></a>
 #### [Magazine cover typography](cases/social-dheepan-magazine-cover/README.md)
 
 <a href="cases/social-dheepan-magazine-cover/README.md"><img src="assets/previews/social-dheepan-magazine-cover.jpg" alt="Magazine cover typography" width="420" loading="lazy" /></a>
 
-Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Details & prompt status](cases/social-dheepan-magazine-cover/README.md)
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Case details](cases/social-dheepan-magazine-cover/README.md)
 
-> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export.
+**Original prompt**
 
+```text
+Premium magazine cover design titled “THE FUTURE OF CREATIVE TOOLS”, with a realistic portrait of a stylish creative director in the lower third. Dense small cover lines around the edges: “Issue 24”, “AI Workflows”, “Design Systems”, “Cinematic Image Making”, “Inside the Studio”, “November 2026”. Clean modern serif masthead, precise kerning, crisp letterforms, editorial grid, muted cream background, subtle paper texture, high-end print-design layout. All text must be spelled exactly as written, no distorted letters, no duplicated words, no gibberish.
+```
+
+[Prompt source](https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-5.md)
+
+> Source-attributed social image and prompt from a public curator; not independently regenerated here. Reduced preview, not original export.
+
+<a id="social-dheepan-rainy-storefront"></a>
 #### [Rainy multilingual storefront](cases/social-dheepan-rainy-storefront/README.md)
 
 <a href="cases/social-dheepan-rainy-storefront/README.md"><img src="assets/previews/social-dheepan-rainy-storefront.jpg" alt="Rainy multilingual storefront" width="420" loading="lazy" /></a>
 
-Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Details & prompt status](cases/social-dheepan-rainy-storefront/README.md)
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Case details](cases/social-dheepan-rainy-storefront/README.md)
 
-> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export.
+**Original prompt**
 
+```text
+Photorealistic street scene in a multicultural London neighbourhood at night. A shopfront sign reads exactly “OPEN LATE” in English, with a smaller hanging sign reading exactly “欢迎光临” in simplified Chinese and another small poster reading exactly “Bienvenue” in French. Realistic neon glow, legible typography, correct character shapes, no duplicated letters, no warped glyphs, natural perspective on the signs, cinematic night photography, wet pavement reflections, no extra invented text.
+```
+
+[Prompt source](https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-6.md)
+
+> Source-attributed social image and prompt from a public curator; not independently regenerated here. Reduced preview, not original export.
+
+<a id="social-dheepan-skincare-label"></a>
 #### [Skincare packaging text](cases/social-dheepan-skincare-label/README.md)
 
 <a href="cases/social-dheepan-skincare-label/README.md"><img src="assets/previews/social-dheepan-skincare-label.jpg" alt="Skincare packaging text" width="420" loading="lazy" /></a>
 
-Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Details & prompt status](cases/social-dheepan-skincare-label/README.md)
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Case details](cases/social-dheepan-skincare-label/README.md)
 
-> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export.
+**Original prompt**
 
+```text
+Minimalist skincare packaging mock-up on a pale stone pedestal. A frosted-glass serum bottle has a clean label reading exactly “LUMEN — BARRIER REPAIR SERUM”, with smaller text beneath: “30 ml / 1.0 fl oz”. Elegant sans-serif typography, perfectly straight label alignment, crisp small print, realistic glass refraction, soft studio lighting, subtle shadow, premium cosmetic advertising photography, no misspelled words, no extra branding, no watermark.
+```
+
+[Prompt source](https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-7.md)
+
+> Source-attributed social image and prompt from a public curator; not independently regenerated here. Reduced preview, not original export.
+
+<a id="social-dheepan-night-signal-poster"></a>
 #### [Night Signal event poster](cases/social-dheepan-night-signal-poster/README.md)
 
 <a href="cases/social-dheepan-night-signal-poster/README.md"><img src="assets/previews/social-dheepan-night-signal-poster.jpg" alt="Night Signal event poster" width="420" loading="lazy" /></a>
 
-Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Details & prompt status](cases/social-dheepan-night-signal-poster/README.md)
+Creator-reported · Dheepanratnam · [Source](https://x.com/Dheepanratnam/status/2119767938173387065) · [Case details](cases/social-dheepan-night-signal-poster/README.md)
 
-> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export.
+**Original prompt**
 
+```text
+Bold gig poster for an underground electronic music night. Large headline reads exactly “NIGHT SIGNAL”, with supporting text: “Friday 27 November”, “Warehouse 9, London”, “Doors 10PM”. Experimental Swiss-style layout, high-contrast black, off-white and electric blue, grainy risograph texture, sharp geometric typography, intentional negative space, screen-print aesthetic. All words spelled exactly as specified, no extra text, no warped letters, no AI artefacts.
+```
+
+[Prompt source](https://github.com/BeatAPI/awesome-seedream-5-5-prompts/blob/main/cases/dheepan-typography-8.md)
+
+> Source-attributed social image and prompt from a public curator; not independently regenerated here. Reduced preview, not original export.
+
+<a id="socialx-dense-text-comparison"></a>
 #### [Dense text across model versions](cases/socialx-dense-text-comparison/README.md)
 
 <a href="cases/socialx-dense-text-comparison/README.md"><img src="assets/previews/socialx-dense-text-comparison-01.jpg" alt="Dense text across model versions" width="420" loading="lazy" /></a>
 
-Creator-reported · 94vanAI · [Source](https://x.com/94vanAI/status/2120007470898913320) · [Details & prompt status](cases/socialx-dense-text-comparison/README.md)
+Creator-reported · 94vanAI · [Source](https://x.com/94vanAI/status/2120007470898913320) · [Case details](cases/socialx-dense-text-comparison/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/94vanAI/status/2120007470898913320)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. A comparison covering Seedream 5.5, 5.0 Pro and GPT Image versions; view the labels in the source.
 
+<a id="socialx-deep-sea-field-guide"></a>
 #### [Deep-sea field-guide infographic](cases/socialx-deep-sea-field-guide/README.md)
 
 <a href="cases/socialx-deep-sea-field-guide/README.md"><img src="assets/previews/socialx-deep-sea-field-guide-01.jpg" alt="Deep-sea field-guide infographic" width="420" loading="lazy" /></a>
 
-Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/status/2119915956365369596) · [Details & prompt status](cases/socialx-deep-sea-field-guide/README.md)
+Creator-reported · ahmetmertugrul · [Source](https://x.com/ahmetmertugrul/status/2119915956365369596) · [Case details](cases/socialx-deep-sea-field-guide/README.md)
+
+**Original prompt**
+
+```text
+A vintage naturalist field-guide page, aged cream paper with foxing stains, documenting a fictional deep-sea creature called "Lanternfin Abyssal Eel". Center: a detailed scientific ink-and-watercolor illustration of the eel with bioluminescent spots. Surrounding it, 10 numbered callout labels with thin leader lines, each with a 2-line caption in small serif type (e.g. "3. Photophore cluster — emits pulses at 490 nm to lure prey"). Top header in ornate engraved capitals: "PLATE XLVII — CREATURES OF THE MIDNIGHT ZONE". Bottom: a small data table with columns "Depth", "Length", "Lifespan", "Diet" and three rows of values, plus a tiny scale bar reading "10 cm". Flat top-down scan, every word sharp and legible.
+```
+
+[Prompt source](https://x.com/ahmetmertugrul/status/2119915956365369596)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A fictional creature field-guide page combining labels, a data table and scientific illustration; prompt at source.
 
+<a id="social05-tqmiracle-city-poster"></a>
 #### [Rainy anime city, AI conference poster and portrait](cases/social05-tqmiracle-city-poster/README.md)
 
 <a href="cases/social05-tqmiracle-city-poster/README.md"><img src="assets/previews/social05-tqmiracle-city-poster-01.jpg" alt="Rainy anime city, AI conference poster and portrait" width="420" loading="lazy" /></a>
 
-Creator-reported · TqMiracle18260 · [Source](https://x.com/TqMiracle18260/status/2119765639825089008) · [Details & prompt status](cases/social05-tqmiracle-city-poster/README.md)
+Creator-reported · TqMiracle18260 · [Source](https://x.com/TqMiracle18260/status/2119765639825089008) · [Case details](cases/social05-tqmiracle-city-poster/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/TqMiracle18260/status/2119765639825089008)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. A curator catalog provides image provenance; refer to the author's original post.
 
+<a id="social08-maxescu-ridge-snack"></a>
 #### [Ridge Snack packaging across four models](cases/social08-maxescu-ridge-snack/README.md)
 
 <a href="cases/social08-maxescu-ridge-snack/README.md"><img src="assets/previews/social08-maxescu-goat-compare-01.webp" alt="Ridge Snack packaging across four models" width="420" loading="lazy" /></a>
 
-Creator-reported · Alex Patrascu · [Source](https://x.com/maxescu/status/2120078778487505206) · [Details & prompt status](cases/social08-maxescu-ridge-snack/README.md)
+Creator-reported · Alex Patrascu · [Source](https://x.com/maxescu/status/2120078778487505206) · [Case details](cases/social08-maxescu-ridge-snack/README.md)
+
+**Original prompt**
+
+```text
+A realistic on-shelf product mockup of exactly two adjacent milk-white cartons for a fictional Alpine snack brand. Both cartons show the same original white-haired delivery woman mascot in a tiny ochre hooded coat, standing beside a black-and-white pack goat with one bent left horn. Carton on the left has a copper accent band, and carton on the right has a deep blue accent band. Match the mascot's nose, hood buckle, glove shape, and the goat's horn on both cartons. Print exactly “RIDGE SNACK” at the top of each package and “AGED” on the copper band, “MILD” on the blue band. Slight view from above to show both label faces, real folded-paper edges, empty warm gray countertop.
+```
+
+[Prompt source](https://x.com/maxescu/status/2120078778487505206)
 
 > Four quadrants are MiniMax H3, Seedream 5.5, Nano Banana 2.1 and GPT Image 2.6; only upper-right is Seedream. The creator publicly provided the complete shared prompt. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed.
 
 <a id="infographics"></a>
 ### Infographics & interfaces
 
+<a id="official-snake-interface"></a>
 #### [Snake interface](cases/official-snake-interface/README.md)
 
 <a href="cases/official-snake-interface/README.md"><img src="assets/previews/official-snake-interface.jpg" alt="Snake interface" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-snake-interface/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-snake-interface/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-watch-interface"></a>
 #### [Watch interface](cases/official-watch-interface/README.md)
 
 <a href="cases/official-watch-interface/README.md"><img src="assets/previews/official-watch-interface.jpg" alt="Watch interface" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-watch-interface/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-watch-interface/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-butterfly-infographic"></a>
 #### [Butterfly infographic](cases/official-butterfly-infographic/README.md)
 
 <a href="cases/official-butterfly-infographic/README.md"><img src="assets/previews/official-butterfly-infographic.jpg" alt="Butterfly infographic" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5) · [Details & prompt status](cases/official-butterfly-infographic/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5) · [Case details](cases/official-butterfly-infographic/README.md)
 
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5)
+
+<a id="quantslant-coffee-infographic"></a>
 #### [Coffee infographic](cases/quantslant-coffee-infographic/README.md)
 
 <a href="cases/quantslant-coffee-infographic/README.md"><img src="assets/previews/quantslant-coffee-infographic.jpg" alt="Coffee infographic" width="420" loading="lazy" /></a>
 
-Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Details & prompt status](cases/quantslant-coffee-infographic/README.md)
+Creator-reported · Piotr Olszewski / QUANTSLANT · [Source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/) · [Case details](cases/quantslant-coffee-infographic/README.md)
+
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://quantslant.com/seedream-5-5-features-pricing-benchmarks/)
 
 <a id="characters"></a>
 ### Characters & stickers
 
+<a id="official-running-character"></a>
 #### [Running character](cases/official-running-character/README.md)
 
 <a href="cases/official-running-character/README.md"><img src="assets/previews/official-running-character.jpg" alt="Running character" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-running-character/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-running-character/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-sticker-sheets"></a>
 #### [Sticker sheets](cases/official-sticker-sheets/README.md)
 
 <a href="cases/official-sticker-sheets/README.md"><img src="assets/previews/official-sticker-sheets.jpg" alt="Sticker sheets" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-sticker-sheets/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-sticker-sheets/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="official-plush-characters"></a>
 #### [Plush characters](cases/official-plush-characters/README.md)
 
 <a href="cases/official-plush-characters/README.md"><img src="assets/previews/official-plush-characters.jpg" alt="Plush characters" width="420" loading="lazy" /></a>
 
-Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Details & prompt status](cases/official-plush-characters/README.md)
+Official demo · ByteDance Seed · [Source](https://seed.bytedance.com/en/seedream5_5) · [Case details](cases/official-plush-characters/README.md)
 
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://seed.bytedance.com/en/seedream5_5)
+
+<a id="socialx-character-sheet-comparison"></a>
 #### [Character sheet version comparison](cases/socialx-character-sheet-comparison/README.md)
 
 <a href="cases/socialx-character-sheet-comparison/README.md"><img src="assets/previews/socialx-character-sheet-comparison-01.jpg" alt="Character sheet version comparison" width="420" loading="lazy" /></a>
 
-Creator-reported · EEJ_OOXO · [Source](https://x.com/EEJ_OOXO/status/2119780326117716281) · [Details & prompt status](cases/socialx-character-sheet-comparison/README.md)
+Creator-reported · EEJ_OOXO · [Source](https://x.com/EEJ_OOXO/status/2119780326117716281) · [Case details](cases/socialx-character-sheet-comparison/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/EEJ_OOXO/status/2119780326117716281)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. This multi-model comparison includes outputs from other models; follow labels at the source. A character-sheet comparison with Seedream 5.0 Pro; the original post discusses panel consistency and output files.
 
+<a id="socialx-photoreal-conversion"></a>
 #### [Photoreal character conversion](cases/socialx-photoreal-conversion/README.md)
 
 <a href="cases/socialx-photoreal-conversion/README.md"><img src="assets/previews/socialx-photoreal-conversion-01.jpg" alt="Photoreal character conversion" width="420" loading="lazy" /></a>
 
-Creator-reported · nanyuan0412 · [Source](https://x.com/nanyuan0412/status/2119949010698137603) · [Details & prompt status](cases/socialx-photoreal-conversion/README.md)
+Creator-reported · nanyuan0412 · [Source](https://x.com/nanyuan0412/status/2119949010698137603) · [Case details](cases/socialx-photoreal-conversion/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/nanyuan0412/status/2119949010698137603)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A two-image character-to-photoreal study shared as a Seedream 5.5 test.
 
+<a id="socialx-character-recreation"></a>
 #### [Character recreation study](cases/socialx-character-recreation/README.md)
 
 <a href="cases/socialx-character-recreation/README.md"><img src="assets/previews/socialx-character-recreation-01.jpg" alt="Character recreation study" width="420" loading="lazy" /></a>
 
-Creator-reported · haungpower · [Source](https://x.com/haungpower/status/2119852896544325859) · [Details & prompt status](cases/socialx-character-recreation/README.md)
+Creator-reported · haungpower · [Source](https://x.com/haungpower/status/2119852896544325859) · [Case details](cases/socialx-character-recreation/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/haungpower/status/2119852896544325859)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. A creator-labeled recreation test focused on character consistency; reference details remain at the source.
 
+<a id="socialx-nature-unseen"></a>
 #### [Nature Unseen concept series](cases/socialx-nature-unseen/README.md)
 
 <a href="cases/socialx-nature-unseen/README.md"><img src="assets/previews/socialx-nature-unseen-01.jpg" alt="Nature Unseen concept series" width="420" loading="lazy" /></a>
 
-Creator-reported · AI_Timemachine · [Source](https://x.com/AI_Timemachine/status/2119930302508286194) · [Details & prompt status](cases/socialx-nature-unseen/README.md)
+Creator-reported · AI_Timemachine · [Source](https://x.com/AI_Timemachine/status/2119930302508286194) · [Case details](cases/socialx-nature-unseen/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/AI_Timemachine/status/2119930302508286194)
 
 > Photos fetched from the author's original X post; local JPEG previews are at most 640px. Model attribution is not an independent reproduction. The artist revisits an existing concept series using Seedream 5.5; the four-image album counts once.
 
+<a id="social05-larklee-turkey-mixed-workflow"></a>
 #### [Crayon turkey mixed-model production](cases/social05-larklee-turkey-mixed-workflow/README.md)
 
 <a href="cases/social05-larklee-turkey-mixed-workflow/README.md"><img src="assets/animations/social05-larklee-turkey-mixed-workflow.gif" alt="Crayon turkey mixed-model production" width="420" loading="lazy" /></a>
 
-Creator-reported · larklee5 · [Source](https://x.com/larklee5/status/2119985661939974450) · [Details & prompt status](cases/social05-larklee-turkey-mixed-workflow/README.md)
+Creator-reported · larklee5 · [Source](https://x.com/larklee5/status/2119985661939974450) · [Case details](cases/social05-larklee-turkey-mixed-workflow/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/larklee5/status/2119985661939974450)
 
 > Images are reduced previews fetched from the creator's X post; videos are represented by a still and short animated excerpt, with full video at source. Model attribution is source-reported, not independently reproduced. This comparison or mixed workflow includes outputs from other models and is not a Seedream-only result. The final animation involves other video-generation components.
 
+<a id="social06-lyra-fantasy-three-models"></a>
 #### [Fantasy character and small dragon: three-model comparison](cases/social06-lyra-fantasy-three-models/README.md)
 
 <a href="cases/social06-lyra-fantasy-three-models/README.md"><img src="assets/previews/social06-lyra-fantasy-three-models-01.jpg" alt="Fantasy character and small dragon: three-model comparison" width="420" loading="lazy" /></a>
 
-Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/2118884892427551046) · [Details & prompt status](cases/social06-lyra-fantasy-three-models/README.md)
+Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/2118884892427551046) · [Case details](cases/social06-lyra-fantasy-three-models/README.md)
+
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://x.com/lyraxana/status/2118884892427551046)
 
 > Source ALT labels identify Seedream 5.5, Nano Banana Pro, then GPT Image 2.6 Sunburst. The latter two are not Seedream outputs. Posted on 2026-11-07 before the official release; attribution is creator-reported and neither backend identity nor prompt parity was independently verified.
 
+<a id="social06-lyra-game-street-sign"></a>
 #### [Game-style street scene and distant signage](cases/social06-lyra-game-street-sign/README.md)
 
 <a href="cases/social06-lyra-game-street-sign/README.md"><img src="assets/previews/social06-lyra-game-street-sign-01.jpg" alt="Game-style street scene and distant signage" width="420" loading="lazy" /></a>
 
-Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/2118896484934668512) · [Details & prompt status](cases/social06-lyra-game-street-sign/README.md)
+Creator-reported · lyraxana · [Source](https://x.com/lyraxana/status/2118896484934668512) · [Case details](cases/social06-lyra-game-street-sign/README.md)
+
+**Original prompt**
+
+Complete original prompt pending verification; the current record contains only a source link or demo description.
+
+[Prompt source](https://x.com/lyraxana/status/2118896484934668512)
 
 > The creator attributes this GTA-style image to Seedream 5.5; it is not a verified official game screenshot. The post dates to 2026-11-07 and model attribution is self-reported. A complete prompt was not retrieved.
 
+<a id="social08-taxue-deity-artwork"></a>
 #### [Traditional deity-style illustration test](cases/social08-taxue-deity-artwork/README.md)
 
 <a href="cases/social08-taxue-deity-artwork/README.md"><img src="assets/previews/social08-taxue-cinematic-01.webp" alt="Traditional deity-style illustration test" width="420" loading="lazy" /></a>
 
-Creator-reported · 踏雪寻仙 · [Source](https://x.com/TaXue2025/status/2119730457030041723) · [Details & prompt status](cases/social08-taxue-deity-artwork/README.md)
+Creator-reported · 踏雪寻仙 · [Source](https://x.com/TaXue2025/status/2119730457030041723) · [Case details](cases/social08-taxue-deity-artwork/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/TaXue2025/status/2119730457030041723)
 
 > The author included a screenshot of Seedream 5.5 in the model selector; it is not counted as generated media. Specific per-image comparisons with 5.0 Pro were not verified. Media is a public GitHub gallery WebP preview; original X media IDs were not independently obtained and no redistribution rights are claimed.
 
+<a id="social09-ghostly-seedance-suno"></a>
 #### [Seedream character art into Seedance video with Suno music](cases/social09-ghostly-seedance-suno/README.md)
 
 <a href="cases/social09-ghostly-seedance-suno/README.md"><img src="assets/previews/social09-ghostly-seedance-suno.webp" alt="Seedream character art into Seedance video with Suno music" width="420" loading="lazy" /></a>
 
-Creator-reported · Ghostly 愛 · [Source](https://x.com/GhostlyXV/status/2119866467717918756) · [Details & prompt status](cases/social09-ghostly-seedance-suno/README.md)
+Creator-reported · Ghostly 愛 · [Source](https://x.com/GhostlyXV/status/2119866467717918756) · [Case details](cases/social09-ghostly-seedance-suno/README.md)
+
+**Original prompt**
+
+No publicly available complete original prompt was found.
+
+[Prompt source](https://x.com/GhostlyXV/status/2119866467717918756)
 
 > Seedream character art into Seedance video with Suno music
 
@@ -757,14 +1425,87 @@ These recipes were written for this collection and have not been executed with S
 
 | Recipe | Status |
 | --- | --- |
-| [One-region edit](templates/targeted-edit.md) | Original, not executed |
-| [Three-round edit chain](templates/edit-chain.md) | Original, not executed |
-| [Isolated transparent asset](templates/transparent-asset.md) | Original, not executed |
-| [Partial-transparency test](templates/material-transparency.md) | Original, not executed |
-| [Documentary photograph](templates/documentary-photo.md) | Original, not executed |
-| [Copy-locked poster](templates/copy-locked-poster.md) | Original, not executed |
-| [Character consistency sheet](templates/character-sheet.md) | Original, not executed |
-| [Instruction infographic](templates/instruction-infographic.md) | Original, not executed |
+| [One-region edit](#recipe-targeted-edit) | Original, not executed |
+| [Three-round edit chain](#recipe-edit-chain) | Original, not executed |
+| [Isolated transparent asset](#recipe-transparent-asset) | Original, not executed |
+| [Partial-transparency test](#recipe-material-transparency) | Original, not executed |
+| [Documentary photograph](#recipe-documentary-photo) | Original, not executed |
+| [Copy-locked poster](#recipe-copy-locked-poster) | Original, not executed |
+| [Character consistency sheet](#recipe-character-sheet) | Original, not executed |
+| [Instruction infographic](#recipe-instruction-infographic) | Original, not executed |
+
+<a id="recipe-targeted-edit"></a>
+### One-region edit
+
+```text
+Use the uploaded photograph. Recolor only the handle of the ceramic cup on the left to navy blue. Preserve the cup body, tabletop, background, shadows and framing. Add no text or objects. Keep the input aspect ratio.
+```
+
+[Bilingual prompts and acceptance checks](templates/targeted-edit.md)
+
+<a id="recipe-edit-chain"></a>
+### Three-round edit chain
+
+```text
+Submit one instruction per round, using the preceding output as the next input. Round 1: recolor the bicycle frame forest green; preserve everything else. Round 2: add only a bunch of daisies to the basket. Round 3: add only a brass bell to the handlebar. Preserve the people, background, camera position and lighting.
+```
+
+[Bilingual prompts and acceptance checks](templates/edit-chain.md)
+
+<a id="recipe-transparent-asset"></a>
+### Isolated transparent asset
+
+```text
+Create one hand-carved wooden acorn in a three-quarter view, with fine grain and worn edges. Include only the acorn: no text, scenery, floor or cast shadow. If the service supports it, export a PNG with a real transparent alpha channel.
+```
+
+[Bilingual prompts and acceptance checks](templates/transparent-asset.md)
+
+<a id="recipe-material-transparency"></a>
+### Partial-transparency test
+
+```text
+Create an isolated pale amber glass teapot with a narrow spout and round handle. The background must show through its body. No tabletop, lettering or environment. If supported, preserve partial transparency in the body and export an alpha-channel PNG. Do not simulate transparency with a milky fill.
+```
+
+[Bilingual prompts and acceptance checks](templates/material-transparency.md)
+
+<a id="recipe-documentary-photo"></a>
+### Documentary photograph
+
+```text
+An early-morning bicycle workshop. A middle-aged mechanic bends over a wheel. Cool window light meets a warm task lamp. A trace of grease on the fingers, natural apron folds and a worn workbench. Photograph from waist height with slightly asymmetric framing. Natural skin tones, no beauty smoothing, no invented sign text.
+```
+
+[Bilingual prompts and acceptance checks](templates/documentary-photo.md)
+
+<a id="recipe-copy-locked-poster"></a>
+### Copy-locked poster
+
+```text
+Design a portrait poster for a community bicycle workshop: cream background, dark green type and a simple bicycle line drawing. Use only these exact strings, each once: “修好再出发”; “周末自行车保养”; “2026年11月21日”; “10:00–12:00”; “社区工坊”. Preserve the Chinese copy exactly. Give the title clear hierarchy and keep generous margins. Add no phone number, brand or QR code.
+```
+
+[Bilingual prompts and acceptance checks](templates/copy-locked-poster.md)
+
+<a id="recipe-character-sheet"></a>
+### Character consistency sheet
+
+```text
+Use the orange papercraft fox in the reference as the only character. Make four separate views: front, left profile, back and seated. Preserve ear shape, white chest, tail-tip color, paper folds and body proportions. One character per image, no lettering or new accessories. Use transparent backgrounds if the service supports them.
+```
+
+[Bilingual prompts and acceptance checks](templates/character-sheet.md)
+
+<a id="recipe-instruction-infographic"></a>
+### Instruction infographic
+
+```text
+Create a Chinese mint-care infographic on white, using green outline icons and four equal-width steps. Exact title: “薄荷养护”. Exact step labels: “1. 检查土壤”; “2. 适量浇水”; “3. 保持通风”; “4. 观察叶片”. Match one icon to each step. Add no scientific figures, dosages, guarantees or extra explanatory copy.
+```
+
+[Bilingual prompts and acceptance checks](templates/instruction-infographic.md)
+
 
 <a id="social"></a>
 ## Original social sources

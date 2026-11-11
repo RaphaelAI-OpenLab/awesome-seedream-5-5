@@ -2,7 +2,8 @@
 """Generate external reference queue and bilingual individual case pages."""
 import argparse,json,html
 from pathlib import Path
-from collections import Counter
+from collections import Counter,defaultdict
+from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
 DIR=ROOT/"external-references"
 ZH={"typography":"文字与海报","portraits":"人物与肖像","photography":"摄影与商品","interiors":"室内设计","characters":"角色与插画","infographics":"信息图","rgba-assets":"透明素材","multi-turn-editing":"多轮编辑"}
@@ -11,8 +12,17 @@ FENCE=chr(96)*3
 def data():return json.loads((DIR/"cases.json").read_text(encoding="utf-8"))["cases"]
 def filename(lang):return "README.zh-CN.md" if lang=="zh-CN" else "README.md"
 def choose(lang,zh,en):return zh if lang=="zh-CN" else en
+def cell(text):return str(text).replace("|","\\|").replace("\n"," ")
+def source_anchor(host):return "source-"+host.replace(".","-")
+def prompt_block(text):
+    # Preserve the source text verbatim, including any literal Markdown fences.
+    fence=FENCE
+    while fence in text:fence+="`"
+    return [fence+"text",text,fence,""]
 def outputs():
     cases=data()
+    sources=defaultdict(list)
+    for c in cases:sources[urlsplit(c["source_url"]).hostname].append(c)
     out={}
     for lang in ("en","zh-CN"):
         zh=lang=="zh-CN"
@@ -29,7 +39,13 @@ def outputs():
                       "**Rights:** Public URLs do not grant rehosting rights. Source previews are research references only. Remove or license them before public promotion. A new generation is not automatically free of likeness, trademark or other rights issues."),"",
                choose(lang,"[查看重做流程](WORKFLOW.md) · [查看原始数据](cases.json) · [返回主仓库](../README.zh-CN.md)",
                       "[Remake workflow](WORKFLOW.md) · [Raw data](cases.json) · [Back to main](../README.md)"),"",
-               "## "+choose(lang,"按分类浏览","Categories"),""]
+               "## "+choose(lang,"来源网站","Source websites"),"",
+               choose(lang,"| 来源页主机 | 案例数 | 本地预览文件数 |","| Source host | Cases | Local preview files |"),
+               "| --- | ---: | ---: |"]
+        for host,group in sorted(sources.items()):
+            previews=sum(bool(m.get("preview")) for c in group for m in c["media"])
+            lines.append(f"| [{host}](#{source_anchor(host)}) | {len(group)} | {previews} |")
+        lines.extend(["","## "+choose(lang,"按分类浏览","Categories"),""])
         counts=Counter(c["category"] for c in cases)
         for cat,label in labels.items():
             if counts[cat]:lines.append(f"- [{label} ({counts[cat]})](#{cat})")
@@ -37,11 +53,27 @@ def outputs():
         for cat,label in labels.items():
             group=[c for c in cases if c["category"]==cat]
             if not group:continue
-            lines.extend([f'<a id="{cat}"></a>',"## "+label,""])
+            lines.extend([f'<a id="{cat}"></a>',"### "+label,"",
+                          choose(lang,"| 案例 | 来源 |","| Case | Source |"),"| --- | --- |"])
+            for c in group:
+                lines.append(f"| [{cell(c['title'][lang])}](#{c['id']}) | {cell(c['source_name'])} |")
+            lines.append("")
+        lines.extend(['<a id="all-cases"></a>',"## "+choose(lang,"全部外站案例与提示词","All external cases and prompts"),""])
+        for host,group in sorted(sources.items()):
+            lines.extend([f'<a id="{source_anchor(host)}"></a>',"### "+host,"",
+                          choose(lang,"| 案例 | 来源作者 / 网站 | 本地预览文件数 | 提示词状态 | 原始来源 |",
+                                      "| Case | Source author / website | Local preview files | Prompt status | Original source |"),
+                          "| --- | --- | ---: | --- | --- |"])
+            for c in group:
+                previews=sum(bool(m.get("preview")) for m in c["media"])
+                status=choose(lang,"原提示词全文见下方","Full original prompt below")
+                if c.get("steps"):status+=choose(lang,"，含编辑步骤",", including edit steps")
+                lines.append(f"| [{cell(c['title'][lang])}](#{c['id']}) | {cell(c['source_name'])} | {previews} | {status} | [{choose(lang,'查看来源','View source')}]({c['source_url']}) |")
+            lines.append("")
             for c in group:
                 name=c["title"][lang]
                 link=f"cases/{c['id']}/{filename(lang)}"
-                lines.extend(["### "+f"[{name}]({link})",""])
+                lines.extend([f'<a id="{c["id"]}"></a>',"#### "+f"[{name}]({link})",""])
                 first=c["media"][0]
                 if first.get("preview"):
                     lines.extend([f'<a href="{link}"><img src="{html.escape(first["preview"],quote=True)}" alt="{html.escape(name,quote=True)}" width="300" loading="lazy" /></a>',""])
@@ -50,6 +82,15 @@ def outputs():
                 state=c["remake"]["status"]
                 lines.extend([f"**{c['source_name']}** · "+choose(lang,"待重做" if state=="pending" else "已重做",
                     "Pending" if state=="pending" else "Recreated")+f" · [{choose(lang,'来源','Source')}]({c['source_url']})",""])
+                lines.extend(["##### "+choose(lang,"来源公开 Prompt","Source-published prompt"),""])
+                lines.extend(prompt_block(c["prompt"]["text"]))
+                lines.extend([f"[{choose(lang,'核对来源原文','Check original source')}]({c['prompt']['url']})",""])
+                for step in c.get("steps",[]):
+                    lines.extend(["##### "+choose(lang,"编辑步骤","Edit step")+f" {step['round']}: {step['title']}",""])
+                    media=next((m for m in c["media"] if m.get("role")==f"edit-{step['round']}"),None)
+                    if media and media.get("preview"):
+                        lines.extend([f'<a href="{link}"><img src="{html.escape(media["preview"],quote=True)}" alt="{html.escape(name+" — "+step["title"],quote=True)}" width="300" loading="lazy" /></a>',""])
+                    lines.extend(prompt_block(step["prompt"]))
                 detail=["<!-- Generated from external-references/cases.json; not original model output by Raphael. -->",
                         "# "+name,"","[English](README.md) · [简体中文](README.zh-CN.md)","",
                         f"[{choose(lang,'返回外部素材库','Back to external queue')}](../../{filename(lang)})","",

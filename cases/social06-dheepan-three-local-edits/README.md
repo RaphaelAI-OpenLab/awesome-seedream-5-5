@@ -35,7 +35,13 @@ This is a reduced representative-frame preview, not a complete animation or an e
 
 ## Prompt
 
-Prompt text or demo descriptions are available at the source. The full text is not copied here; demo descriptions are not presented as complete model inputs.
+Published action summaries (not complete execution prompts):
+
+```text
+Change the flowers
+Change the curtains
+Change the lighting
+```
 
 [View prompt source](https://x.com/Dheepanratnam/status/2119803435461599638)
 

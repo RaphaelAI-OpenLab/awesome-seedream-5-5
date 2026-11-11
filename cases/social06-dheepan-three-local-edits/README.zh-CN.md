@@ -35,7 +35,13 @@
 
 ## 提示词
 
-提示词或展示说明位于原始来源；本页不复制全文，不把展示说明标为实际完整输入。
+已公开的操作摘要（不是完整执行提示词）：
+
+```text
+Change the flowers
+Change the curtains
+Change the lighting
+```
 
 [查看提示词来源](https://x.com/Dheepanratnam/status/2119803435461599638)
 

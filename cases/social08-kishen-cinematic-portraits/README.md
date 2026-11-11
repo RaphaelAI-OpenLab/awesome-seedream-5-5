@@ -23,7 +23,7 @@ This is a WebP preview from an attributed public gallery, not original media or 
 
 ## Prompt
 
-Prompt text or demo descriptions are available at the source. The full text is not copied here; demo descriptions are not presented as complete model inputs.
+Complete original prompt pending verification; the current record contains only a source link or demo description.
 
 [View prompt source](https://x.com/KishenArt/status/2120047577957867826)
 

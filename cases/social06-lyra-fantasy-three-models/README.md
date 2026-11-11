@@ -29,7 +29,7 @@ This is a reduced representative-frame preview, not a complete animation or an e
 
 ## Prompt
 
-Prompt text or demo descriptions are available at the source. The full text is not copied here; demo descriptions are not presented as complete model inputs.
+Complete original prompt pending verification; the current record contains only a source link or demo description.
 
 [View prompt source](https://x.com/lyraxana/status/2118884892427551046)
 

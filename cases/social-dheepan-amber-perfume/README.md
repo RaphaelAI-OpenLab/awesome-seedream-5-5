@@ -31,4 +31,4 @@ The prompt is attributed to the creator by the source curator; no independent re
 
 Original media is linked at its source. Only reduced representative-frame JPEG previews are bundled. Owners retain their rights; MIT does not cover this media, previews or source prompts. Demo GIFs do not establish native animation generation; JPEG previews have no alpha channel.
 
-> Source-attributed social image and prompt from a public curator; not reproduced here. Reduced preview, not original export. JPEG does not verify the source alpha channel.
+> Source-attributed social image and prompt from a public curator; not independently regenerated here. Reduced preview, not original export. JPEG does not verify the source alpha channel.
